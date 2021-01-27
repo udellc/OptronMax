@@ -10,9 +10,9 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 564.0, 86.0, 924.0, 575.0 ],
+		"rect" : [ 564.0, 86.0, 897.0, 423.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -46,7 +46,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 475.0, 693.0, 220.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "load Optron.4a.BasicInstrument.maxpat"
 				}
 
@@ -99,7 +98,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 475.0, 603.0, 216.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "load Optron.3b.MIDIInstrument.maxpat"
 				}
 
@@ -204,7 +202,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 475.0, 423.0, 228.0, 22.0 ],
-					"presentation_linecount" : 3,
 					"text" : "load Optron.2b.sensorlightcontrol.maxpat"
 				}
 
@@ -257,7 +254,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 475.0, 334.0, 193.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "load Optron.2a.sensorMap.maxpat"
 				}
 
@@ -467,7 +463,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 7.5, 668.0, 225.0, 22.0 ],
-					"presentation_linecount" : 3,
 					"text" : "load IntroMusicElements_Scales.maxpat"
 				}
 
@@ -543,7 +538,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 63.5, 423.0, 429.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Hint: you can also find the demos in the top menu: Extras > Optron > Demos"
 				}
 
@@ -584,7 +578,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 7.5, 484.0, 189.0, 22.0 ],
-					"presentation_linecount" : 3,
 					"text" : "load Lightsaber_complete.maxpat"
 				}
 
@@ -880,7 +873,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 35.5, 363.0, 261.0, 299.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 35.5, 259.0, 300.0, 132.0 ],
+					"presentation_rect" : [ 35.5, 253.0, 300.0, 137.0 ],
 					"proportion" : 0.5,
 					"rounded" : 25
 				}
@@ -918,7 +911,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 503.0, 124.0, 369.0, 586.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 503.0, 124.0, 369.0, 236.0 ],
+					"presentation_rect" : [ 503.0, 119.0, 369.0, 240.0 ],
 					"proportion" : 0.5,
 					"rounded" : 25
 				}

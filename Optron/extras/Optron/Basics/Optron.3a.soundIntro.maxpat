@@ -40,6 +40,42 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"basictuning" : 440,
+					"data" : 					{
+						"clips" : [ 							{
+								"absolutepath" : "SignalAsman.wav",
+								"filename" : "SignalAsman.wav",
+								"filekind" : "audiofile",
+								"id" : "u201001810",
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+ ]
+					}
+,
+					"followglobaltempo" : 0,
+					"formantcorrection" : 0,
+					"id" : "obj-4",
+					"maxclass" : "playlist~",
+					"mode" : "basic",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"originallength" : [ 0.0, "ticks" ],
+					"originaltempo" : 120.0,
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 38.0, 615.0, 150.0, 30.0 ],
+					"pitchcorrection" : 0,
+					"quality" : "basic",
+					"timestretch" : [ 0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubble" : 1,
 					"bubbleside" : 3,
 					"id" : "obj-66",
@@ -47,7 +83,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 379.666666666666742, 545.5, 124.0, 24.0 ],
-					"presentation_linecount" : 3,
 					"text" : "drag sounds here"
 				}
 
@@ -84,7 +119,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 755.0, 444.0, 298.0, 24.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Click-hold-drag to set: 1 = normal; 0.5 half; 2 twice"
 				}
 
@@ -97,7 +131,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 751.0, 24.0, 335.0, 24.0 ],
-					"presentation_linecount" : 3,
 					"text" : "Bangs in respective inlet will trigger corresponding sound"
 				}
 
@@ -159,7 +192,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 214.833333333333371, 463.0, 159.666666666666742, 37.0 ],
-					"presentation_linecount" : 4,
 					"text" : "MIDI events can be sent to virtual synthesizers!"
 				}
 
@@ -172,7 +204,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 371.666666666666742, 400.0, 96.0, 51.0 ],
+					"patching_rect" : [ 371.666666666666742, 400.0, 99.0, 51.0 ],
 					"text" : "Click a piano key with your mouse"
 				}
 
@@ -183,7 +215,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 112.0, 163.0, 234.0, 20.0 ],
+					"patching_rect" : [ 80.666666666666742, 209.0, 234.0, 20.0 ],
 					"text" : "MIDI: Musical Instrument Digital Interface"
 				}
 
@@ -197,7 +229,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 755.0, 224.0, 160.0, 37.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Click-hold-drag to set gain slider volume"
 				}
 
@@ -246,7 +277,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 162.166666666666742, 239.0, 246.0, 24.0 ],
-					"presentation_linecount" : 3,
 					"text" : "Inital value: MIDI pitch 60 = C4 on piano"
 				}
 
@@ -271,7 +301,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 195.5, 656.0, 217.0, 24.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Click-hold-drag to set pan position"
 				}
 
@@ -410,42 +439,6 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"patching_rect" : [ 587.0, 325.0, 45.0, 45.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"basictuning" : 440,
-					"data" : 					{
-						"clips" : [ 							{
-								"absolutepath" : "Angel_Jaramillo.mp3",
-								"filename" : "Angel_Jaramillo.mp3",
-								"filekind" : "audiofile",
-								"id" : "u080009967",
-								"loop" : 0,
-								"content_state" : 								{
-
-								}
-
-							}
- ]
-					}
-,
-					"followglobaltempo" : 0,
-					"formantcorrection" : 0,
-					"id" : "obj-22",
-					"maxclass" : "playlist~",
-					"mode" : "basic",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"originallength" : [ 0.0, "ticks" ],
-					"originaltempo" : 120.0,
-					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 38.0, 612.0, 150.0, 30.0 ],
-					"pitchcorrection" : 0,
-					"quality" : "basic",
-					"timestretch" : [ 0 ]
 				}
 
 			}
@@ -11392,8 +11385,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -12961,8 +12954,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -14230,8 +14223,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -14321,153 +14314,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 8,
-							"minor" : 1,
-							"revision" : 5,
-							"architecture" : "x64",
-							"modernui" : 1
-						}
-,
-						"classnamespace" : "box",
-						"rect" : [ 664.0, 215.0, 640.0, 480.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
-						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
-						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-5",
-									"linecount" : 16,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 17.0, 80.0, 273.666666666666629, 221.0 ],
-									"text" : "Double click the orange box to open the musiclinks window:\n1) Type your name\n2) port number may be set between 7000 - 9999\n3) click \"get my ip\" button\n4) choose WiFi interface \"en#\"\n5) Select your IP V4 (192.168.x.x) from the dropdown menu\n6) Your info should appear in the stored ip addresses field\n7) Click \"Lead\" if you are the only one otherwise, choose who will lead and follow. You may have multiple leads, the cannot affect each other but will each affect the followers\n8) Clicking the power button in the bottom right of any Max window will toggle Audio - turn it on!"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-4",
-									"linecount" : 2,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 93.0, 35.0, 150.0, 33.0 ],
-									"text" : "Be sure you're connected to a WiFi Router!"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"color" : [ 0.911261677742004, 0.485287010669708, 0.094980083405972, 1.0 ],
-									"id" : "obj-10",
-									"maxclass" : "newobj",
-									"numinlets" : 4,
-									"numoutlets" : 4,
-									"outlettype" : [ "", "", "", "signal" ],
-									"patching_rect" : [ 17.0, 35.0, 69.000000000000114, 22.0 ],
-									"text" : "musiclinks",
-									"varname" : "musiclinks"
-								}
-
-							}
- ],
-						"lines" : [  ],
-						"styles" : [ 							{
-								"name" : "AudioStatus_Menu",
-								"default" : 								{
-									"bgfillcolor" : 									{
-										"type" : "color",
-										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
-										"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
-										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
-										"proportion" : 0.39,
-										"autogradient" : 0
-									}
-
-								}
-,
-								"parentstyle" : "",
-								"multi" : 0
-							}
-, 							{
-								"name" : "newobjBrown-1",
-								"default" : 								{
-									"accentcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ]
-								}
-,
-								"parentstyle" : "",
-								"multi" : 0
-							}
-, 							{
-								"name" : "newobjYellow-1",
-								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
-								}
-,
-								"parentstyle" : "",
-								"multi" : 0
-							}
-, 							{
-								"name" : "numberGold-1",
-								"default" : 								{
-									"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
-								}
-,
-								"parentstyle" : "",
-								"multi" : 0
-							}
- ]
-					}
-,
-					"patching_rect" : [ 15.0, 163.0, 88.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
-					}
-,
-					"text" : "p WebConnect",
-					"varname" : "WebConnect"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-3",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -14516,13 +14362,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"source" : [ "obj-22", 0 ]
 				}
 
 			}
@@ -14638,6 +14477,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-18", 1 ],
 					"source" : [ "obj-42", 0 ]
 				}
@@ -14713,49 +14559,28 @@
 		"dependency_cache" : [ 			{
 				"name" : "Patch_Generator.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/Loom2",
-				"patcherrelativepath" : "../../../Library/Loom2",
+				"patcherrelativepath" : "../../../../../Library/Loom2",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "generator.js",
 				"bootpath" : "~/Documents/Max 8/Library/Loom2",
-				"patcherrelativepath" : "../../../Library/Loom2",
+				"patcherrelativepath" : "../../../../../Library/Loom2",
 				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "musiclinks.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/MPG",
-				"patcherrelativepath" : "../../../Library/MPG",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "genNetsend.js",
-				"bootpath" : "~/Documents/Max 8/Library/MPG",
-				"patcherrelativepath" : "../../../Library/MPG",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "listToFunbuff.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/MPG",
-				"patcherrelativepath" : "../../../Library/MPG",
-				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "input.png",
 				"bootpath" : "~/Documents/Max 8/Library/Loom2",
-				"patcherrelativepath" : "../../../Library/Loom2",
+				"patcherrelativepath" : "../../../../../Library/Loom2",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "output.png",
 				"bootpath" : "~/Documents/Max 8/Library/Loom2",
-				"patcherrelativepath" : "../../../Library/Loom2",
+				"patcherrelativepath" : "../../../../../Library/Loom2",
 				"type" : "PNG",
 				"implicit" : 1
 			}
@@ -14766,10 +14591,10 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Angel_Jaramillo.mp3",
-				"bootpath" : "~/Documents/Max 8/Library/VST_AU/Massive/MassivePresets/NIMASS3800PRTS",
-				"patcherrelativepath" : "../../../Library/VST_AU/Massive/MassivePresets/NIMASS3800PRTS",
-				"type" : "Mp3",
+				"name" : "SignalAsman.wav",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound",
+				"patcherrelativepath" : "../../../media/sound",
+				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
@@ -14816,8 +14641,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

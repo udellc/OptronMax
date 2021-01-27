@@ -280,7 +280,7 @@
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 378.0, 11.463920999999999, 51.0, 25.0 ],
-									"text" : "0"
+									"text" : "4"
 								}
 
 							}
@@ -3693,7 +3693,7 @@
 					}
 ,
 					"patching_rect" : [ 827.5, 362.0, 240.0, 160.0 ],
-					"varname" : "patch_6",
+					"varname" : "patch_5",
 					"viewvisibility" : 1
 				}
 
@@ -3707,7 +3707,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 655.0, 838.5, 288.5, 37.0 ],
-					"presentation_linecount" : 4,
 					"text" : "Virtual Instrument. Double click to change timbre.\nThe presets are in the top-right dropdown menu"
 				}
 
@@ -3720,7 +3719,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 632.0, 810.567627000000016, 218.5, 24.0 ],
-					"presentation_linecount" : 2,
 					"text" : "MIDI Format for Virtual instrument"
 				}
 
@@ -3745,7 +3743,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 703.5, 727.0, 171.5, 24.0 ],
-					"presentation_linecount" : 2,
 					"text" : "We mke a MIDI note here"
 				}
 
@@ -3832,7 +3829,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "2277.hAGaoMGcv.y0AHv.DTfAGfPBJr.CM3.WsEla0YVXiQWcxUlbTQVXzEFVAIWZgQTXzE1UyUmXzkGbkckckI2bo8laTQWdvUFUtEVakIATL8zQOEAAL................B..............A.........f..........L..........D.........PA.........X..........G..........B.........j..........J.........vB.........v..........M.........fC.........7..........P.........PD.........HA.........S..........E.........TA.........V.........vE.........fA.........Y.........fF.........rA.........b.........PG.........3A.........e..........H.........DB.........h.........vH.........PB.........k.........fI.........bB.........n.........PJ.........nB.........q..........K.........zB.........t.........vK..........C.........w.........fL.........LC.........z.........PM.........XC.........2..........N.........jC.........5.........vN.........vC.........8.........fO.........7C..........A........PP.........HD.........CA.........Q.........TD.........FA........vQ.........fD.........IA........fR.........rD.........LA........PS.........3D.........OA.........T.........DE.........RA........vT.........PE.........UA........fU.........bE.........XA........PV.........nE.........aA.........W.........zE.........dA........vW..........F.........gA........fX.........LF.........jA........PY.........XF.........mA.........Z.........jF.........pA........vZ.........vF.........sA........fa.........7F.........vA........Pb.........HG.........yA.........c.........TG.........1A........vc.........fG.........4A........fd.........rG.........7A........Pe.........3G.........+A....vSQPPKCUzQPcXK...db1tVa8n31Pgee9UDk22D6j3KQBlULvjQHAZGIlsutxD7xD0bqNNTl9quNW.BLjMSUosZU82KDex43yE6bRj4azm2mDariKJhxRGaBs.lFe996FMQDwVw1w6bKeLwzHWjsoLTNelR..3ad+cFJLZEWJiR2VX7akr3H4ap6ZZTHEbVhR7XSWGSiD19U0RlDGmEt7gwlNHrowx4yl+kR4xrM7ZqXkxrDlT4yUwYxwlfthh463wiMiRUycYBOUZZDGsi2XrRyhvwldU+vhYJAPiOYvqBIqhv3VwSUVwEiMwJ02FmslE+RYZcPpDXeHeTt1HZSsrTVR0jCsLdtTvMl9ZTt8LHESdx9WV7IUDulk9qy2zVPtrfE9JKMsJlqzLOKtozHO4x70eSvR2xa0PpFTTeijNWlEJUKFcSwjRY63e+awrBUgB2tXTm.SJ2eH92whKqT0BB7afGv0G4hOlt0VrjEkdgIvdz.dZR6QCmA0vcPM7FTCzfZfGTCxfZPGTC+A0.BFVkgqpvgKqvgqqvgKrvdqrOyDrje71jSpzIir.v1MeHjiOFAw8YDpqQG1wRHXOpCh5zmUcVFsH.GuJ2gvHJk3g5yFuOPJfAmENDJwUENTJ1A5Qbc6Mb5ZliKnFdPhiqCpWeQb55KJpwJp5wUbcqjdrxs6i3sUYhKjP762SngybBtaJ.o9tXUmCLARc5ewiP6FLsY.xGC7v8uNPwm0jpAPOe.Dh6eukqSe4vKLwVtrsucXVh0ywYaK4VuHh1tkKVodi.OMjK5zur1tokEp2yLiIYFuJeKWYrmqmp5VD8GpqcnH2Nc2UdmmtIhkV+jvFkQpKZWnOh5B.I.3FD3NkD3CtBlRZSYL.ovDjaPkQWUJ3ZRIAOb1DNCzn64.B7thygWQlFZngFZngFZngF2.b7SMCd7+xvPCMzPCMzPCMzPi+0wfeK74GnscyIZ+ANh6p+1VqEAewprfK.Ce.2HBx+vAb6g85b91fqc91GC6leb9GsHogFZ7WA2jtFPcWCMz3+O3Gz0XjcEQntjSTved3DETyIp2oglSTWQkaCmntAbWxgTwcIBjBI.Hteh172mfQ9d0gGkBH9.xsiqPd9TeWUvCHXDff5m3RmwUHZSJPfHGDh38SNWgPCwTnKIdS8XRPEdOSglBbC9ncoe76emGJ6xe01liMo3jj0QUIz.cnyEYgGIU6ARw9zWmeXNYgxnc74mXna83GONtfGqhB9lWXqqF2cUQvK3xk7zRinhCpKqyl28Mopav2qDuXlwzJhC+lJvXxWGaZuHZsfIdydRddbTXM0fMVUlmmIj1MSfcn5cREYkoaJra7Yg8ESu8BNai8wI2hojs+h8PmhV9Ui1mXBQjjkZcpv1DyOvhiEYYIFvCA8oBospRd+cirOPx56u6OATI9ozIATLczSP.fDgUWa0gUUtQWZzwVYjA.B.bA.j.PJ.HC.5.fP.bD.LAPTDDFBRhvkHjIBdB.......HP..........7...................fvo"
+							"blob" : "2282.hAGaoMGcv.y0AHv.DTfAGfPBJr.CM3.WsEla0YVXiQWcxUlbTQVXzEFVAIWZgQTXzE1UyUmXzkGbkckckI2bo8laTQWdvUFUtEVakIATL8zQOEAAL................B..............A.........f..........L..........D.........PA.........X..........G..........B.........j..........J.........vB.........v..........M.........fC.........7..........P.........PD.........HA.........S..........E.........TA.........V.........vE.........fA.........Y.........fF.........rA.........b.........PG.........3A.........e..........H.........DB.........h.........vH.........PB.........k.........fI.........bB.........n.........PJ.........nB.........q..........K.........zB.........t.........vK..........C.........w.........fL.........LC.........z.........PM.........XC.........2..........N.........jC.........5.........vN.........vC.........8.........fO.........7C..........A........PP.........HD.........CA.........Q.........TD.........FA........vQ.........fD.........IA........fR.........rD.........LA........PS.........3D.........OA.........T.........DE.........RA........vT.........PE.........UA........fU.........bE.........XA........PV.........nE.........aA.........W.........zE.........dA........vW..........F.........gA........fX.........LF.........jA........PY.........XF.........mA.........Z.........jF.........pA........vZ.........vF.........sA........fa.........7F.........vA........Pb.........HG.........yA.........c.........TG.........1A........vc.........fG.........4A........fd.........rG.........7A........Pe.........3G.........+A....vSQPfLCUzQPcXK...db1tVa8n31Pgee9UDk22D633KQBlULvjQHwncjX195JSvKSTyEpiCko+5qyEf.CYy1ti51p5uWv9jywmKNbhg7M5i6SSr1IjEw4YisgN.aqOd6MilHi4K46DctT.gZasUlutLRMelV..DXe6MVZLZoPohy1TX8ak7jX0q5qZaUnjBdpV7XajmsUJe+xZISRRxid7tw1dXhs0iymM+SkpGyWKpshWpxS4JsOWljqFaC5JJQrSjL1NNSu1kohLksUR7NQiwZMKhFaGT8AOgqE.s9fknJjbJhRZEOUakPN1lnUeSR9JdxykY0AoVf6g7Q6Zq300xx3oUKNzw5oRovZ5KwacmAYD5Ct+xhOni3U7rec951BxkErnW3YYUwbklaySZJMpStb6puH4YaDsZnzSJpuPZmg4QJ8lQ2TLsT0N+2+RBuPWnHsaF0Ivjx8Gh+c7jxJUcfffF3CPAXD4X5Vawi73rKLA1iFvSKZOZ3MnFnA0vePMvCpAYPMnCpAaPMBFTCHXXUFtpBGtrBGttBGtvB6sx9DWxS+12lbRkNYjC.1dyGF6EPvPReFg6Zzg6XoThOyCy75ypNaiNTfmek6vDLiQ8w8Yi+2QJP.mENTFEoCGFi3A8oHTugSWy7PfZ3CodHObu9h500WLbiUL8WWI0sR5wJT2uh2VkoHHkFzumvCm4TR2T.xBPDcmCBEx75eyix5FLsY.Nf.7I8uOvHm0jpAP+..DR5+dKjWe4vyb4FgpsucTdpySI4aJENUOSyYQ3mbJKDRPmtk0VMsrP+TlYbE25E0qa0lho3pmkD+G5w53uSqc8tqHacLuY3ZsM5AGPXyGd.CLvf+sfy6Q31zj3uZWCnoqgAF7+G72sqwyx3MaDxk5e8oHKRHGtugOxGcnugGCi5z3v6ZMNZOTYXK.0G1hFBPggnozvfqkMSosGuh.vZLAipZ6PupTv0jRCu6rEbF.E9V2.A9Ww4vqHy.CLv.CLv.CLvf2Ab7nlg2+yLLLv.CLv.CLv.CL3ebL3Yg+F+E2ibqHB0kbhB9eGNQAMbh5MZX3D0UT48gSTuCbWxiVwcIJjAo.Hoeh17iSvn.+5viw.z..88iqP9Ar.jN3ATBFPw8Sboy3JDqIEnPrGFS8+YyUnev2eGdn2dWane7s2UOmVO9su8to.T32aW56+5WEQpt7Wss4XSJNIcUbUBMPG5sx7nijp8.oXe3yyOrl7HU7Nw7SLzsd98GmWHRzQgX8y7UUy6tqHEEB0ihrRq3hCpqpyl2P6B8ED60hWLyZZEwgeUGXb0KiscWDuRxku5NY61j3nZpAasrb61boxsYAbizOSpHuLacgaiOKbuX4cWH3qcOt3Nbsr8WbOzonUb0n8AtTFq3YNmJrMw7c7jDYddpE7PPepP5pqj2dyH2Cjr91a9SvoWhJ5R.ESG8DD.HQX00VcXUkazkFcrUFY.f..W..I.jB.x.fN.HD.GA.S.DEAggvkHvIBdhvn........BD..........O...................HvJ"
 						}
 ,
 						"snapshotlist" : 						{
@@ -3854,7 +3851,7 @@
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "2277.hAGaoMGcv.y0AHv.DTfAGfPBJr.CM3.WsEla0YVXiQWcxUlbTQVXzEFVAIWZgQTXzE1UyUmXzkGbkckckI2bo8laTQWdvUFUtEVakIATL8zQOEAAL................B..............A.........f..........L..........D.........PA.........X..........G..........B.........j..........J.........vB.........v..........M.........fC.........7..........P.........PD.........HA.........S..........E.........TA.........V.........vE.........fA.........Y.........fF.........rA.........b.........PG.........3A.........e..........H.........DB.........h.........vH.........PB.........k.........fI.........bB.........n.........PJ.........nB.........q..........K.........zB.........t.........vK..........C.........w.........fL.........LC.........z.........PM.........XC.........2..........N.........jC.........5.........vN.........vC.........8.........fO.........7C..........A........PP.........HD.........CA.........Q.........TD.........FA........vQ.........fD.........IA........fR.........rD.........LA........PS.........3D.........OA.........T.........DE.........RA........vT.........PE.........UA........fU.........bE.........XA........PV.........nE.........aA.........W.........zE.........dA........vW..........F.........gA........fX.........LF.........jA........PY.........XF.........mA.........Z.........jF.........pA........vZ.........vF.........sA........fa.........7F.........vA........Pb.........HG.........yA.........c.........TG.........1A........vc.........fG.........4A........fd.........rG.........7A........Pe.........3G.........+A....vSQPPKCUzQPcXK...db1tVa8n31Pgee9UDk22D6j3KQBlULvjQHAZGIlsutxD7xD0bqNNTl9quNW.BLjMSUosZU82KDex43yE6bRj4azm2mDariKJhxRGaBs.lFe996FMQDwVw1w6bKeLwzHWjsoLTNelR..3ad+cFJLZEWJiR2VX7akr3H4ap6ZZTHEbVhR7XSWGSiD19U0RlDGmEt7gwlNHrowx4yl+kR4xrM7ZqXkxrDlT4yUwYxwlfthh463wiMiRUycYBOUZZDGsi2XrRyhvwldU+vhYJAPiOYvqBIqhv3VwSUVwEiMwJ02FmslE+RYZcPpDXeHeTt1HZSsrTVR0jCsLdtTvMl9ZTt8LHESdx9WV7IUDulk9qy2zVPtrfE9JKMsJlqzLOKtozHO4x70eSvR2xa0PpFTTeijNWlEJUKFcSwjRY63e+awrBUgB2tXTm.SJ2eH92whKqT0BB7afGv0G4hOlt0VrjEkdgIvdz.dZR6QCmA0vcPM7FTCzfZfGTCxfZPGTC+A0.BFVkgqpvgKqvgqqvgKrvdqrOyDrje71jSpzIir.v1MeHjiOFAw8YDpqQG1wRHXOpCh5zmUcVFsH.GuJ2gvHJk3g5yFuOPJfAmENDJwUENTJ1A5Qbc6Mb5ZliKnFdPhiqCpWeQb55KJpwJp5wUbcqjdrxs6i3sUYhKjP762SngybBtaJ.o9tXUmCLARc5ewiP6FLsY.xGC7v8uNPwm0jpAPOe.Dh6eukqSe4vKLwVtrsucXVh0ywYaK4VuHh1tkKVodi.OMjK5zur1tokEp2yLiIYFuJeKWYrmqmp5VD8GpqcnH2Nc2UdmmtIhkV+jvFkQpKZWnOh5B.I.3FD3NkD3CtBlRZSYL.ovDjaPkQWUJ3ZRIAOb1DNCzn64.B7thygWQlFZngFZngFZngF2.b7SMCd7+xvPCMzPCMzPCMzPi+0wfeK74GnscyIZ+ANh6p+1VqEAewprfK.Ce.2HBx+vAb6g85b91fqc91GC6leb9GsHogFZ7WA2jtFPcWCMz3+O3Gz0XjcEQntjSTved3DETyIp2oglSTWQkaCmntAbWxgTwcIBjBI.Hteh172mfQ9d0gGkBH9.xsiqPd9TeWUvCHXDff5m3RmwUHZSJPfHGDh38SNWgPCwTnKIdS8XRPEdOSglBbC9ncoe76emGJ6xe01liMo3jj0QUIz.cnyEYgGIU6ARw9zWmeXNYgxnc74mXna83GONtfGqhB9lWXqqF2cUQvK3xk7zRinhCpKqyl28Mopav2qDuXlwzJhC+lJvXxWGaZuHZsfIdydRddbTXM0fMVUlmmIj1MSfcn5cREYkoaJra7Yg8ESu8BNai8wI2hojs+h8PmhV9Ui1mXBQjjkZcpv1DyOvhiEYYIFvCA8oBospRd+cirOPx56u6OATI9ozIATLczSP.fDgUWa0gUUtQWZzwVYjA.B.bA.j.PJ.HC.5.fP.bD.LAPTDDFBRhvkHjIBdB.......HP..........7...................fvo"
+										"blob" : "2282.hAGaoMGcv.y0AHv.DTfAGfPBJr.CM3.WsEla0YVXiQWcxUlbTQVXzEFVAIWZgQTXzE1UyUmXzkGbkckckI2bo8laTQWdvUFUtEVakIATL8zQOEAAL................B..............A.........f..........L..........D.........PA.........X..........G..........B.........j..........J.........vB.........v..........M.........fC.........7..........P.........PD.........HA.........S..........E.........TA.........V.........vE.........fA.........Y.........fF.........rA.........b.........PG.........3A.........e..........H.........DB.........h.........vH.........PB.........k.........fI.........bB.........n.........PJ.........nB.........q..........K.........zB.........t.........vK..........C.........w.........fL.........LC.........z.........PM.........XC.........2..........N.........jC.........5.........vN.........vC.........8.........fO.........7C..........A........PP.........HD.........CA.........Q.........TD.........FA........vQ.........fD.........IA........fR.........rD.........LA........PS.........3D.........OA.........T.........DE.........RA........vT.........PE.........UA........fU.........bE.........XA........PV.........nE.........aA.........W.........zE.........dA........vW..........F.........gA........fX.........LF.........jA........PY.........XF.........mA.........Z.........jF.........pA........vZ.........vF.........sA........fa.........7F.........vA........Pb.........HG.........yA.........c.........TG.........1A........vc.........fG.........4A........fd.........rG.........7A........Pe.........3G.........+A....vSQPfLCUzQPcXK...db1tVa8n31Pgee9UDk22D633KQBlULvjQHwncjX195JSvKSTyEpiCko+5qyEf.CYy1ti51p5uWv9jywmKNbhg7M5i6SSr1IjEw4YisgN.aqOd6MilHi4K46DctT.gZasUlutLRMelV..DXe6MVZLZoPohy1TX8ak7jX0q5qZaUnjBdpV7XajmsUJe+xZISRRxid7tw1dXhs0iymM+SkpGyWKpshWpxS4JsOWljqFaC5JJQrSjL1NNSu1kohLksUR7NQiwZMKhFaGT8AOgqE.s9fknJjbJhRZEOUakPN1lnUeSR9JdxykY0AoVf6g7Q6Zq300xx3oUKNzw5oRovZ5KwacmAYD5Ct+xhOni3U7rec951BxkErnW3YYUwbklaySZJMpStb6puH4YaDsZnzSJpuPZmg4QJ8lQ2TLsT0N+2+RBuPWnHsaF0Ivjx8Gh+c7jxJUcfffF3CPAXD4X5Vawi73rKLA1iFvSKZOZ3MnFnA0vePMvCpAYPMnCpAaPMBFTCHXXUFtpBGtrBGttBGtvB6sx9DWxS+12lbRkNYjC.1dyGF6EPvPReFg6Zzg6XoThOyCy75ypNaiNTfmek6vDLiQ8w8Yi+2QJP.mENTFEoCGFi3A8oHTugSWy7PfZ3CodHObu9h500WLbiUL8WWI0sR5wJT2uh2VkoHHkFzumvCm4TR2T.xBPDcmCBEx75eyix5FLsY.Nf.7I8uOvHm0jpAP+..DR5+dKjWe4vyb4FgpsucTdpySI4aJENUOSyYQ3mbJKDRPmtk0VMsrP+TlYbE25E0qa0lho3pmkD+G5w53uSqc8tqHacLuY3ZsM5AGPXyGd.CLvf+sfy6Q31zj3uZWCnoqgAF7+G72sqwyx3MaDxk5e8oHKRHGtugOxGcnugGCi5z3v6ZMNZOTYXK.0G1hFBPggnozvfqkMSosGuh.vZLAipZ6PupTv0jRCu6rEbF.E9V2.A9Ww4vqHy.CLv.CLv.CLvf2Ab7nlg2+yLLLv.CLv.CLv.CL3ebL3Yg+F+E2ibqHB0kbhB9eGNQAMbh5MZX3D0UT48gSTuCbWxiVwcIJjAo.Hoeh17iSvn.+5viw.z..88iqP9Ar.jN3ATBFPw8Sboy3JDqIEnPrGFS8+YyUnev2eGdn2dWane7s2UOmVO9su8to.T32aW56+5WEQpt7Wss4XSJNIcUbUBMPG5sx7nijp8.oXe3yyOrl7HU7Nw7SLzsd98GmWHRzQgX8y7UUy6tqHEEB0ihrRq3hCpqpyl2P6B8ED60hWLyZZEwgeUGXb0KiscWDuRxku5NY61j3nZpAasrb61boxsYAbizOSpHuLacgaiOKbuX4cWH3qcOt3Nbsr8WbOzonUb0n8AtTFq3YNmJrMw7c7jDYddpE7PPepP5pqj2dyH2Cjr91a9SvoWhJ5R.ESG8DD.HQX00VcXUkazkFcrUFY.f..W..I.jB.x.fN.HD.GA.S.DEAggvkHvIBdhvn........BD..........O...................HvJ"
 									}
 ,
 									"fileref" : 									{
@@ -3923,7 +3920,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 309.666666666666742, 589.5, 205.0, 51.0 ],
-					"presentation_linecount" : 3,
 					"text" : "int object holds a number in the left inlet and outputs when bang received in right inlet"
 				}
 
@@ -3938,7 +3934,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 146.666666666666742, 507.5, 223.0, 37.0 ],
-					"presentation_linecount" : 2,
 					"text" : "When select object finds a 1 = True, send bang signal"
 				}
 
@@ -3953,7 +3948,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 167.666666666666742, 366.5, 202.0, 64.0 ],
-					"presentation_linecount" : 4,
 					"text" : "Setting a slightly lower threshold can improve the action. Try different values between 0.1 to 0.9 to feel the difference"
 				}
 
@@ -4005,7 +3999,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 478.0, 436.0, 54.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Chord"
 				}
 
@@ -4188,7 +4181,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 425.0, 483.0, 50.0, 35.0 ],
+									"patching_rect" : [ 425.0, 483.0, 53.0, 35.0 ],
 									"text" : "range 0 7"
 								}
 
@@ -4672,7 +4665,7 @@
 					}
 ,
 					"patching_rect" : [ 827.5, 226.0, 150.0, 126.0 ],
-					"varname" : "patch_5",
+					"varname" : "patch_4",
 					"viewvisibility" : 1
 				}
 
@@ -7271,7 +7264,7 @@
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 380.0, 4.463921, 48.0, 27.0 ],
-									"text" : "6"
+									"text" : "0"
 								}
 
 							}
@@ -7314,7 +7307,7 @@
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 306.0, 89.5, 48.0, 27.0 ],
-									"text" : "60"
+									"text" : "69"
 								}
 
 							}
@@ -9379,56 +9372,56 @@
 		"dependency_cache" : [ 			{
 				"name" : "Patch_Generator.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/Loom2",
-				"patcherrelativepath" : "../../../Library/Loom2",
+				"patcherrelativepath" : "../../../../../Library/Loom2",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "generator.js",
 				"bootpath" : "~/Documents/Max 8/Library/Loom2",
-				"patcherrelativepath" : "../../../Library/Loom2",
+				"patcherrelativepath" : "../../../../../Library/Loom2",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "input.png",
 				"bootpath" : "~/Documents/Max 8/Library/Loom2",
-				"patcherrelativepath" : "../../../Library/Loom2",
+				"patcherrelativepath" : "../../../../../Library/Loom2",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "output.png",
 				"bootpath" : "~/Documents/Max 8/Library/Loom2",
-				"patcherrelativepath" : "../../../Library/Loom2",
+				"patcherrelativepath" : "../../../../../Library/Loom2",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "musiclinks.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/MPG",
-				"patcherrelativepath" : "../../../Library/MPG",
+				"patcherrelativepath" : "../../../../../Library/MPG",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "genNetsend.js",
 				"bootpath" : "~/Documents/Max 8/Library/MPG",
-				"patcherrelativepath" : "../../../Library/MPG",
+				"patcherrelativepath" : "../../../../../Library/MPG",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "listToFunbuff.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/MPG",
-				"patcherrelativepath" : "../../../Library/MPG",
+				"patcherrelativepath" : "../../../../../Library/MPG",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "chipsounds_20200911.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Snapshots",
+				"patcherrelativepath" : "../../../../../Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
