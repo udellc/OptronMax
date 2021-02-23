@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 307.0, 275.0, 717.0, 524.0 ],
+		"rect" : [ 310.0, 432.0, 717.0, 524.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -93,7 +93,7 @@
 				"box" : 				{
 					"comment" : "Note-Off",
 					"id" : "obj-16",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -156,34 +156,7 @@
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 46.0, 350.0, 57.0, 27.0 ],
-					"text" : "0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "Input Duration #",
-					"id" : "obj-5",
-					"index" : 0,
-					"maxclass" : "inlet",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 175.0, 35.0, 25.0, 25.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-4",
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 2,
-					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 437.0, 421.0, 110.0, 22.0 ],
-					"text" : "makenote 127 250"
+					"text" : "1"
 				}
 
 			}
@@ -191,7 +164,7 @@
 				"box" : 				{
 					"comment" : "Input Velocity #",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -290,7 +263,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 117.5, 33.5, 18.0, 34.0 ],
 					"size" : 2,
-					"value" : 0
+					"value" : 1
 				}
 
 			}
@@ -561,7 +534,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-55",
-					"items" : [ "AU DLS Synth 1", ",", "USB Uno MIDI Interface", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -591,7 +564,7 @@
 				"box" : 				{
 					"comment" : "Datastream to MIDI",
 					"id" : "obj-58",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -696,15 +669,15 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-2",
-									"linecount" : 8,
+									"linecount" : 7,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 9.0, 139.0, 297.0, 114.0 ],
+									"patching_rect" : [ 9.0, 139.0, 297.0, 100.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 12,
-									"presentation_rect" : [ 10.0, 139.0, 191.0, 167.0 ],
-									"text" : "For Note messages, you have two options:\n1 Automatic Mode) send MIDI pitches into the left inlet, set velocity and duration of your pitches into the sedond and third inlets.\n\n2 Manual Mode)  Set duration to 60000, send MIDI pitches into left inlet, send \"0\" from your button release to 4th inlet \"note-off\""
+									"presentation_linecount" : 10,
+									"presentation_rect" : [ 10.0, 139.0, 194.0, 141.0 ],
+									"text" : "For Note messages, Send MIDI Pitch into the left inlet and Velocity into the second inlet from the left. MIDI pitch with velovity 0 will turn note off.\n\nIf you want notes to turn off automatically after a defined duration, use the [makenote] object right above this module."
 								}
 
 							}
@@ -750,7 +723,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 484.5, 82.0, 47.0, 18.0 ],
+									"patching_rect" : [ 484.5, 82.0, 47.0, 22.0 ],
 									"text" : "wclose"
 								}
 
@@ -785,7 +758,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 484.5, 139.0, 69.0, 20.0 ],
+									"patching_rect" : [ 484.5, 139.0, 69.0, 22.0 ],
 									"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 									"text" : "thispatcher"
 								}
@@ -992,7 +965,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 1 ],
+					"destination" : [ "obj-29", 1 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -1013,7 +986,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
+					"destination" : [ "obj-29", 0 ],
 					"source" : [ "obj-26", 1 ]
 				}
 
@@ -1092,20 +1065,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-29", 1 ],
-					"source" : [ "obj-4", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-29", 0 ],
-					"source" : [ "obj-4", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
 					"source" : [ "obj-44", 0 ]
 				}
@@ -1155,13 +1114,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
 					"source" : [ "obj-48", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 2 ],
-					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -1290,22 +1242,6 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "input.png",
-				"bootpath" : "~/Documents/Max 8/Library/Loom2",
-				"patcherrelativepath" : ".",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "output.png",
-				"bootpath" : "~/Documents/Max 8/Library/Loom2",
-				"patcherrelativepath" : ".",
-				"type" : "PNG",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
@@ -1336,8 +1272,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
