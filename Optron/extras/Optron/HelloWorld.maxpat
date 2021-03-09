@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 485.0, 79.0, 897.0, 423.0 ],
+		"rect" : [ 546.0, 79.0, 897.0, 423.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,65 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 475.0, 788.5, 195.0, 22.0 ],
+					"text" : "load Optron.5a.Harmonizer.maxpat"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 475.0, 758.5, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 475.0, 361.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-5",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 503.0, 758.5, 128.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 503.0, 361.0, 130.0, 24.0 ],
+					"text" : "Four Chord Song"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 475.0, 816.5, 51.0, 22.0 ],
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-73",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 475.0, 693.0, 220.0, 22.0 ],
-					"text" : "load Optron.4a.BasicInstrument.maxpat"
+					"patching_rect" : [ 475.0, 693.0, 203.0, 22.0 ],
+					"text" : "load Optron.4b.MIDIExternal.maxpat"
 				}
 
 			}
@@ -71,10 +123,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 503.0, 663.0, 120.0, 24.0 ],
+					"patching_rect" : [ 503.0, 663.0, 207.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 503.0, 329.0, 120.0, 24.0 ],
-					"text" : "DIY Instrument"
+					"presentation_rect" : [ 503.0, 329.0, 210.0, 24.0 ],
+					"text" : "External MIDI Instrument to DAW"
 				}
 
 			}
@@ -97,8 +149,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 475.0, 603.0, 216.0, 22.0 ],
-					"text" : "load Optron.3b.MIDIInstrument.maxpat"
+					"patching_rect" : [ 475.0, 603.0, 220.0, 22.0 ],
+					"text" : "load Optron.4a.BasicInstrument.maxpat"
 				}
 
 			}
@@ -909,9 +961,9 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 503.0, 124.0, 369.0, 586.0 ],
+					"patching_rect" : [ 503.0, 124.0, 366.0, 722.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 503.0, 119.0, 369.0, 240.0 ],
+					"presentation_rect" : [ 503.0, 119.0, 369.0, 271.0 ],
 					"proportion" : 0.5,
 					"rounded" : 25
 				}
@@ -928,9 +980,9 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 460.0, 82.0, 250.0, 666.0 ],
+					"patching_rect" : [ 460.0, 82.0, 250.0, 764.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 460.0, 82.0, 232.0, 291.0 ],
+					"presentation_rect" : [ 460.0, 82.0, 232.0, 322.0 ],
 					"proportion" : 0.5,
 					"rounded" : 25
 				}
@@ -938,6 +990,13 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
 					"source" : [ "obj-11", 0 ]
@@ -983,6 +1042,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
 					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
