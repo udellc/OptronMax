@@ -40,6 +40,58 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-7",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 39.5, 728.0, 135.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 35.5, 385.0, 135.0, 24.0 ],
+					"text" : "Lead Electric Guitar"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 11.5, 726.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 7.5, 385.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 11.5, 758.0, 104.0, 22.0 ],
+					"text" : "load Lead.maxpat"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 11.5, 786.0, 51.0, 22.0 ],
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -488,7 +540,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 35.5, 638.0, 135.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 35.5, 361.0, 135.0, 24.0 ],
+					"presentation_rect" : [ 35.5, 355.0, 135.0, 24.0 ],
 					"text" : "Play Musical Scales"
 				}
 
@@ -503,7 +555,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 7.5, 636.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.5, 359.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 7.5, 353.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -540,7 +592,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 35.5, 545.0, 86.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 35.5, 327.0, 86.0, 24.0 ],
+					"presentation_rect" : [ 35.5, 323.0, 86.0, 24.0 ],
 					"text" : "Rock On!"
 				}
 
@@ -555,7 +607,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 7.5, 543.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.5, 325.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 7.5, 321.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -603,7 +655,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 35.5, 454.0, 152.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 35.5, 293.0, 152.0, 24.0 ],
+					"presentation_rect" : [ 35.5, 291.0, 152.0, 24.0 ],
 					"text" : "Become a Jedi Knight!"
 				}
 
@@ -618,7 +670,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 7.5, 452.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.5, 291.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 7.5, 289.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -925,7 +977,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 35.5, 363.0, 261.0, 299.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 35.5, 253.0, 300.0, 137.0 ],
+					"presentation_rect" : [ 35.5, 253.0, 300.0, 165.0 ],
 					"proportion" : 0.5,
 					"rounded" : 25
 				}
@@ -944,7 +996,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 2.0, 320.0, 249.0, 404.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 216.0, 228.0, 181.0 ],
+					"presentation_rect" : [ 2.0, 216.0, 228.0, 207.0 ],
 					"proportion" : 0.5,
 					"rounded" : 25
 				}
@@ -1182,6 +1234,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-73", 0 ],
 					"source" : [ "obj-74", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}
