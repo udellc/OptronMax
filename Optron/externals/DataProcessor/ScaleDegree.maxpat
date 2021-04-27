@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 8,
+			"minor" : 1,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,7 +37,20 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-4",
+					"index" : 0,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 70.0, 231.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "Scale (0,1,2,3,etc)",
 					"id" : "obj-30",
@@ -482,7 +495,8 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 192.885741999999993, 89.5, 76.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"embed" : 1
+						"embed" : 1,
+						"precision" : 6
 					}
 ,
 					"text" : "coll scales.coll"
@@ -602,8 +616,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 8,
+							"minor" : 1,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -636,6 +650,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1120,7 +1135,8 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 301.0, 300.0, 53.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"embed" : 0
+										"embed" : 0,
+										"precision" : 6
 									}
 ,
 									"text" : "coll"
@@ -1545,8 +1561,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 8,
+							"minor" : 1,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1579,6 +1595,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1767,18 +1784,6 @@
 , 			{
 				"box" : 				{
 					"comment" : "",
-					"id" : "obj-4",
-					"index" : 0,
-					"maxclass" : "outlet",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 46.0, 190.5, 25.0, 25.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "",
 					"id" : "obj-2",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -1899,6 +1904,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"order" : 0,
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"order" : 2,
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -2037,14 +2050,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"order" : 2,
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"order" : 0,
 					"source" : [ "obj-5", 0 ]
@@ -2075,15 +2080,15 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "input.png",
-				"bootpath" : "~/Documents/Max 8/Library",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Packages/Loom/media/img",
+				"patcherrelativepath" : "../../../../../Max 8/Packages/Loom/media/img",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "output.png",
-				"bootpath" : "~/Documents/Max 8/Library",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Packages/Loom/media/img",
+				"patcherrelativepath" : "../../../../../Max 8/Packages/Loom/media/img",
 				"type" : "PNG",
 				"implicit" : 1
 			}
