@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="OptronBOW">
+
+	<digest>
+		Set Optron rainbow background layer
+	</digest>
+	
+	<description>
+		Enable 0/1, Enable or Disable layer
+		Hue Delta 0 - 255, how many hue cycles across the length
+		Start ( 0 - (1-Len)), LED number to start pattern
+		Len ( 0 - (1-Len)), How many LEDs pattern is across
+		Fade (0 - 255), Brightness
+	</description>
+	
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Chet Udell</metadata>
+		<metadata name="tag">Optron</metadata>
+	</metadatalist>
+	
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="int">
+			<digest>0/1 enables or disables.</digest>
+		</inlet>
+		<inlet id="1" type="int">
+			<digest> Start 0 - (1-Len).</digest>
+			<description>how many hue cycles across the length.</description>
+		</inlet>
+		<inlet id="2" type="int">
+			<digest>0-255 Hue Delta.</digest>
+			<description>LED number to start pattern.</description>
+		</inlet>
+		<inlet id="3" type="int">
+			<digest>Len  0 - (1-Len).</digest>
+			<description>How many LEDs pattern is across.</description>
+		</inlet>
+		<inlet id="3" type="int">
+			<digest>Fade 0 - 255.</digest>
+			<description>Brightness.</description>
+		</inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="none">
+			<digest>none.</digest>
+		</outlet>
+	</outletlist>
+	
+	<!--ARGUMENTS-->
+	<objarglist>
+		<objarg name="pan-position" optional="1" type="float">
+			<digest>Initial panning position, default is 0.</digest>
+		</objarg>
+	</objarglist>
+	
+	<!--MESSAGES-->
+	<methodlist>
+		
+	</methodlist>
+	
+	<!--SEEALSO-->
+	<seealsolist>
+		<seealso name="bpatcher"/>
+	</seealsolist>
+	
+</c74object>
