@@ -114,6 +114,54 @@
 			}
 , 			{
 				"box" : 				{
+					"id" : "obj-311",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ -266.0, 1636.0, 40.0, 22.0 ],
+					"text" : "*~ 0.9"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-310",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ -168.0, 1525.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-308",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ -266.0, 1603.0, 49.0, 22.0 ],
+					"text" : "tapout~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-307",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "tapconnect" ],
+					"patching_rect" : [ -266.0, 1555.0, 78.0, 22.0 ],
+					"text" : "tapin~ 10000"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-306",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -483,7 +531,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ -358.0, 1245.199219000000085, 358.0, 23.0 ],
-					"text" : "plug chipspeech"
+					"text" : "plug chipsounds"
 				}
 
 			}
@@ -1005,14 +1053,14 @@
 						"subtype" : "Undefined",
 						"embed" : 1,
 						"snapshot" : 						{
-							"pluginname" : "chipspeech.vstinfo",
-							"plugindisplayname" : "chipspeech",
+							"pluginname" : "chipsounds.vstinfo",
+							"plugindisplayname" : "chipsounds",
 							"pluginsavedname" : "",
-							"pluginsaveduniqueid" : 1347176275,
+							"pluginsaveduniqueid" : 1347176271,
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "1004.CMlaKA....fQPMDZ....A.ESGME...P......TVavQWdfLGauQGL.........................L.rCUzQP43B...db1oUM8113.QumeED5vdqheHIRJz3T3jTTXf0XCfcWfdZAsLqsPkD0JREjr+56HZ6DF2JqEQWr4v2i7MeHMy0e5o5Jzi5NaooYVDMlDg9zMWc87tR0J0i5fsx4hHTamYaegaw8fABUDcyUH345UZmqrYmE8u8ppR2yvtQHqqSqpAyyhRXQnZ0Sq7VlWUYJVd6rnLJXd4h6W7W8tkls5YQvZUuyTqbvctpx3lEQBMUoeTWMKprAN69ZciKBUU9n9.Y.os.tqgeTUJv.E8AjdPRw1hpiluCXo6lEwA36pLaTUq6a7hDLfO4OvUiJ25s0npGNbZL5uMkEZ7cka0cqUU+3OTsF6GkoQnMplerX6wPRPHSLDxJ1qZZFT8GfXRqoBBNxHj60Kscy+zoZ1M39jgkNXk0uScveMENHeD5k08N+5CZ1q6kpxlS59QUUu1mHv+NDzWPPFAAaRDIShHcRDYShfOIBwjHjShHeRDTxzPlNpRmNrRmNtRmNvRGMx9fpSU+KXhYoxjgmzbFSjSxFkDOjTBw+jRErDVFcTRAw23zb+ifPygWQD7wHwngjHdRbNmQSxk4iRJH.GKIYd4InYrrLQ5njRF6ElWwHCRKw4T+4x3LFmjlHFkTPhJlx8tfjKk7bgb7aJLsPx8gKAOMiS4YIiyhOsOPIgNgj4OZoj.4aw3jRBCoiWW3+70jJfEHAVL6RG2qwtjXwwXGImwynilHAVYArHYCbDYDtjySGsPCXEVTSIrAdoRdZJOY77DPSDlojGJqSDhj7LdxEnE78n3jbtLijPEBH8lKuT.I+87lGK3qRWBE6cTYvni9hyZU2Ns6X6yBSc7CUlc853UPGYcSgtK9g8lFcsNnAlm3c8Vne+8JmBs28bKvFjvPW8x+aHmRB5vNLbvV.3rHXnBzyl9NnWrUiTcZzFckoYGxYP812pL7AocrWOdnY+w++4u+ccgKr6+wdsG7h40aJGj9Dc7ggjJdYjjSiT7kut3zYpJbvPKKdc9F+5O+xZqtBTgd6Z0ly5u+Pm1pcK0M8nR6I3Nu27lX7v3avF5m.y94UP2s2T1gfTbqxseVD9OK2zo5dFOussprvObEZUeaqoygObH3h8ks1VstXO9v8ZwmcEXRxgCF+lKIVA68zY0L+OU9uVcbzMl+same65udxAtDE7WfrkEejgWMsuO0LLlmt6jDV3P1dnxpzh1ACx59MZ4.A7xRaA9b3mIjqwPIALpM9zr12b0OA.GTOvB"
+							"blob" : "1131.CMlaKA....fQPMDZ....A.ESG8D...P......TVavQWdfLGauQGL.........................PvKCUzQP8YF...db1dVK8131.gumeED5T6gHwWRTDHNKrchWXfjcCfSOufVlqiP0CWIJ2j9quidEqnXsJ6CDTf54hIG88QNbH0PMiu3COFGg1qyxCSSlXQrwVnOb4YWLMKTsRsW24QROgEZWV5lh.yxq.EXrz5xyPfbwJswDlrMG8WEpnPySvSsP4lLsJFTOwhQsPwpGWUoYZTTZvsylXQc8rP2t7pketvba5FcEKUgIMVYf4bUTpYhEtqpH8dczDqvDXrKh0IFKTT3dcMY.YdP8LGnhTfBB5bjtzjryChZTOGXoylX4Av2FktVEceQRkQBJbZWOvTiB2ToKQEWN3DazcEYZz7GB24r5SBOtur82oeB8aEIQgwgF8le2BsVk7mK2z3h56BCdPkjTtJNGrzcoQfyB7NlFifA5V+kLUxVcCBCzIuxRh6zLMv.aOcWzwEll9+8WhT4Utt5kS0RZZwisqn8pnhRn1DrrV3Xlzk48rCnhwspvjdTHCffbXPG.AcTDrQQvGEg6nH7FEgXTD9ihPNJBBdbHi6UIi6VIi6WIi6XIC5YuSkoh6eHvFi40mr788obBURFjUWZBrumGASj9XJVxbGjjbnijGvvG7X6ALd3WXyBeAqxl8nDtfwFhlnKMtmKtTXtBOJLBCRh1ctj7F2CVHwhAMPAqKIAtVnk9GFkNHK2tujSp2IDLhPL79fvqKGouj4UZdbNg6M7ZxuKI+ZGAk4yg19CQx+kjHk62Rpf5wndCtgy558bkXWWflufvkXduY5dU1VsoItcPZr8cQoaKz1k2oYeyhOaWjqy5Farh07hb3VlqTFE5AyS6.ptBW3XVd3+.s4d7NAxgsecxlPUcyM.GnQqrnYOBeRNImj+qHuLFgScPhu2nFjSQMNImj++H+nQMtOKb6Vc1JH6ScRfNa73FbFm0F2fH5l1H8XwMH8Lzp3GhE3qW.stF9vnWsTnX5r23plMWrP9BMywrEvHvlcLs7ip08nZ8NpVwQz1Q7fO2y0cpaEV+uM1ZYV83JeKi6r5wc5qw9M18uvorFA8KW.48tbAm+9Vu.RyW3CooQ75+05mpWvo5E7cUuftY9K4beehT3BYSCIQy+Yx7uW54x2Vl1+7om2VMMQ4a4TW+2V94TJuSM3bGtlG+BRA985ZoEMxoqkdo79dsz0e8q5.S2ZY2D5u9bwz30gkmBF4BncYoAOWf81Bj+w+XY6XpBLg60KOTs9p9W+b+bcDXE5M2qV26Jl6xz4Zys5jBTXdKbS0p4UofAOP+Hn9lqPygaqxCCPWUnMf4oLOLwx4lv0YprmbltaWTXP0eV.ZUwtcoYFm5gwI.tJNOsHYStS8Lm6zaRbtQq13zaJrUvSdr2akGrb8Qs7OpxxBMpD6CN4Z6elJJJKMMFQZM8CNUGvqd4YW3z9mub4Y+KfsKOeQ"
 						}
 ,
 						"snapshotlist" : 						{
@@ -1021,28 +1069,28 @@
 									"filetype" : "C74Snapshot",
 									"version" : 2,
 									"minorversion" : 0,
-									"name" : "chipspeech",
-									"origin" : "chipspeech.vstinfo",
+									"name" : "chipsounds",
+									"origin" : "chipsounds.vstinfo",
 									"type" : "VST",
 									"subtype" : "Instrument",
 									"embed" : 0,
 									"snapshot" : 									{
-										"pluginname" : "chipspeech.vstinfo",
-										"plugindisplayname" : "chipspeech",
+										"pluginname" : "chipsounds.vstinfo",
+										"plugindisplayname" : "chipsounds",
 										"pluginsavedname" : "",
-										"pluginsaveduniqueid" : 1347176275,
+										"pluginsaveduniqueid" : 1347176271,
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "1004.CMlaKA....fQPMDZ....A.ESGME...P......TVavQWdfLGauQGL.........................L.rCUzQP43B...db1oUM8113.QumeED5vdqheHIRJz3T3jTTXf0XCfcWfdZAsLqsPkD0JREjr+56HZ6DF2JqEQWr4v2i7MeHMy0e5o5Jzi5NaooYVDMlDg9zMWc87tR0J0i5fsx4hHTamYaegaw8fABUDcyUH345UZmqrYmE8u8ppR2yvtQHqqSqpAyyhRXQnZ0Sq7VlWUYJVd6rnLJXd4h6W7W8tkls5YQvZUuyTqbvctpx3lEQBMUoeTWMKprAN69ZciKBUU9n9.Y.os.tqgeTUJv.E8AjdPRw1hpiluCXo6lEwA36pLaTUq6a7hDLfO4OvUiJ25s0npGNbZL5uMkEZ7cka0cqUU+3OTsF6GkoQnMplerX6wPRPHSLDxJ1qZZFT8GfXRqoBBNxHj60Kscy+zoZ1M39jgkNXk0uScveMENHeD5k08N+5CZ1q6kpxlS59QUUu1mHv+NDzWPPFAAaRDIShHcRDYShfOIBwjHjShHeRDTxzPlNpRmNrRmNtRmNvRGMx9fpSU+KXhYoxjgmzbFSjSxFkDOjTBw+jRErDVFcTRAw23zb+ifPygWQD7wHwngjHdRbNmQSxk4iRJH.GKIYd4InYrrLQ5njRF6ElWwHCRKw4T+4x3LFmjlHFkTPhJlx8tfjKk7bgb7aJLsPx8gKAOMiS4YIiyhOsOPIgNgj4OZoj.4aw3jRBCoiWW3+70jJfEHAVL6RG2qwtjXwwXGImwynilHAVYArHYCbDYDtjySGsPCXEVTSIrAdoRdZJOY77DPSDlojGJqSDhj7LdxEnE78n3jbtLijPEBH8lKuT.I+87lGK3qRWBE6cTYvni9hyZU2Ns6X6yBSc7CUlc853UPGYcSgtK9g8lFcsNnAlm3c8Vne+8JmBs28bKvFjvPW8x+aHmRB5vNLbvV.3rHXnBzyl9NnWrUiTcZzFckoYGxYP812pL7AocrWOdnY+w++4u+ccgKr6+wdsG7h40aJGj9Dc7ggjJdYjjSiT7kut3zYpJbvPKKdc9F+5O+xZqtBTgd6Z0ly5u+Pm1pcK0M8nR6I3Nu27lX7v3avF5m.y94UP2s2T1gfTbqxseVD9OK2zo5dFOussprvObEZUeaqoygObH3h8ks1VstXO9v8ZwmcEXRxgCF+lKIVA68zY0L+OU9uVcbzMl+same65udxAtDE7WfrkEejgWMsuO0LLlmt6jDV3P1dnxpzh1ACx59MZ4.A7xRaA9b3mIjqwPIALpM9zr12b0OA.GTOvB"
+										"blob" : "1131.CMlaKA....fQPMDZ....A.ESG8D...P......TVavQWdfLGauQGL.........................PvKCUzQP8YF...db1dVK8131.gumeED5T6gHwWRTDHNKrchWXfjcCfSOufVlqiP0CWIJ2j9quidEqnXsJ6CDTf54hIG88QNbH0PMiu3COFGg1qyxCSSlXQrwVnOb4YWLMKTsRsW24QROgEZWV5lh.yxq.EXrz5xyPfbwJswDlrMG8WEpnPySvSsP4lLsJFTOwhQsPwpGWUoYZTTZvsylXQc8rP2t7pketvba5FcEKUgIMVYf4bUTpYhEtqpH8dczDqvDXrKh0IFKTT3dcMY.YdP8LGnhTfBB5bjtzjryChZTOGXoylX4Av2FktVEceQRkQBJbZWOvTiB2ToKQEWN3DazcEYZz7GB24r5SBOtur82oeB8aEIQgwgF8le2BsVk7mK2z3h56BCdPkjTtJNGrzcoQfyB7NlFifA5V+kLUxVcCBCzIuxRh6zLMv.aOcWzwEll9+8WhT4Utt5kS0RZZwisqn8pnhRn1DrrV3Xlzk48rCnhwspvjdTHCffbXPG.AcTDrQQvGEg6nH7FEgXTD9ihPNJBBdbHi6UIi6VIi6WIi6XIC5YuSkoh6eHvFi40mr788obBURFjUWZBrumGASj9XJVxbGjjbnijGvvG7X6ALd3WXyBeAqxl8nDtfwFhlnKMtmKtTXtBOJLBCRh1ctj7F2CVHwhAMPAqKIAtVnk9GFkNHK2tujSp2IDLhPL79fvqKGouj4UZdbNg6M7ZxuKI+ZGAk4yg19CQx+kjHk62Rpf5wndCtgy558bkXWWflufvkXduY5dU1VsoItcPZr8cQoaKz1k2oYeyhOaWjqy5Farh07hb3VlqTFE5AyS6.ptBW3XVd3+.s4d7NAxgsecxlPUcyM.GnQqrnYOBeRNImj+qHuLFgScPhu2nFjSQMNImj++H+nQMtOKb6Vc1JH6ScRfNa73FbFm0F2fH5l1H8XwMH8Lzp3GhE3qW.stF9vnWsTnX5r23plMWrP9BMywrEvHvlcLs7ip08nZ8NpVwQz1Q7fO2y0cpaEV+uM1ZYV83JeKi6r5wc5qw9M18uvorFA8KW.48tbAm+9Vu.RyW3CooQ75+05mpWvo5E7cUuftY9K4beehT3BYSCIQy+Yx7uW54x2Vl1+7om2VMMQ4a4TW+2V94TJuSM3bGtlG+BRA985ZoEMxoqkdo79dsz0e8q5.S2ZY2D5u9bwz30gkmBF4BncYoAOWf81Bj+w+XY6XpBLg60KOTs9p9W+b+bcDXE5M2qV26Jl6xz4Zys5jBTXdKbS0p4UofAOP+Hn9lqPygaqxCCPWUnMf4oLOLwx4lv0YprmbltaWTXP0eV.ZUwtcoYFm5gwI.tJNOsHYStS8Lm6zaRbtQq13zaJrUvSdr2akGrb8Qs7OpxxBMpD6CN4Z6elJJJKMMFQZM8CNUGvqd4YW3z9mub4Y+KfsKOeQ"
 									}
 ,
 									"fileref" : 									{
-										"name" : "chipspeech",
-										"filename" : "chipspeech_20190711.maxsnap",
+										"name" : "chipsounds",
+										"filename" : "chipsounds.maxsnap",
 										"filepath" : "~/Documents/Max 8/Snapshots",
 										"filepos" : -1,
-										"snapshotfileid" : "f569e880af75c1ff858dd0b45f1d13bb"
+										"snapshotfileid" : "eb3b7372874a63a3f9b09dc509448931"
 									}
 
 								}
@@ -1442,14 +1490,14 @@
 						"subtype" : "Undefined",
 						"embed" : 1,
 						"snapshot" : 						{
-							"pluginname" : "AUHipass.auinfo",
-							"plugindisplayname" : "AUHipass",
+							"pluginname" : "chipcrusher2.vstinfo",
+							"plugindisplayname" : "chipcrusher",
 							"pluginsavedname" : "",
-							"pluginsaveduniqueid" : 1752528743,
+							"pluginsaveduniqueid" : 1347176304,
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "167.hAGaoMGcv.i0AHv.DTfAGfPBJr.CT4VXsUFWsEla0YVXiQWcxUlbTQVXzEFUzkGbkc0b0IFc4AWYWYWYxMWZu4FVU4FcoQGakQlDgAGbr8DDb...............B......QND0S....ADj.4BsDgUmY3IAZvE1bP..BUnwIrDSNAozStMGd........AD..........M....................nG"
+							"blob" : "1262.CMlaKA....fQPMDZ....A.ESGAG...P......TVavQWdfLGauQGL.........................PfrCUzQPk3C...dbV7Ua6131.QeOeEr58n6Wr.rSfiSxtFc81f5rnE8ECZIFYgPIpxKNI.4iuijrhnytxJcAJpdvPh9bFNyYlgWld4yETzdBWjyJmY3XZaft7hyltFumzOrqcPrAphyRUIxkWC3rcBLt3LD7LcMQJyKyDn+Vgo4xWf+0.IjbBt.FdlgmqAp.+75lQlSorjUWMyHvAFd0xqW9aJ4JVJogEVIYEXILmqoL4LCa8gnj8D5LCxCOPRjvLjzPglumzx2tdLLECu4fNGQpcGSQB8vvKHkRBelQHfKix1ho2qJabPX.qCwxbojmuUIInRbAXy4J4NF2.sGSUvmq3qvoa437xgorfUT.S0abteGVhDEXwNXxPITrPjmfx.rHASUl9KCapu9qqyOu.Bt2L10bUgXDBB0V4KU8bVvnLNIcDVGQYkhJyQ29m8b9lfveKQuOm7zewXE+dcdoIKzAqNsgxSazzViWAwqbGmox1Yf1hKebY5gxmiJu7LPI6vkk0YXfaEiVWG4Nw.I6yRUa2vwkYfUOGlyJI7gn4OJzdkkHgZ2l2g5E3ORdrwEKXkfLjgkckJsip599oMPpoolqMVZkJ0ycgyAooOXa.rBpEdGB6AP3LJB2QQ3MJB+QQDLJhvQQDMJhIihHdbE6CHpiqpNiKqNiqqNiKrN+HkcpUcOwg2uoYsK8ljCkgs8JI6xqR3JwNBejdEXo3jtU8zbk6vbbQaghsVIqafq6w9rNvdEzMzLzt9wahieXbj2vj50zHG6fgw0KrNl99MFOHx001udCkgH0K0mvCBGpkTCjqV0goSfc67GGZ6G5OrS6oU1YF0pH.2vnXamvAYM4n4ZRCK25rUjyjSvRqxyDl45GGOGGPgcFTg70aLLch8igGeHm4EOrr5q2pXFF0nFNNwt1wtmfjVyiYrSaTE55BRnWzvrNJpra7unHu.aWuAkcesNrAyn958Xlt9soT+nvIfLOnJ66DdDq1nvGhfXae+gYE8QbHsE5LCZSEgwPASvD+SHPw5xpeCqXWfguu6fgQfVW2fNTfViwfM8A1QeDPSFBz8XdFQ1spEqv7NJKSQLWVfyHelQSIb38JEUPd090agx4W0WmpwFKTB3jcWikXzt5CeLynFm1Jc1uchytEAwo.Z3PPvuV4slWXsthfeD3XsBmAGr5OvkolUkYG6vVsd7oBgOg47bItzbNOGatfUtmQAewbMLSz+mBimv6+WGGGREyUo4rayoDyuvXUD9+UAv1rRVtfXUfS1TQUhM6H3zpcrRhXCnfdiEDSs52T7vHe5aK61dDmHgy2ur+1.MeeyaeKHTfKI8d712uUHmHHxUjREJWzAW1LwGoS2R3v0KvlGs2qj7LfZEtDiVWh4vAiqvxcyLr9RNb5e9KVyqpn4IMWKAsVUUw3RqVCZoYHqVmP3Zc5Izx1EtvxU4YV8So4Cs3d9csm8gE46BqK0llqfy8lwqufg4WqSPcA0P4otP7G4xu2VCmrO3zU+jN8g0LLWVBW2P14xA1Bjb+obvi4YshUlKYPuTKyeFuRy32TnnXvbl02Gp0iVb25Me9TNjFGqFveuOL0BpygaZaUeU6KN6ebxMVYC"
 						}
 ,
 						"snapshotlist" : 						{
@@ -1458,28 +1506,28 @@
 									"filetype" : "C74Snapshot",
 									"version" : 2,
 									"minorversion" : 0,
-									"name" : "AUHipass",
-									"origin" : "AUHipass.auinfo",
-									"type" : "AudioUnit",
-									"subtype" : "AudioEffect",
+									"name" : "chipcrusher",
+									"origin" : "chipcrusher2.vstinfo",
+									"type" : "VST",
+									"subtype" : "MidiEffect",
 									"embed" : 0,
 									"snapshot" : 									{
-										"pluginname" : "AUHipass.auinfo",
-										"plugindisplayname" : "AUHipass",
+										"pluginname" : "chipcrusher2.vstinfo",
+										"plugindisplayname" : "chipcrusher",
 										"pluginsavedname" : "",
-										"pluginsaveduniqueid" : 1752528743,
+										"pluginsaveduniqueid" : 1347176304,
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "167.hAGaoMGcv.i0AHv.DTfAGfPBJr.CT4VXsUFWsEla0YVXiQWcxUlbTQVXzEFUzkGbkc0b0IFc4AWYWYWYxMWZu4FVU4FcoQGakQlDgAGbr8DDb...............B......QND0S....ADj.4BsDgUmY3IAZvE1bP..BUnwIrDSNAozStMGd........AD..........M....................nG"
+										"blob" : "1262.CMlaKA....fQPMDZ....A.ESGAG...P......TVavQWdfLGauQGL.........................PfrCUzQPk3C...dbV7Ua6131.QeOeEr58n6Wr.rSfiSxtFc81f5rnE8ECZIFYgPIpxKNI.4iuijrhnytxJcAJpdvPh9bFNyYlgWld4yETzdBWjyJmY3XZaft7hyltFumzOrqcPrAphyRUIxkWC3rcBLt3LD7LcMQJyKyDn+Vgo4xWf+0.IjbBt.FdlgmqAp.+75lQlSorjUWMyHvAFd0xqW9aJ4JVJogEVIYEXILmqoL4LCa8gnj8D5LCxCOPRjvLjzPglumzx2tdLLECu4fNGQpcGSQB8vvKHkRBelQHfKix1ho2qJabPX.qCwxbojmuUIInRbAXy4J4NF2.sGSUvmq3qvoa437xgorfUT.S0abteGVhDEXwNXxPITrPjmfx.rHASUl9KCapu9qqyOu.Bt2L10bUgXDBB0V4KU8bVvnLNIcDVGQYkhJyQ29m8b9lfveKQuOm7zewXE+dcdoIKzAqNsgxSazzViWAwqbGmox1Yf1hKebY5gxmiJu7LPI6vkk0YXfaEiVWG4Nw.I6yRUa2vwkYfUOGlyJI7gn4OJzdkkHgZ2l2g5E3ORdrwEKXkfLjgkckJsip599oMPpoolqMVZkJ0ycgyAooOXa.rBpEdGB6AP3LJB2QQ3MJB+QQDLJhvQQDMJhIihHdbE6CHpiqpNiKqNiqqNiKrN+HkcpUcOwg2uoYsK8ljCkgs8JI6xqR3JwNBejdEXo3jtU8zbk6vbbQaghsVIqafq6w9rNvdEzMzLzt9wahieXbj2vj50zHG6fgw0KrNl99MFOHx001udCkgH0K0mvCBGpkTCjqV0goSfc67GGZ6G5OrS6oU1YF0pH.2vnXamvAYM4n4ZRCK25rUjyjSvRqxyDl45GGOGGPgcFTg70aLLch8igGeHm4EOrr5q2pXFF0nFNNwt1wtmfjVyiYrSaTE55BRnWzvrNJpra7unHu.aWuAkcesNrAyn958Xlt9soT+nvIfLOnJ66DdDq1nvGhfXae+gYE8QbHsE5LCZSEgwPASvD+SHPw5xpeCqXWfguu6fgQfVW2fNTfViwfM8A1QeDPSFBz8XdFQ1spEqv7NJKSQLWVfyHelQSIb38JEUPd090agx4W0WmpwFKTB3jcWikXzt5CeLynFm1Jc1uchytEAwo.Z3PPvuV4slWXsthfeD3XsBmAGr5OvkolUkYG6vVsd7oBgOg47bItzbNOGatfUtmQAewbMLSz+mBimv6+WGGGREyUo4rayoDyuvXUD9+UAv1rRVtfXUfS1TQUhM6H3zpcrRhXCnfdiEDSs52T7vHe5aK61dDmHgy2ur+1.MeeyaeKHTfKI8d712uUHmHHxUjREJWzAW1LwGoS2R3v0KvlGs2qj7LfZEtDiVWh4vAiqvxcyLr9RNb5e9KVyqpn4IMWKAsVUUw3RqVCZoYHqVmP3Zc5Izx1EtvxU4YV8So4Cs3d9csm8gE46BqK0llqfy8lwqufg4WqSPcA0P4otP7G4xu2VCmrO3zU+jN8g0LLWVBW2P14xA1Bjb+obvi4YshUlKYPuTKyeFuRy32TnnXvbl02Gp0iVb25Me9TNjFGqFveuOL0BpygaZaUeU6KN6ebxMVYC"
 									}
 ,
 									"fileref" : 									{
-										"name" : "AUHipass",
-										"filename" : "AUHipass.maxsnap",
+										"name" : "chipcrusher",
+										"filename" : "chipcrusher.maxsnap",
 										"filepath" : "~/Documents/Max 8/Snapshots",
 										"filepos" : -1,
-										"snapshotfileid" : "f575c18fe95cfd43d9887cdcf9c61ec8"
+										"snapshotfileid" : "a9f4fe058b0ea353feaaeef82c6d1141"
 									}
 
 								}
@@ -1577,7 +1625,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 647.0, 2457.5, 358.0, 23.0 ]
+					"patching_rect" : [ 647.0, 2457.5, 358.0, 23.0 ],
+					"text" : "plug chipcrusher2"
 				}
 
 			}
@@ -5218,7 +5267,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 342.0, 209.0, 29.5, 22.0 ],
-									"text" : "24"
+									"text" : "97"
 								}
 
 							}
@@ -6016,7 +6065,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 238.0, 538.0, 140.0, 22.0 ],
-									"text" : "0 24 254 47 0 47"
+									"text" : "0 97 254 47 0 47"
 								}
 
 							}
@@ -8046,7 +8095,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.611764705882353, 0.0, 1.0, 1.0 ],
+					"bgcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"blinkcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-202",
 					"maxclass" : "button",
@@ -8500,7 +8549,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.611764705882353, 0.0, 1.0, 1.0 ],
+					"bgcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : 36.0,
 					"id" : "obj-190",
 					"maxclass" : "number",
@@ -8516,7 +8565,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 0.705882352941176, 0.0, 1.0 ],
+					"bgcolor" : [ 0.0, 1.0, 0.28235294117647, 1.0 ],
 					"fontsize" : 36.0,
 					"id" : "obj-191",
 					"maxclass" : "number",
@@ -10761,7 +10810,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 453.583344000000011, 285.900078000000008, 50.0, 22.0 ],
-									"text" : "1"
+									"text" : "3"
 								}
 
 							}
@@ -10956,7 +11005,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 163.0, 464.0, 140.0, 22.0 ],
-									"text" : "1 7 140 85 0 1 107"
+									"text" : "1 7 140 85 0 3 107"
 								}
 
 							}
@@ -11909,7 +11958,7 @@
 									"patching_rect" : [ 153.0, 615.0, 160.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 177.0, 172.0, 22.0 ],
-									"text" : "FRE 1 7 140 85 0 1 107"
+									"text" : "FRE 1 7 140 85 0 3 107"
 								}
 
 							}
@@ -18082,7 +18131,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "100.CMlaKA....fQ3MzZ....AP0T4jC...P.....KjjaoQGHw.............................vO....+.H..rCX..vOQ7HW+.H..7Cf..vO.B..+.H.......vO.B........"
+							"blob" : "100.CMlaKA....fQ3MzZ....AP0T4jC...P.....KjjaoQGHw.............................vO....+.H..rCH..vOQ7HW+.H..7Cf..vO.B..+.H.......vO.B........"
 						}
 ,
 						"snapshotlist" : 						{
@@ -18104,7 +18153,7 @@
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "100.CMlaKA....fQ3MzZ....AP0T4jC...P.....KjjaoQGHw.............................vO....+.H..rCX..vOQ7HW+.H..7Cf..vO.B..+.H.......vO.B........"
+										"blob" : "100.CMlaKA....fQ3MzZ....AP0T4jC...P.....KjjaoQGHw.............................vO....+.H..rCH..vOQ7HW+.H..7Cf..vO.B..+.H.......vO.B........"
 									}
 ,
 									"fileref" : 									{
@@ -18147,7 +18196,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 220.0, 1771.335387999999966, 101.0, 22.0 ],
-					"text" : "3 0.004395"
+					"text" : "3 0.003418"
 				}
 
 			}
@@ -18464,7 +18513,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "1305.CMlaKA....fQPMDZ....A.ESGME...P......TVavQWdfLGauQGL.........................PP2CUzQPg3E...db1NVQ8111.geO+JHTF1aQhjRhjBMNcNMEsFHAM.No.CECCzxrwBUVRShxKY6O+NQaGSKGFksm1CV.I15z8o6i2cj9t672+3xbzJUcSVYwHOhO1C89KN47w0YxoxUJqGkv3dnp5x4so5IWABvDt2Emffqympz5rhGZP+QqLOS+D7TOTitVIWBhG4ER8PKkON0HYbddY5MWNxKl.huYxUS9Rq9lx4pQdv8xVc4RoFr4z7R8HOrsnb0JU9HurB3c2tTUn8P4YqTqACZ1jNxKhzY6TYtDDQPmgTcjxuIMei3O.3T0i7X.fGxKmIyuqsvPSPPv1UDXbT1birB4xtWOwG80xrTUv0x4OgtUV2nRQe9JOzLYwOlLeiGwxiw67XoKjEEcj9LfVUk4fuQ3gz6rX0reuVV7P2pG2cqFtqw7jkVesLUCgimWjTbBHrUajrlxFZOt8wsrdkLus6w9DA1bwIwz3XdzyKRChajYE8fPbnAY2K0gFzA0HbPMhFTi3A0fMnF7A0PLnFICpAAOrJC6UIC6VIC6WIC6XIN8rP1tbY+j.+Pdh4JlFRXTQjKLV72GxCE7HLIlSDrDQLl5zRDWYjV5XwXeZbX2ULPHFOpyk3fNN8mV5DNrwo1FmkPXcWTVRHlFxcAJz1AFGEY7ebrHhEGKbARXueNZ81YbbBCGwhhcBx1RTlACESA6vSb5zE6Eqfvi4RjDgYle.vApHaSwiea7auXGdcpTXTTXjHwoOWvr8Dqy+DITNgvBSbAJw41PqLIr0VHedT2ZfPCS3bFi3N+it6Xhy.GFWPnNWvjPamqS0X32BcoXmGXumVV4wDXs3+Jzih2EFi7SDFuKggAO.6U.sKLRw9BSDgQDwvt.m4K.J63HrAHtCFOFnPDy41..l041vOrAwGH7KHbHqQ7ZKLwdYMjjPNIJgyBIXtyiIHlej05zE2J9lNphZeN9+hLLhyihtSV+fRuo9jzxk92lW9PqxeJTxipHUU6e6hxB0RkUIBFfensAJo5JoVhVnepR0sEoyQzj8WlDEyIjaqioqBr4fpi79171S+se9zGwW8tt+O9cea13pdRl90SQ+4OQG2S779Bp5KX5jSQyu+EA+Bh5SjCr2859TsOj4Y8E728WLy9xARNDT+0QeA.6eAQG535+lmd.cl9KmhlMF9C97fPQmYtuuS9.IGifGifGifGifGifGifGif+OIBteUcAqKqayfnB5lD0lu+wu+cUp1dzTOOKn00.Nd4rrtB+FXlTU0koamY1KVz4dsaRRvwP44hPn+Zniq2xfAngTNqqwVnyLAA6tYX6BhIgc.RBIgbnGdmcb3bxM18xY8dgNRvXnYDg.5fkJbye6NRvjHNyzaNGygtEb1uL8kp7+7fcQpMR9z8S15Yko5rUpI6Fuo49O978Mpb.qZ9cxY8CP0pFk9FUQKJqYq5ZS1xd0+2M8V3ApGAwlgUdYYED0k5Ei7BtNaVsr9ofwUU4Yolwphl1VUUVqCViOHcQVUSkRktHXsIaB581CvwnoOUnWftVImGr0H9R3YO1yW8FI8gMsrYEL9Wub7k2c+1EvqAI3Sv1flfMHLro5+FatSl+CU8VJLQiZZqU.DzC0Jo9E3xZ.A2j0jFzW8dD47.Ha3hSNOX6T1u3j+wK9hwZ"
+							"blob" : "1305.CMlaKA....fQPMDZ....A.ESGME...P......TVavQWdfLGauQGL.........................PP2CUzQPc3E...db1NVQ8111.geO+JHTF1aQhjRhjB0NcNMEsFHFM.No.CECCzxrwBUVRShxyY6O+NIaGSKaFksm1CV.I15z8o632cj9tav6WuLEsRUVkjmMzg3hcPu+5KFLpLQNUtRY7nHF2AUTlOuNVO9VP.lvct9BDbMXpRqSxdpB8G0xzD8yvScPU5RkbIHdniO0AsTtdZqjQoo4wStYnCMj4flL91weoVOIetBj3fj057kRMXyoo45gNXSQopUpzgNIYv6tdoJS6fRSVo1.FzrJdnS.Ir4KxTIHhftBoZbJ2p3zsh+.fSUNzgA.dJMelL8g5rV2DD3saEAFGkLuUVlbYyqm3h9ZdRrx6N47mQ2KKqTwnOeqCZlL6GimukQLXLdCiEuPlk03zWATRQdJvMBGjduEKl86kxrmZV83la0vcUsOYowWyi0P33kEIk3CBq0sR13xst8n50675Uxz5lG6RD31KNIjFFxCdYQ1hXhLIqCDhEMH6eoVzf1qF98pQPuZD1qFrd0f2qFhd0HpWMH39UoeVkzOsR5mWI8SrDqLKjsKW1MIv0mG0dER8ILpHvFFC+2ExCE7.LIjSDrHQHlZ0RDaYjF5X3wtzP+lqPvgX7fFJwh6XkOMzwueiSMMNKhvZtnrHeL0maCjuIAFFDzxebrHfEFJrARXteNXy1YbXDCGvBBsBxzRTVKFJlB1gGYkzEGDqfvS6kHJ.yZ+A.KnBLMEO7s4eGD6vaRk7CB7CDQV4bAyjI1j+IhnbBg4GYCTj0sgFYRXisPt7fl0.g5Gw4LFwd9Gc+wDWADFWPnVWvDeSx0pZL7awcoXqGXefV6WULVH28U7NJdeTLvMRzRtDFFH.1q.ZeTjhcEsADFQDBaBrlt.nLCiP9eXCLdH3BALq6B.XFGaC+tFDdfnufvgjFwqsvDGjzPh74jfHNymf4VOk.fEcvgK1U7McRE07X7+EIXDqmD8fr7Ikda4Iw4KcuOM+oZk6TnhGUVrpz89E4YpkJiJDZA9g5JnhpakZIZg94BUyNjFhnJ4uZrBo8.xckwzT.1bP0gNead8k+1Oe4Z7suq4+id22lMpnijoe8Rze9SzQcDOuqfhtBlN9Rz7GOI3SHpqibj8dT20U6BYdRWA+c2EyrubjjiA0cczU.38mPzwDW227zibmo+xknYif+fOOJTzXlG6RxGI4bD7bD7bD7bD7bD7bD7bD7+IQvCqpyaSYcamCkWyfn198O98uqh0lSl5kQAsoFvQKmkzT3WOijpnLOd2HyNYQmGzsIIBGBkmK7g1qgFtdKyEf5S4rl9ZgFyDDr8dgMKHl32.Hxm3ygV3s1wg0A2X1Jmw6E5HAiglQDBnAVpvt+a1QBlDvYsslywbnaAqsKSOUk+C71Go1J4SONdGyJi0IqTi2Ocy16+3K2WoRArp4OHm0M.UppT5IprZTR0N00sYKGT+eyvagGnVChamU4M4EPTWpWLzw6tjYkxxm8FUTjlD2NUUzz5hh7Rs2F7dwKRJpJTp3EdaLYkWm2tGNDM84L8BzcJ4bucFwUBOacGt5M5zG2zx1Uvne8lQ27vi6V.uFDuOAaCp71hn0aJ9u4MOHS+gpbmKLVippKU.DzSkJo9D9xF.dSRph85pdGGYfGjMb8EC71Mj8qu3eftdhAO"
 						}
 ,
 						"snapshotlist" : 						{
@@ -18486,7 +18535,7 @@
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "1305.CMlaKA....fQPMDZ....A.ESGME...P......TVavQWdfLGauQGL.........................PP2CUzQPg3E...db1NVQ8111.geO+JHTF1aQhjRhjBMNcNMEsFHAM.No.CECCzxrwBUVRShxKY6O+NQaGSKGFksm1CV.I15z8o6i2cj9t672+3xbzJUcSVYwHOhO1C89KN47w0YxoxUJqGkv3dnp5x4so5IWABvDt2Emffqympz5rhGZP+QqLOS+D7TOTitVIWBhG4ER8PKkON0HYbddY5MWNxKl.huYxUS9Rq9lx4pQdv8xVc4RoFr4z7R8HOrsnb0JU9HurB3c2tTUn8P4YqTqACZ1jNxKhzY6TYtDDQPmgTcjxuIMei3O.3T0i7X.fGxKmIyuqsvPSPPv1UDXbT1birB4xtWOwG80xrTUv0x4OgtUV2nRQe9JOzLYwOlLeiGwxiw67XoKjEEcj9LfVUk4fuQ3gz6rX0reuVV7P2pG2cqFtqw7jkVesLUCgimWjTbBHrUajrlxFZOt8wsrdkLus6w9DA1bwIwz3XdzyKRChajYE8fPbnAY2K0gFzA0HbPMhFTi3A0fMnF7A0PLnFICpAAOrJC6UIC6VIC6WIC6XIN8rP1tbY+j.+Pdh4JlFRXTQjKLV72GxCE7HLIlSDrDQLl5zRDWYjV5XwXeZbX2ULPHFOpyk3fNN8mV5DNrwo1FmkPXcWTVRHlFxcAJz1AFGEY7ebrHhEGKbARXueNZ81YbbBCGwhhcBx1RTlACESA6vSb5zE6Eqfvi4RjDgYle.vApHaSwiea7auXGdcpTXTTXjHwoOWvr8Dqy+DITNgvBSbAJw41PqLIr0VHedT2ZfPCS3bFi3N+it6Xhy.GFWPnNWvjPamqS0X32BcoXmGXumVV4wDXs3+Jzih2EFi7SDFuKggAO.6U.sKLRw9BSDgQDwvt.m4K.J63HrAHtCFOFnPDy41..l041vOrAwGH7KHbHqQ7ZKLwdYMjjPNIJgyBIXtyiIHlej05zE2J9lNphZeN9+hLLhyihtSV+fRuo9jzxk92lW9PqxeJTxipHUU6e6hxB0RkUIBFfensAJo5JoVhVnepR0sEoyQzj8WlDEyIjaqioqBr4fpi79171S+se9zGwW8tt+O9cea13pdRl90SQ+4OQG2S779Bp5KX5jSQyu+EA+Bh5SjCr2859TsOj4Y8E728WLy9xARNDT+0QeA.6eAQG535+lmd.cl9KmhlMF9C97fPQmYtuuS9.IGifGifGifGifGifGifGif+OIBteUcAqKqayfnB5lD0lu+wu+cUp1dzTOOKn00.Nd4rrtB+FXlTU0koamY1KVz4dsaRRvwP44hPn+Zniq2xfAngTNqqwVnyLAA6tYX6BhIgc.RBIgbnGdmcb3bxM18xY8dgNRvXnYDg.5fkJbye6NRvjHNyzaNGygtEb1uL8kp7+7fcQpMR9z8S15Yko5rUpI6Fuo49O978Mpb.qZ9cxY8CP0pFk9FUQKJqYq5ZS1xd0+2M8V3ApGAwlgUdYYED0k5Ei7BtNaVsr9ofwUU4Yolwphl1VUUVqCViOHcQVUSkRktHXsIaB581CvwnoOUnWftVImGr0H9R3YO1yW8FI8gMsrYEL9Wub7k2c+1EvqAI3Sv1flfMHLro5+FatSl+CU8VJLQiZZqU.DzC0Jo9E3xZ.A2j0jFzW8dD47.Ha3hSNOX6T1u3j+wK9hwZ"
+										"blob" : "1305.CMlaKA....fQPMDZ....A.ESGME...P......TVavQWdfLGauQGL.........................PP2CUzQPc3E...db1NVQ8111.geO+JHTF1aQhjRhjB0NcNMEsFHFM.No.CECCzxrwBUVRShxyY6O+NIaGSKaFksm1CV.I15z8o632cj9tav6WuLEsRUVkjmMzg3hcPu+5KFLpLQNUtRY7nHF2AUTlOuNVO9VP.lvct9BDbMXpRqSxdpB8G0xzD8yvScPU5RkbIHdniO0AsTtdZqjQoo4wStYnCMj4flL91weoVOIetBj3fj057kRMXyoo45gNXSQopUpzgNIYv6tdoJS6fRSVo1.FzrJdnS.Ir4KxTIHhftBoZbJ2p3zsh+.fSUNzgA.dJMelL8g5rV2DD3saEAFGkLuUVlbYyqm3h9ZdRrx6N47mQ2KKqTwnOeqCZlL6GimukQLXLdCiEuPlk03zWATRQdJvMBGjduEKl86kxrmZV83la0vcUsOYowWyi0P33kEIk3CBq0sR13xst8n50675Uxz5lG6RD31KNIjFFxCdYQ1hXhLIqCDhEMH6eoVzf1qF98pQPuZD1qFrd0f2qFhd0HpWMH39UoeVkzOsR5mWI8SrDqLKjsKW1MIv0mG0dER8ILpHvFFC+2ExCE7.LIjSDrHQHlZ0RDaYjF5X3wtzP+lqPvgX7fFJwh6XkOMzwueiSMMNKhvZtnrHeL0maCjuIAFFDzxebrHfEFJrARXteNXy1YbXDCGvBBsBxzRTVKFJlB1gGYkzEGDqfvS6kHJ.yZ+A.KnBLMEO7s4eGD6vaRk7CB7CDQV4bAyjI1j+IhnbBg4GYCTj0sgFYRXisPt7fl0.g5Gw4LFwd9Gc+wDWADFWPnVWvDeSx0pZL7awcoXqGXefV6WULVH28U7NJdeTLvMRzRtDFFH.1q.ZeTjhcEsADFQDBaBrlt.nLCiP9eXCLdH3BALq6B.XFGaC+tFDdfnufvgjFwqsvDGjzPh74jfHNymf4VOk.fEcvgK1U7McRE07X7+EIXDqmD8fr7Ikda4Iw4KcuOM+oZk6TnhGUVrpz89E4YpkJiJDZA9g5JnhpakZIZg94BUyNjFhnJ4uZrBo8.xckwzT.1bP0gNead8k+1Oe4Z7suq4+id22lMpnijoe8Rze9SzQcDOuqfhtBlN9Rz7GOI3SHpqibj8dT20U6BYdRWA+c2EyrubjjiA0cczU.38mPzwDW227zibmo+xknYif+fOOJTzXlG6RxGI4bD7bD7bD7bD7bD7bD7bD7+IQvCqpyaSYcamCkWyfn198O98uqh0lSl5kQAsoFvQKmkzT3WOijpnLOd2HyNYQmGzsIIBGBkmK7g1qgFtdKyEf5S4rl9ZgFyDDr8dgMKHl32.Hxm3ygV3s1wg0A2X1Jmw6E5HAiglQDBnAVpvt+a1QBlDvYsslywbnaAqsKSOUk+C71Go1J4SONdGyJi0IqTi2Ocy16+3K2WoRArp4OHm0M.UppT5IprZTR0N00sYKGT+eyvagGnVChamU4M4EPTWpWLzw6tjYkxxm8FUTjlD2NUUzz5hh7Rs2F7dwKRJpJTp3EdaLYkWm2tGNDM84L8BzcJ4bucFwUBOacGt5M5zG2zx1Uvne8lQ27vi6V.uFDuOAaCp71hn0aJ9u4MOHS+gpbmKLVippKU.DzSkJo9D9xF.dSRph85pdGGYfGjMb8EC71Mj8qu3eftdhAO"
 									}
 ,
 									"fileref" : 									{
@@ -37126,6 +37175,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-138", 1 ],
+					"order" : 0,
 					"source" : [ "obj-269", 0 ]
 				}
 
@@ -37134,6 +37184,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-139", 1 ],
 					"source" : [ "obj-269", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-307", 0 ],
+					"order" : 1,
+					"source" : [ "obj-269", 0 ]
 				}
 
 			}
@@ -37477,8 +37535,37 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-308", 0 ],
+					"source" : [ "obj-307", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-311", 0 ],
+					"source" : [ "obj-308", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-312", 0 ],
 					"source" : [ "obj-309", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-307", 0 ],
+					"source" : [ "obj-310", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-307", 0 ],
+					"midpoints" : [ -256.5, 1668.0, -291.5, 1668.0, -291.5, 1544.0, -256.5, 1544.0 ],
+					"source" : [ "obj-311", 0 ]
 				}
 
 			}
@@ -37974,84 +38061,84 @@
 		"dependency_cache" : [ 			{
 				"name" : "input.png",
 				"bootpath" : "~/Documents/Max 8/Packages/Loom/media/img",
-				"patcherrelativepath" : "../../../../Loom/media/img",
+				"patcherrelativepath" : "../../Loom/media/img",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "output.png",
 				"bootpath" : "~/Documents/Max 8/Packages/Loom/media/img",
-				"patcherrelativepath" : "../../../../Loom/media/img",
+				"patcherrelativepath" : "../../Loom/media/img",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MIDItoSpeed.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/MPG",
-				"patcherrelativepath" : "../../../../../Library/MPG",
+				"patcherrelativepath" : "../../../Library/MPG",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "polyTwangElectric.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Optron/patchers",
-				"patcherrelativepath" : "../../../patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "polySbe.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Optron/patchers",
-				"patcherrelativepath" : "../../../patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "poly12StringAcousticGuitar.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Optron/patchers",
-				"patcherrelativepath" : "../../../patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "polyKoto.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Optron/patchers",
-				"patcherrelativepath" : "../../../patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "urn+.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library",
-				"patcherrelativepath" : "../../../../../Library",
+				"patcherrelativepath" : "../../../Library",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "chipspeech_20190711.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../../Snapshots",
+				"patcherrelativepath" : "../../../Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "TS-999 SubScreamer Overdrive v1.5.2.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../../Snapshots",
+				"patcherrelativepath" : "../../../Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Patch_Generator.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Loom/externals/DataProcessor",
-				"patcherrelativepath" : "../../../../Loom/externals/DataProcessor",
+				"patcherrelativepath" : "../../Loom/externals/DataProcessor",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "generator.js",
 				"bootpath" : "~/Documents/Max 8/Packages/Loom/javascript",
-				"patcherrelativepath" : "../../../../Loom/javascript",
+				"patcherrelativepath" : "../../Loom/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -38062,9 +38149,16 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "AUHipass.maxsnap",
+				"name" : "chipcrusher.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../../Snapshots",
+				"patcherrelativepath" : "../../../Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "chipsounds.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
