@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 292.0, 79.0, 879.0, 905.0 ],
+		"rect" : [ 356.0, 79.0, 879.0, 905.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,113 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-126",
+					"maxclass" : "dropfile",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 893.0, 2167.699219000000085, 129.0, 52.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 520.0, 663.5, 223.0, 52.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"id" : "obj-128",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 889.0, 2115.0, 150.0, 47.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 543.5, 673.0, 176.0, 33.0 ],
+					"text" : "Or click the Plug icon on the left toolbar and drag into here."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-116",
+					"maxclass" : "dropfile",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ -262.0, 757.699219000000085, 129.0, 52.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 122.5, 663.5, 223.0, 52.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"id" : "obj-124",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ -266.0, 705.0, 150.0, 47.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 146.0, 673.0, 176.0, 33.0 ],
+					"text" : "Or click the Plug icon on the left toolbar and drag into here."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-122",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ -174.0, 927.0, 79.0, 22.0 ],
+					"text" : "prepend plug"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-120",
+					"linecount" : 5,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ -208.0, 824.0, 183.0, 76.0 ],
+					"text" : "\"Macintosh HD:/Users/metalgod/Library/Application Support/Cycling '74/Max 8/Settings/VSTs/chipsounds.vstinfo\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-112",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ -437.0, 777.0, 44.0, 22.0 ],
+					"text" : "scan 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-104",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ -437.0, 742.699219000000085, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-100",
 					"maxclass" : "newobj",
@@ -1842,8 +1949,8 @@
 , 											{
 												"name" : "newobjYellow-1",
 												"default" : 												{
-													"fontsize" : [ 12.059008 ],
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+													"fontsize" : [ 12.059008 ]
 												}
 ,
 												"parentstyle" : "",
@@ -2658,8 +2765,8 @@
 , 											{
 												"name" : "newobjYellow-1",
 												"default" : 												{
-													"fontsize" : [ 12.059008 ],
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+													"fontsize" : [ 12.059008 ]
 												}
 ,
 												"parentstyle" : "",
@@ -3309,8 +3416,8 @@
 , 											{
 												"name" : "newobjYellow-1",
 												"default" : 												{
-													"fontsize" : [ 12.059008 ],
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+													"fontsize" : [ 12.059008 ]
 												}
 ,
 												"parentstyle" : "",
@@ -3799,7 +3906,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ -355.0, 832.699219000000085, 55.0, 22.0 ],
-					"text" : "del 4000"
+					"text" : "del 8000"
 				}
 
 			}
@@ -4087,12 +4194,13 @@
 					"dontreplace" : 1,
 					"fontsize" : 13.0,
 					"id" : "obj-291",
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -358.0, 1245.199219000000085, 358.0, 23.0 ],
-					"text" : "plug AGML2_Synth"
+					"patching_rect" : [ -358.0, 1245.199219000000085, 358.0, 52.0 ],
+					"text" : "plug \"Macintosh HD:/Users/metalgod/Library/Application Support/Cycling '74/Max 8/Settings/VSTs/chipsounds.vstinfo\""
 				}
 
 			}
@@ -4139,7 +4247,7 @@
 				"box" : 				{
 					"fontsize" : 13.0,
 					"id" : "obj-295",
-					"items" : [ "AGML2_Synth", ",", "chipcrusher2", ",", "chipsounds Multi", ",", "chipsounds", ",", "chipspeech", ",", "Crystal_Synth", ",", "Emissary", ",", "MAGC", ",", "MAmp", ",", "MAnalyzer", ",", "MAutoAlign", ",", "MAutoDynamicEq", ",", "MAutoEqualizer", ",", "MAutoEqualizerLP", ",", "MAutopan", ",", "MAutopanMB", ",", "MAutoPitch", ",", "MAutoStereoFix", ",", "MAutoVolume", ",", "MBandPass", ",", "MBassador", ",", "MBitFun", ",", "MBitFunMB", ",", "MCabinet", ",", "MCabinetMB", ",", "MCCGenerator", ",", "MChannelMatrix", ",", "MCharacter", ",", "MCharmVerb", ",", "MChorusMB", ",", "MComb", ",", "MCombMB", ",", "MCompare", ",", "MCompressor", ",", "MConvolutionEZ", ",", "MConvolutionMB", ",", "MDelayMB", ",", "MDistortionMB", ",", "MDoubleTracker", ",", "MDoubleTrackerMB", ",", "MDrumEnhancer", ",", "MDrumLeveler", ",", "MDrummer", ",", "MDrummer16out", ",", "MDrummer1out", ",", "MDynamicEq", ",", "MDynamics", ",", "MDynamicsMB", ",", "MDynamicsMBLarge", ",", "MEqualizer", ",", "MEqualizerLP", ",", "MFilter", ",", "MFlanger", ",", "MFlangerMB", ",", "MFreeformAnalogEq", ",", "MFreeformEqualizer", ",", "MFreeformPhase", ",", "MFreqShifter", ",", "MFreqShifterMB", ",", "MGranularMB", ",", "MHarmonizerMB", ",", "MLimiterMB", ",", "MLimiterX", ",", "MLoudnessAnalyzer", ",", "MMetronome", ",", "MModernCompressor", ",", "MMorph", ",", "MMultiAnalyzer", ",", "MNoiseGenerator", ",", "MNotepad", ",", "MOscillator", ",", "MOscilloscope", ",", "MPhaser", ",", "MPhaserMB", ",", "MPhatik", ",", "MPolySaturator", ",", "MPowerSynth", ",", "MRatio", ",", "MRatioMB", ",", "MRecorder", ",", "MReverb", ",", "MReverbMB", ",", "MRhythmizer", ",", "MRhythmizerMB", ",", "MRingModulator", ",", "MRingModulatorMB", ",", "MRotary", ",", "MSaturator", ",", "MSaturatorMB", ",", "MSoundFactory", ",", "MSoundFactory6out", ",", "MSpectralDelay", ",", "MSpectralDynamics", ",", "MSpectralDynamicsMini", ",", "MSpectralPan", ",", "MStereoExpander", ",", "MStereoGenerator", ",", "MStereoProcessor", ",", "MStereoScope", ",", "MStereoSpread", ",", "MSuperLooper", ",", "MTransformer", ",", "MTransient", ",", "MTransientMB", ",", "MTremolo", ",", "MTremoloMB", ",", "MTuner", ",", "MTurboComp", ",", "MTurboCompMB", ",", "MTurboDelay", ",", "MTurboDelayMB", ",", "MTurboEQ", ",", "MTurboReverb", ",", "MTurboReverbMB", ",", "MUltraMaximizer", ",", "MUnison", ",", "MUtility", ",", "MVibrato", ",", "MVibratoMB", ",", "MVintageRotary", ",", "MVocoder", ",", "MWaveFolder", ",", "MWaveFolderMB", ",", "MWaveShaper", ",", "MWaveShaperMB", ",", "MWobbler", ",", "MWobblerMB", ",", "MXXX", ",", "MXXX1", ",", "TS-999_" ],
+					"items" : [ "AGML2", ",", "chipcrusher2", ",", "chipsounds Multi", ",", "chipsounds", ",", "chipspeech", ",", "Crystal_Synth", ",", "Emissary", ",", "MAGC", ",", "MAmp", ",", "MAnalyzer", ",", "MAutoAlign", ",", "MAutoDynamicEq", ",", "MAutoEqualizer", ",", "MAutoEqualizerLP", ",", "MAutopan", ",", "MAutopanMB", ",", "MAutoPitch", ",", "MAutoStereoFix", ",", "MAutoVolume", ",", "MBandPass", ",", "MBassador", ",", "MBitFun", ",", "MBitFunMB", ",", "MCabinet", ",", "MCabinetMB", ",", "MCCGenerator", ",", "MChannelMatrix", ",", "MCharacter", ",", "MCharmVerb", ",", "MChorusMB", ",", "MComb", ",", "MCombMB", ",", "MCompare", ",", "MCompressor", ",", "MConvolutionEZ", ",", "MConvolutionMB", ",", "MDelayMB", ",", "MDistortionMB", ",", "MDoubleTracker", ",", "MDoubleTrackerMB", ",", "MDrumEnhancer", ",", "MDrumLeveler", ",", "MDrummer", ",", "MDrummer16out", ",", "MDrummer1out", ",", "MDynamicEq", ",", "MDynamics", ",", "MDynamicsMB", ",", "MDynamicsMBLarge", ",", "MEqualizer", ",", "MEqualizerLP", ",", "MFilter", ",", "MFlanger", ",", "MFlangerMB", ",", "MFreeformAnalogEq", ",", "MFreeformEqualizer", ",", "MFreeformPhase", ",", "MFreqShifter", ",", "MFreqShifterMB", ",", "MGranularMB", ",", "MHarmonizerMB", ",", "MLimiterMB", ",", "MLimiterX", ",", "MLoudnessAnalyzer", ",", "MMetronome", ",", "MModernCompressor", ",", "MMorph", ",", "MMultiAnalyzer", ",", "MNoiseGenerator", ",", "MNotepad", ",", "MOscillator", ",", "MOscilloscope", ",", "MPhaser", ",", "MPhaserMB", ",", "MPhatik", ",", "MPolySaturator", ",", "MPowerSynth", ",", "MRatio", ",", "MRatioMB", ",", "MRecorder", ",", "MReverb", ",", "MReverbMB", ",", "MRhythmizer", ",", "MRhythmizerMB", ",", "MRingModulator", ",", "MRingModulatorMB", ",", "MRotary", ",", "MSaturator", ",", "MSaturatorMB", ",", "MSoundFactory", ",", "MSoundFactory6out", ",", "MSpectralDelay", ",", "MSpectralDynamics", ",", "MSpectralDynamicsMini", ",", "MSpectralPan", ",", "MStereoExpander", ",", "MStereoGenerator", ",", "MStereoProcessor", ",", "MStereoScope", ",", "MStereoSpread", ",", "MSuperLooper", ",", "MTransformer", ",", "MTransient", ",", "MTransientMB", ",", "MTremolo", ",", "MTremoloMB", ",", "MTuner", ",", "MTurboComp", ",", "MTurboCompMB", ",", "MTurboDelay", ",", "MTurboDelayMB", ",", "MTurboEQ", ",", "MTurboReverb", ",", "MTurboReverbMB", ",", "MUltraMaximizer", ",", "MUnison", ",", "MUtility", ",", "MVibrato", ",", "MVibratoMB", ",", "MVintageRotary", ",", "MVocoder", ",", "MWaveFolder", ",", "MWaveFolderMB", ",", "MWaveShaper", ",", "MWaveShaperMB", ",", "MWobbler", ",", "MWobblerMB", ",", "MXXX", ",", "MXXX1", ",", "TS-999" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4614,14 +4722,14 @@
 						"subtype" : "Undefined",
 						"embed" : 1,
 						"snapshot" : 						{
-							"pluginname" : "AGML2.vst",
-							"plugindisplayname" : "Ample Guitar M II Lite",
-							"pluginsavedname" : "",
-							"pluginsaveduniqueid" : 0,
+							"pluginname" : "chipsounds.vstinfo",
+							"plugindisplayname" : "chipsounds",
+							"pluginsavedname" : "C74_VST:/chipsounds",
+							"pluginsaveduniqueid" : 1347176271,
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "21378.CMlaKA....fQPMDZ....ADTarMG.BL.D....A........................................LkQVMjLgzyT...OAEzQeMEUAQUQf3TXsUVOhPTYlEVcrQmH9vSPxQWZiUGagQWZu4FHVEFa0UVOhLUcyIxK9vCTuMWZzk1atAhUgwVck0iHvHxK9vyPn8lbj0BTgQGZfXUXrUWY8HxKUMWYxM2KsUFcgw1YuQ1KD81X00VYtQ2buDTavwVYfL0a04FYuLDZuIGYfHTXts1bh7hO7LDZuIGYyARP0QGZuIWOhDTavwVYfL0a04FYh.xPgQWYm8lb40iHP8Fbh.xRkkWOhLjHf.UXzgVOh7RUyUlby8RakQWXrc1aj8BQuMVcsUlazM2KA0FbrUFHS8VctQ1KCg1axQFHBElaqMmHf3TXsUVOhPTYlEVcrQmH9vyPn8lbjARRD0iHwHBHR81az0iHCIBHTkGbk0iHMElZh.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOhzRLh7hO7LEcxklamARRD0iH0HBHFIWYz0iHyHxK9vyTzIWZtcFHIQTOhPiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HxLh.hQxUFc8HBLh7hO7LEcxklamARRD0iHxHBHFIWYz0iHwHxK9vyTzIWZtcFHIQTOhDiHfXjbkQWOh.iHu3COuLDZuIGY9vyPn8lbjARRD0iHxHBHR81az0iHAIBHTkGbk0iHMElZh.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOhzRLh7hO7LEcxklamARRD0iH0HBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhPiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HxLh.hQxUFc8HhLh7hO7LEcxklamARRD0iHxHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhDiHfXjbkQWOh.iHu3COuLDZuIGY9vyPn8lbjARRD0iHyHBHR81az0iHDIBHTkGbk0iHsklah.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOhzRLh7hO7LEcxklamARRD0iH0HBHFIWYz0iHsDiHu3COSQmbo41YfjDQ8HBMh.hQxUFc8HBLh7hO7LEcxklamARRD0iHyHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhHiHfXjbkQWOhLiHu3COSQmbo41YfjDQ8HRLh.hQxUFc8HRLh7hO77xPn8lbj4COCg1axQFHIQTOhPiHfH0auQWOhXjHfPUdvUVOhzVZtIBHP81b8HRLh3COSQmbo41YfjDQ8HhMh.hQxUFc8HRLh7hO7LEcxklamARRD0iH0HBHFIWYz0iHyHxK9vyTzIWZtcFHIQTOhPiHfXjbkQWOhLiHu3COSQmbo41YfjDQ8HxLh.hQxUFc8HRLh7hO7LEcxklamARRD0iHxHBHFIWYz0iHwHxK9vyTzIWZtcFHIQTOhDiHfXjbkQWOhDiHu3COuLDZuIGY9vyPn8lbjARRD0iH0HBHR81az0iHEIBHTkGbk0iHsklah.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HRMh.hQxUFc8HhLh7hO7LEcxklamARRD0iHzHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhLiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HhLh.hQxUFc8HBLh7hO7LEcxklamARRD0iHwHBHFIWYz0iHvHxK9vyKCg1axQlO7LDZuIGYfjDQ8HhMh.hTu8Fc8HhQh.BU4AWY8HRSgolHf.0ay0iHwHhO7LEcxklamARRD0iH1HBHFIWYz0iHwHxK9vyTzIWZtcFHIQTOhTiHfXjbkQWOhLiHu3COSQmbo41YfjDQ8HBMh.hQxUFc8HxLh7hO7LEcxklamARRD0iHyHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhHiHfXjbkQWOhDiHu3COSQmbo41YfjDQ8HRLh.hQxUFc8HRLh7hO77xPn8lbj4COCg1axQFHIQTOhbiHfH0auQWOhPjHfPUdvUVOhzTXpIBHP81b8HRLh3COSQmbo41YfjDQ8HhMh.hQxUFc8HRKwHxK9vyTzIWZtcFHIQTOhTiHfXjbkQWOhzRLh7hO7LEcxklamARRD0iHzHBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhLiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HhLh.hQxUFc8HxLh7hO7LEcxklamARRD0iHwHBHFIWYz0iHxHxK9vyKCg1axQlO7LDZuIGYfjDQ8HBNh.hTu8Fc8HxQh.BU4AWY8HRSgolHf.0ay0iHwHhO7LEcxklamARRD0iH1HBHFIWYz0iHyHxK9vyTzIWZtcFHIQTOhTiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HBMh.hQxUFc8HBLh7hO7LEcxklamARRD0iHyHBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhHiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HRLh.hQxUFc8HxLh7hO77xPn8lbj4COCg1axQFHIQTOhjiHfH0auQWOhTjHfPUdvUVOhzTXpIBHP81b8HRLh3COSQmbo41YfjDQ8HhMh.hQxUFc8HBLh7hO7LEcxklamARRD0iH0HBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhPiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HxLh.hQxUFc8HRLh7hO7LEcxklamARRD0iHxHBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhDiHfXjbkQWOh.iHu3COuLDZuIGY9vyPn8lbjARRD0iHw.iHfH0auQWOhDjHfPUdvUVOhzVZtIBHP81b8HRLh3COSQmbo41YfjDQ8HhMh.hQxUFc8HRKwHxK9vyTzIWZtcFHIQTOhTiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HBMh.hQxUFc8HhLh7hO7LEcxklamARRD0iHyHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhHiHfXjbkQWOhDiHu3COSQmbo41YfjDQ8HRLh.hQxUFc8HBLh7hO77xPn8lbj4COCg1axQFHIQTOhDSLh.hTu8Fc8HRPiHBHTkGbk0iHMElZh.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOhzRLh7hO7LEcxklamARRD0iH0HBHFIWYz0iHwHxK9vyTzIWZtcFHIQTOhPiHfXjbkQWOhLiHu3COSQmbo41YfjDQ8HxLh.hQxUFc8HxLh7hO7LEcxklamARRD0iHxHBHFIWYz0iHyHxK9vyTzIWZtcFHIQTOhDiHfXjbkQWOhDiHu3COuLDZuIGY9vyPn8lbjARRD0iHwHiHfH0auQWOhbjHfPUdvUVOhbiHf.0ay0iHwHhO7LEcxklamARRD0iH1HBHFIWYz0iHyHxK9vyTzIWZtcFHIQTOhTiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HBMh.hQxUFc8HBLh7hO7LEcxklamARRD0iHyHBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhHiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HRLh.hQxUFc8HRLh7hO77xPn8lbj4COCg1axQFHIQTOhDyLh.hTu8Fc8HxPh.BU4AWY8HRSgolHf.0ay0iHwHhO7LEcxklamARRD0iH1HBHFIWYz0iHsDiHu3COSQmbo41YfjDQ8HRMh.hQxUFc8HxLh7hO7LEcxklamARRD0iHzHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhLiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HhLh.hQxUFc8HRLh7hO7LEcxklamARRD0iHwHBHFIWYz0iHvHxK9vyKCg1axQlO7LDZuIGYfjDQ8HRLzHBHR81az0iHAIBHTkGbk0iHMElZh.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOhzRLh7hO7LEcxklamARRD0iH0HBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhPiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HxLh.hQxUFc8HhLh7hO7LEcxklamARRD0iHxHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhDiHfXjbkQWOh.iHu3COuLDZuIGY9vyPn8lbjARRD0iHwTiHfH0auQWOhPjHfPUdvUVOhzVZtIBHP81b8HRLh3COSQmbo41YfjDQ8HhMh.hQxUFc8HRKwHxK9vyTzIWZtcFHIQTOhTiHfXjbkQWOhzRLh7hO7LEcxklamARRD0iHzHBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhLiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HhLh.hQxUFc8HxLh7hO7LEcxklamARRD0iHwHBHFIWYz0iHwHxK9vyKCg1axQlO7LDZuIGYfjDQ8HRL1HBHR81az0iHFIBHTkGbk0iHsklah.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOhDiHu3COSQmbo41YfjDQ8HRMh.hQxUFc8HxLh7hO7LEcxklamARRD0iHzHBHFIWYz0iHyHxK9vyTzIWZtcFHIQTOhLiHfXjbkQWOhDiHu3COSQmbo41YfjDQ8HhLh.hQxUFc8HRLh7hO7LEcxklamARRD0iHwHBHFIWYz0iHwHxK9vyKCg1axQlO7LDZuIGYfjDQ8HRL2HBHR81az0iHEIBHTkGbk0iHsklah.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HRMh.hQxUFc8HhLh7hO7LEcxklamARRD0iHzHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhLiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HhLh.hQxUFc8HBLh7hO7LEcxklamARRD0iHwHBHFIWYz0iHvHxK9vyKCg1axQlO7LDZuIGYfjDQ8HRL3HBHR81az0iHFIBHTkGbk0iHMElZh.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOhDiHu3COSQmbo41YfjDQ8HRMh.hQxUFc8HxLh7hO7LEcxklamARRD0iHzHBHFIWYz0iHyHxK9vyTzIWZtcFHIQTOhLiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HhLh.hQxUFc8HRLh7hO7LEcxklamARRD0iHwHBHFIWYz0iHwHxK9vyKCg1axQlO7LDZuIGYfjDQ8HRL4HBHR81az0iHDIBHTkGbk0iHMElZh.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOhzRLh7hO7LEcxklamARRD0iH0HBHFIWYz0iHsDiHu3COSQmbo41YfjDQ8HBMh.hQxUFc8HBLh7hO7LEcxklamARRD0iHyHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhHiHfXjbkQWOhLiHu3COSQmbo41YfjDQ8HRLh.hQxUFc8HhLh7hO77xPn8lbj4COCg1axQFHIQTOhHCLh.hTu8Fc8HxQh.BU4AWY8HRSgolHf.0ay0iHwHhO7LEcxklamARRD0iH1HBHFIWYz0iHyHxK9vyTzIWZtcFHIQTOhTiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HBMh.hQxUFc8HBLh7hO7LEcxklamARRD0iHyHBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhHiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HRLh.hQxUFc8HxLh7hO77xPn8lbj4COCg1axQFHIQTOhHSLh.hTu8Fc8HRQh.BU4AWY8HRSgolHf.0ay0iHwHhO7LEcxklamARRD0iH1HBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhTiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HBMh.hQxUFc8HhLh7hO7LEcxklamARRD0iHyHBHFIWYz0iHwHxK9vyTzIWZtcFHIQTOhHiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HRLh.hQxUFc8HBLh7hO77xPn8lbj4COCg1axQFHIQTOhHiLh.hTu8Fc8HRPh.BU4AWY8HRao4lHf.0ay0iHwHhO7LEcxklamARRD0iH1HBHFIWYz0iHsDiHu3COSQmbo41YfjDQ8HRMh.hQxUFc8HBLh7hO7LEcxklamARRD0iHzHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhLiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HhLh.hQxUFc8HRLh7hO7LEcxklamARRD0iHwHBHFIWYz0iHvHxK9vyKCg1axQlO7LDZuIGYfjDQ8HhLyHBHR81az0iHAMhHfPUdvUVOhzTXpIBHP81b8HRLh3COSQmbo41YfjDQ8HhMh.hQxUFc8HRKwHxK9vyTzIWZtcFHIQTOhTiHfXjbkQWOhDiHu3COSQmbo41YfjDQ8HBMh.hQxUFc8HxLh7hO7LEcxklamARRD0iHyHBHFIWYz0iHyHxK9vyTzIWZtcFHIQTOhHiHfXjbkQWOhLiHu3COSQmbo41YfjDQ8HRLh.hQxUFc8HRLh7hO77xPn8lbj4COCg1axQFHIQTOhHCMh.hTu8Fc8HxQh.BU4AWY8HxMh.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOhLiHu3COSQmbo41YfjDQ8HRMh.hQxUFc8HhLh7hO7LEcxklamARRD0iHzHBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhLiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HhLh.hQxUFc8HBLh7hO7LEcxklamARRD0iHwHBHFIWYz0iHwHxK9vyKCg1axQlO77xPn8lbjMmO7.UXzQWYx4VKPEFcnAhUgwVck0iHuT0bkI2buzVYzEFam8FYuPzaiUWak4Fcy8RPsAGakAxTuUmaj8xTzIWcsABTgQGckImayIxK9vCTgQGckImafDTczg1ax0iHA0FbrUFHS8VctQlHfLTXzU1YuIWd8HBTuAmHfPUZsUVKSk1YtEFc0IWY8HBMuPiHfDUcg4FcooWY8HRLuDiMh.hPP0TOhDyLvHBHIQTOhDiHf.UXzgVOh7RUyUlby8RakQWXrc1aj8BQuMVcsUlazM2KA0FbrUFHS8VctQ1KSQmb00FHPEFczUlbtMmHf3TXsUVOhPTYlEVcrQWLh3CON8FckAhSuQWY8HxMxHBHVUFauMVZzkWOhDCLvHBHBU1Yo4VOhDiHfTjaj0iHxHxK9viSuQWYf3zazUVOhbCMh.hUkw1aikFc40iH3.iHfHTYmkla8HxLh.RQtQVOhLiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhXCLh.hPkcVZt0iHzHBHE4FY8HRMh7hO73zazUFHN8Fck0iH2XiHfXUYr81XoQWd8HxMvHBHBU1Yo4VOhXiHfTjaj0iH2HxK9viSuQWYf3zazUVOhbiMh.hUkw1aikFc40iH1.iHfHTYmkla8HBNh.RQtQVOhfiHu3CON8FckAhSuQWY8HxMzHBHVUFauMVZzkWOhPCLh.hPkcVZt0iHwDiHfTjaj0iHwDiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhjCLh.hPkcVZt0iHwHiHfTjaj0iHwHiHu3CON8FckAhSuQWY8HxMzHBHVUFauMVZzkWOhTCLh.hPkcVZt0iHwTiHfTjaj0iHwTiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhXCLh.hPkcVZt0iHwXiHfTjaj0iHwXiHu3CON8FckAhSuQWY8HxMxHBHVUFauMVZzkWOhbCLh.hPkcVZt0iH4HBHE4FY8HRLvHxK9viSuQWYf3zazUVOhbCMh.hUkw1aikFc40iH0.iHfHTYmkla8HRLyHBHE4FY8HRLyHxK9viSuQWYf3zazUVOhbiMh.hUkw1aikFc40iHz.iHfHTYmkla8HRLzHBHE4FY8HRLzHxK9vyKPEFczUlbt4COPEFczUlbtARP0QGZuIWOhDTavwVYfL0a04FYh.xPgQWYm8lb40iHP8Fbh.BUo0VYsLUZm4VXzUmbk0iHz7BMh.RT0Elazkldk0iHw7RL1HBHBAUS8HRLv.iHfjDQ8HhLh.BTgQGZ8HxKUMWYxM2KsUFcgw1YuQ1KD81X00VYtQ2buDTavwVYfL0a04FYuLEcxUWaf.UXzQWYx41bh.hSg0VY8HBQkYVX0wFcxHhO73zazUFHN8Fck0iH2HiHfXUYr81XoQWd8HRLv.iHfHTYmkla8HRLh.RQtQVOhHiHu3CON8FckAhSuQWY8HxMzHBHVUFauMVZzkWOhXCLh.hPkcVZt0iH2HBHE4FY8HxMh7hO73zazUFHN8Fck0iH2XiHfXUYr81XoQWd8HRNvHBHBU1Yo4VOhfiHfTjaj0iH3HxK9viSuQWYf3zazUVOhbCNh.hUkw1aikFc40iH1.iHfHTYmkla8HRNh.RQtQVOhjiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhbCLh.hPkcVZt0iHwXiHfTjaj0iHwXiHu3CON8FckAhSuQWY8HxMzHBHVUFauMVZzkWOhPCLh.hPkcVZt0iHyHBHE4FY8HxLh7hO73zazUFHN8Fck0iH2XiHfXUYr81XoQWd8HBMvHBHBU1Yo4VOhPiHfTjaj0iHzHxK9viSuQWYf3zazUVOhbiLh.hUkw1aikFc40iH4.iHfHTYmkla8HRMh.RQtQVOhTiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhLCLh.hPkcVZt0iH1HBHE4FY8HhMh7hO73zazUFHN8Fck0iH2XiHfXUYr81XoQWd8HBNvHBHBU1Yo4VOhDCLh.RQtQVOhDCLh7hO73zazUFHN8Fck0iH2PiHfXUYr81XoQWd8HBNvHBHBU1Yo4VOhDSLh.RQtQVOhDSLh7hO73zazUFHN8Fck0iH2XiHfXUYr81XoQWd8HRMvHBHBU1Yo4VOhDiLh.RQtQVOhDiLh7hO73zazUFHN8Fck0iH2HiHfXUYr81XoQWd8HBNvHBHBU1Yo4VOhDyLh.RQtQVOhDCMh7hO73zazUFHN8Fck0iH2PiHfXUYr81XoQWd8HhMvHBHBU1Yo4VOhDSMh.RQtQVOhDSMh7hO77BTgQGckIma9vCTgQGckImafDTczg1ax0iHA0FbrUFHS8VctQlHfLTXzU1YuIWd8HBTuAmHfPUZsUVKSk1YtEFc0IWY8HBMuPiHfDUcg4FcooWY8HRLuDiMh.hPP0TOhDCLvHBHIQTOhLiHf.UXzgVOh7RUyUlby8RakQWXrc1aj8BQuMVcsUlazM2KA0FbrUFHS8VctQ1KSQmb00FHPEFczUlbtMmHf3TXsUVOhPTYlEVcrQ2Lh3CON8FckAhSuQWY8HxMxHBHVUFauMVZzkWOhTSMh.hPkcVZt0iHwHBHE4FY8HBMh7hO73zazUFHN8Fck0iH2biHfXUYr81XoQWd8HRLv.iHfHTYmkla8HRMh.RQtQVOhXiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhfCLh.hPkcVZt0iH2HBHE4FY8HBNh7hO73zazUFHN8Fck0iH2PiHfXUYr81XoQWd8HhMvHBHBU1Yo4VOhjiHfTjaj0iH4HxK9viSuQWYf3zazUVOhbiMh.hUkw1aikFc40iH1.iHfHTYmkla8HRLwHBHE4FY8HRLxHxK9viSuQWYf3zazUVOhbyMh.hUkw1aikFc40iH1.iHfHTYmkla8HRLyHBHE4FY8HRLzHxK9viSuQWYf3zazUVOhbiMh.hUkw1aikFc40iH4.iHfHTYmkla8HRL0HBHE4FY8HRL1HxK9vyKPEFczUlbt4COPEFczUlbtARP0QGZuIWOhDTavwVYfL0a04FYh.xPgQWYm8lb40iHP8Fbh.BUo0VYsLUZm4VXzUmbk0iHz7BMh.RT0Elazkldk0iHw7RL1HBHBAUS8HRLv.iHfjDQ8HBMh.BTgQGZ8HxKUMWYxM2KsUFcgw1YuQ1KD81X00VYtQ2buDTavwVYfL0a04FYuLEcxUWaf.UXzQWYx41bh.hSg0VY8HBQkYVX0wFczHhO73zazUFHN8Fck0iH2HiHfXUYr81XoQWd8HRNvHBHBU1Yo4VOhDiHfTjaj0iHxHxK9viSuQWYf3zazUVOhbCMh.hUkw1aikFc40iHy.iHfHTYmkla8HxLh.RQtQVOhLiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhXCLh.hPkcVZt0iHzHBHE4FY8HBMh7hO73zazUFHN8Fck0iH2HiHfXUYr81XoQWd8HhMvHBHBU1Yo4VOhTiHfTjaj0iH1HxK9viSuQWYf3zazUVOhbiMh.hUkw1aikFc40iH2.iHfHTYmkla8HxMh.RQtQVOhfiHu3CON8FckAhSuQWY8HxM4HBHVUFauMVZzkWOhLCLh.hPkcVZt0iH4HBHE4FY8HRNh7hO73zazUFHN8Fck0iH3LiHfXUYr81XoQWd8HBMvHBHBU1Yo4VOhDCLh.RQtQVOhDCLh7hO73zazUFHN8Fck0iH3DiHfXUYr81XoQWd8HRMvHBHBU1Yo4VOhDSLh.RQtQVOhDSLh7hO73zazUFHN8Fck0iH2XiHfXUYr81XoQWd8HhMvHBHBU1Yo4VOhDiLh.RQtQVOhDiLh7hO73zazUFHN8Fck0iH2HiHfXUYr81XoQWd8HxMvHBHBU1Yo4VOhDyLh.RQtQVOhDyLh7hO73zazUFHN8Fck0iH3DiHfXUYr81XoQWd8HBMvHBHBU1Yo4VOhDCMh.RQtQVOhDCMh7hO73zazUFHN8Fck0iH2XiHfXUYr81XoQWd8HBNvHBHBU1Yo4VOhDSMh.RQtQVOhDiMh7hO77BTgQGckIma9vCTgQGckImafDTczg1ax0iHA0FbrUFHS8VctQlHfLTXzU1YuIWd8HBTuAmHfPUZsUVKSk1YtEFc0IWY8HBMuPiHfDUcg4FcooWY8HRLuDiMh.hPP0TOhDCLvHBHIQTOhTiHf.UXzgVOh7RUyUlby8RakQWXrc1aj8BQuMVcsUlazM2KA0FbrUFHS8VctQ1KSQmb00FHPEFczUlbtMmHf3TXsUVOhPTYlEVcrQWMh3CON8FckAhSuQWY8HxMxHBHVUFauMVZzkWOhfCLh.hPkcVZt0iHwHBHE4FY8HRLh7hO73zazUFHN8Fck0iH2fiHfXUYr81XoQWd8HxMvHBHBU1Yo4VOhHiHfTjaj0iHxHxK9viSuQWYf3zazUVOhbiLh.hUkw1aikFc40iH1.iHfHTYmkla8HxLh.RQtQVOhPiHu3CON8FckAhSuQWY8HxMxHBHVUFauMVZzkWOhDCLvHBHBU1Yo4VOhTiHfTjaj0iH0HxK9viSuQWYf3zazUVOhfSLh.hUkw1aikFc40iH1.iHfHTYmkla8HhMh.RQtQVOhXiHu3CON8FckAhSuQWY8HBNyHBHVUFauMVZzkWOhXCLh.hPkcVZt0iH2HBHE4FY8HxMh7hO73zazUFHN8Fck0iH2XiHfXUYr81XoQWd8HRNvHBHBU1Yo4VOhfiHfTjaj0iH3HxK9viSuQWYf3zazUVOhbiLh.hUkw1aikFc40iH1.iHfHTYmkla8HRNh.RQtQVOhjiHu3CON8FckAhSuQWY8HBNyHBHVUFauMVZzkWOhbCLh.hPkcVZt0iHw.iHfTjaj0iHw.iHu3CON8FckAhSuQWY8HxMxHBHVUFauMVZzkWOhbCLh.hPkcVZt0iHwDiHfTjaj0iHwHiHu3CON8FckAhSuQWY8HBNwHBHVUFauMVZzkWOhXCLh.hPkcVZt0iHwPiHfTjaj0iHwPiHu3CON8FckAhSuQWY8HBNyHBHVUFauMVZzkWOhXCLh.hPkcVZt0iHwTiHfTjaj0iHwTiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhfCLh.hPkcVZt0iHwXiHfTjaj0iHwXiHu3CON8FckAhSuQWY8HxMxHBHVUFauMVZzkWOhDCLvHBHBU1Yo4VOhDyLh.RQtQVOhDyLh7hO77BTgQGckIma9vCTgQGckImafDTczg1ax0iHA0FbrUFHS8VctQlHfLTXzU1YuIWd8HBTuAmHfPUZsUVKSk1YtEFc0IWY8HBMuPiHfDUcg4FcooWY8HRLuDiMh.hPP0TOhDCLvHBHIQTOhXiHf.UXzgVOh7RUyUlby8RakQWXrc1aj8BQuMVcsUlazM2KA0FbrUFHS8VctQ1KSQmb00FHPEFczUlbtMmHf3TXsUVOhPTYlEVcrQmMh3CON8FckAhSuQWY8HxM4HBHVUFauMVZzkWOhjCLh.hPkcVZt0iHwHBHE4FY8HRLh7hO73zazUFHN8Fck0iH2jiHfXUYr81XoQWd8HRMvHBHBU1Yo4VOhHiHfTjaj0iHxHxK9viSuQWYf3zazUVOhbSNh.hUkw1aikFc40iHy.iHfHTYmkla8HxLh.RQtQVOhLiHu3CON8FckAhSuQWY8HxM4HBHVUFauMVZzkWOhjCLh.hPkcVZt0iHzHBHE4FY8HBMh7hO73zazUFHN8Fck0iH2jiHfXUYr81XoQWd8HxLvHBHBU1Yo4VOhTiHfTjaj0iH0HxK9viSuQWYf3zazUVOhbSNh.hUkw1aikFc40iHz.iHfHTYmkla8HhMh.RQtQVOhXiHu3CON8FckAhSuQWY8HxM4HBHVUFauMVZzkWOhjCLh.hPkcVZt0iH2HBHE4FY8HxMh7hO73zazUFHN8Fck0iH2jiHfXUYr81XoQWd8HRMvHBHBU1Yo4VOhfiHfTjaj0iH3HxK9viSuQWYf3zazUVOhbSNh.hUkw1aikFc40iHy.iHfHTYmkla8HRNh.RQtQVOhjiHu3CON8FckAhSuQWY8HxM4HBHVUFauMVZzkWOhjCLh.hPkcVZt0iHw.iHfTjaj0iHw.iHu3CON8FckAhSuQWY8HxM4HBHVUFauMVZzkWOhLCLh.hPkcVZt0iHwDiHfTjaj0iHwDiHu3CON8FckAhSuQWY8HxM4HBHVUFauMVZzkWOhPCLh.hPkcVZt0iHwHiHfTjaj0iHwHiHu3CON8FckAhSuQWY8HxM4HBHVUFauMVZzkWOhjCLh.hPkcVZt0iHwLiHfTjaj0iHwLiHu3CON8FckAhSuQWY8HBNwHBHVUFauMVZzkWOhjCLh.hPkcVZt0iHwTiHfTjaj0iHwTiHu3CON8FckAhSuQWY8HBNyHBHVUFauMVZzkWOhjCLh.hPkcVZt0iHwXiHfTjaj0iHwXiHu3CON8FckAhSuQWY8HxM2HBHVUFauMVZzkWOhjCLh.hPkcVZt0iHwPiHfTjaj0iHwPiHu3COu.UXzQWYx4lO7.UXzQWYx4FHAUGcn8lb8HRPsAGakAxTuUmajIBHCEFckc1axkWOh.0avIBHTkVak0xToclagQWcxUVOhPyKzHBHQUWXtQWZ5UVOhDyKwXiHfHDTM0iHw.CLh.RRD0iH2HBHPEFcn0iHuT0bkI2buzVYzEFam8FYuPzaiUWak4Fcy8RPsAGakAxTuUmaj8xTzIWcsABTgQGckImayIBHNEVak0iHDUlYgUGazciH9viSuQWYf3zazUVOhbiLh.hUkw1aikFc40iH3.iHfHTYmkla8HRLh.RQtQVOhLiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhTCLh.hPkcVZt0iHzHBHE4FY8HBMh7hO73zazUFHN8Fck0iH2PiHfXUYr81XoQWd8HRLv.iHfHTYmkla8HRMh.RQtQVOhTiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhLCLh.hPkcVZt0iH1HBHE4FY8HhMh7hO73zazUFHN8Fck0iH2PiHfXUYr81XoQWd8HhMvHBHBU1Yo4VOhbiHfTjaj0iH2HxK9viSuQWYf3zazUVOhbiMh.hUkw1aikFc40iH2.iHfHTYmkla8HBNh.RQtQVOhfiHu3CON8FckAhSuQWY8HhM4HBHVUFauMVZzkWOhfCLh.hPkcVZt0iH4HBHE4FY8HRLvHxK9viSuQWYf3zazUVOhXyMh.hUkw1aikFc40iH2.iHfHTYmkla8HRNh.RQtQVOhDCLh7hO73zazUFHN8Fck0iH2DiHfXUYr81XoQWd8HRNvHBHBU1Yo4VOhDSLh.RQtQVOhDiLh7hO73zazUFHN8Fck0iH1biHfXUYr81XoQWd8HhMvHBHBU1Yo4VOhDCMh.RQtQVOhDCMh7hO73zazUFHN8Fck0iH1jiHfXUYr81XoQWd8HhMvHBHBU1Yo4VOhDSMh.RQtQVOhDSMh7hO73zazUFHN8Fck0iH2DiHfXUYr81XoQWd8HBNvHBHBU1Yo4VOhDiMh.RQtQVOhDiMh7hO73zazUFHN8Fck0iH1PiHfXUYr81XoQWd8HBNvHBHBU1Yo4VOhDyLh.RQtQVOhDyLh7hO77BTgQGckIma9vCTgQGckImafDTczg1ax0iHA0FbrUFHS8VctQlHfLTXzU1YuIWd8HBTuAmHfPUZsUVKSk1YtEFc0IWY8HBMuPiHfDUcg4FcooWY8HRLuDiMh.hPP0TOhDCLvHBHIQTOhfiHf.UXzgVOh7RUyUlby8RakQWXrc1aj8BQuMVcsUlazM2KA0FbrUFHS8VctQ1KSQmb00FHPEFczUlbtMmHf3TXsUVOhPTYlEVcrQGNh3CON8FckAhSuQWY8HhMzHBHVUFauMVZzkWOhjCLh.hPkcVZt0iHwHBHE4FY8HRLh7hO73zazUFHN8Fck0iH1biHfXUYr81XoQWd8HhMvHBHBU1Yo4VOhHiHfTjaj0iHxHxK9viSuQWYf3zazUVOhXSNh.hUkw1aikFc40iH4.iHfHTYmkla8HxLh.RQtQVOhLiHu3CON8FckAhSuQWY8HhM2HBHVUFauMVZzkWOhPCLh.hPkcVZt0iHzHBHE4FY8HBMh7hO73zazUFHN8Fck0iH2DiHfXUYr81XoQWd8HRNvHBHBU1Yo4VOhTiHfTjaj0iH0HxK9viSuQWYf3zazUVOhXyMh.hUkw1aikFc40iH0.iHfHTYmkla8HhMh.RQtQVOhXiHu3CON8FckAhSuQWY8HhM4HBHVUFauMVZzkWOhbCLh.hPkcVZt0iH2HBHE4FY8HxMh7hO73zazUFHN8Fck0iH1biHfXUYr81XoQWd8HBMvHBHBU1Yo4VOhfiHfTjaj0iH3HxK9viSuQWYf3zazUVOhXyMh.hUkw1aikFc40iHz.iHfHTYmkla8HRLvHBHE4FY8HRLvHxK9viSuQWYf3zazUVOhXSNh.hUkw1aikFc40iH3.iHfHTYmkla8HRLwHBHE4FY8HRLxHxK9viSuQWYf3zazUVOhbSLh.hUkw1aikFc40iHw.CLh.hPkcVZt0iHwLiHfTjaj0iHwLiHu3CON8FckAhSuQWY8HhM2HBHVUFauMVZzkWOhXCLh.hPkcVZt0iHwPiHfTjaj0iHwPiHu3CON8FckAhSuQWY8HhM4HBHVUFauMVZzkWOhjCLh.hPkcVZt0iHwTiHfTjaj0iHwTiHu3CON8FckAhSuQWY8HxMwHBHVUFauMVZzkWOhfCLh.hPkcVZt0iHwXiHfTjaj0iHwXiHu3CON8FckAhSuQWY8HxM2HBHVUFauMVZzkWOhLCLh.hPkcVZt0iH4HBHE4FY8HRNh7hO77BTgQGckIma9vCUgIVKPEFcnAhUgwVck0iHuT0bkI2buzVYzEFam8FYuPzaiUWak4Fcy8RPsAGakAxTuUmaj8BUgI1bubTcoQWXx8xUkw1Xu0VYfP2afbTcoQWXxABUgIFHPwVX4UlbtbFb3IxK9vCSgkWYxARRD0iHwHBHVEFa0UVOhjiMh7hO7vTX4UlbfjDQ8HhLh.hUgwVck0iH1PiHu3COLEVdkIGHIQTOhLiHfXUXrUWY8HxLxHxK9vyPu4Fcx8FafjDQ8HhLh.BTgIWXsUFckIWOhzTKPkFcigFHBUlajIxK9vyPu4Fcx8FafjDQ8HBMh.BTgIWXsUFckIWOhzTKVklXxEFcuIxK9vyPu4Fcx8FafjDQ8HRMh.BTgIWXsUFckIWOhzTKFEDHGEVZtIxK9vyPu4Fcx8FafjDQ8HRLvHBHPElbg0VYzUlb8HRSszTXyQWYxAhUuwlHu3COC8lazI2arARRD0iHwLiHf.UXxEVakQWYx0iHM0BTg4lHu3COC8lazI2arARRD0iH1biHf.UXxEVakQWYx0iHH8FajABTkQVXrABUuclHu3COC8lazI2arARRD0iH2XiHf.UXxEVakQWYx0iHM0hTkMGHRUFakE1bkIxK9vCTgIWXsUFckIGHNEVak0iHM0RSoMFHw.hUuwlHfXUXrUWY8HBLtfSN4jSN4jyM1DSM3DCMx.CN4fCMh7hO7.UXxEVakQWYxAhSg0VY8HRSszTZiAhLfX0arIBHVEFa0UVOh.iK3jSN4jSN4biMwTCNwPiLvfSN3PiHu3COPElbg0VYzUlbf3TXsUVOhzTKME1bzUlbfX0arIBHVEFa0UVOh.iK3jSN4jSN4biMwTCNwPiLvfSN3PiHu3COPElbg0VYzUlbf3TXsUVOhzTKPElah.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHM0xUoQFcnIBHVEFa0UVOhTCLh7hO7.UXxEVakQWYxAhSg0VY8HRSsPza0IFao41YfbUZjIBHVEFa0UVOhDSMh7hO7.UXxEVakQWYxAhSg0VY8HRSsPza0IFao41YfP0amIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhzTKRUFafbTXo4lHfXUXrUWY8HBLtXCLv.CLv.iLyfCMwfSM2jSLvDiMh7hO7.UXxEVakQWYxAhSg0VY8HRSsXDdfbTXo4lHfXUXrUWY8HRLh7hO7.UXxEVakQWYxAhSg0VY8HRSsHUYyAxQgklah.hUgwVck0iHwHxK9vCTgIWXsUFckIGHNEVak0iHM0hQAAxQgklah.hUgwVck0iHwHxK9vCTgIWXsUFckIGHNEVak0iHM0hQRAxQgklah.hUgwVck0iHwHxK9vCTgIWXsUFckIGHNEVak0iHM0hQxUFcfL0a04FYh.hUgwVck0iHwHxK9vCTgIWXsUFckIGHNEVak0iHM0hTkMGHRUFakE1bkIBHVEFa0UVOh.iKz.CLv.CLv.SM4XCLzXCMzbyM0PiHu3COPElbg0VYzUlbf3TXsUVOhzTKSQWXxQGHTkVakIBHVEFa0UVOhLSMh7hO7.UXxEVakQWYxAhSg0VY8HRSsLTXv8lHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HRSs.UZzMFZfHTYtQlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HRSsXUZhIWXz8lHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLEcxUWafP0amcFakIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKSQmb00FHTARSuQVYh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xTzIWcsABUo0VYh.hUgwVck0iHxjiHu3COPElbg0VYzUlbf3TXsUVOhLUKAQzTRAxT2kFciglHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsHzajkGHRU1bv8layUlHfXUXrUWY8HRL1HxK9vCTgIWXsUFckIGHNEVak0iHS0RS0QWYfPTYvQGZh.hUgwVck0iH0.CLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLEcx81ZkAhUuwlHfXUXrUWY8HBLtfSN4jSN4jyM1DSM3DCMx.CN4fCMh7hO7.UXxEVakQWYxAhSg0VY8HxTsfTcsAxTTARPrwlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsfTcsAxTTARQgMFZh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0BR00FHSQmb00FHVUFah.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjARSuQVYh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0BUxElayA2ayUlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLUQQAxT441XfP0amIBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOhLUKSUTTfL0co41Yh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xTEEEHQUWXtQWZ5UlHfXUXrUWY8HhLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLUQQABUo0VYfLUZmIBHVEFa0UVOhHiHu3COPElbg0VYzUlbf3TXsUVOhPUKSkmaiABUuc1YrUlHfXUXrUWY8HRLh7hO7.UXxEVakQWYxAhSg0VY8HBUsvzauAGHT81YmwVYh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHT0hUkwFHPI2avIBHVEFa0UVOhjiHu3COPElbg0VYzUlbf3TXsUVOhPUKVUFaffTcsIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhPUKScWZtclHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HBUsLEcxUWafPEHPI2avIBHVEFa0UVOhjiHu3COPElbg0VYzUlbf3TXsUVOhXTKC8VasP0amcFakIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhXTKOQTKT81YmwVYh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHF0RQQ0BUuc1YrUlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQsbUXn0BUuc1YrUlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQsLDZu0BUuc1YrUlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQs.EZg0BUuc1YrUlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQsPDa40BUuc1YrUlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQsHUY10BUuc1YrUlHfXUXrUWY8HRLh7hO7.UXxEVakQWYxAhSg0VY8HhQsLzas0BUnIWYh.hUgwVck0iHsHCLh7hO7.UXxEVakQWYxAhSg0VY8HhQsLzas0hTgQWZuIBHVEFa0UVOh.iK0HxK9vCTgIWXsUFckIGHNEVak0iHF0xPu0VKAQGcgM1Zh.hUgwVck0iH0HxK9vCTgIWXsUFckIGHNEVak0iHF0xPu0VKRUFakE1bkIBHVEFa0UVOhTCLh7hO7.UXxEVakQWYxAhSg0VY8HhQsLzas0xQgklah.hUgwVck0iHxHxK9vCTgIWXsUFckIGHNEVak0iHF0xSD0xQgklah.hUgwVck0iHwTCLh7hO7.UXxEVakQWYxAhSg0VY8HhQs7DQs7TczAWczIBHVEFa0UVOh.iKw.CLv.CLv.SLzjCLwDiMwDSNyfiHu3COPElbg0VYzUlbf3TXsUVOhXTKOQTKT8lakIBHVEFa0UVOhLiLv.iHu3COPElbg0VYzUlbf3TXsUVOhXTKEEUKQECHT81YmwVYh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHF0RQQ0RTw.xQgklah.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHF0RQQ0RT0.BUuc1YrUlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQsTTTsDUMfbTXo4lHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQsTTTsDkLfbTXo4lHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQsTTTsD0LfbTXo4lHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQsTTTsDEMfbTXo4lHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQsbUXn0RSo4lHfXUXrUWY8HRM0.iHu3COPElbg0VYzUlbf3TXsUVOhXTKWEFZszTX3IBHVEFa0UVOhPCLv.iHu3COPElbg0VYzUlbf3TXsUVOhXTKWEFZs.UYjEFah.hUgwVck0iH0TCLh7hO7.UXxEVakQWYxAhSg0VY8HhQsLDZu0xTk4FYh.hUgwVck0iHv3RMh7hO7.UXxEVakQWYxAhSg0VY8HhQs.EZg0xTk4FYh.hUgwVck0iHv3hLv.CLv.CLvHSN3.iLyHiLyfyM2HxK9vCTgIWXsUFckIGHNEVak0iHF0BQrkWKSUlajIBHVEFa0UVOh.iKw.CLv.CLv.SLzjCLwDiMwDSNyfiHu3COPElbg0VYzUlbf3TXsUVOhXTKRUlcsLUYtQlHfXUXrUWY8HBLtHCLv.CLv.CLxjCNvHyLxHyL3byMh7hO7.UXxEVakQWYxAhSg0VY8HhQsLDZu0BQkAGcnIBHVEFa0UVOh.iKw.CLv.CLv.SLzjCLwDiMwDSNyfiHu3COPElbg0VYzUlbf3TXsUVOhXTKCg1asHUXzUlHfXUXrUWY8HBLtDCLv.CLv.CLwPSNvDSL1DSL4LCNh7hO7.UXxEVakQWYxAhSg0VY8HhQs.EZg0BQkAGcnIBHVEFa0UVOh.iK0HxK9vCTgIWXsUFckIGHNEVak0iHF0BTnEVKREFckIBHVEFa0UVOh.iK0HxK9vCTgIWXsUFckIGHNEVak0iHF0BTnEVKFUVYjIVXislHfXUXrUWY8HBLtTiHu3COPElbg0VYzUlbf3TXsUVOhXTKDwVdsvjKTkVakIBHVEFa0UVOh.iKxTiHu3COPElbg0VYzUlbf3TXsUVOhXTKDwVdsHkKTkVakIBHVEFa0UVOh.iK0HxK9vCTgIWXsUFckIGHNEVak0iHF0BQrkWKFUVYjIVXislHfXUXrUWY8HBLtLCLv.CLv.SLwjiLvjiL3jSM0.CNh7hO7.UXxEVakQWYxAhSg0VY8HhQsHUY10xUoQFcnIBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOhXTKRUlcsPTXsAmHfXUXrUWY8HBLtTiHu3COPElbg0VYzUlbf3TXsUVOhXTKRUlcsLUZ5UlHfXUXrUWY8HBLtPSN4jSN4jCMvLSN0LSM0HiLzXSLh7hO7.UXxEVakQWYxAhSg0VY8HxTuUmajARSuQVYh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHSQmbfXCHTUmakImHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTzIGH0.BU04VYxIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLEcxABMfPUctUlbh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHSQmbfLCHTUmakImHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTzIGHx.BU04VYxIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLEcxARLfPUctUlbh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHOAWYtAxTzIGHFklbyQmHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HBRuwFYf.UYjEFafP0amIBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOh.EagkGHM8FYkIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhDTcz8FHLU1YgQ2ah.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHSQmbusFHN8VZyUFHT81Yh.hUgwVck0iHwHxK9vCTgIWXsUFckIGHNEVak0iHBUlajAhTg41YkIBHVEFa0UVOhHiHu3COPElbg0VYzUlbf3TXsUVOh.0arkGHBUlajUlbfP0amIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhzzajAhTg41YkIBHVEFa0UVOh.iKxTiHu3COPElbg0VYzUlbf3TXsUVOhDTcz8FHM8FYfP0amIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLTdiwVYfzzajUFHScWZzMFZh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHCk2XrUFHPwVcyABUuclHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HBTkQVXrAhSuk1bkABUuclHfXUXrUWY8HRLh7hO7.UXxEVakQWYxAhSg0VY8HRSoQVZfbTcoQWXxABUuclHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhS00FHH81bzABTgIWXsMmHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYfH0auQGHwHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHR81azAhLh.hUgwVck0iH4HxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfLiHfXUXrUWY8HhLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYfH0auQGHzHBHVEFa0UVOhTiHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHR81azARMh.hUgwVck0iHzHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfXiHfXUXrUWY8HRMh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYfH0auQGH2HBHVEFa0UVOhHiHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHR81azABNh.hUgwVck0iH2HxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfjiHfXUXrUWY8HBMh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYfH0auQGHw.iHfXUXrUWY8HRNh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYfH0auQGHwDiHfXUXrUWY8HRLvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfDiLh.hUgwVck0iH2HxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfDyLh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfDCMh.hUgwVck0iH4HxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfDSMh.hUgwVck0iHxHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfDiMh.hUgwVck0iH0HxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfDyMh.hUgwVck0iHzHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfDCNh.hUgwVck0iH0HxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfDSNh.hUgwVck0iHxHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfHCLh.hUgwVck0iH2HxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfHSLh.hUgwVck0iHzHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfHiLh.hUgwVck0iH4HxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfHyLh.hUgwVck0iHw.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHR81azAhLzHBHVEFa0UVOhbiHu3COPElbg0VYzUlbf3TXsUVOhLUKDQGHCg1axQFHRIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARLh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABU4AWYfHiHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYfPUdvUFHyHBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkABMh.hUgwVck0iHwHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABU4AWYfTiHfXUXrUWY8HRLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYfPUdvUFH1HBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkAxMh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABU4AWYffiHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYfPUdvUFH4HBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARLvHBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARLwHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARLxHBHVEFa0UVOhHiHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARLyHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARLzHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARL0HBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARL1HBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARL2HBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARL3HBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARL4HBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkAhLvHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkAhLwHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkAhLxHBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkAhLyHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkAhLzHBHVEFa0UVOhHiHu3COPElbg0VYzUlbf3TXsUVOhLUKDQGHCg1axQFHTIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHP81bfDiHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYf.0ayAhLh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABTuMGHyHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHP81bfPiHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYf.0ayARMh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABTuMGH1HBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHP81bfbiHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYf.0ayABNh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABTuMGH4HBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHP81bfDCLh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABTuMGHwDiHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYf.0ayARLxHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHP81bfDyLh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABTuMGHwPiHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYf.0ayARL0HBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHP81bfDiMh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABTuMGHwbiHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYf.0ayARL3HBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHP81bfDSNh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABTuMGHx.iHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYf.0ayAhLwHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHP81bfHiLh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABTuMGHxLiHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYf.0ayAhLzHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKDQGHCg1axQFHPIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHI4FYkgmHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYf.UXmUlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTs.UXzQWYx4FHI4FYkgmHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLUQQABTrEVdfP0amIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhPUKPwVX4ABUuc1YrUlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HBUs.EagkmXgM1ZfP0amcFakIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhPUKTIWXisFHI4FYkgmHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HRSgMGckIGHTUmakIBHVEFa0UVOhPCMvHxK9vCTgIWXsUFckIGHNEVak0iHMkDQIAxS0QmHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HRSggGHV8VZiU1bh.hUgwVck0iH1PiHu3COPElbg0VYzUlbf3TXsUVOhXUYrAxTk41boQWZ1kFc4IBHVEFa0UVOhDCLvHxK9vCTgIWXsUFckIGHNEVak0iHOAWYtAxTzIWZtcFH1HBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOh7Dbk4FHSQmbo41YfTiHfXUXrUWY8HRLh7hO7.UXxEVakQWYxAhSg0VY8HxSvUlafLEcxklamABMh.hUgwVck0iHwHxK9vCTgIWXsUFckIGHNEVak0iHOAWYtAxTzIWZtcFHyHBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOh7Dbk4FHSQmbo41YfHiHfXUXrUWY8HRLh7hO7.UXxEVakQWYxAhSg0VY8HxSvUlafLEcxklamARLh.hUgwVck0iHwHxK9vCTgIWXsUFckIGHNEVak0iHMkFYoAxQ0kFcgIGHSQmb1HBHVEFa0UVOhTiHu3COPElbg0VYzUlbf3TXsUVOhzTZjkFHGUWZzElbfLEcxUiHfXUXrUWY8HBMh7hO7.UXxEVakQWYxAhSg0VY8HRSoQVZfbTcoQWXxAxTzIGMh.hUgwVck0iHyHxK9vCTgIWXsUFckIGHNEVak0iHMkFYoAxQ0kFcgIGHSQmbyHBHVEFa0UVOhHiHu3COPElbg0VYzUlbf3TXsUVOhzTZjkFHGUWZzElbfLEcxIiHfXUXrUWY8HRLh7hO7.UXxEVakQWYxAhSg0VY8HRSoQVZfbTcoQWXxAxTzIWLh.hUgwVck0iHvHxK9vCQB4TXsUFHVEFa0UVOhDzQMwjLFclHu3COTUmak0BTgQGZfXUXrUWY8HxKUMWYxM2KsUFcgw1YuQ1KD81X00VYtQ2buDTavwVYfL0a04FYuDzQMwjLuPUctU1KTUmak8EQkYVX0wFctDzQMwjLFclHu3COuDTPG80TTEDUE4C."
+							"blob" : "725.CMlaKA....fQPMDZ....A.ESG8D...P......TVavQWdfLGauQGL.........................HPlCUzQPcnC...db19Ue+l1v.geu+UX4m1dngDHPHRjVQokJjFsUB1yUljqAq43vbrYr8W+t7qRJZcVaOMow8hsO+cN22k3S4ax0GxDj8fpfmKindNtTx0WcwjoJNaEaOzYqvQATxNUdhIVu3VzgqaH8pKHnMYEn0bYZA4qFlfq+NtKkTnU.KCcGQGzmRxXGVU4YpPjGu7lHZ+ginjkKtcwiF8x7DnJJlQmmwz3ybkHWGQc65R.6AQDkKwy1jARMkH36g5fQjEwQzQkCLACc3Qtj.kojSQrnw8LLJPgvP3oh7MLwZirJIQG8Z4C9nI7jJeRVV4g64Pdxn.xrs7c8V8PvH+wgsiSef7AiTvy3ZH4iTxFl7KKRZJQmVBi2xjxRVbIx1c4h5hk9XRrayyJlLEZPnwEEUaj0YZdrFe8zkzYFcy5u8rfUTU5poSEklZNzxn8LgoDpianeXoMdraPnaf2qEfpHVx3xSB48P3c7PeGD8shXfUD9VQLzJhQVQDXEwXqHBshvy0ND6UUO6kUO60UO6EVu2sxtloRAcysj37LmmD4oFvorChyml+nio.Tc+RrJpYlB7N8sLMirU+8cXnCCFhUsB9Ov49i76bsAeffLgypmlfwfSZs40C8cOamsy1+J1a6QzqtIweZWCuycMNams+er+1tFqU7zTPsB+WePFCJ68M7G3OnsuQ+gcZaz+W01v6j7rZcv7Ravrf4guYyYtCl+aHxjdkhKZle2Ku.w5tpMZ9Y9ZJNMaCujPVTTfhxheUBTqDl6+7h1yjEqQQRKNpmpZ8cutt.DXV.IqYaNQzvSJn.zKAog.Esv0Uro9Ev8LkhqYRmiopFNfadCSHT44YjRILL81H5wTqGlanFydshLu5hel5QSEF"
 						}
 ,
 						"snapshotlist" : 						{
@@ -4630,28 +4738,28 @@
 									"filetype" : "C74Snapshot",
 									"version" : 2,
 									"minorversion" : 0,
-									"name" : "Ample Guitar M II Lite",
-									"origin" : "AGML2.vst",
+									"name" : "chipsounds",
+									"origin" : "chipsounds.vstinfo",
 									"type" : "VST",
 									"subtype" : "Instrument",
 									"embed" : 0,
 									"snapshot" : 									{
-										"pluginname" : "AGML2.vst",
-										"plugindisplayname" : "Ample Guitar M II Lite",
-										"pluginsavedname" : "",
-										"pluginsaveduniqueid" : 0,
+										"pluginname" : "chipsounds.vstinfo",
+										"plugindisplayname" : "chipsounds",
+										"pluginsavedname" : "C74_VST:/chipsounds",
+										"pluginsaveduniqueid" : 1347176271,
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "21378.CMlaKA....fQPMDZ....ADTarMG.BL.D....A........................................LkQVMjLgzyT...OAEzQeMEUAQUQf3TXsUVOhPTYlEVcrQmH9vSPxQWZiUGagQWZu4FHVEFa0UVOhLUcyIxK9vCTuMWZzk1atAhUgwVck0iHvHxK9vyPn8lbj0BTgQGZfXUXrUWY8HxKUMWYxM2KsUFcgw1YuQ1KD81X00VYtQ2buDTavwVYfL0a04FYuLDZuIGYfHTXts1bh7hO7LDZuIGYyARP0QGZuIWOhDTavwVYfL0a04FYh.xPgQWYm8lb40iHP8Fbh.xRkkWOhLjHf.UXzgVOh7RUyUlby8RakQWXrc1aj8BQuMVcsUlazM2KA0FbrUFHS8VctQ1KCg1axQFHBElaqMmHf3TXsUVOhPTYlEVcrQmH9vyPn8lbjARRD0iHwHBHR81az0iHCIBHTkGbk0iHMElZh.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOhzRLh7hO7LEcxklamARRD0iH0HBHFIWYz0iHyHxK9vyTzIWZtcFHIQTOhPiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HxLh.hQxUFc8HBLh7hO7LEcxklamARRD0iHxHBHFIWYz0iHwHxK9vyTzIWZtcFHIQTOhDiHfXjbkQWOh.iHu3COuLDZuIGY9vyPn8lbjARRD0iHxHBHR81az0iHAIBHTkGbk0iHMElZh.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOhzRLh7hO7LEcxklamARRD0iH0HBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhPiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HxLh.hQxUFc8HhLh7hO7LEcxklamARRD0iHxHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhDiHfXjbkQWOh.iHu3COuLDZuIGY9vyPn8lbjARRD0iHyHBHR81az0iHDIBHTkGbk0iHsklah.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOhzRLh7hO7LEcxklamARRD0iH0HBHFIWYz0iHsDiHu3COSQmbo41YfjDQ8HBMh.hQxUFc8HBLh7hO7LEcxklamARRD0iHyHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhHiHfXjbkQWOhLiHu3COSQmbo41YfjDQ8HRLh.hQxUFc8HRLh7hO77xPn8lbj4COCg1axQFHIQTOhPiHfH0auQWOhXjHfPUdvUVOhzVZtIBHP81b8HRLh3COSQmbo41YfjDQ8HhMh.hQxUFc8HRLh7hO7LEcxklamARRD0iH0HBHFIWYz0iHyHxK9vyTzIWZtcFHIQTOhPiHfXjbkQWOhLiHu3COSQmbo41YfjDQ8HxLh.hQxUFc8HRLh7hO7LEcxklamARRD0iHxHBHFIWYz0iHwHxK9vyTzIWZtcFHIQTOhDiHfXjbkQWOhDiHu3COuLDZuIGY9vyPn8lbjARRD0iH0HBHR81az0iHEIBHTkGbk0iHsklah.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HRMh.hQxUFc8HhLh7hO7LEcxklamARRD0iHzHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhLiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HhLh.hQxUFc8HBLh7hO7LEcxklamARRD0iHwHBHFIWYz0iHvHxK9vyKCg1axQlO7LDZuIGYfjDQ8HhMh.hTu8Fc8HhQh.BU4AWY8HRSgolHf.0ay0iHwHhO7LEcxklamARRD0iH1HBHFIWYz0iHwHxK9vyTzIWZtcFHIQTOhTiHfXjbkQWOhLiHu3COSQmbo41YfjDQ8HBMh.hQxUFc8HxLh7hO7LEcxklamARRD0iHyHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhHiHfXjbkQWOhDiHu3COSQmbo41YfjDQ8HRLh.hQxUFc8HRLh7hO77xPn8lbj4COCg1axQFHIQTOhbiHfH0auQWOhPjHfPUdvUVOhzTXpIBHP81b8HRLh3COSQmbo41YfjDQ8HhMh.hQxUFc8HRKwHxK9vyTzIWZtcFHIQTOhTiHfXjbkQWOhzRLh7hO7LEcxklamARRD0iHzHBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhLiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HhLh.hQxUFc8HxLh7hO7LEcxklamARRD0iHwHBHFIWYz0iHxHxK9vyKCg1axQlO7LDZuIGYfjDQ8HBNh.hTu8Fc8HxQh.BU4AWY8HRSgolHf.0ay0iHwHhO7LEcxklamARRD0iH1HBHFIWYz0iHyHxK9vyTzIWZtcFHIQTOhTiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HBMh.hQxUFc8HBLh7hO7LEcxklamARRD0iHyHBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhHiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HRLh.hQxUFc8HxLh7hO77xPn8lbj4COCg1axQFHIQTOhjiHfH0auQWOhTjHfPUdvUVOhzTXpIBHP81b8HRLh3COSQmbo41YfjDQ8HhMh.hQxUFc8HBLh7hO7LEcxklamARRD0iH0HBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhPiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HxLh.hQxUFc8HRLh7hO7LEcxklamARRD0iHxHBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhDiHfXjbkQWOh.iHu3COuLDZuIGY9vyPn8lbjARRD0iHw.iHfH0auQWOhDjHfPUdvUVOhzVZtIBHP81b8HRLh3COSQmbo41YfjDQ8HhMh.hQxUFc8HRKwHxK9vyTzIWZtcFHIQTOhTiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HBMh.hQxUFc8HhLh7hO7LEcxklamARRD0iHyHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhHiHfXjbkQWOhDiHu3COSQmbo41YfjDQ8HRLh.hQxUFc8HBLh7hO77xPn8lbj4COCg1axQFHIQTOhDSLh.hTu8Fc8HRPiHBHTkGbk0iHMElZh.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOhzRLh7hO7LEcxklamARRD0iH0HBHFIWYz0iHwHxK9vyTzIWZtcFHIQTOhPiHfXjbkQWOhLiHu3COSQmbo41YfjDQ8HxLh.hQxUFc8HxLh7hO7LEcxklamARRD0iHxHBHFIWYz0iHyHxK9vyTzIWZtcFHIQTOhDiHfXjbkQWOhDiHu3COuLDZuIGY9vyPn8lbjARRD0iHwHiHfH0auQWOhbjHfPUdvUVOhbiHf.0ay0iHwHhO7LEcxklamARRD0iH1HBHFIWYz0iHyHxK9vyTzIWZtcFHIQTOhTiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HBMh.hQxUFc8HBLh7hO7LEcxklamARRD0iHyHBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhHiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HRLh.hQxUFc8HRLh7hO77xPn8lbj4COCg1axQFHIQTOhDyLh.hTu8Fc8HxPh.BU4AWY8HRSgolHf.0ay0iHwHhO7LEcxklamARRD0iH1HBHFIWYz0iHsDiHu3COSQmbo41YfjDQ8HRMh.hQxUFc8HxLh7hO7LEcxklamARRD0iHzHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhLiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HhLh.hQxUFc8HRLh7hO7LEcxklamARRD0iHwHBHFIWYz0iHvHxK9vyKCg1axQlO7LDZuIGYfjDQ8HRLzHBHR81az0iHAIBHTkGbk0iHMElZh.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOhzRLh7hO7LEcxklamARRD0iH0HBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhPiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HxLh.hQxUFc8HhLh7hO7LEcxklamARRD0iHxHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhDiHfXjbkQWOh.iHu3COuLDZuIGY9vyPn8lbjARRD0iHwTiHfH0auQWOhPjHfPUdvUVOhzVZtIBHP81b8HRLh3COSQmbo41YfjDQ8HhMh.hQxUFc8HRKwHxK9vyTzIWZtcFHIQTOhTiHfXjbkQWOhzRLh7hO7LEcxklamARRD0iHzHBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhLiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HhLh.hQxUFc8HxLh7hO7LEcxklamARRD0iHwHBHFIWYz0iHwHxK9vyKCg1axQlO7LDZuIGYfjDQ8HRL1HBHR81az0iHFIBHTkGbk0iHsklah.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOhDiHu3COSQmbo41YfjDQ8HRMh.hQxUFc8HxLh7hO7LEcxklamARRD0iHzHBHFIWYz0iHyHxK9vyTzIWZtcFHIQTOhLiHfXjbkQWOhDiHu3COSQmbo41YfjDQ8HhLh.hQxUFc8HRLh7hO7LEcxklamARRD0iHwHBHFIWYz0iHwHxK9vyKCg1axQlO7LDZuIGYfjDQ8HRL2HBHR81az0iHEIBHTkGbk0iHsklah.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HRMh.hQxUFc8HhLh7hO7LEcxklamARRD0iHzHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhLiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HhLh.hQxUFc8HBLh7hO7LEcxklamARRD0iHwHBHFIWYz0iHvHxK9vyKCg1axQlO7LDZuIGYfjDQ8HRL3HBHR81az0iHFIBHTkGbk0iHMElZh.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOhDiHu3COSQmbo41YfjDQ8HRMh.hQxUFc8HxLh7hO7LEcxklamARRD0iHzHBHFIWYz0iHyHxK9vyTzIWZtcFHIQTOhLiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HhLh.hQxUFc8HRLh7hO7LEcxklamARRD0iHwHBHFIWYz0iHwHxK9vyKCg1axQlO7LDZuIGYfjDQ8HRL4HBHR81az0iHDIBHTkGbk0iHMElZh.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOhzRLh7hO7LEcxklamARRD0iH0HBHFIWYz0iHsDiHu3COSQmbo41YfjDQ8HBMh.hQxUFc8HBLh7hO7LEcxklamARRD0iHyHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhHiHfXjbkQWOhLiHu3COSQmbo41YfjDQ8HRLh.hQxUFc8HhLh7hO77xPn8lbj4COCg1axQFHIQTOhHCLh.hTu8Fc8HxQh.BU4AWY8HRSgolHf.0ay0iHwHhO7LEcxklamARRD0iH1HBHFIWYz0iHyHxK9vyTzIWZtcFHIQTOhTiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HBMh.hQxUFc8HBLh7hO7LEcxklamARRD0iHyHBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhHiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HRLh.hQxUFc8HxLh7hO77xPn8lbj4COCg1axQFHIQTOhHSLh.hTu8Fc8HRQh.BU4AWY8HRSgolHf.0ay0iHwHhO7LEcxklamARRD0iH1HBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhTiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HBMh.hQxUFc8HhLh7hO7LEcxklamARRD0iHyHBHFIWYz0iHwHxK9vyTzIWZtcFHIQTOhHiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HRLh.hQxUFc8HBLh7hO77xPn8lbj4COCg1axQFHIQTOhHiLh.hTu8Fc8HRPh.BU4AWY8HRao4lHf.0ay0iHwHhO7LEcxklamARRD0iH1HBHFIWYz0iHsDiHu3COSQmbo41YfjDQ8HRMh.hQxUFc8HBLh7hO7LEcxklamARRD0iHzHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhLiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HhLh.hQxUFc8HRLh7hO7LEcxklamARRD0iHwHBHFIWYz0iHvHxK9vyKCg1axQlO7LDZuIGYfjDQ8HhLyHBHR81az0iHAMhHfPUdvUVOhzTXpIBHP81b8HRLh3COSQmbo41YfjDQ8HhMh.hQxUFc8HRKwHxK9vyTzIWZtcFHIQTOhTiHfXjbkQWOhDiHu3COSQmbo41YfjDQ8HBMh.hQxUFc8HxLh7hO7LEcxklamARRD0iHyHBHFIWYz0iHyHxK9vyTzIWZtcFHIQTOhHiHfXjbkQWOhLiHu3COSQmbo41YfjDQ8HRLh.hQxUFc8HRLh7hO77xPn8lbj4COCg1axQFHIQTOhHCMh.hTu8Fc8HxQh.BU4AWY8HxMh.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOhLiHu3COSQmbo41YfjDQ8HRMh.hQxUFc8HhLh7hO7LEcxklamARRD0iHzHBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhLiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HhLh.hQxUFc8HBLh7hO7LEcxklamARRD0iHwHBHFIWYz0iHwHxK9vyKCg1axQlO77xPn8lbjMmO7.UXzQWYx4VKPEFcnAhUgwVck0iHuT0bkI2buzVYzEFam8FYuPzaiUWak4Fcy8RPsAGakAxTuUmaj8xTzIWcsABTgQGckImayIxK9vCTgQGckImafDTczg1ax0iHA0FbrUFHS8VctQlHfLTXzU1YuIWd8HBTuAmHfPUZsUVKSk1YtEFc0IWY8HBMuPiHfDUcg4FcooWY8HRLuDiMh.hPP0TOhDyLvHBHIQTOhDiHf.UXzgVOh7RUyUlby8RakQWXrc1aj8BQuMVcsUlazM2KA0FbrUFHS8VctQ1KSQmb00FHPEFczUlbtMmHf3TXsUVOhPTYlEVcrQWLh3CON8FckAhSuQWY8HxMxHBHVUFauMVZzkWOhDCLvHBHBU1Yo4VOhDiHfTjaj0iHxHxK9viSuQWYf3zazUVOhbCMh.hUkw1aikFc40iH3.iHfHTYmkla8HxLh.RQtQVOhLiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhXCLh.hPkcVZt0iHzHBHE4FY8HRMh7hO73zazUFHN8Fck0iH2XiHfXUYr81XoQWd8HxMvHBHBU1Yo4VOhXiHfTjaj0iH2HxK9viSuQWYf3zazUVOhbiMh.hUkw1aikFc40iH1.iHfHTYmkla8HBNh.RQtQVOhfiHu3CON8FckAhSuQWY8HxMzHBHVUFauMVZzkWOhPCLh.hPkcVZt0iHwDiHfTjaj0iHwDiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhjCLh.hPkcVZt0iHwHiHfTjaj0iHwHiHu3CON8FckAhSuQWY8HxMzHBHVUFauMVZzkWOhTCLh.hPkcVZt0iHwTiHfTjaj0iHwTiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhXCLh.hPkcVZt0iHwXiHfTjaj0iHwXiHu3CON8FckAhSuQWY8HxMxHBHVUFauMVZzkWOhbCLh.hPkcVZt0iH4HBHE4FY8HRLvHxK9viSuQWYf3zazUVOhbCMh.hUkw1aikFc40iH0.iHfHTYmkla8HRLyHBHE4FY8HRLyHxK9viSuQWYf3zazUVOhbiMh.hUkw1aikFc40iHz.iHfHTYmkla8HRLzHBHE4FY8HRLzHxK9vyKPEFczUlbt4COPEFczUlbtARP0QGZuIWOhDTavwVYfL0a04FYh.xPgQWYm8lb40iHP8Fbh.BUo0VYsLUZm4VXzUmbk0iHz7BMh.RT0Elazkldk0iHw7RL1HBHBAUS8HRLv.iHfjDQ8HhLh.BTgQGZ8HxKUMWYxM2KsUFcgw1YuQ1KD81X00VYtQ2buDTavwVYfL0a04FYuLEcxUWaf.UXzQWYx41bh.hSg0VY8HBQkYVX0wFcxHhO73zazUFHN8Fck0iH2HiHfXUYr81XoQWd8HRLv.iHfHTYmkla8HRLh.RQtQVOhHiHu3CON8FckAhSuQWY8HxMzHBHVUFauMVZzkWOhXCLh.hPkcVZt0iH2HBHE4FY8HxMh7hO73zazUFHN8Fck0iH2XiHfXUYr81XoQWd8HRNvHBHBU1Yo4VOhfiHfTjaj0iH3HxK9viSuQWYf3zazUVOhbCNh.hUkw1aikFc40iH1.iHfHTYmkla8HRNh.RQtQVOhjiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhbCLh.hPkcVZt0iHwXiHfTjaj0iHwXiHu3CON8FckAhSuQWY8HxMzHBHVUFauMVZzkWOhPCLh.hPkcVZt0iHyHBHE4FY8HxLh7hO73zazUFHN8Fck0iH2XiHfXUYr81XoQWd8HBMvHBHBU1Yo4VOhPiHfTjaj0iHzHxK9viSuQWYf3zazUVOhbiLh.hUkw1aikFc40iH4.iHfHTYmkla8HRMh.RQtQVOhTiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhLCLh.hPkcVZt0iH1HBHE4FY8HhMh7hO73zazUFHN8Fck0iH2XiHfXUYr81XoQWd8HBNvHBHBU1Yo4VOhDCLh.RQtQVOhDCLh7hO73zazUFHN8Fck0iH2PiHfXUYr81XoQWd8HBNvHBHBU1Yo4VOhDSLh.RQtQVOhDSLh7hO73zazUFHN8Fck0iH2XiHfXUYr81XoQWd8HRMvHBHBU1Yo4VOhDiLh.RQtQVOhDiLh7hO73zazUFHN8Fck0iH2HiHfXUYr81XoQWd8HBNvHBHBU1Yo4VOhDyLh.RQtQVOhDCMh7hO73zazUFHN8Fck0iH2PiHfXUYr81XoQWd8HhMvHBHBU1Yo4VOhDSMh.RQtQVOhDSMh7hO77BTgQGckIma9vCTgQGckImafDTczg1ax0iHA0FbrUFHS8VctQlHfLTXzU1YuIWd8HBTuAmHfPUZsUVKSk1YtEFc0IWY8HBMuPiHfDUcg4FcooWY8HRLuDiMh.hPP0TOhDCLvHBHIQTOhLiHf.UXzgVOh7RUyUlby8RakQWXrc1aj8BQuMVcsUlazM2KA0FbrUFHS8VctQ1KSQmb00FHPEFczUlbtMmHf3TXsUVOhPTYlEVcrQ2Lh3CON8FckAhSuQWY8HxMxHBHVUFauMVZzkWOhTSMh.hPkcVZt0iHwHBHE4FY8HBMh7hO73zazUFHN8Fck0iH2biHfXUYr81XoQWd8HRLv.iHfHTYmkla8HRMh.RQtQVOhXiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhfCLh.hPkcVZt0iH2HBHE4FY8HBNh7hO73zazUFHN8Fck0iH2PiHfXUYr81XoQWd8HhMvHBHBU1Yo4VOhjiHfTjaj0iH4HxK9viSuQWYf3zazUVOhbiMh.hUkw1aikFc40iH1.iHfHTYmkla8HRLwHBHE4FY8HRLxHxK9viSuQWYf3zazUVOhbyMh.hUkw1aikFc40iH1.iHfHTYmkla8HRLyHBHE4FY8HRLzHxK9viSuQWYf3zazUVOhbiMh.hUkw1aikFc40iH4.iHfHTYmkla8HRL0HBHE4FY8HRL1HxK9vyKPEFczUlbt4COPEFczUlbtARP0QGZuIWOhDTavwVYfL0a04FYh.xPgQWYm8lb40iHP8Fbh.BUo0VYsLUZm4VXzUmbk0iHz7BMh.RT0Elazkldk0iHw7RL1HBHBAUS8HRLv.iHfjDQ8HBMh.BTgQGZ8HxKUMWYxM2KsUFcgw1YuQ1KD81X00VYtQ2buDTavwVYfL0a04FYuLEcxUWaf.UXzQWYx41bh.hSg0VY8HBQkYVX0wFczHhO73zazUFHN8Fck0iH2HiHfXUYr81XoQWd8HRNvHBHBU1Yo4VOhDiHfTjaj0iHxHxK9viSuQWYf3zazUVOhbCMh.hUkw1aikFc40iHy.iHfHTYmkla8HxLh.RQtQVOhLiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhXCLh.hPkcVZt0iHzHBHE4FY8HBMh7hO73zazUFHN8Fck0iH2HiHfXUYr81XoQWd8HhMvHBHBU1Yo4VOhTiHfTjaj0iH1HxK9viSuQWYf3zazUVOhbiMh.hUkw1aikFc40iH2.iHfHTYmkla8HxMh.RQtQVOhfiHu3CON8FckAhSuQWY8HxM4HBHVUFauMVZzkWOhLCLh.hPkcVZt0iH4HBHE4FY8HRNh7hO73zazUFHN8Fck0iH3LiHfXUYr81XoQWd8HBMvHBHBU1Yo4VOhDCLh.RQtQVOhDCLh7hO73zazUFHN8Fck0iH3DiHfXUYr81XoQWd8HRMvHBHBU1Yo4VOhDSLh.RQtQVOhDSLh7hO73zazUFHN8Fck0iH2XiHfXUYr81XoQWd8HhMvHBHBU1Yo4VOhDiLh.RQtQVOhDiLh7hO73zazUFHN8Fck0iH2HiHfXUYr81XoQWd8HxMvHBHBU1Yo4VOhDyLh.RQtQVOhDyLh7hO73zazUFHN8Fck0iH3DiHfXUYr81XoQWd8HBMvHBHBU1Yo4VOhDCMh.RQtQVOhDCMh7hO73zazUFHN8Fck0iH2XiHfXUYr81XoQWd8HBNvHBHBU1Yo4VOhDSMh.RQtQVOhDiMh7hO77BTgQGckIma9vCTgQGckImafDTczg1ax0iHA0FbrUFHS8VctQlHfLTXzU1YuIWd8HBTuAmHfPUZsUVKSk1YtEFc0IWY8HBMuPiHfDUcg4FcooWY8HRLuDiMh.hPP0TOhDCLvHBHIQTOhTiHf.UXzgVOh7RUyUlby8RakQWXrc1aj8BQuMVcsUlazM2KA0FbrUFHS8VctQ1KSQmb00FHPEFczUlbtMmHf3TXsUVOhPTYlEVcrQWMh3CON8FckAhSuQWY8HxMxHBHVUFauMVZzkWOhfCLh.hPkcVZt0iHwHBHE4FY8HRLh7hO73zazUFHN8Fck0iH2fiHfXUYr81XoQWd8HxMvHBHBU1Yo4VOhHiHfTjaj0iHxHxK9viSuQWYf3zazUVOhbiLh.hUkw1aikFc40iH1.iHfHTYmkla8HxLh.RQtQVOhPiHu3CON8FckAhSuQWY8HxMxHBHVUFauMVZzkWOhDCLvHBHBU1Yo4VOhTiHfTjaj0iH0HxK9viSuQWYf3zazUVOhfSLh.hUkw1aikFc40iH1.iHfHTYmkla8HhMh.RQtQVOhXiHu3CON8FckAhSuQWY8HBNyHBHVUFauMVZzkWOhXCLh.hPkcVZt0iH2HBHE4FY8HxMh7hO73zazUFHN8Fck0iH2XiHfXUYr81XoQWd8HRNvHBHBU1Yo4VOhfiHfTjaj0iH3HxK9viSuQWYf3zazUVOhbiLh.hUkw1aikFc40iH1.iHfHTYmkla8HRNh.RQtQVOhjiHu3CON8FckAhSuQWY8HBNyHBHVUFauMVZzkWOhbCLh.hPkcVZt0iHw.iHfTjaj0iHw.iHu3CON8FckAhSuQWY8HxMxHBHVUFauMVZzkWOhbCLh.hPkcVZt0iHwDiHfTjaj0iHwHiHu3CON8FckAhSuQWY8HBNwHBHVUFauMVZzkWOhXCLh.hPkcVZt0iHwPiHfTjaj0iHwPiHu3CON8FckAhSuQWY8HBNyHBHVUFauMVZzkWOhXCLh.hPkcVZt0iHwTiHfTjaj0iHwTiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhfCLh.hPkcVZt0iHwXiHfTjaj0iHwXiHu3CON8FckAhSuQWY8HxMxHBHVUFauMVZzkWOhDCLvHBHBU1Yo4VOhDyLh.RQtQVOhDyLh7hO77BTgQGckIma9vCTgQGckImafDTczg1ax0iHA0FbrUFHS8VctQlHfLTXzU1YuIWd8HBTuAmHfPUZsUVKSk1YtEFc0IWY8HBMuPiHfDUcg4FcooWY8HRLuDiMh.hPP0TOhDCLvHBHIQTOhXiHf.UXzgVOh7RUyUlby8RakQWXrc1aj8BQuMVcsUlazM2KA0FbrUFHS8VctQ1KSQmb00FHPEFczUlbtMmHf3TXsUVOhPTYlEVcrQmMh3CON8FckAhSuQWY8HxM4HBHVUFauMVZzkWOhjCLh.hPkcVZt0iHwHBHE4FY8HRLh7hO73zazUFHN8Fck0iH2jiHfXUYr81XoQWd8HRMvHBHBU1Yo4VOhHiHfTjaj0iHxHxK9viSuQWYf3zazUVOhbSNh.hUkw1aikFc40iHy.iHfHTYmkla8HxLh.RQtQVOhLiHu3CON8FckAhSuQWY8HxM4HBHVUFauMVZzkWOhjCLh.hPkcVZt0iHzHBHE4FY8HBMh7hO73zazUFHN8Fck0iH2jiHfXUYr81XoQWd8HxLvHBHBU1Yo4VOhTiHfTjaj0iH0HxK9viSuQWYf3zazUVOhbSNh.hUkw1aikFc40iHz.iHfHTYmkla8HhMh.RQtQVOhXiHu3CON8FckAhSuQWY8HxM4HBHVUFauMVZzkWOhjCLh.hPkcVZt0iH2HBHE4FY8HxMh7hO73zazUFHN8Fck0iH2jiHfXUYr81XoQWd8HRMvHBHBU1Yo4VOhfiHfTjaj0iH3HxK9viSuQWYf3zazUVOhbSNh.hUkw1aikFc40iHy.iHfHTYmkla8HRNh.RQtQVOhjiHu3CON8FckAhSuQWY8HxM4HBHVUFauMVZzkWOhjCLh.hPkcVZt0iHw.iHfTjaj0iHw.iHu3CON8FckAhSuQWY8HxM4HBHVUFauMVZzkWOhLCLh.hPkcVZt0iHwDiHfTjaj0iHwDiHu3CON8FckAhSuQWY8HxM4HBHVUFauMVZzkWOhPCLh.hPkcVZt0iHwHiHfTjaj0iHwHiHu3CON8FckAhSuQWY8HxM4HBHVUFauMVZzkWOhjCLh.hPkcVZt0iHwLiHfTjaj0iHwLiHu3CON8FckAhSuQWY8HBNwHBHVUFauMVZzkWOhjCLh.hPkcVZt0iHwTiHfTjaj0iHwTiHu3CON8FckAhSuQWY8HBNyHBHVUFauMVZzkWOhjCLh.hPkcVZt0iHwXiHfTjaj0iHwXiHu3CON8FckAhSuQWY8HxM2HBHVUFauMVZzkWOhjCLh.hPkcVZt0iHwPiHfTjaj0iHwPiHu3COu.UXzQWYx4lO7.UXzQWYx4FHAUGcn8lb8HRPsAGakAxTuUmajIBHCEFckc1axkWOh.0avIBHTkVak0xToclagQWcxUVOhPyKzHBHQUWXtQWZ5UVOhDyKwXiHfHDTM0iHw.CLh.RRD0iH2HBHPEFcn0iHuT0bkI2buzVYzEFam8FYuPzaiUWak4Fcy8RPsAGakAxTuUmaj8xTzIWcsABTgQGckImayIBHNEVak0iHDUlYgUGazciH9viSuQWYf3zazUVOhbiLh.hUkw1aikFc40iH3.iHfHTYmkla8HRLh.RQtQVOhLiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhTCLh.hPkcVZt0iHzHBHE4FY8HBMh7hO73zazUFHN8Fck0iH2PiHfXUYr81XoQWd8HRLv.iHfHTYmkla8HRMh.RQtQVOhTiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhLCLh.hPkcVZt0iH1HBHE4FY8HhMh7hO73zazUFHN8Fck0iH2PiHfXUYr81XoQWd8HhMvHBHBU1Yo4VOhbiHfTjaj0iH2HxK9viSuQWYf3zazUVOhbiMh.hUkw1aikFc40iH2.iHfHTYmkla8HBNh.RQtQVOhfiHu3CON8FckAhSuQWY8HhM4HBHVUFauMVZzkWOhfCLh.hPkcVZt0iH4HBHE4FY8HRLvHxK9viSuQWYf3zazUVOhXyMh.hUkw1aikFc40iH2.iHfHTYmkla8HRNh.RQtQVOhDCLh7hO73zazUFHN8Fck0iH2DiHfXUYr81XoQWd8HRNvHBHBU1Yo4VOhDSLh.RQtQVOhDiLh7hO73zazUFHN8Fck0iH1biHfXUYr81XoQWd8HhMvHBHBU1Yo4VOhDCMh.RQtQVOhDCMh7hO73zazUFHN8Fck0iH1jiHfXUYr81XoQWd8HhMvHBHBU1Yo4VOhDSMh.RQtQVOhDSMh7hO73zazUFHN8Fck0iH2DiHfXUYr81XoQWd8HBNvHBHBU1Yo4VOhDiMh.RQtQVOhDiMh7hO73zazUFHN8Fck0iH1PiHfXUYr81XoQWd8HBNvHBHBU1Yo4VOhDyLh.RQtQVOhDyLh7hO77BTgQGckIma9vCTgQGckImafDTczg1ax0iHA0FbrUFHS8VctQlHfLTXzU1YuIWd8HBTuAmHfPUZsUVKSk1YtEFc0IWY8HBMuPiHfDUcg4FcooWY8HRLuDiMh.hPP0TOhDCLvHBHIQTOhfiHf.UXzgVOh7RUyUlby8RakQWXrc1aj8BQuMVcsUlazM2KA0FbrUFHS8VctQ1KSQmb00FHPEFczUlbtMmHf3TXsUVOhPTYlEVcrQGNh3CON8FckAhSuQWY8HhMzHBHVUFauMVZzkWOhjCLh.hPkcVZt0iHwHBHE4FY8HRLh7hO73zazUFHN8Fck0iH1biHfXUYr81XoQWd8HhMvHBHBU1Yo4VOhHiHfTjaj0iHxHxK9viSuQWYf3zazUVOhXSNh.hUkw1aikFc40iH4.iHfHTYmkla8HxLh.RQtQVOhLiHu3CON8FckAhSuQWY8HhM2HBHVUFauMVZzkWOhPCLh.hPkcVZt0iHzHBHE4FY8HBMh7hO73zazUFHN8Fck0iH2DiHfXUYr81XoQWd8HRNvHBHBU1Yo4VOhTiHfTjaj0iH0HxK9viSuQWYf3zazUVOhXyMh.hUkw1aikFc40iH0.iHfHTYmkla8HhMh.RQtQVOhXiHu3CON8FckAhSuQWY8HhM4HBHVUFauMVZzkWOhbCLh.hPkcVZt0iH2HBHE4FY8HxMh7hO73zazUFHN8Fck0iH1biHfXUYr81XoQWd8HBMvHBHBU1Yo4VOhfiHfTjaj0iH3HxK9viSuQWYf3zazUVOhXyMh.hUkw1aikFc40iHz.iHfHTYmkla8HRLvHBHE4FY8HRLvHxK9viSuQWYf3zazUVOhXSNh.hUkw1aikFc40iH3.iHfHTYmkla8HRLwHBHE4FY8HRLxHxK9viSuQWYf3zazUVOhbSLh.hUkw1aikFc40iHw.CLh.hPkcVZt0iHwLiHfTjaj0iHwLiHu3CON8FckAhSuQWY8HhM2HBHVUFauMVZzkWOhXCLh.hPkcVZt0iHwPiHfTjaj0iHwPiHu3CON8FckAhSuQWY8HhM4HBHVUFauMVZzkWOhjCLh.hPkcVZt0iHwTiHfTjaj0iHwTiHu3CON8FckAhSuQWY8HxMwHBHVUFauMVZzkWOhfCLh.hPkcVZt0iHwXiHfTjaj0iHwXiHu3CON8FckAhSuQWY8HxM2HBHVUFauMVZzkWOhLCLh.hPkcVZt0iH4HBHE4FY8HRNh7hO77BTgQGckIma9vCUgIVKPEFcnAhUgwVck0iHuT0bkI2buzVYzEFam8FYuPzaiUWak4Fcy8RPsAGakAxTuUmaj8BUgI1bubTcoQWXx8xUkw1Xu0VYfP2afbTcoQWXxABUgIFHPwVX4UlbtbFb3IxK9vCSgkWYxARRD0iHwHBHVEFa0UVOhjiMh7hO7vTX4UlbfjDQ8HhLh.hUgwVck0iH1PiHu3COLEVdkIGHIQTOhLiHfXUXrUWY8HxLxHxK9vyPu4Fcx8FafjDQ8HhLh.BTgIWXsUFckIWOhzTKPkFcigFHBUlajIxK9vyPu4Fcx8FafjDQ8HBMh.BTgIWXsUFckIWOhzTKVklXxEFcuIxK9vyPu4Fcx8FafjDQ8HRMh.BTgIWXsUFckIWOhzTKFEDHGEVZtIxK9vyPu4Fcx8FafjDQ8HRLvHBHPElbg0VYzUlb8HRSszTXyQWYxAhUuwlHu3COC8lazI2arARRD0iHwLiHf.UXxEVakQWYx0iHM0BTg4lHu3COC8lazI2arARRD0iH1biHf.UXxEVakQWYx0iHH8FajABTkQVXrABUuclHu3COC8lazI2arARRD0iH2XiHf.UXxEVakQWYx0iHM0hTkMGHRUFakE1bkIxK9vCTgIWXsUFckIGHNEVak0iHM0RSoMFHw.hUuwlHfXUXrUWY8HBLtfSN4jSN4jyM1DSM3DCMx.CN4fCMh7hO7.UXxEVakQWYxAhSg0VY8HRSszTZiAhLfX0arIBHVEFa0UVOh.iK3jSN4jSN4biMwTCNwPiLvfSN3PiHu3COPElbg0VYzUlbf3TXsUVOhzTKME1bzUlbfX0arIBHVEFa0UVOh.iK3jSN4jSN4biMwTCNwPiLvfSN3PiHu3COPElbg0VYzUlbf3TXsUVOhzTKPElah.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHM0xUoQFcnIBHVEFa0UVOhTCLh7hO7.UXxEVakQWYxAhSg0VY8HRSsPza0IFao41YfbUZjIBHVEFa0UVOhDSMh7hO7.UXxEVakQWYxAhSg0VY8HRSsPza0IFao41YfP0amIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhzTKRUFafbTXo4lHfXUXrUWY8HBLtXCLv.CLv.iLyfCMwfSM2jSLvDiMh7hO7.UXxEVakQWYxAhSg0VY8HRSsXDdfbTXo4lHfXUXrUWY8HRLh7hO7.UXxEVakQWYxAhSg0VY8HRSsHUYyAxQgklah.hUgwVck0iHwHxK9vCTgIWXsUFckIGHNEVak0iHM0hQAAxQgklah.hUgwVck0iHwHxK9vCTgIWXsUFckIGHNEVak0iHM0hQRAxQgklah.hUgwVck0iHwHxK9vCTgIWXsUFckIGHNEVak0iHM0hQxUFcfL0a04FYh.hUgwVck0iHwHxK9vCTgIWXsUFckIGHNEVak0iHM0hTkMGHRUFakE1bkIBHVEFa0UVOh.iKz.CLv.CLv.SM4XCLzXCMzbyM0PiHu3COPElbg0VYzUlbf3TXsUVOhzTKSQWXxQGHTkVakIBHVEFa0UVOhLSMh7hO7.UXxEVakQWYxAhSg0VY8HRSsLTXv8lHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HRSs.UZzMFZfHTYtQlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HRSsXUZhIWXz8lHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLEcxUWafP0amcFakIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKSQmb00FHTARSuQVYh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xTzIWcsABUo0VYh.hUgwVck0iHxjiHu3COPElbg0VYzUlbf3TXsUVOhLUKAQzTRAxT2kFciglHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsHzajkGHRU1bv8layUlHfXUXrUWY8HRL1HxK9vCTgIWXsUFckIGHNEVak0iHS0RS0QWYfPTYvQGZh.hUgwVck0iH0.CLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLEcx81ZkAhUuwlHfXUXrUWY8HBLtfSN4jSN4jyM1DSM3DCMx.CN4fCMh7hO7.UXxEVakQWYxAhSg0VY8HxTsfTcsAxTTARPrwlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsfTcsAxTTARQgMFZh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0BR00FHSQmb00FHVUFah.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjARSuQVYh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0BUxElayA2ayUlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLUQQAxT441XfP0amIBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOhLUKSUTTfL0co41Yh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xTEEEHQUWXtQWZ5UlHfXUXrUWY8HhLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLUQQABUo0VYfLUZmIBHVEFa0UVOhHiHu3COPElbg0VYzUlbf3TXsUVOhPUKSkmaiABUuc1YrUlHfXUXrUWY8HRLh7hO7.UXxEVakQWYxAhSg0VY8HBUsvzauAGHT81YmwVYh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHT0hUkwFHPI2avIBHVEFa0UVOhjiHu3COPElbg0VYzUlbf3TXsUVOhPUKVUFaffTcsIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhPUKScWZtclHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HBUsLEcxUWafPEHPI2avIBHVEFa0UVOhjiHu3COPElbg0VYzUlbf3TXsUVOhXTKC8VasP0amcFakIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhXTKOQTKT81YmwVYh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHF0RQQ0BUuc1YrUlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQsbUXn0BUuc1YrUlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQsLDZu0BUuc1YrUlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQs.EZg0BUuc1YrUlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQsPDa40BUuc1YrUlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQsHUY10BUuc1YrUlHfXUXrUWY8HRLh7hO7.UXxEVakQWYxAhSg0VY8HhQsLzas0BUnIWYh.hUgwVck0iHsHCLh7hO7.UXxEVakQWYxAhSg0VY8HhQsLzas0hTgQWZuIBHVEFa0UVOh.iK0HxK9vCTgIWXsUFckIGHNEVak0iHF0xPu0VKAQGcgM1Zh.hUgwVck0iH0HxK9vCTgIWXsUFckIGHNEVak0iHF0xPu0VKRUFakE1bkIBHVEFa0UVOhTCLh7hO7.UXxEVakQWYxAhSg0VY8HhQsLzas0xQgklah.hUgwVck0iHxHxK9vCTgIWXsUFckIGHNEVak0iHF0xSD0xQgklah.hUgwVck0iHwTCLh7hO7.UXxEVakQWYxAhSg0VY8HhQs7DQs7TczAWczIBHVEFa0UVOh.iKw.CLv.CLv.SLzjCLwDiMwDSNyfiHu3COPElbg0VYzUlbf3TXsUVOhXTKOQTKT8lakIBHVEFa0UVOhLiLv.iHu3COPElbg0VYzUlbf3TXsUVOhXTKEEUKQECHT81YmwVYh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHF0RQQ0RTw.xQgklah.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHF0RQQ0RT0.BUuc1YrUlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQsTTTsDUMfbTXo4lHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQsTTTsDkLfbTXo4lHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQsTTTsD0LfbTXo4lHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQsTTTsDEMfbTXo4lHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQsbUXn0RSo4lHfXUXrUWY8HRM0.iHu3COPElbg0VYzUlbf3TXsUVOhXTKWEFZszTX3IBHVEFa0UVOhPCLv.iHu3COPElbg0VYzUlbf3TXsUVOhXTKWEFZs.UYjEFah.hUgwVck0iH0TCLh7hO7.UXxEVakQWYxAhSg0VY8HhQsLDZu0xTk4FYh.hUgwVck0iHv3RMh7hO7.UXxEVakQWYxAhSg0VY8HhQs.EZg0xTk4FYh.hUgwVck0iHv3hLv.CLv.CLvHSN3.iLyHiLyfyM2HxK9vCTgIWXsUFckIGHNEVak0iHF0BQrkWKSUlajIBHVEFa0UVOh.iKw.CLv.CLv.SLzjCLwDiMwDSNyfiHu3COPElbg0VYzUlbf3TXsUVOhXTKRUlcsLUYtQlHfXUXrUWY8HBLtHCLv.CLv.CLxjCNvHyLxHyL3byMh7hO7.UXxEVakQWYxAhSg0VY8HhQsLDZu0BQkAGcnIBHVEFa0UVOh.iKw.CLv.CLv.SLzjCLwDiMwDSNyfiHu3COPElbg0VYzUlbf3TXsUVOhXTKCg1asHUXzUlHfXUXrUWY8HBLtDCLv.CLv.CLwPSNvDSL1DSL4LCNh7hO7.UXxEVakQWYxAhSg0VY8HhQs.EZg0BQkAGcnIBHVEFa0UVOh.iK0HxK9vCTgIWXsUFckIGHNEVak0iHF0BTnEVKREFckIBHVEFa0UVOh.iK0HxK9vCTgIWXsUFckIGHNEVak0iHF0BTnEVKFUVYjIVXislHfXUXrUWY8HBLtTiHu3COPElbg0VYzUlbf3TXsUVOhXTKDwVdsvjKTkVakIBHVEFa0UVOh.iKxTiHu3COPElbg0VYzUlbf3TXsUVOhXTKDwVdsHkKTkVakIBHVEFa0UVOh.iK0HxK9vCTgIWXsUFckIGHNEVak0iHF0BQrkWKFUVYjIVXislHfXUXrUWY8HBLtLCLv.CLv.SLwjiLvjiL3jSM0.CNh7hO7.UXxEVakQWYxAhSg0VY8HhQsHUY10xUoQFcnIBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOhXTKRUlcsPTXsAmHfXUXrUWY8HBLtTiHu3COPElbg0VYzUlbf3TXsUVOhXTKRUlcsLUZ5UlHfXUXrUWY8HBLtPSN4jSN4jCMvLSN0LSM0HiLzXSLh7hO7.UXxEVakQWYxAhSg0VY8HxTuUmajARSuQVYh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHSQmbfXCHTUmakImHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTzIGH0.BU04VYxIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLEcxABMfPUctUlbh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHSQmbfLCHTUmakImHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTzIGHx.BU04VYxIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLEcxARLfPUctUlbh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHOAWYtAxTzIGHFklbyQmHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HBRuwFYf.UYjEFafP0amIBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOh.EagkGHM8FYkIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhDTcz8FHLU1YgQ2ah.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHSQmbusFHN8VZyUFHT81Yh.hUgwVck0iHwHxK9vCTgIWXsUFckIGHNEVak0iHBUlajAhTg41YkIBHVEFa0UVOhHiHu3COPElbg0VYzUlbf3TXsUVOh.0arkGHBUlajUlbfP0amIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhzzajAhTg41YkIBHVEFa0UVOh.iKxTiHu3COPElbg0VYzUlbf3TXsUVOhDTcz8FHM8FYfP0amIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLTdiwVYfzzajUFHScWZzMFZh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHCk2XrUFHPwVcyABUuclHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HBTkQVXrAhSuk1bkABUuclHfXUXrUWY8HRLh7hO7.UXxEVakQWYxAhSg0VY8HRSoQVZfbTcoQWXxABUuclHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhS00FHH81bzABTgIWXsMmHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYfH0auQGHwHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHR81azAhLh.hUgwVck0iH4HxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfLiHfXUXrUWY8HhLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYfH0auQGHzHBHVEFa0UVOhTiHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHR81azARMh.hUgwVck0iHzHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfXiHfXUXrUWY8HRMh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYfH0auQGH2HBHVEFa0UVOhHiHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHR81azABNh.hUgwVck0iH2HxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfjiHfXUXrUWY8HBMh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYfH0auQGHw.iHfXUXrUWY8HRNh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYfH0auQGHwDiHfXUXrUWY8HRLvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfDiLh.hUgwVck0iH2HxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfDyLh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfDCMh.hUgwVck0iH4HxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfDSMh.hUgwVck0iHxHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfDiMh.hUgwVck0iH0HxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfDyMh.hUgwVck0iHzHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfDCNh.hUgwVck0iH0HxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfDSNh.hUgwVck0iHxHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfHCLh.hUgwVck0iH2HxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfHSLh.hUgwVck0iHzHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfHiLh.hUgwVck0iH4HxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfHyLh.hUgwVck0iHw.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHR81azAhLzHBHVEFa0UVOhbiHu3COPElbg0VYzUlbf3TXsUVOhLUKDQGHCg1axQFHRIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARLh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABU4AWYfHiHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYfPUdvUFHyHBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkABMh.hUgwVck0iHwHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABU4AWYfTiHfXUXrUWY8HRLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYfPUdvUFH1HBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkAxMh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABU4AWYffiHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYfPUdvUFH4HBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARLvHBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARLwHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARLxHBHVEFa0UVOhHiHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARLyHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARLzHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARL0HBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARL1HBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARL2HBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARL3HBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARL4HBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkAhLvHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkAhLwHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkAhLxHBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkAhLyHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkAhLzHBHVEFa0UVOhHiHu3COPElbg0VYzUlbf3TXsUVOhLUKDQGHCg1axQFHTIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHP81bfDiHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYf.0ayAhLh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABTuMGHyHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHP81bfPiHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYf.0ayARMh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABTuMGH1HBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHP81bfbiHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYf.0ayABNh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABTuMGH4HBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHP81bfDCLh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABTuMGHwDiHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYf.0ayARLxHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHP81bfDyLh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABTuMGHwPiHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYf.0ayARL0HBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHP81bfDiMh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABTuMGHwbiHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYf.0ayARL3HBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHP81bfDSNh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABTuMGHx.iHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYf.0ayAhLwHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHP81bfHiLh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABTuMGHxLiHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYf.0ayAhLzHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKDQGHCg1axQFHPIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHI4FYkgmHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYf.UXmUlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTs.UXzQWYx4FHI4FYkgmHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLUQQABTrEVdfP0amIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhPUKPwVX4ABUuc1YrUlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HBUs.EagkmXgM1ZfP0amcFakIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhPUKTIWXisFHI4FYkgmHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HRSgMGckIGHTUmakIBHVEFa0UVOhPCMvHxK9vCTgIWXsUFckIGHNEVak0iHMkDQIAxS0QmHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HRSggGHV8VZiU1bh.hUgwVck0iH1PiHu3COPElbg0VYzUlbf3TXsUVOhXUYrAxTk41boQWZ1kFc4IBHVEFa0UVOhDCLvHxK9vCTgIWXsUFckIGHNEVak0iHOAWYtAxTzIWZtcFH1HBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOh7Dbk4FHSQmbo41YfTiHfXUXrUWY8HRLh7hO7.UXxEVakQWYxAhSg0VY8HxSvUlafLEcxklamABMh.hUgwVck0iHwHxK9vCTgIWXsUFckIGHNEVak0iHOAWYtAxTzIWZtcFHyHBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOh7Dbk4FHSQmbo41YfHiHfXUXrUWY8HRLh7hO7.UXxEVakQWYxAhSg0VY8HxSvUlafLEcxklamARLh.hUgwVck0iHwHxK9vCTgIWXsUFckIGHNEVak0iHMkFYoAxQ0kFcgIGHSQmb1HBHVEFa0UVOhTiHu3COPElbg0VYzUlbf3TXsUVOhzTZjkFHGUWZzElbfLEcxUiHfXUXrUWY8HBMh7hO7.UXxEVakQWYxAhSg0VY8HRSoQVZfbTcoQWXxAxTzIGMh.hUgwVck0iHyHxK9vCTgIWXsUFckIGHNEVak0iHMkFYoAxQ0kFcgIGHSQmbyHBHVEFa0UVOhHiHu3COPElbg0VYzUlbf3TXsUVOhzTZjkFHGUWZzElbfLEcxIiHfXUXrUWY8HRLh7hO7.UXxEVakQWYxAhSg0VY8HRSoQVZfbTcoQWXxAxTzIWLh.hUgwVck0iHvHxK9vCQB4TXsUFHVEFa0UVOhDzQMwjLFclHu3COTUmak0BTgQGZfXUXrUWY8HxKUMWYxM2KsUFcgw1YuQ1KD81X00VYtQ2buDTavwVYfL0a04FYuDzQMwjLuPUctU1KTUmak8EQkYVX0wFctDzQMwjLFclHu3COuDTPG80TTEDUE4C."
+										"blob" : "725.CMlaKA....fQPMDZ....A.ESG8D...P......TVavQWdfLGauQGL.........................HPlCUzQPcnC...db19Ue+l1v.geu+UX4m1dngDHPHRjVQokJjFsUB1yUljqAq43vbrYr8W+t7qRJZcVaOMow8hsO+cN22k3S4ax0GxDj8fpfmKindNtTx0WcwjoJNaEaOzYqvQATxNUdhIVu3VzgqaH8pKHnMYEn0bYZA4qFlfq+NtKkTnU.KCcGQGzmRxXGVU4YpPjGu7lHZ+ginjkKtcwiF8x7DnJJlQmmwz3ybkHWGQc65R.6AQDkKwy1jARMkH36g5fQjEwQzQkCLACc3Qtj.kojSQrnw8LLJPgvP3oh7MLwZirJIQG8Z4C9nI7jJeRVV4g64Pdxn.xrs7c8V8PvH+wgsiSef7AiTvy3ZH4iTxFl7KKRZJQmVBi2xjxRVbIx1c4h5hk9XRrayyJlLEZPnwEEUaj0YZdrFe8zkzYFcy5u8rfUTU5poSEklZNzxn8LgoDpianeXoMdraPnaf2qEfpHVx3xSB48P3c7PeGD8shXfUD9VQLzJhQVQDXEwXqHBshvy0ND6UUO6kUO60UO6EVu2sxtloRAcysj37LmmD4oFvorChyml+nio.Tc+RrJpYlB7N8sLMirU+8cXnCCFhUsB9Ov49i76bsAeffLgypmlfwfSZs40C8cOamsy1+J1a6QzqtIweZWCuycMNams+er+1tFqU7zTPsB+WePFCJ68M7G3OnsuQ+gcZaz+W01v6j7rZcv7Ravrf4guYyYtCl+aHxjdkhKZle2Ku.w5tpMZ9Y9ZJNMaCujPVTTfhxheUBTqDl6+7h1yjEqQQRKNpmpZ8cutt.DXV.IqYaNQzvSJn.zKAog.Esv0Uro9Ev8LkhqYRmiopFNfadCSHT44YjRILL81H5wTqGlanFydshLu5hel5QSEF"
 									}
 ,
 									"fileref" : 									{
-										"name" : "Ample Guitar M II Lite",
-										"filename" : "Ample Guitar M II Lite_20210621_1.maxsnap",
+										"name" : "chipsounds",
+										"filename" : "chipsounds.maxsnap",
 										"filepath" : "~/Documents/Max 8/Snapshots",
 										"filepos" : -1,
-										"snapshotfileid" : "9a6da49478cda6a5cae18fc6476d31dc"
+										"snapshotfileid" : "eb3b7372874a63a3f9b09dc509448931"
 									}
 
 								}
@@ -4713,7 +4821,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 540.0, 2615.0, 262.0, 104.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.5, 616.0, 234.0, 245.0 ],
+					"presentation_rect" : [ 15.5, 616.0, 338.0, 245.0 ],
 					"proportion" : 0.5,
 					"rounded" : 25
 				}
@@ -5079,8 +5187,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 647.0, 2457.5, 358.0, 23.0 ],
-					"text" : "plug chipcrusher"
+					"patching_rect" : [ 647.0, 2457.5, 358.0, 23.0 ]
 				}
 
 			}
@@ -5127,7 +5234,7 @@
 				"box" : 				{
 					"fontsize" : 13.0,
 					"id" : "obj-238",
-					"items" : [ "chipcrusher", ",", "chipsounds", ",", "chipspeech", ",", "Dexed_Instrument|Synth", ",", "MAGC", ",", "MAmp", ",", "MAnalyzer", ",", "MAutoAlign", ",", "MAutoDynamicEq", ",", "MAutoEqualizer", ",", "MAutoEqualizerLP", ",", "MAutopan", ",", "MAutopanMB", ",", "MAutoPitch", ",", "MAutoStereoFix", ",", "MAutoVolume", ",", "MBandPass", ",", "MBassador", ",", "MBitFun", ",", "MBitFunMB", ",", "MCabinet", ",", "MCabinetMB", ",", "MCCGenerator", ",", "MChannelMatrix", ",", "MCharacter", ",", "MCharmVerb", ",", "MChorusMB", ",", "MComb", ",", "MCombMB", ",", "MCompare", ",", "MCompressor", ",", "MConvolutionEZ", ",", "MConvolutionMB", ",", "MDelayMB", ",", "MDistortionMB", ",", "MDoubleTracker", ",", "MDoubleTrackerMB", ",", "MDrumEnhancer", ",", "MDrumLeveler", ",", "MDrummer", ",", "MDrummer16out", ",", "MDrummer1out", ",", "MDynamicEq", ",", "MDynamics", ",", "MDynamicsMB", ",", "MDynamicsMBLarge", ",", "MEqualizer", ",", "MEqualizerLP", ",", "MFilter", ",", "MFlanger", ",", "MFlangerMB", ",", "MFreeformAnalogEq", ",", "MFreeformEqualizer", ",", "MFreeformPhase", ",", "MFreqShifter", ",", "MFreqShifterMB", ",", "MGranularMB", ",", "MHarmonizerMB", ",", "MLimiterMB", ",", "MLimiterX", ",", "MLoudnessAnalyzer", ",", "MMetronome", ",", "MModernCompressor", ",", "MMorph", ",", "MMultiAnalyzer", ",", "MNoiseGenerator", ",", "MNotepad", ",", "MOscillator", ",", "MOscilloscope", ",", "MPhaser", ",", "MPhaserMB", ",", "MPhatik", ",", "MPolySaturator", ",", "MPowerSynth", ",", "MRatio", ",", "MRatioMB", ",", "MRecorder", ",", "MReverb", ",", "MReverbMB", ",", "MRhythmizer", ",", "MRhythmizerMB", ",", "MRingModulator", ",", "MRingModulatorMB", ",", "MRotary", ",", "MSaturator", ",", "MSaturatorMB", ",", "MSoundFactory", ",", "MSoundFactory6out", ",", "MSpectralDelay", ",", "MSpectralDynamics", ",", "MSpectralDynamicsMini", ",", "MSpectralPan", ",", "MStereoExpander", ",", "MStereoGenerator", ",", "MStereoProcessor", ",", "MStereoScope", ",", "MStereoSpread", ",", "MSuperLooper", ",", "MTransformer", ",", "MTransient", ",", "MTransientMB", ",", "MTremolo", ",", "MTremoloMB", ",", "MTuner", ",", "MTurboComp", ",", "MTurboCompMB", ",", "MTurboDelay", ",", "MTurboDelayMB", ",", "MTurboEQ", ",", "MTurboReverb", ",", "MTurboReverbMB", ",", "MUltraMaximizer", ",", "MUnison", ",", "MUtility", ",", "MVibrato", ",", "MVibratoMB", ",", "MVintageRotary", ",", "MVocoder", ",", "MWaveFolder", ",", "MWaveFolderMB", ",", "MWaveShaper", ",", "MWaveShaperMB", ",", "MWobbler", ",", "MWobblerMB", ",", "MXXX", ",", "MXXX1" ],
+					"items" : [ "AGML2", ",", "chipcrusher2", ",", "chipsounds Multi", ",", "chipsounds", ",", "chipspeech", ",", "Crystal_Synth", ",", "Emissary", ",", "MAGC", ",", "MAmp", ",", "MAnalyzer", ",", "MAutoAlign", ",", "MAutoDynamicEq", ",", "MAutoEqualizer", ",", "MAutoEqualizerLP", ",", "MAutopan", ",", "MAutopanMB", ",", "MAutoPitch", ",", "MAutoStereoFix", ",", "MAutoVolume", ",", "MBandPass", ",", "MBassador", ",", "MBitFun", ",", "MBitFunMB", ",", "MCabinet", ",", "MCabinetMB", ",", "MCCGenerator", ",", "MChannelMatrix", ",", "MCharacter", ",", "MCharmVerb", ",", "MChorusMB", ",", "MComb", ",", "MCombMB", ",", "MCompare", ",", "MCompressor", ",", "MConvolutionEZ", ",", "MConvolutionMB", ",", "MDelayMB", ",", "MDistortionMB", ",", "MDoubleTracker", ",", "MDoubleTrackerMB", ",", "MDrumEnhancer", ",", "MDrumLeveler", ",", "MDrummer", ",", "MDrummer16out", ",", "MDrummer1out", ",", "MDynamicEq", ",", "MDynamics", ",", "MDynamicsMB", ",", "MDynamicsMBLarge", ",", "MEqualizer", ",", "MEqualizerLP", ",", "MFilter", ",", "MFlanger", ",", "MFlangerMB", ",", "MFreeformAnalogEq", ",", "MFreeformEqualizer", ",", "MFreeformPhase", ",", "MFreqShifter", ",", "MFreqShifterMB", ",", "MGranularMB", ",", "MHarmonizerMB", ",", "MLimiterMB", ",", "MLimiterX", ",", "MLoudnessAnalyzer", ",", "MMetronome", ",", "MModernCompressor", ",", "MMorph", ",", "MMultiAnalyzer", ",", "MNoiseGenerator", ",", "MNotepad", ",", "MOscillator", ",", "MOscilloscope", ",", "MPhaser", ",", "MPhaserMB", ",", "MPhatik", ",", "MPolySaturator", ",", "MPowerSynth", ",", "MRatio", ",", "MRatioMB", ",", "MRecorder", ",", "MReverb", ",", "MReverbMB", ",", "MRhythmizer", ",", "MRhythmizerMB", ",", "MRingModulator", ",", "MRingModulatorMB", ",", "MRotary", ",", "MSaturator", ",", "MSaturatorMB", ",", "MSoundFactory", ",", "MSoundFactory6out", ",", "MSpectralDelay", ",", "MSpectralDynamics", ",", "MSpectralDynamicsMini", ",", "MSpectralPan", ",", "MStereoExpander", ",", "MStereoGenerator", ",", "MStereoProcessor", ",", "MStereoScope", ",", "MStereoSpread", ",", "MSuperLooper", ",", "MTransformer", ",", "MTransient", ",", "MTransientMB", ",", "MTremolo", ",", "MTremoloMB", ",", "MTuner", ",", "MTurboComp", ",", "MTurboCompMB", ",", "MTurboDelay", ",", "MTurboDelayMB", ",", "MTurboEQ", ",", "MTurboReverb", ",", "MTurboReverbMB", ",", "MUltraMaximizer", ",", "MUnison", ",", "MUtility", ",", "MVibrato", ",", "MVibratoMB", ",", "MVintageRotary", ",", "MVocoder", ",", "MWaveFolder", ",", "MWaveFolderMB", ",", "MWaveShaper", ",", "MWaveShaperMB", ",", "MWobbler", ",", "MWobblerMB", ",", "MXXX", ",", "MXXX1", ",", "TS-999" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -6658,8 +6765,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7282,8 +7389,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8137,8 +8244,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9246,8 +9353,8 @@
 , 											{
 												"name" : "newobjYellow-1",
 												"default" : 												{
-													"fontsize" : [ 12.059008 ],
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+													"fontsize" : [ 12.059008 ]
 												}
 ,
 												"parentstyle" : "",
@@ -10477,8 +10584,8 @@
 								"name" : "Default M4L",
 								"default" : 								{
 									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial Bold" ]
+									"fontname" : [ "Arial Bold" ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10488,8 +10595,8 @@
 								"name" : "Default M4L Poletti",
 								"default" : 								{
 									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial Bold" ]
+									"fontname" : [ "Arial Bold" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10507,9 +10614,9 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10545,13 +10652,13 @@
 										"autogradient" : 0
 									}
 ,
-									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
-									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 									"fontname" : [ "Open Sans Semibold" ],
+									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10561,8 +10668,8 @@
 								"name" : "M4L 10 Bold",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.25 ],
-									"fontsize" : [ 10.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10581,8 +10688,8 @@
 , 							{
 								"name" : "Matt",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10877,12 +10984,12 @@
 										"autogradient" : 0
 									}
 ,
-									"fontsize" : [ 18.0 ],
-									"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
+									"fontname" : [ "HydrogenType" ],
 									"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ],
-									"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
+									"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
 									"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
-									"fontname" : [ "HydrogenType" ]
+									"fontsize" : [ 18.0 ],
+									"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10901,12 +11008,12 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontsize" : [ 9.0 ],
-									"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
-									"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 									"fontname" : [ "Geneva" ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
+									"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+									"fontsize" : [ 9.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10961,9 +11068,9 @@
 								"name" : "classicKslider",
 								"default" : 								{
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
+									"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10972,8 +11079,8 @@
 , 							{
 								"name" : "classicLed",
 								"default" : 								{
-									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"elementcolor" : [ 0.6, 0.0, 0.0, 1.0 ]
+									"elementcolor" : [ 0.6, 0.0, 0.0, 1.0 ],
+									"color" : [ 1.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11001,9 +11108,9 @@
 , 							{
 								"name" : "classicNodes",
 								"default" : 								{
+									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 									"fontsize" : [ 9.0 ],
-									"color" : [ 0.839216, 0.839216, 0.839216, 1.0 ],
-									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
+									"color" : [ 0.839216, 0.839216, 0.839216, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11058,8 +11165,8 @@
 , 							{
 								"name" : "classicTab",
 								"default" : 								{
-									"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"elementcolor" : [ 0.839216, 0.839216, 0.839216, 1.0 ]
+									"elementcolor" : [ 0.839216, 0.839216, 0.839216, 1.0 ],
+									"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11078,8 +11185,8 @@
 , 							{
 								"name" : "classicToggle",
 								"default" : 								{
-									"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ],
-									"elementcolor" : [ 0.376471, 0.384314, 0.4, 0.0 ]
+									"elementcolor" : [ 0.376471, 0.384314, 0.4, 0.0 ],
+									"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11097,8 +11204,8 @@
 , 							{
 								"name" : "classicWaveform~",
 								"default" : 								{
-									"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ],
-									"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 0.5 ]
+									"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 0.5 ],
+									"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11117,8 +11224,8 @@
 										"proportion" : 0.39
 									}
 ,
-									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
+									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
+									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11142,8 +11249,8 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontsize" : [ 9.5 ],
 									"fontname" : [ "Ableton Sans Book" ],
+									"fontsize" : [ 9.5 ],
 									"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ]
 								}
 ,
@@ -11164,13 +11271,13 @@
 										"autogradient" : 0
 									}
 ,
-									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
-									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
+									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11306,8 +11413,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11316,8 +11423,8 @@
 , 							{
 								"name" : "newobjYellow-2",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11373,9 +11480,9 @@
 , 							{
 								"name" : "stb001",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
 									"fontname" : [ "Arial Bold" ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11404,8 +11511,8 @@
 								"name" : "tastefultoggle",
 								"default" : 								{
 									"bgcolor" : [ 0.287863, 0.333333, 0.329398, 1.0 ],
-									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
-									"elementcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ]
+									"elementcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ],
+									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11414,8 +11521,8 @@
 , 							{
 								"name" : "test",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11425,8 +11532,8 @@
 								"name" : "whitey",
 								"default" : 								{
 									"patchlinecolor" : [ 0.199068, 0.062496, 0.060031, 0.9 ],
-									"fontsize" : [ 36.0 ],
 									"fontname" : [ "Dirty Ego" ],
+									"fontsize" : [ 36.0 ],
 									"selectioncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 									"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 								}
@@ -13365,8 +13472,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -15102,8 +15209,8 @@
 , 											{
 												"name" : "newobjYellow-1",
 												"default" : 												{
-													"fontsize" : [ 12.059008 ],
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+													"fontsize" : [ 12.059008 ]
 												}
 ,
 												"parentstyle" : "",
@@ -16049,8 +16156,8 @@
 								"name" : "Default M4L",
 								"default" : 								{
 									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial Bold" ]
+									"fontname" : [ "Arial Bold" ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -16060,8 +16167,8 @@
 								"name" : "Default M4L Poletti",
 								"default" : 								{
 									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial Bold" ]
+									"fontname" : [ "Arial Bold" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -16079,9 +16186,9 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -16117,13 +16224,13 @@
 										"autogradient" : 0
 									}
 ,
-									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
-									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 									"fontname" : [ "Open Sans Semibold" ],
+									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -16133,8 +16240,8 @@
 								"name" : "M4L 10 Bold",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.25 ],
-									"fontsize" : [ 10.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -16153,8 +16260,8 @@
 , 							{
 								"name" : "Matt",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -16449,12 +16556,12 @@
 										"autogradient" : 0
 									}
 ,
-									"fontsize" : [ 18.0 ],
-									"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
+									"fontname" : [ "HydrogenType" ],
 									"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ],
-									"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
+									"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
 									"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
-									"fontname" : [ "HydrogenType" ]
+									"fontsize" : [ 18.0 ],
+									"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -16473,12 +16580,12 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontsize" : [ 9.0 ],
-									"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
-									"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 									"fontname" : [ "Geneva" ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
+									"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+									"fontsize" : [ 9.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -16533,9 +16640,9 @@
 								"name" : "classicKslider",
 								"default" : 								{
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
+									"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -16544,8 +16651,8 @@
 , 							{
 								"name" : "classicLed",
 								"default" : 								{
-									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"elementcolor" : [ 0.6, 0.0, 0.0, 1.0 ]
+									"elementcolor" : [ 0.6, 0.0, 0.0, 1.0 ],
+									"color" : [ 1.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -16573,9 +16680,9 @@
 , 							{
 								"name" : "classicNodes",
 								"default" : 								{
+									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 									"fontsize" : [ 9.0 ],
-									"color" : [ 0.839216, 0.839216, 0.839216, 1.0 ],
-									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
+									"color" : [ 0.839216, 0.839216, 0.839216, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -16630,8 +16737,8 @@
 , 							{
 								"name" : "classicTab",
 								"default" : 								{
-									"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"elementcolor" : [ 0.839216, 0.839216, 0.839216, 1.0 ]
+									"elementcolor" : [ 0.839216, 0.839216, 0.839216, 1.0 ],
+									"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -16650,8 +16757,8 @@
 , 							{
 								"name" : "classicToggle",
 								"default" : 								{
-									"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ],
-									"elementcolor" : [ 0.376471, 0.384314, 0.4, 0.0 ]
+									"elementcolor" : [ 0.376471, 0.384314, 0.4, 0.0 ],
+									"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -16669,8 +16776,8 @@
 , 							{
 								"name" : "classicWaveform~",
 								"default" : 								{
-									"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ],
-									"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 0.5 ]
+									"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 0.5 ],
+									"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -16689,8 +16796,8 @@
 										"proportion" : 0.39
 									}
 ,
-									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
+									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
+									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -16714,8 +16821,8 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontsize" : [ 9.5 ],
 									"fontname" : [ "Ableton Sans Book" ],
+									"fontsize" : [ 9.5 ],
 									"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ]
 								}
 ,
@@ -16736,13 +16843,13 @@
 										"autogradient" : 0
 									}
 ,
-									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
-									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
+									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -16878,8 +16985,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -16888,8 +16995,8 @@
 , 							{
 								"name" : "newobjYellow-2",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -16945,9 +17052,9 @@
 , 							{
 								"name" : "stb001",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
 									"fontname" : [ "Arial Bold" ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -16976,8 +17083,8 @@
 								"name" : "tastefultoggle",
 								"default" : 								{
 									"bgcolor" : [ 0.287863, 0.333333, 0.329398, 1.0 ],
-									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
-									"elementcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ]
+									"elementcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ],
+									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -16986,8 +17093,8 @@
 , 							{
 								"name" : "test",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -16997,8 +17104,8 @@
 								"name" : "whitey",
 								"default" : 								{
 									"patchlinecolor" : [ 0.199068, 0.062496, 0.060031, 0.9 ],
-									"fontsize" : [ 36.0 ],
 									"fontname" : [ "Dirty Ego" ],
+									"fontsize" : [ 36.0 ],
 									"selectioncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 									"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 								}
@@ -18474,8 +18581,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -19097,8 +19204,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -20001,8 +20108,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -20648,8 +20755,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -21275,8 +21382,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -27121,32 +27228,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 414.5, 610.0, 262.0, 104.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 414.5, 616.0, 234.0, 303.0 ],
+					"presentation_rect" : [ 414.5, 616.0, 335.0, 303.0 ],
 					"proportion" : 0.5,
 					"rounded" : 25
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"background" : 1,
-					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
-					"fontface" : 1,
-					"hint" : "",
-					"id" : "obj-88",
-					"ignoreclick" : 1,
-					"legacytextcolor" : 1,
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 650.5, 622.0, 20.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 391.0, 611.0, 20.0, 20.0 ],
-					"rounded" : 60.0,
-					"text" : "5",
-					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
 				}
 
 			}
@@ -27166,9 +27250,32 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 258.5, 610.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 257.5, 611.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 7.666666666666742, 589.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "4",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"fontface" : 1,
+					"hint" : "",
+					"id" : "obj-88",
+					"ignoreclick" : 1,
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 650.5, 622.0, 20.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 391.0, 594.0, 20.0, 20.0 ],
+					"rounded" : 60.0,
+					"text" : "5",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
 				}
 
@@ -27259,6 +27366,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-112", 0 ],
+					"source" : [ "obj-104", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-100", 0 ],
 					"source" : [ "obj-106", 0 ]
 				}
@@ -27294,8 +27408,39 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-298", 0 ],
+					"source" : [ "obj-112", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-107", 0 ],
 					"source" : [ "obj-114", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-120", 1 ],
+					"order" : 0,
+					"source" : [ "obj-116", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-122", 0 ],
+					"order" : 1,
+					"source" : [ "obj-116", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-286", 0 ],
+					"order" : 2,
+					"source" : [ "obj-116", 0 ]
 				}
 
 			}
@@ -27317,6 +27462,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-121", 0 ],
 					"source" : [ "obj-125", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-224", 0 ],
+					"source" : [ "obj-126", 0 ]
 				}
 
 			}
@@ -29216,7 +29368,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Ample Guitar M II Lite_20210621_1.maxsnap",
+				"name" : "chipsounds.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../../Snapshots",
 				"type" : "mx@s",
@@ -29263,8 +29415,8 @@
 				"name" : "Default M4L",
 				"default" : 				{
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontname" : [ "Arial Bold" ],
+					"fontsize" : [ 11.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -29274,8 +29426,8 @@
 				"name" : "Default M4L Poletti",
 				"default" : 				{
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontname" : [ "Arial Bold" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -29293,9 +29445,9 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontsize" : [ 11.0 ],
 					"fontname" : [ "Arial" ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 11.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -29331,13 +29483,13 @@
 						"autogradient" : 0
 					}
 ,
-					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
-					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 					"fontname" : [ "Open Sans Semibold" ],
+					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -29347,8 +29499,8 @@
 				"name" : "M4L 10 Bold",
 				"default" : 				{
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.25 ],
-					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -29367,8 +29519,8 @@
 , 			{
 				"name" : "Matt",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -29663,12 +29815,12 @@
 						"autogradient" : 0
 					}
 ,
-					"fontsize" : [ 18.0 ],
-					"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
+					"fontname" : [ "HydrogenType" ],
 					"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ],
-					"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
+					"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
 					"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
-					"fontname" : [ "HydrogenType" ]
+					"fontsize" : [ 18.0 ],
+					"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -29687,12 +29839,12 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontsize" : [ 9.0 ],
-					"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-					"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
-					"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 					"fontname" : [ "Geneva" ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
+					"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+					"fontsize" : [ 9.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -29747,9 +29899,9 @@
 				"name" : "classicKslider",
 				"default" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-					"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
+					"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -29758,8 +29910,8 @@
 , 			{
 				"name" : "classicLed",
 				"default" : 				{
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.6, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.6, 0.0, 0.0, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -29787,9 +29939,9 @@
 , 			{
 				"name" : "classicNodes",
 				"default" : 				{
+					"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 					"fontsize" : [ 9.0 ],
-					"color" : [ 0.839216, 0.839216, 0.839216, 1.0 ],
-					"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
+					"color" : [ 0.839216, 0.839216, 0.839216, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -29844,8 +29996,8 @@
 , 			{
 				"name" : "classicTab",
 				"default" : 				{
-					"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-					"elementcolor" : [ 0.839216, 0.839216, 0.839216, 1.0 ]
+					"elementcolor" : [ 0.839216, 0.839216, 0.839216, 1.0 ],
+					"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -29864,8 +30016,8 @@
 , 			{
 				"name" : "classicToggle",
 				"default" : 				{
-					"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ],
-					"elementcolor" : [ 0.376471, 0.384314, 0.4, 0.0 ]
+					"elementcolor" : [ 0.376471, 0.384314, 0.4, 0.0 ],
+					"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -29883,8 +30035,8 @@
 , 			{
 				"name" : "classicWaveform~",
 				"default" : 				{
-					"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ],
-					"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 0.5 ]
+					"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 0.5 ],
+					"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -29903,8 +30055,8 @@
 						"proportion" : 0.39
 					}
 ,
-					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
+					"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -29928,8 +30080,8 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontsize" : [ 9.5 ],
 					"fontname" : [ "Ableton Sans Book" ],
+					"fontsize" : [ 9.5 ],
 					"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ]
 				}
 ,
@@ -29950,13 +30102,13 @@
 						"autogradient" : 0
 					}
 ,
-					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
-					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
+					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -30092,8 +30244,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -30102,8 +30254,8 @@
 , 			{
 				"name" : "newobjYellow-2",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -30159,9 +30311,9 @@
 , 			{
 				"name" : "stb001",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
 					"fontname" : [ "Arial Bold" ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -30190,8 +30342,8 @@
 				"name" : "tastefultoggle",
 				"default" : 				{
 					"bgcolor" : [ 0.287863, 0.333333, 0.329398, 1.0 ],
-					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
-					"elementcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ]
+					"elementcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ],
+					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -30200,8 +30352,8 @@
 , 			{
 				"name" : "test",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -30211,8 +30363,8 @@
 				"name" : "whitey",
 				"default" : 				{
 					"patchlinecolor" : [ 0.199068, 0.062496, 0.060031, 0.9 ],
-					"fontsize" : [ 36.0 ],
 					"fontname" : [ "Dirty Ego" ],
+					"fontsize" : [ 36.0 ],
 					"selectioncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 					"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 				}
