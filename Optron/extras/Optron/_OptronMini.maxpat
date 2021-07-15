@@ -5931,7 +5931,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 34.0, 289.0, 50.0, 49.0 ],
-									"text" : "/line 0.010525"
+									"text" : "/line 0.012387"
 								}
 
 							}
@@ -6671,7 +6671,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"bgmode" : 0,
@@ -11717,12 +11716,13 @@
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-4",
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 70.0, 132.0, 113.0, 22.0 ],
-													"text" : "BOW 0 6 0 1 254"
+													"text" : "SPT 196 248 50 22 3 25"
 												}
 
 											}
@@ -20466,12 +20466,13 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-4",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 70.0, 132.0, 113.0, 22.0 ],
-									"text" : "BOW 0 6 0 1 254"
+									"text" : "SPT 196 248 50 22 3 25"
 								}
 
 							}
@@ -35148,7 +35149,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 196.0, 243.0, 135.0, 22.0 ],
-					"text" : "port usbmodem143101"
+					"text" : "port usbmodem144101"
 				}
 
 			}
@@ -35190,7 +35191,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 317.0, 438.0, 69.0, 89.0 ],
-					"text" : "0.113 -0.24225 0.82975 0.014562 -0.006063 0.0035"
+					"text" : "0.31025 0.11725 0.79725 0.021187 0.000687 0.007625"
 				}
 
 			}
@@ -35280,7 +35281,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"id" : "obj-152",
-					"items" : [ "Bluetooth-Incoming-Port", ",", "usbmodem143101" ],
+					"items" : [ "Bluetooth-Incoming-Port", ",", "usbmodem144101" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -35703,7 +35704,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 34.0, 409.0, 125.0, 22.0 ],
-					"text" : "8 278 255"
+					"text" : "10 70 255"
 				}
 
 			}
@@ -35989,7 +35990,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-154",
