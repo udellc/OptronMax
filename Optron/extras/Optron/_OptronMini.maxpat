@@ -40,6 +40,172 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-230",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 285.5, 865.0, 50.0, 35.0 ],
+					"presentation_linecount" : 2,
+					"text" : "tonic 60"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-229",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 590.0, 834.963921000000028, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-228",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 594.0, 883.0, 50.0, 22.0 ],
+					"text" : "0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.84, 0.159857, 0.214613, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
+					"id" : "obj-224",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 353.5, 865.5, 76.0, 19.0 ],
+					"text" : "prepend tonic"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.84, 0.159857, 0.214613, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
+					"id" : "obj-223",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 433.218261999999982, 865.5, 76.0, 19.0 ],
+					"text" : "prepend scale"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.84, 0.159857, 0.214613, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
+					"id" : "obj-222",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 395.0, 908.0, 73.0, 19.0 ],
+					"text" : "s musiclinksInfo"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"allowdrag" : 0,
+					"id" : "obj-220",
+					"items" : [ "Ionian", "(Major)", ",", "Dorian", ",", "Phrygian", ",", "Lydian", ",", "Mixolydian", ",", "Aeolian", "(Natural", "Minor)", ",", "Locrian", ",", "Melodic", "Minor", ",", "Harmonic", "Minor", ",", "Harmonic", "Major", ",", "Whole", "Tone", ",", "Chromatic", ",", "Octatonic", "Major", ",", "Octatonic", "Minor", ",", "Pentatonic", ",", "Synthetic", "Minor", ",", "Major", "Bitonal", ",", "Minor", "Bitonal", ",", "Polytonal", ",", "Ditone", ",", "Prometheus", ",", "Trans-Pentatonic", ",", "Pelog", ",", "Slendro", ",", "Hungarian-Bartok", ",", "Bulgarian-Bartok", ",", "Asian-Bartok", ",", "Spain", ",", "India-Dharmavati", ",", "Japan", ",", "Peru", ",", "Alaska", ",", "Jewish", "Ahavoh-Rabboh", ",", "Slavic", ",", "Blues" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 433.218261999999982, 834.963921000000028, 123.0, 22.0 ],
+					"pattrmode" : 1,
+					"presentation" : 1,
+					"presentation_rect" : [ 455.5, 301.5, 123.0, 22.0 ],
+					"varname" : "ubumenu"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.866667, 0.866667, 0.866667, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"format" : 5,
+					"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
+					"id" : "obj-221",
+					"maxclass" : "number",
+					"maximum" : 127,
+					"minimum" : 0,
+					"mousefilter" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 353.5, 832.0, 43.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 411.5, 301.5, 43.0, 22.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"triscale" : 0.9,
+					"varname" : "number"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-219",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "int", "int" ],
+					"patching_rect" : [ -49.0, 290.0, 65.0, 22.0 ],
+					"text" : "change 99"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-218",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1.0, 256.5, 73.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 233.0, 246.0, 73.0, 24.0 ],
+					"text" : "Player #"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-217",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ -49.0, 256.5, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 177.5, 246.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-216",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -106,7 +272,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 209.0, 315.0, 50.0, 22.0 ],
-					"text" : "113 110"
+					"text" : "28 107"
 				}
 
 			}
@@ -1051,7 +1217,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 644.583344000000011, 392.0, 29.5, 22.0 ],
-									"text" : "9"
+									"text" : "5"
 								}
 
 							}
@@ -1063,7 +1229,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 383.583344000000011, 399.0, 29.5, 22.0 ],
-									"text" : "9"
+									"text" : "5"
 								}
 
 							}
@@ -1667,7 +1833,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 163.0, 464.0, 144.0, 22.0 ],
-									"text" : "1 4 0 0 9 0 0 1 0 5 122"
+									"text" : "1 4 0 0 5 0 0 1 0 5 122"
 								}
 
 							}
@@ -2210,9 +2376,9 @@
 , 											{
 												"name" : "Default M4L",
 												"default" : 												{
-													"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+													"fontsize" : [ 11.0 ],
 													"fontname" : [ "Arial Bold" ],
-													"fontsize" : [ 11.0 ]
+													"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 												}
 ,
 												"parentstyle" : "",
@@ -2221,9 +2387,9 @@
 , 											{
 												"name" : "Default M4L Poletti",
 												"default" : 												{
-													"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+													"fontsize" : [ 10.0 ],
 													"fontname" : [ "Arial Bold" ],
-													"fontsize" : [ 10.0 ]
+													"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 												}
 ,
 												"parentstyle" : "",
@@ -2232,6 +2398,8 @@
 , 											{
 												"name" : "Default M4L-1",
 												"default" : 												{
+													"fontsize" : [ 11.0 ],
+													"fontname" : [ "Arial" ],
 													"bgfillcolor" : 													{
 														"type" : "gradient",
 														"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2241,9 +2409,7 @@
 														"proportion" : 0.39
 													}
 ,
-													"fontname" : [ "Arial" ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 11.0 ]
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -2269,6 +2435,11 @@
 , 											{
 												"name" : "Luca",
 												"default" : 												{
+													"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+													"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+													"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+													"fontname" : [ "Open Sans Semibold" ],
 													"bgfillcolor" : 													{
 														"type" : "gradient",
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -2279,13 +2450,8 @@
 														"autogradient" : 0
 													}
 ,
-													"fontname" : [ "Open Sans Semibold" ],
-													"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 													"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-													"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-													"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-													"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ]
+													"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -2294,9 +2460,9 @@
 , 											{
 												"name" : "M4L 10 Bold",
 												"default" : 												{
+													"fontsize" : [ 10.0 ],
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.25 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ]
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -2315,8 +2481,8 @@
 , 											{
 												"name" : "Matt",
 												"default" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ]
+													"fontsize" : [ 10.0 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -2600,6 +2766,10 @@
 , 											{
 												"name" : "WTF",
 												"default" : 												{
+													"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ],
+													"fontsize" : [ 18.0 ],
+													"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
+													"fontname" : [ "HydrogenType" ],
 													"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
 													"bgfillcolor" : 													{
 														"type" : "gradient",
@@ -2611,12 +2781,8 @@
 														"autogradient" : 0
 													}
 ,
-													"fontname" : [ "HydrogenType" ],
-													"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ],
 													"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
-													"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
-													"fontsize" : [ 18.0 ],
-													"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ]
+													"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -2625,6 +2791,11 @@
 , 											{
 												"name" : "classic",
 												"default" : 												{
+													"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
+													"fontsize" : [ 9.0 ],
+													"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontname" : [ "Geneva" ],
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgfillcolor" : 													{
 														"type" : "color",
@@ -2635,12 +2806,7 @@
 														"proportion" : 0.39
 													}
 ,
-													"fontname" : [ "Geneva" ],
-													"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
-													"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-													"fontsize" : [ 9.0 ],
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
+													"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -2695,9 +2861,9 @@
 												"name" : "classicKslider",
 												"default" : 												{
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+													"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 													"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-													"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+													"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -2706,8 +2872,8 @@
 , 											{
 												"name" : "classicLed",
 												"default" : 												{
-													"elementcolor" : [ 0.6, 0.0, 0.0, 1.0 ],
-													"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.6, 0.0, 0.0, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -2735,9 +2901,9 @@
 , 											{
 												"name" : "classicNodes",
 												"default" : 												{
-													"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 													"fontsize" : [ 9.0 ],
-													"color" : [ 0.839216, 0.839216, 0.839216, 1.0 ]
+													"color" : [ 0.839216, 0.839216, 0.839216, 1.0 ],
+													"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -2792,8 +2958,8 @@
 , 											{
 												"name" : "classicTab",
 												"default" : 												{
-													"elementcolor" : [ 0.839216, 0.839216, 0.839216, 1.0 ],
-													"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
+													"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+													"elementcolor" : [ 0.839216, 0.839216, 0.839216, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -2802,8 +2968,8 @@
 , 											{
 												"name" : "classicTextbutton",
 												"default" : 												{
-													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+													"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -2812,8 +2978,8 @@
 , 											{
 												"name" : "classicToggle",
 												"default" : 												{
-													"elementcolor" : [ 0.376471, 0.384314, 0.4, 0.0 ],
-													"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ]
+													"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ],
+													"elementcolor" : [ 0.376471, 0.384314, 0.4, 0.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -2831,8 +2997,8 @@
 , 											{
 												"name" : "classicWaveform~",
 												"default" : 												{
-													"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 0.5 ],
-													"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ]
+													"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ],
+													"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 0.5 ]
 												}
 ,
 												"parentstyle" : "",
@@ -2866,6 +3032,9 @@
 , 											{
 												"name" : "jpatcher002",
 												"default" : 												{
+													"fontsize" : [ 9.5 ],
+													"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
+													"fontname" : [ "Ableton Sans Book" ],
 													"patchlinecolor" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
 													"bgfillcolor" : 													{
 														"type" : "color",
@@ -2875,10 +3044,7 @@
 														"angle" : 270.0,
 														"proportion" : 0.39
 													}
-,
-													"fontname" : [ "Ableton Sans Book" ],
-													"fontsize" : [ 9.5 ],
-													"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ]
+
 												}
 ,
 												"parentstyle" : "",
@@ -2887,6 +3053,10 @@
 , 											{
 												"name" : "jpink",
 												"default" : 												{
+													"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+													"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+													"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
+													"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 													"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
 													"bgfillcolor" : 													{
 														"type" : "color",
@@ -2898,13 +3068,9 @@
 														"autogradient" : 0
 													}
 ,
-													"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 													"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-													"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-													"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
-													"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 													"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-													"color" : [ 0.619608, 0.0, 0.360784, 1.0 ]
+													"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -3040,8 +3206,8 @@
 , 											{
 												"name" : "newobjYellow-1",
 												"default" : 												{
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-													"fontsize" : [ 12.059008 ]
+													"fontsize" : [ 12.059008 ],
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -3050,8 +3216,8 @@
 , 											{
 												"name" : "newobjYellow-2",
 												"default" : 												{
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-													"fontsize" : [ 12.059008 ]
+													"fontsize" : [ 12.059008 ],
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -3107,9 +3273,9 @@
 , 											{
 												"name" : "stb001",
 												"default" : 												{
+													"fontsize" : [ 10.0 ],
 													"fontname" : [ "Arial Bold" ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ]
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -3138,8 +3304,8 @@
 												"name" : "tastefultoggle",
 												"default" : 												{
 													"bgcolor" : [ 0.287863, 0.333333, 0.329398, 1.0 ],
-													"elementcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ],
-													"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ]
+													"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
+													"elementcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -3148,8 +3314,8 @@
 , 											{
 												"name" : "test",
 												"default" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ]
+													"fontsize" : [ 10.0 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -3158,11 +3324,11 @@
 , 											{
 												"name" : "whitey",
 												"default" : 												{
-													"patchlinecolor" : [ 0.199068, 0.062496, 0.060031, 0.9 ],
-													"fontname" : [ "Dirty Ego" ],
 													"fontsize" : [ 36.0 ],
 													"selectioncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
-													"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
+													"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+													"fontname" : [ "Dirty Ego" ],
+													"patchlinecolor" : [ 0.199068, 0.062496, 0.060031, 0.9 ]
 												}
 ,
 												"parentstyle" : "",
@@ -3330,7 +3496,7 @@
 									"patching_rect" : [ 153.0, 615.0, 166.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 50.5, 155.099921999999992, 213.0, 22.0 ],
-									"text" : "ARGB 1 4 0 0 9 0 0 1 0 5 122"
+									"text" : "ARGB 1 4 0 0 5 0 0 1 0 5 122"
 								}
 
 							}
@@ -4403,9 +4569,9 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial Bold" ],
-									"fontsize" : [ 11.0 ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4414,9 +4580,9 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+									"fontsize" : [ 10.0 ],
 									"fontname" : [ "Arial Bold" ],
-									"fontsize" : [ 10.0 ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4425,6 +4591,8 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
+									"fontsize" : [ 11.0 ],
+									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -4434,9 +4602,7 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ],
-									"fontsize" : [ 11.0 ]
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4462,6 +4628,11 @@
 , 							{
 								"name" : "Luca",
 								"default" : 								{
+									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+									"fontname" : [ "Open Sans Semibold" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -4472,13 +4643,8 @@
 										"autogradient" : 0
 									}
 ,
-									"fontname" : [ "Open Sans Semibold" ],
-									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ]
+									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4487,9 +4653,9 @@
 , 							{
 								"name" : "M4L 10 Bold",
 								"default" : 								{
+									"fontsize" : [ 10.0 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.25 ],
-									"fontface" : [ 1 ],
-									"fontsize" : [ 10.0 ]
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4508,8 +4674,8 @@
 , 							{
 								"name" : "Matt",
 								"default" : 								{
-									"fontface" : [ 1 ],
-									"fontsize" : [ 10.0 ]
+									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4793,6 +4959,10 @@
 , 							{
 								"name" : "WTF",
 								"default" : 								{
+									"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ],
+									"fontsize" : [ 18.0 ],
+									"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
+									"fontname" : [ "HydrogenType" ],
 									"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -4804,12 +4974,8 @@
 										"autogradient" : 0
 									}
 ,
-									"fontname" : [ "HydrogenType" ],
-									"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ],
 									"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
-									"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
-									"fontsize" : [ 18.0 ],
-									"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ]
+									"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4818,6 +4984,11 @@
 , 							{
 								"name" : "classic",
 								"default" : 								{
+									"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
+									"fontsize" : [ 9.0 ],
+									"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontname" : [ "Geneva" ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
@@ -4828,12 +4999,7 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontname" : [ "Geneva" ],
-									"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
-									"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"fontsize" : [ 9.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
+									"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4888,9 +5054,9 @@
 								"name" : "classicKslider",
 								"default" : 								{
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4899,8 +5065,8 @@
 , 							{
 								"name" : "classicLed",
 								"default" : 								{
-									"elementcolor" : [ 0.6, 0.0, 0.0, 1.0 ],
-									"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+									"elementcolor" : [ 0.6, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4928,9 +5094,9 @@
 , 							{
 								"name" : "classicNodes",
 								"default" : 								{
-									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 									"fontsize" : [ 9.0 ],
-									"color" : [ 0.839216, 0.839216, 0.839216, 1.0 ]
+									"color" : [ 0.839216, 0.839216, 0.839216, 1.0 ],
+									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4985,8 +5151,8 @@
 , 							{
 								"name" : "classicTab",
 								"default" : 								{
-									"elementcolor" : [ 0.839216, 0.839216, 0.839216, 1.0 ],
-									"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
+									"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+									"elementcolor" : [ 0.839216, 0.839216, 0.839216, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4995,8 +5161,8 @@
 , 							{
 								"name" : "classicTextbutton",
 								"default" : 								{
-									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5005,8 +5171,8 @@
 , 							{
 								"name" : "classicToggle",
 								"default" : 								{
-									"elementcolor" : [ 0.376471, 0.384314, 0.4, 0.0 ],
-									"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ]
+									"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ],
+									"elementcolor" : [ 0.376471, 0.384314, 0.4, 0.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5024,8 +5190,8 @@
 , 							{
 								"name" : "classicWaveform~",
 								"default" : 								{
-									"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 0.5 ],
-									"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ]
+									"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ],
+									"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 0.5 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5059,6 +5225,9 @@
 , 							{
 								"name" : "jpatcher002",
 								"default" : 								{
+									"fontsize" : [ 9.5 ],
+									"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
+									"fontname" : [ "Ableton Sans Book" ],
 									"patchlinecolor" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
@@ -5068,10 +5237,7 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-,
-									"fontname" : [ "Ableton Sans Book" ],
-									"fontsize" : [ 9.5 ],
-									"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -5080,6 +5246,10 @@
 , 							{
 								"name" : "jpink",
 								"default" : 								{
+									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
+									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
@@ -5091,13 +5261,9 @@
 										"autogradient" : 0
 									}
 ,
-									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
-									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ]
+									"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5233,8 +5399,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5243,8 +5409,8 @@
 , 							{
 								"name" : "newobjYellow-2",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5300,9 +5466,9 @@
 , 							{
 								"name" : "stb001",
 								"default" : 								{
+									"fontsize" : [ 10.0 ],
 									"fontname" : [ "Arial Bold" ],
-									"fontface" : [ 1 ],
-									"fontsize" : [ 10.0 ]
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5331,8 +5497,8 @@
 								"name" : "tastefultoggle",
 								"default" : 								{
 									"bgcolor" : [ 0.287863, 0.333333, 0.329398, 1.0 ],
-									"elementcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ],
-									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ]
+									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
+									"elementcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5341,8 +5507,8 @@
 , 							{
 								"name" : "test",
 								"default" : 								{
-									"fontface" : [ 1 ],
-									"fontsize" : [ 10.0 ]
+									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5351,11 +5517,11 @@
 , 							{
 								"name" : "whitey",
 								"default" : 								{
-									"patchlinecolor" : [ 0.199068, 0.062496, 0.060031, 0.9 ],
-									"fontname" : [ "Dirty Ego" ],
 									"fontsize" : [ 36.0 ],
 									"selectioncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
-									"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
+									"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+									"fontname" : [ "Dirty Ego" ],
+									"patchlinecolor" : [ 0.199068, 0.062496, 0.060031, 0.9 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5471,7 +5637,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1394.0, 673.75, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 378.0, 663.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 600.0, 572.5, 24.0, 24.0 ]
 				}
 
 			}
@@ -5484,7 +5650,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1422.0, 673.75, 120.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 406.0, 663.0, 120.0, 24.0 ],
+					"presentation_rect" : [ 628.0, 572.5, 120.0, 24.0 ],
 					"text" : "MIDI Instrument"
 				}
 
@@ -5523,7 +5689,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1394.0, 585.75, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 378.0, 629.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 600.0, 538.5, 24.0, 24.0 ]
 				}
 
 			}
@@ -5536,7 +5702,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1422.0, 585.75, 103.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 406.0, 629.0, 103.0, 24.0 ],
+					"presentation_rect" : [ 628.0, 538.5, 103.0, 24.0 ],
 					"text" : "Make Sounds"
 				}
 
@@ -5575,7 +5741,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1394.0, 493.75, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 378.0, 594.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 600.0, 503.5, 24.0, 24.0 ]
 				}
 
 			}
@@ -5588,7 +5754,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1422.0, 493.75, 229.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 406.0, 594.0, 229.0, 24.0 ],
+					"presentation_rect" : [ 628.0, 503.5, 229.0, 24.0 ],
 					"text" : "Sensor-Controlled Lights"
 				}
 
@@ -5627,7 +5793,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1394.0, 404.75, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 378.0, 560.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 600.0, 469.5, 24.0, 24.0 ]
 				}
 
 			}
@@ -5640,7 +5806,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1422.0, 404.75, 229.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 406.0, 560.0, 229.0, 24.0 ],
+					"presentation_rect" : [ 628.0, 469.5, 229.0, 24.0 ],
 					"text" : "Transforming and Assigning Sensors"
 				}
 
@@ -5679,7 +5845,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1394.0, 315.75, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 378.0, 526.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 600.0, 435.5, 24.0, 24.0 ]
 				}
 
 			}
@@ -5692,7 +5858,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1422.0, 315.75, 189.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 406.0, 526.0, 189.0, 24.0 ],
+					"presentation_rect" : [ 628.0, 435.5, 189.0, 24.0 ],
 					"text" : "Accessing Sensor Control"
 				}
 
@@ -5731,7 +5897,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1394.0, 224.75, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 378.0, 492.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 600.0, 401.5, 24.0, 24.0 ]
 				}
 
 			}
@@ -5744,7 +5910,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1422.0, 224.75, 148.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 406.0, 492.0, 148.0, 24.0 ],
+					"presentation_rect" : [ 628.0, 401.5, 148.0, 24.0 ],
 					"text" : "Control Optron Lights"
 				}
 
@@ -5770,7 +5936,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1097.0, 242.25, 154.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 375.5, 446.5, 102.0, 29.0 ],
+					"presentation_rect" : [ 597.5, 356.0, 102.0, 29.0 ],
 					"text" : "Tutorials"
 				}
 
@@ -5788,7 +5954,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1127.5, 275.25, 237.0, 73.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 406.0, 479.5, 300.0, 225.0 ],
+					"presentation_rect" : [ 628.0, 389.0, 300.0, 225.0 ],
 					"proportion" : 0.5,
 					"rounded" : 25
 				}
@@ -5807,7 +5973,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1094.0, 232.25, 233.0, 88.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 372.5, 436.5, 136.5, 276.0 ],
+					"presentation_rect" : [ 594.5, 346.0, 136.5, 276.0 ],
 					"proportion" : 0.5,
 					"rounded" : 25
 				}
@@ -5834,7 +6000,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 922.5, 178.0, 123.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 406.0, 370.5, 124.5, 24.0 ],
+					"presentation_rect" : [ 338.0, 469.5, 124.5, 24.0 ],
 					"text" : "OSC Settings"
 				}
 
@@ -5873,7 +6039,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 885.5, 178.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 376.0, 370.5, 24.0, 24.0 ]
+					"presentation_rect" : [ 308.0, 469.5, 24.0, 24.0 ]
 				}
 
 			}
@@ -5925,13 +6091,12 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-3",
-									"linecount" : 3,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 34.0, 289.0, 50.0, 49.0 ],
-									"text" : "/line 0.012387"
+									"patching_rect" : [ 34.0, 289.0, 40.0, 49.0 ],
+									"text" : "/fret 0"
 								}
 
 							}
@@ -6411,7 +6576,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 819.5, 116.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 376.0, 340.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 308.0, 439.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -6424,7 +6589,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 847.5, 116.0, 207.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 406.0, 340.0, 210.0, 24.0 ],
+					"presentation_rect" : [ 338.0, 439.0, 210.0, 24.0 ],
 					"text" : "External MIDI Instrument to DAW"
 				}
 
@@ -6450,7 +6615,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 490.0, 97.0, 217.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 376.0, 257.0, 189.0, 29.0 ],
+					"presentation_rect" : [ 308.0, 356.0, 189.0, 29.0 ],
 					"text" : "Optron MIDI & OSC"
 				}
 
@@ -6630,7 +6795,7 @@
 				"box" : 				{
 					"id" : "obj-61",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
+					"numinlets" : 4,
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
@@ -6643,7 +6808,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 933.0, 79.0, 539.0, 415.0 ],
+						"rect" : [ 942.0, 79.0, 539.0, 415.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -6672,6 +6837,721 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-128",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1235.5, 236.0, 150.0, 33.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 3.0, 412.0, 207.5, 20.0 ],
+									"text" : "Transmitting data to OSC local port:"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-38",
+									"linecount" : 4,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 401.0, 1268.5, 278.0, 60.0 ],
+									"text" : "re-tare under 3 OR conditions:\n- New touch on fret board\n- New note triggered\n- Fret finger slides more than 1 fret length (turbo)"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-41",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 406.0, 1610.0, 457.0, 20.0 ],
+									"text" : "<< distance threshold sliding finger crosses away from onset to trigger a new onset"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-39",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 481.0, 1425.5, 150.0, 47.0 ],
+									"text" : "prevents triggering 2 notes if finger lands on threshold between 2 frets"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-40",
+									"linecount" : 6,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 481.0, 1339.0, 150.0, 87.0 ],
+									"text" : "This portion tares the onset position of each new tone to 0.0\nHold+sliding finder is measured relative to the initial position"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-42",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 370.0, 1640.0, 34.0, 22.0 ],
+									"text" : "sel 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-43",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 370.0, 1610.0, 29.5, 22.0 ],
+									"text" : "> 1."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-44",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 534.0, 1567.0, 24.0, 24.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-45",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "int", "int" ],
+									"patching_rect" : [ 381.5, 1398.0, 48.0, 22.0 ],
+									"text" : "change"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-46",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 381.5, 1367.0, 29.5, 22.0 ],
+									"text" : "i 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"format" : 6,
+									"id" : "obj-48",
+									"maxclass" : "flonum",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 370.0, 1579.0, 50.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-50",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 413.0, 1476.0, 226.0, 20.0 ],
+									"text" : "<< only let one value through, close gate"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-51",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "float", "int" ],
+									"patching_rect" : [ 381.5, 1474.0, 29.5, 22.0 ],
+									"text" : "t f 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-52",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 381.5, 1448.0, 52.0, 22.0 ],
+									"text" : "gate 1 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-53",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "float" ],
+									"patching_rect" : [ 370.0, 1513.0, 29.5, 22.0 ],
+									"text" : "- 0."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-54",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "float" ],
+									"patching_rect" : [ 370.0, 1544.0, 41.0, 22.0 ],
+									"text" : "abs 0."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-55",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 104.0, 1525.0, 73.0, 20.0 ],
+									"text" : "finger lifted"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-56",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 223.75, 1321.0, 109.0, 22.0 ],
+									"text" : "expr pow($f1\\,1.25)"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-57",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 245.0, 1085.0, 471.0, 20.0 ],
+									"text" : "This value needs to be right above threshold of lowest value with finger on line sensor"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-58",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "float" ],
+									"patching_rect" : [ 224.0, 1360.0, 29.5, 22.0 ],
+									"text" : "!- 1."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-59",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 231.25, 1050.0, 150.0, 20.0 ],
+									"text" : "releace, no finger is fret 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-71",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 338.5, 1146.0, 89.0, 20.0 ],
+									"text" : "No divide by 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-60",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 2,
+									"outlettype" : [ "int", "int" ],
+									"patching_rect" : [ 285.75, 1146.0, 50.0, 22.0 ],
+									"text" : "split 0 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-67",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 316.75, 1178.0, 29.5, 22.0 ],
+									"text" : "- 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-62",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 191.5, 1525.0, 29.5, 22.0 ],
+									"text" : "+ 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-63",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 171.0, 1579.0, 50.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-64",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 166.0, 1108.0, 24.0, 24.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-70",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 166.0, 1138.0, 29.5, 22.0 ],
+									"text" : "i 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-72",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 2,
+									"outlettype" : [ "float", "float" ],
+									"patching_rect" : [ 166.0, 1083.0, 70.0, 22.0 ],
+									"text" : "split 0. 0.05"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-75",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 172.25, 1616.0, 46.0, 22.0 ],
+									"text" : "/fret $1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-76",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 285.75, 1116.0, 67.0, 22.0 ],
+									"text" : "r numFrets"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"format" : 6,
+									"id" : "obj-78",
+									"maxclass" : "flonum",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 316.75, 1258.0, 50.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-80",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 356.25, 1186.0, 29.5, 22.0 ],
+									"text" : "10"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-81",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "float" ],
+									"patching_rect" : [ 316.75, 1225.0, 29.5, 22.0 ],
+									"text" : "!/ 1."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"format" : 6,
+									"id" : "obj-82",
+									"maxclass" : "flonum",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 224.0, 1438.0, 50.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-83",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "float" ],
+									"patching_rect" : [ 224.0, 1404.0, 32.0, 22.0 ],
+									"text" : "/ 0.1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"format" : 6,
+									"id" : "obj-84",
+									"maxclass" : "flonum",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 224.0, 1116.0, 50.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-85",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 172.25, 1657.0, 93.0, 22.0 ],
+									"text" : "s OptronToOSC"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-87",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 166.0, 1050.0, 61.0, 22.0 ],
+									"text" : "route /line"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-89",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 733.0, 1016.0, 195.0, 33.0 ],
+									"text" : "track fret and line, but only commit if over pressure threshold"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-90",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 774.75, 1380.0, 93.0, 22.0 ],
+									"text" : "s OptronToOSC"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-91",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 823.5, 1330.0, 78.0, 22.0 ],
+									"text" : "/linePress $1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-93",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 774.5, 1297.0, 93.0, 22.0 ],
+									"text" : "/romanPress $1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-94",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "float" ],
+									"patching_rect" : [ 823.5, 1253.0, 29.5, 22.0 ],
+									"text" : "f 0."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-95",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 774.5, 1253.0, 29.5, 22.0 ],
+									"text" : "i 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-102",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 733.0, 1202.0, 34.0, 22.0 ],
+									"text" : "sel 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-118",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "int", "int" ],
+									"patching_rect" : [ 733.0, 1174.0, 48.0, 22.0 ],
+									"text" : "change"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-119",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 733.0, 1147.0, 36.0, 22.0 ],
+									"text" : "> 0.1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"format" : 6,
+									"id" : "obj-120",
+									"maxclass" : "flonum",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 837.0, 1117.0, 50.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"format" : 6,
+									"id" : "obj-121",
+									"maxclass" : "flonum",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 785.0, 1117.0, 50.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"format" : 6,
+									"id" : "obj-122",
+									"maxclass" : "flonum",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 733.0, 1117.0, 50.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-123",
+									"maxclass" : "newobj",
+									"numinlets" : 4,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 733.0, 1085.0, 139.0, 22.0 ],
+									"text" : "route /pressure /fret /line"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+									"id" : "obj-37",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 1368.0, 258.0, 50.0, 22.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 199.5, 411.0, 50.0, 22.0 ],
+									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-33",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1235.5, 333.0, 48.0, 22.0 ],
+									"text" : "/zxZ $1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-32",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1175.833333333333485, 333.0, 49.0, 22.0 ],
+									"text" : "/zxX $1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-26",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1308.0, 92.0, 85.0, 22.0 ],
+									"text" : "sprintf 750%ld"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-24",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1308.0, 144.0, 49.0, 23.0 ],
+									"text" : "port $1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-23",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 97.0, 484.0, 138.0, 22.0 ],
+									"text" : "udpsend 127.0.0.1 7500"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "Player Number",
+									"id" : "obj-22",
+									"index" : 4,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1308.0, 45.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"bgmode" : 0,
 									"border" : 0,
@@ -8272,8 +9152,8 @@
 , 											{
 												"name" : "newobjYellow-1",
 												"default" : 												{
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-													"fontsize" : [ 12.059008 ]
+													"fontsize" : [ 12.059008 ],
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -9897,8 +10777,8 @@
 , 											{
 												"name" : "newobjYellow-1",
 												"default" : 												{
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-													"fontsize" : [ 12.059008 ]
+													"fontsize" : [ 12.059008 ],
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -11522,8 +12402,8 @@
 , 											{
 												"name" : "newobjYellow-1",
 												"default" : 												{
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-													"fontsize" : [ 12.059008 ]
+													"fontsize" : [ 12.059008 ],
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -11645,7 +12525,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 152.833333333333371, 499.0, 86.0, 37.0 ],
+									"patching_rect" : [ 78.833333333333371, 576.0, 86.0, 37.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 38.5, 383.5, 96.0, 24.0 ],
 									"text" : "<< LED Data"
@@ -11660,7 +12540,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 126.833333333333371, 497.0, 24.0, 24.0 ],
+									"patching_rect" : [ 52.833333333333371, 574.0, 24.0, 24.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 4.5, 379.0, 29.0, 29.0 ]
 								}
@@ -11722,7 +12602,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 70.0, 132.0, 113.0, 22.0 ],
-													"text" : "SPT 196 248 50 22 3 25"
+													"text" : "FRE 0 7 140 85 0 0 107"
 												}
 
 											}
@@ -11868,7 +12748,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 109.833333333333371, 468.0, 103.0, 22.0 ],
+									"patching_rect" : [ 35.833333333333371, 545.0, 103.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -12346,8 +13226,8 @@
 , 											{
 												"name" : "newobjYellow-1",
 												"default" : 												{
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-													"fontsize" : [ 12.059008 ]
+													"fontsize" : [ 12.059008 ],
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -13562,8 +14442,8 @@
 , 											{
 												"name" : "newobjYellow-1",
 												"default" : 												{
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-													"fontsize" : [ 12.059008 ]
+													"fontsize" : [ 12.059008 ],
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -14435,6 +15315,31 @@
 							}
 , 							{
 								"patchline" : 								{
+									"color" : [ 0.999996185302734, 0.99993908405304, 0.041033305227757, 1.0 ],
+									"destination" : [ "obj-46", 0 ],
+									"order" : 2,
+									"source" : [ "obj-102", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-94", 0 ],
+									"order" : 0,
+									"source" : [ "obj-102", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-95", 0 ],
+									"order" : 1,
+									"source" : [ "obj-102", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-19", 0 ],
 									"source" : [ "obj-105", 0 ]
 								}
@@ -14451,6 +15356,20 @@
 								"patchline" : 								{
 									"destination" : [ "obj-20", 0 ],
 									"source" : [ "obj-107", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-102", 0 ],
+									"source" : [ "obj-118", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-118", 0 ],
+									"source" : [ "obj-119", 0 ]
 								}
 
 							}
@@ -14480,7 +15399,50 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-125", 0 ],
+									"destination" : [ "obj-94", 1 ],
+									"source" : [ "obj-120", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-95", 1 ],
+									"source" : [ "obj-121", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-119", 0 ],
+									"source" : [ "obj-122", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-120", 0 ],
+									"source" : [ "obj-123", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-121", 0 ],
+									"source" : [ "obj-123", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-122", 0 ],
+									"source" : [ "obj-123", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-123", 0 ],
+									"order" : 0,
 									"source" : [ "obj-126", 0 ]
 								}
 
@@ -14488,6 +15450,47 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-125", 0 ],
+									"order" : 1,
+									"source" : [ "obj-126", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"order" : 2,
+									"source" : [ "obj-126", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-123", 0 ],
+									"order" : 0,
+									"source" : [ "obj-132", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-125", 0 ],
+									"order" : 1,
+									"source" : [ "obj-132", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"order" : 3,
+									"source" : [ "obj-132", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-87", 0 ],
+									"order" : 2,
 									"source" : [ "obj-132", 0 ]
 								}
 
@@ -14495,6 +15498,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-138", 0 ],
+									"order" : 0,
+									"source" : [ "obj-142", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"order" : 1,
 									"source" : [ "obj-142", 0 ]
 								}
 
@@ -14502,6 +15514,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-138", 0 ],
+									"order" : 0,
+									"source" : [ "obj-147", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"order" : 1,
 									"source" : [ "obj-147", 0 ]
 								}
 
@@ -14509,6 +15530,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-138", 0 ],
+									"order" : 0,
+									"source" : [ "obj-148", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"order" : 1,
 									"source" : [ "obj-148", 0 ]
 								}
 
@@ -14516,6 +15546,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-138", 0 ],
+									"order" : 0,
+									"source" : [ "obj-156", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"order" : 1,
 									"source" : [ "obj-156", 0 ]
 								}
 
@@ -14523,6 +15562,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-138", 0 ],
+									"order" : 0,
+									"source" : [ "obj-161", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"order" : 1,
 									"source" : [ "obj-161", 0 ]
 								}
 
@@ -14530,6 +15578,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-138", 0 ],
+									"order" : 0,
+									"source" : [ "obj-162", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"order" : 1,
 									"source" : [ "obj-162", 0 ]
 								}
 
@@ -14624,6 +15681,36 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-26", 0 ],
+									"source" : [ "obj-22", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"source" : [ "obj-24", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-24", 0 ],
+									"order" : 1,
+									"source" : [ "obj-26", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-37", 0 ],
+									"order" : 0,
+									"source" : [ "obj-26", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-132", 0 ],
 									"order" : 1,
 									"source" : [ "obj-27", 0 ]
@@ -14710,8 +15797,52 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"source" : [ "obj-32", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"source" : [ "obj-33", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-35", 0 ],
 									"source" : [ "obj-34", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"color" : [ 0.999996185302734, 0.99993908405304, 0.041033305227757, 1.0 ],
+									"destination" : [ "obj-46", 0 ],
+									"midpoints" : [ 379.5, 1672.0, 472.25, 1672.0, 472.25, 1356.0, 391.0, 1356.0 ],
+									"source" : [ "obj-42", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-42", 0 ],
+									"source" : [ "obj-43", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-52", 0 ],
+									"source" : [ "obj-45", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-45", 0 ],
+									"source" : [ "obj-46", 0 ]
 								}
 
 							}
@@ -14724,6 +15855,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-43", 0 ],
+									"source" : [ "obj-48", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-77", 0 ],
 									"source" : [ "obj-49", 0 ]
 								}
@@ -14731,7 +15869,24 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-32", 0 ],
+									"order" : 0,
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-33", 0 ],
+									"order" : 0,
+									"source" : [ "obj-5", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-7", 0 ],
+									"order" : 1,
 									"source" : [ "obj-5", 0 ]
 								}
 
@@ -14739,7 +15894,82 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-9", 0 ],
+									"order" : 1,
 									"source" : [ "obj-5", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-44", 0 ],
+									"order" : 0,
+									"source" : [ "obj-51", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-45", 0 ],
+									"midpoints" : [ 401.5, 1506.0, 462.25, 1506.0, 462.25, 1393.0, 391.0, 1393.0 ],
+									"source" : [ "obj-51", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-53", 1 ],
+									"order" : 1,
+									"source" : [ "obj-51", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-62", 0 ],
+									"order" : 2,
+									"source" : [ "obj-51", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-51", 0 ],
+									"source" : [ "obj-52", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-54", 0 ],
+									"source" : [ "obj-53", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-48", 0 ],
+									"source" : [ "obj-54", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-58", 0 ],
+									"source" : [ "obj-56", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-83", 0 ],
+									"source" : [ "obj-58", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-67", 0 ],
+									"source" : [ "obj-60", 1 ]
 								}
 
 							}
@@ -14752,8 +15982,47 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-63", 0 ],
+									"source" : [ "obj-62", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-75", 0 ],
+									"source" : [ "obj-63", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"color" : [ 0.999996185302734, 0.99993908405304, 0.041033305227757, 1.0 ],
+									"destination" : [ "obj-46", 0 ],
+									"order" : 0,
+									"source" : [ "obj-64", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-70", 0 ],
+									"order" : 1,
+									"source" : [ "obj-64", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-125", 0 ],
 									"order" : 1,
+									"source" : [ "obj-65", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"order" : 2,
 									"source" : [ "obj-65", 0 ]
 								}
 
@@ -14770,6 +16039,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-140", 0 ],
 									"source" : [ "obj-66", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-81", 0 ],
+									"source" : [ "obj-67", 0 ]
 								}
 
 							}
@@ -14807,6 +16083,27 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-63", 0 ],
+									"source" : [ "obj-70", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-64", 0 ],
+									"source" : [ "obj-72", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-84", 0 ],
+									"source" : [ "obj-72", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"source" : [ "obj-74", 2 ]
 								}
@@ -14823,6 +16120,37 @@
 								"patchline" : 								{
 									"destination" : [ "obj-68", 0 ],
 									"source" : [ "obj-74", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-123", 0 ],
+									"order" : 0,
+									"source" : [ "obj-75", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"order" : 2,
+									"source" : [ "obj-75", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-85", 0 ],
+									"order" : 1,
+									"source" : [ "obj-75", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-60", 0 ],
+									"source" : [ "obj-76", 0 ]
 								}
 
 							}
@@ -14870,6 +16198,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-83", 1 ],
+									"source" : [ "obj-78", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-178", 0 ],
 									"source" : [ "obj-8", 0 ]
 								}
@@ -14877,8 +16212,105 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-81", 0 ],
+									"source" : [ "obj-80", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-78", 0 ],
+									"source" : [ "obj-81", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-53", 0 ],
+									"source" : [ "obj-82", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-52", 1 ],
+									"order" : 0,
+									"source" : [ "obj-83", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-82", 0 ],
+									"order" : 1,
+									"source" : [ "obj-83", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-56", 0 ],
+									"source" : [ "obj-84", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-12", 0 ],
 									"source" : [ "obj-86", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-72", 0 ],
+									"source" : [ "obj-87", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"order" : 1,
+									"source" : [ "obj-91", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-90", 0 ],
+									"order" : 0,
+									"source" : [ "obj-91", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"order" : 1,
+									"source" : [ "obj-93", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-90", 0 ],
+									"order" : 0,
+									"source" : [ "obj-93", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-91", 0 ],
+									"source" : [ "obj-94", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-93", 0 ],
+									"source" : [ "obj-95", 0 ]
 								}
 
 							}
@@ -15021,8 +16453,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -16129,8 +17561,8 @@
 , 											{
 												"name" : "newobjYellow-1",
 												"default" : 												{
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-													"fontsize" : [ 12.059008 ]
+													"fontsize" : [ 12.059008 ],
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -17359,9 +18791,9 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial Bold" ],
-									"fontsize" : [ 11.0 ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -17370,9 +18802,9 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+									"fontsize" : [ 10.0 ],
 									"fontname" : [ "Arial Bold" ],
-									"fontsize" : [ 10.0 ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -17381,6 +18813,8 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
+									"fontsize" : [ 11.0 ],
+									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -17390,9 +18824,7 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ],
-									"fontsize" : [ 11.0 ]
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -17418,6 +18850,11 @@
 , 							{
 								"name" : "Luca",
 								"default" : 								{
+									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+									"fontname" : [ "Open Sans Semibold" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -17428,13 +18865,8 @@
 										"autogradient" : 0
 									}
 ,
-									"fontname" : [ "Open Sans Semibold" ],
-									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ]
+									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -17443,9 +18875,9 @@
 , 							{
 								"name" : "M4L 10 Bold",
 								"default" : 								{
+									"fontsize" : [ 10.0 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.25 ],
-									"fontface" : [ 1 ],
-									"fontsize" : [ 10.0 ]
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -17464,8 +18896,8 @@
 , 							{
 								"name" : "Matt",
 								"default" : 								{
-									"fontface" : [ 1 ],
-									"fontsize" : [ 10.0 ]
+									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -17749,6 +19181,10 @@
 , 							{
 								"name" : "WTF",
 								"default" : 								{
+									"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ],
+									"fontsize" : [ 18.0 ],
+									"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
+									"fontname" : [ "HydrogenType" ],
 									"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -17760,12 +19196,8 @@
 										"autogradient" : 0
 									}
 ,
-									"fontname" : [ "HydrogenType" ],
-									"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ],
 									"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
-									"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
-									"fontsize" : [ 18.0 ],
-									"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ]
+									"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -17774,6 +19206,11 @@
 , 							{
 								"name" : "classic",
 								"default" : 								{
+									"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
+									"fontsize" : [ 9.0 ],
+									"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontname" : [ "Geneva" ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
@@ -17784,12 +19221,7 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontname" : [ "Geneva" ],
-									"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
-									"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"fontsize" : [ 9.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
+									"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -17844,9 +19276,9 @@
 								"name" : "classicKslider",
 								"default" : 								{
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -17855,8 +19287,8 @@
 , 							{
 								"name" : "classicLed",
 								"default" : 								{
-									"elementcolor" : [ 0.6, 0.0, 0.0, 1.0 ],
-									"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+									"elementcolor" : [ 0.6, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -17884,9 +19316,9 @@
 , 							{
 								"name" : "classicNodes",
 								"default" : 								{
-									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 									"fontsize" : [ 9.0 ],
-									"color" : [ 0.839216, 0.839216, 0.839216, 1.0 ]
+									"color" : [ 0.839216, 0.839216, 0.839216, 1.0 ],
+									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -17941,8 +19373,8 @@
 , 							{
 								"name" : "classicTab",
 								"default" : 								{
-									"elementcolor" : [ 0.839216, 0.839216, 0.839216, 1.0 ],
-									"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
+									"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+									"elementcolor" : [ 0.839216, 0.839216, 0.839216, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -17951,8 +19383,8 @@
 , 							{
 								"name" : "classicTextbutton",
 								"default" : 								{
-									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -17961,8 +19393,8 @@
 , 							{
 								"name" : "classicToggle",
 								"default" : 								{
-									"elementcolor" : [ 0.376471, 0.384314, 0.4, 0.0 ],
-									"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ]
+									"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ],
+									"elementcolor" : [ 0.376471, 0.384314, 0.4, 0.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -17980,8 +19412,8 @@
 , 							{
 								"name" : "classicWaveform~",
 								"default" : 								{
-									"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 0.5 ],
-									"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ]
+									"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ],
+									"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 0.5 ]
 								}
 ,
 								"parentstyle" : "",
@@ -18015,6 +19447,9 @@
 , 							{
 								"name" : "jpatcher002",
 								"default" : 								{
+									"fontsize" : [ 9.5 ],
+									"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
+									"fontname" : [ "Ableton Sans Book" ],
 									"patchlinecolor" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
@@ -18024,10 +19459,7 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-,
-									"fontname" : [ "Ableton Sans Book" ],
-									"fontsize" : [ 9.5 ],
-									"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -18036,6 +19468,10 @@
 , 							{
 								"name" : "jpink",
 								"default" : 								{
+									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
+									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
@@ -18047,13 +19483,9 @@
 										"autogradient" : 0
 									}
 ,
-									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
-									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ]
+									"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -18189,8 +19621,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -18199,8 +19631,8 @@
 , 							{
 								"name" : "newobjYellow-2",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -18256,9 +19688,9 @@
 , 							{
 								"name" : "stb001",
 								"default" : 								{
+									"fontsize" : [ 10.0 ],
 									"fontname" : [ "Arial Bold" ],
-									"fontface" : [ 1 ],
-									"fontsize" : [ 10.0 ]
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -18287,8 +19719,8 @@
 								"name" : "tastefultoggle",
 								"default" : 								{
 									"bgcolor" : [ 0.287863, 0.333333, 0.329398, 1.0 ],
-									"elementcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ],
-									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ]
+									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
+									"elementcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -18297,8 +19729,8 @@
 , 							{
 								"name" : "test",
 								"default" : 								{
-									"fontface" : [ 1 ],
-									"fontsize" : [ 10.0 ]
+									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -18307,11 +19739,11 @@
 , 							{
 								"name" : "whitey",
 								"default" : 								{
-									"patchlinecolor" : [ 0.199068, 0.062496, 0.060031, 0.9 ],
-									"fontname" : [ "Dirty Ego" ],
 									"fontsize" : [ 36.0 ],
 									"selectioncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
-									"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
+									"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+									"fontname" : [ "Dirty Ego" ],
+									"patchlinecolor" : [ 0.199068, 0.062496, 0.060031, 0.9 ]
 								}
 ,
 								"parentstyle" : "",
@@ -18435,7 +19867,7 @@
 											}
 , 											{
 												"key" : 5,
-												"value" : [ 210 ]
+												"value" : [ 224 ]
 											}
 , 											{
 												"key" : 6,
@@ -18509,7 +19941,7 @@
 											}
 , 											{
 												"key" : 5,
-												"value" : [ 210 ]
+												"value" : [ 224 ]
 											}
 , 											{
 												"key" : 6,
@@ -18838,7 +20270,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 885.5, -1.5, 123.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 406.0, 309.0, 124.5, 24.0 ],
+					"presentation_rect" : [ 338.0, 408.0, 124.5, 24.0 ],
 					"text" : "MIDI Control Out"
 				}
 
@@ -18877,7 +20309,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 848.5, -1.5, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 376.0, 309.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 308.0, 408.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -20373,8 +21805,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -20472,7 +21904,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 70.0, 132.0, 113.0, 22.0 ],
-									"text" : "SPT 196 248 50 22 3 25"
+									"text" : "FRE 0 7 140 85 0 0 107"
 								}
 
 							}
@@ -21846,8 +23278,8 @@
 , 											{
 												"name" : "newobjYellow-1",
 												"default" : 												{
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-													"fontsize" : [ 12.059008 ]
+													"fontsize" : [ 12.059008 ],
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -23044,8 +24476,8 @@
 , 											{
 												"name" : "newobjYellow-1",
 												"default" : 												{
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-													"fontsize" : [ 12.059008 ]
+													"fontsize" : [ 12.059008 ],
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -24242,8 +25674,8 @@
 , 											{
 												"name" : "newobjYellow-1",
 												"default" : 												{
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-													"fontsize" : [ 12.059008 ]
+													"fontsize" : [ 12.059008 ],
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -25673,8 +27105,8 @@
 , 											{
 												"name" : "newobjYellow-1",
 												"default" : 												{
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-													"fontsize" : [ 12.059008 ]
+													"fontsize" : [ 12.059008 ],
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -26871,8 +28303,8 @@
 , 											{
 												"name" : "newobjYellow-1",
 												"default" : 												{
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-													"fontsize" : [ 12.059008 ]
+													"fontsize" : [ 12.059008 ],
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -28166,8 +29598,8 @@
 , 											{
 												"name" : "newobjYellow-1",
 												"default" : 												{
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-													"fontsize" : [ 12.059008 ]
+													"fontsize" : [ 12.059008 ],
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -29364,8 +30796,8 @@
 , 											{
 												"name" : "newobjYellow-1",
 												"default" : 												{
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-													"fontsize" : [ 12.059008 ]
+													"fontsize" : [ 12.059008 ],
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -30562,8 +31994,8 @@
 , 											{
 												"name" : "newobjYellow-1",
 												"default" : 												{
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-													"fontsize" : [ 12.059008 ]
+													"fontsize" : [ 12.059008 ],
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -31796,8 +33228,8 @@
 , 											{
 												"name" : "newobjYellow-1",
 												"default" : 												{
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-													"fontsize" : [ 12.059008 ]
+													"fontsize" : [ 12.059008 ],
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -32994,8 +34426,8 @@
 , 											{
 												"name" : "newobjYellow-1",
 												"default" : 												{
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-													"fontsize" : [ 12.059008 ]
+													"fontsize" : [ 12.059008 ],
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -34192,8 +35624,8 @@
 , 											{
 												"name" : "newobjYellow-1",
 												"default" : 												{
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-													"fontsize" : [ 12.059008 ]
+													"fontsize" : [ 12.059008 ],
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -34598,8 +36030,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -35149,7 +36581,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 196.0, 243.0, 135.0, 22.0 ],
-					"text" : "port usbmodem144101"
+					"text" : "port usbmodem143101"
 				}
 
 			}
@@ -35191,7 +36623,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 317.0, 438.0, 69.0, 89.0 ],
-					"text" : "0.31025 0.11725 0.79725 0.021187 0.000687 0.007625"
+					"text" : "-0.0405 0.00975 0.85575 0.01825 0.001688 0.007188"
 				}
 
 			}
@@ -35281,7 +36713,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"id" : "obj-152",
-					"items" : [ "Bluetooth-Incoming-Port", ",", "usbmodem144101" ],
+					"items" : [ "Bluetooth-Incoming-Port", ",", "usbmodem143101" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -35704,7 +37136,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 34.0, 409.0, 125.0, 22.0 ],
-					"text" : "10 70 255"
+					"text" : "8 34 255"
 				}
 
 			}
@@ -39697,8 +41129,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -39733,10 +41165,10 @@
 					"id" : "obj-55",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 34.0, 207.0, 44.0, 22.0 ],
-					"text" : "gate 3"
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 34.0, 207.0, 50.5, 22.0 ],
+					"text" : "gate 4"
 				}
 
 			}
@@ -39872,7 +41304,7 @@
 , 							{
 								"box" : 								{
 									"coll_data" : 									{
-										"count" : 3,
+										"count" : 4,
 										"data" : [ 											{
 												"key" : 1,
 												"value" : [ 2 ]
@@ -39883,6 +41315,10 @@
 											}
 , 											{
 												"key" : 3,
+												"value" : [ 1 ]
+											}
+, 											{
+												"key" : 4,
 												"value" : [ 1 ]
 											}
  ]
@@ -40533,7 +41969,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 518.0, 139.0, 278.5, 82.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 406.0, 293.0, 234.0, 115.0 ],
+					"presentation_rect" : [ 338.0, 392.0, 234.0, 115.0 ],
 					"proportion" : 0.5,
 					"rounded" : 25
 				}
@@ -40552,7 +41988,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 475.0, 97.0, 262.0, 104.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 371.0, 252.0, 199.0, 170.0 ],
+					"presentation_rect" : [ 303.0, 351.0, 199.0, 170.0 ],
 					"proportion" : 0.5,
 					"rounded" : 25
 				}
@@ -40572,6 +42008,58 @@
 					"patching_rect" : [ 475.0, 37.0, 262.0, 104.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 371.0, 16.0, 424.0, 223.0 ],
+					"proportion" : 0.5,
+					"rounded" : 25
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.0,
+					"id" : "obj-231",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 396.0, 241.0, 217.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 377.0, 260.0, 144.0, 29.0 ],
+					"text" : "Key and Scale"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.988235294117647, 0.952941176470588, 0.427450980392157, 0.17 ],
+					"border" : 1,
+					"bordercolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"id" : "obj-233",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 305.0, 588.0, 278.5, 82.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 402.0, 291.0, 199.0, 43.0 ],
+					"proportion" : 0.5,
+					"rounded" : 25
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.96078431372549, 0.96078431372549, 0.96078431372549, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"id" : "obj-232",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 391.0, 236.0, 262.0, 104.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 372.0, 255.0, 176.0, 83.0 ],
 					"proportion" : 0.5,
 					"rounded" : 25
 				}
@@ -41116,8 +42604,68 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-219", 0 ],
+					"source" : [ "obj-217", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-61", 3 ],
+					"source" : [ "obj-219", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-223", 0 ],
+					"order" : 1,
+					"source" : [ "obj-220", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-228", 1 ],
+					"order" : 0,
+					"source" : [ "obj-220", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-224", 0 ],
+					"source" : [ "obj-221", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-222", 0 ],
+					"source" : [ "obj-223", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-222", 0 ],
+					"order" : 0,
+					"source" : [ "obj-224", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-230", 1 ],
+					"order" : 1,
+					"source" : [ "obj-224", 0 ]
 				}
 
 			}
@@ -41130,8 +42678,38 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-223", 0 ],
+					"source" : [ "obj-228", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-228", 0 ],
+					"order" : 0,
+					"source" : [ "obj-229", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-230", 0 ],
+					"order" : 1,
+					"source" : [ "obj-229", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-203", 0 ],
 					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-224", 0 ],
+					"source" : [ "obj-230", 0 ]
 				}
 
 			}
@@ -41413,6 +42991,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-146", 0 ],
 					"source" : [ "obj-55", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-217", 0 ],
+					"source" : [ "obj-55", 3 ]
 				}
 
 			}
@@ -41802,9 +43387,9 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+					"fontsize" : [ 11.0 ],
 					"fontname" : [ "Arial Bold" ],
-					"fontsize" : [ 11.0 ]
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 				}
 ,
 				"parentstyle" : "",
@@ -41813,9 +43398,9 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+					"fontsize" : [ 10.0 ],
 					"fontname" : [ "Arial Bold" ],
-					"fontsize" : [ 10.0 ]
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 				}
 ,
 				"parentstyle" : "",
@@ -41824,6 +43409,8 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
+					"fontsize" : [ 11.0 ],
+					"fontname" : [ "Arial" ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -41833,9 +43420,7 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontname" : [ "Arial" ],
-					"fontface" : [ 1 ],
-					"fontsize" : [ 11.0 ]
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -41861,6 +43446,11 @@
 , 			{
 				"name" : "Luca",
 				"default" : 				{
+					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"fontname" : [ "Open Sans Semibold" ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -41871,13 +43461,8 @@
 						"autogradient" : 0
 					}
 ,
-					"fontname" : [ "Open Sans Semibold" ],
-					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ]
+					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -41886,9 +43471,9 @@
 , 			{
 				"name" : "M4L 10 Bold",
 				"default" : 				{
+					"fontsize" : [ 10.0 ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.25 ],
-					"fontface" : [ 1 ],
-					"fontsize" : [ 10.0 ]
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -41907,8 +43492,8 @@
 , 			{
 				"name" : "Matt",
 				"default" : 				{
-					"fontface" : [ 1 ],
-					"fontsize" : [ 10.0 ]
+					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -42192,6 +43777,10 @@
 , 			{
 				"name" : "WTF",
 				"default" : 				{
+					"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ],
+					"fontsize" : [ 18.0 ],
+					"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
+					"fontname" : [ "HydrogenType" ],
 					"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -42203,12 +43792,8 @@
 						"autogradient" : 0
 					}
 ,
-					"fontname" : [ "HydrogenType" ],
-					"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ],
 					"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
-					"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
-					"fontsize" : [ 18.0 ],
-					"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ]
+					"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -42217,6 +43802,11 @@
 , 			{
 				"name" : "classic",
 				"default" : 				{
+					"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
+					"fontsize" : [ 9.0 ],
+					"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : [ "Geneva" ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -42227,12 +43817,7 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontname" : [ "Geneva" ],
-					"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
-					"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-					"fontsize" : [ 9.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
+					"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -42287,9 +43872,9 @@
 				"name" : "classicKslider",
 				"default" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -42298,8 +43883,8 @@
 , 			{
 				"name" : "classicLed",
 				"default" : 				{
-					"elementcolor" : [ 0.6, 0.0, 0.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"elementcolor" : [ 0.6, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -42327,9 +43912,9 @@
 , 			{
 				"name" : "classicNodes",
 				"default" : 				{
-					"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 					"fontsize" : [ 9.0 ],
-					"color" : [ 0.839216, 0.839216, 0.839216, 1.0 ]
+					"color" : [ 0.839216, 0.839216, 0.839216, 1.0 ],
+					"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -42384,8 +43969,8 @@
 , 			{
 				"name" : "classicTab",
 				"default" : 				{
-					"elementcolor" : [ 0.839216, 0.839216, 0.839216, 1.0 ],
-					"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
+					"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+					"elementcolor" : [ 0.839216, 0.839216, 0.839216, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -42394,8 +43979,8 @@
 , 			{
 				"name" : "classicTextbutton",
 				"default" : 				{
-					"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -42404,8 +43989,8 @@
 , 			{
 				"name" : "classicToggle",
 				"default" : 				{
-					"elementcolor" : [ 0.376471, 0.384314, 0.4, 0.0 ],
-					"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ]
+					"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ],
+					"elementcolor" : [ 0.376471, 0.384314, 0.4, 0.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -42423,8 +44008,8 @@
 , 			{
 				"name" : "classicWaveform~",
 				"default" : 				{
-					"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 0.5 ],
-					"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ]
+					"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ],
+					"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 0.5 ]
 				}
 ,
 				"parentstyle" : "",
@@ -42458,6 +44043,9 @@
 , 			{
 				"name" : "jpatcher002",
 				"default" : 				{
+					"fontsize" : [ 9.5 ],
+					"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
+					"fontname" : [ "Ableton Sans Book" ],
 					"patchlinecolor" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -42467,10 +44055,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"fontname" : [ "Ableton Sans Book" ],
-					"fontsize" : [ 9.5 ],
-					"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -42479,6 +44064,10 @@
 , 			{
 				"name" : "jpink",
 				"default" : 				{
+					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
+					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -42490,13 +44079,9 @@
 						"autogradient" : 0
 					}
 ,
-					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
-					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ]
+					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -42632,8 +44217,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -42642,8 +44227,8 @@
 , 			{
 				"name" : "newobjYellow-2",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -42699,9 +44284,9 @@
 , 			{
 				"name" : "stb001",
 				"default" : 				{
+					"fontsize" : [ 10.0 ],
 					"fontname" : [ "Arial Bold" ],
-					"fontface" : [ 1 ],
-					"fontsize" : [ 10.0 ]
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -42730,8 +44315,8 @@
 				"name" : "tastefultoggle",
 				"default" : 				{
 					"bgcolor" : [ 0.287863, 0.333333, 0.329398, 1.0 ],
-					"elementcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ],
-					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ]
+					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
+					"elementcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -42740,8 +44325,8 @@
 , 			{
 				"name" : "test",
 				"default" : 				{
-					"fontface" : [ 1 ],
-					"fontsize" : [ 10.0 ]
+					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -42750,11 +44335,11 @@
 , 			{
 				"name" : "whitey",
 				"default" : 				{
-					"patchlinecolor" : [ 0.199068, 0.062496, 0.060031, 0.9 ],
-					"fontname" : [ "Dirty Ego" ],
 					"fontsize" : [ 36.0 ],
 					"selectioncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
-					"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
+					"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"fontname" : [ "Dirty Ego" ],
+					"patchlinecolor" : [ 0.199068, 0.062496, 0.060031, 0.9 ]
 				}
 ,
 				"parentstyle" : "",
