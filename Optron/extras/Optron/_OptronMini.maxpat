@@ -12602,7 +12602,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 70.0, 132.0, 113.0, 22.0 ],
-													"text" : "FRE 0 7 140 85 0 0 107"
+													"text" : "SPT 0 248 46 22 2 25"
 												}
 
 											}
@@ -21904,7 +21904,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 70.0, 132.0, 113.0, 22.0 ],
-									"text" : "FRE 0 7 140 85 0 0 107"
+									"text" : "SPT 0 248 46 23 2 25"
 								}
 
 							}
@@ -36581,7 +36581,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 196.0, 243.0, 135.0, 22.0 ],
-					"text" : "port usbmodem143101"
+					"text" : "port usbmodem144101"
 				}
 
 			}
@@ -36623,7 +36623,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 317.0, 438.0, 69.0, 89.0 ],
-					"text" : "-0.0405 0.00975 0.85575 0.01825 0.001688 0.007188"
+					"text" : "0.08525 0.06975 0.86075 0.017188 -0.00175 0.006313"
 				}
 
 			}
@@ -36713,7 +36713,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"id" : "obj-152",
-					"items" : [ "Bluetooth-Incoming-Port", ",", "usbmodem143101" ],
+					"items" : [ "Bluetooth-Incoming-Port", ",", "usbmodem144101" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -37136,7 +37136,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 34.0, 409.0, 125.0, 22.0 ],
-					"text" : "8 34 255"
+					"text" : "8 8 255"
 				}
 
 			}

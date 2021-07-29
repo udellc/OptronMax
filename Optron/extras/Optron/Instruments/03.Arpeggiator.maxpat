@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 770.0, 166.0, 988.0, 697.0 ],
+		"rect" : [ 596.0, 453.0, 988.0, 697.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -3918,8 +3918,8 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.611764705882353, 0.0, 1.0, 1.0 ],
-					"bgfillcolor_color" : [ 0.611764705882353, 0.0, 1.0, 1.0 ],
+					"bgcolor" : [ 1.0, 0.705882352941176, 0.0, 1.0 ],
+					"bgfillcolor_color" : [ 1.0, 0.705882352941176, 0.0, 1.0 ],
 					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1 ],
 					"bgfillcolor_type" : "color",
@@ -6421,7 +6421,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 342.0, 345.0, 29.5, 35.0 ],
-									"text" : "22 24"
+									"text" : "30 32"
 								}
 
 							}
@@ -6445,7 +6445,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 300.0, 269.900078000000008, 29.5, 22.0 ],
-									"text" : "19"
+									"text" : "71"
 								}
 
 							}
@@ -6469,7 +6469,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 342.0, 209.0, 29.5, 22.0 ],
-									"text" : "196"
+									"text" : "224"
 								}
 
 							}
@@ -6743,7 +6743,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 225.0, 574.0, 140.0, 22.0 ],
-									"text" : "196 248 19 22 2 25"
+									"text" : "224 248 71 30 2 25"
 								}
 
 							}
@@ -7012,7 +7012,7 @@
 									"patching_rect" : [ 140.0, 714.0, 160.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 164.0, 190.0, 22.0 ],
-									"text" : "SPT 196 248 19 22 2 25"
+									"text" : "SPT 224 248 71 30 2 25"
 								}
 
 							}
@@ -14531,7 +14531,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "729.CMlaKA....fQPMDZ....A.ESG8D...P......TVavQWdfLGauQGL.........................HPmCUzQPcnC...db19Ue+l1v.geu+UX4m1dngDHPHRjVQokJjFsUB1yUljqAq43vbrYz9W+t7qRZ05r1dZRi6Eae96btuKwmx2jKOjIH6AUAOWFQ8bbojKu3rISUb1J1dnyVgiBnjcp7DSrdw0nCW2P5EmQPaxJPq4xzBx2MLAW+LtKkTnU.KCcGQGzmRxXGVU4YpPjGu7pHZ+ginjkKtdw8F8x7DnJJlQmmwz3ybkHWGQc65R.6AQDkKwy1jARMkH36g5fQjEwQzfxAlfgN7HmSfxTxoHVz3dFFEnhniP3oh7MLwZirJIQG8Z4C9nI7jJeRVV4g64Pdvn.xrs7c8VcWvH+wgsiSui7IiTvy3ZH4yTxFl7aKRZJQuuDFukIkkr3bjs6xE0EK8wjX2lGULYJzfPiKJp1Hqyz7XM95oKoyL5l0+3QAqnpzUSmJJM0bnkQ6YBSITG2P+vRa7X2fP2.uWK.UQrjwkuKjOBg2wC8CPz2JhAVQ3aEwPqHFYEQfUDishHzJBOW6PrWU8rWV8rWW8rWX89vJ6ZlJEzM2RhyybdPjmZ.mxNHNeY98NlBP404KwpnlYJv6zWyzLxV8y6vPGFLDqZE7Wv49i76bsAeffLgypmlfwfSZs40C8cOYmrS1+J1a6QzqtIweZWC2ScMNYmr+er+1tFqU7zTPsB+WePFCJ68M7G3OnsuQ+gcZaz+W01vqN8l2X0qCplOXVv7v2PhYtCl+aHxjdkhKZleySOAw5tpMZ9Y9ZJNMaCujPVTTfhxheUBTqDla+5h1yjEqQQRKNpmpZ8Mutt.DXV.IqYadmngGTPAnWBRCAJZgqqXS8KfaYJEWyjNGSUMb.27JlPnxyyHkRXX5sQzioVOL2PMl8ZEYdwY+D.soQEE"
+							"blob" : "736.CMlaKA....fQPMDZ....A.ESG8D...P......TVavQWdfLGauQGL.........................H.oCUzQPwpC...db19UM811vvPu2eEB5z1g5XmubLPbKRSaJBvRa.R14BFaUGgIKmIKkk1e8i9qF2hkIrcZ.K7hjndTlOZKB+Fe8gTAYOSkyyjgTOGWJ45qtX7DEGVA6Ys1JXnOkrSkEahzyuEc35FPu5BBZiWwzZtLIm7cCH35WvcojbshAon6PZutTRJbXUomIBQVzhaBocGLjRVL+14OZzKxhYkQAFcVJnwm4JQlNj511kfsmIBobId1lTlTSIB9dVUvHx7nP5nhAP.nCOxkDVQJ4jGIpcOEihoBoCQ3IhrMfXsQVljniNM7AezDdboOIjVb3dNjkFEiLcKeWmUO3Or+nflwIOP9jQJ3obMK9yTxFP9s4w0knOVBi1BRYAKtDY6tLQUwReLI1s4IEHSX0Hz3h7xMRaMMKRiudZS5Titd8OdR.4kktJ5TRoIlCMLZOHLEPcbC5GTXiF45G3568VAnLhE.W9gPNEBuiG5IPz0JhdVQz2JhAVQLzJBeqHFYEQfUDdt1gXup5Yur5Yut5Yuv5cxJ6RPAo0OIuS8gxZPkvz0WkhxRcVJxRLLmh1LNeY1iNlblp8mqkQM0jiW7uEz.Yq9kcXnC7Gfk1b9q379C625tElULYLGplFiwfSZrYUCccOamsy1+J166QzopIweZWCuycMNams+er+1tFqU7jDlZEJHfIiXJ68M52qeul9FcGzpsQ2eUaCupzaVsUs1ubduo9yBdGIl51a1ugHi6Tn.od9cO+LKR2VRR8e7WQwIoa3EDxhrCT4Vza5jZz4b+Wm2blPjFURM+nnqx02815bl.yBV7ZXyGTVrTwxY5ELogvxafqKYS0Kf6AkhqAoywTUyNfadCHDprrTRgNGPuMjdL05f4FJDsSiRzqt3m9oFWMC"
 						}
 ,
 						"snapshotlist" : 						{
@@ -14553,7 +14553,7 @@
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "729.CMlaKA....fQPMDZ....A.ESG8D...P......TVavQWdfLGauQGL.........................HPmCUzQPcnC...db19Ue+l1v.geu+UX4m1dngDHPHRjVQokJjFsUB1yUljqAq43vbrYz9W+t7qRZ05r1dZRi6Eae96btuKwmx2jKOjIH6AUAOWFQ8bbojKu3rISUb1J1dnyVgiBnjcp7DSrdw0nCW2P5EmQPaxJPq4xzBx2MLAW+LtKkTnU.KCcGQGzmRxXGVU4YpPjGu7pHZ+ginjkKtdw8F8x7DnJJlQmmwz3ybkHWGQc65R.6AQDkKwy1jARMkH36g5fQjEwQzfxAlfgN7HmSfxTxoHVz3dFFEnhniP3oh7MLwZirJIQG8Z4C9nI7jJeRVV4g64Pdvn.xrs7c8VcWvH+wgsiSui7IiTvy3ZH4yTxFl7aKRZJQuuDFukIkkr3bjs6xE0EK8wjX2lGULYJzfPiKJp1Hqyz7XM95oKoyL5l0+3QAqnpzUSmJJM0bnkQ6YBSITG2P+vRa7X2fP2.uWK.UQrjwkuKjOBg2wC8CPz2JhAVQ3aEwPqHFYEQfUDishHzJBOW6PrWU8rWV8rWW8rWX89vJ6ZlJEzM2RhyybdPjmZ.mxNHNeY98NlBP404KwpnlYJv6zWyzLxV8y6vPGFLDqZE7Wv49i76bsAeffLgypmlfwfSZs40C8cOYmrS1+J1a6QzqtIweZWC2ScMNYmr+er+1tFqU7zTPsB+WePFCJ68M7G3OnsuQ+gcZaz+W01vqN8l2X0qCplOXVv7v2PhYtCl+aHxjdkhKZleySOAw5tpMZ9Y9ZJNMaCujPVTTfhxheUBTqDla+5h1yjEqQQRKNpmpZ8Mutt.DXV.IqYadmngGTPAnWBRCAJZgqqXS8KfaYJEWyjNGSUMb.27JlPnxyyHkRXX5sQzioVOL2PMl8ZEYdwY+D.soQEE"
+										"blob" : "736.CMlaKA....fQPMDZ....A.ESG8D...P......TVavQWdfLGauQGL.........................H.oCUzQPwpC...db19UM811vvPu2eEB5z1g5XmubLPbKRSaJBvRa.R14BFaUGgIKmIKkk1e8i9qF2hkIrcZ.K7hjndTlOZKB+Fe8gTAYOSkyyjgTOGWJ45qtX7DEGVA6Ys1JXnOkrSkEahzyuEc35FPu5BBZiWwzZtLIm7cCH35WvcojbshAon6PZutTRJbXUomIBQVzhaBocGLjRVL+14OZzKxhYkQAFcVJnwm4JQlNj511kfsmIBobId1lTlTSIB9dVUvHx7nP5nhAP.nCOxkDVQJ4jGIpcOEihoBoCQ3IhrMfXsQVljniNM7AezDdboOIjVb3dNjkFEiLcKeWmUO3Or+nflwIOP9jQJ3obMK9yTxFP9s4w0knOVBi1BRYAKtDY6tLQUwReLI1s4IEHSX0Hz3h7xMRaMMKRiudZS5Titd8OdR.4kktJ5TRoIlCMLZOHLEPcbC5GTXiF45G3568VAnLhE.W9gPNEBuiG5IPz0JhdVQz2JhAVQLzJBeqHFYEQfUDdt1gXup5Yur5Yut5Yuv5cxJ6RPAo0OIuS8gxZPkvz0WkhxRcVJxRLLmh1LNeY1iNlblp8mqkQM0jiW7uEz.Yq9kcXnC7Gfk1b9q379C625tElULYLGplFiwfSZrYUCccOamsy1+J166QzopIweZWCuycMNams+er+1tFqU7jDlZEJHfIiXJ68M52qeul9FcGzpsQ2eUaCupzaVsUs1ubduo9yBdGIl51a1ugHi6Tn.od9cO+LKR2VRR8e7WQwIoa3EDxhrCT4Vza5jZz4b+Wm2blPjFURM+nnqx02815bl.yBV7ZXyGTVrTwxY5ELogvxafqKYS0Kf6AkhqAoywTUyNfadCHDprrTRgNGPuMjdL05f4FJDsSiRzqt3m9oFWMC"
 									}
 ,
 									"fileref" : 									{
@@ -18051,7 +18051,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 517.0, 751.5, 50.0, 22.0 ],
-					"text" : "60 127"
+					"text" : "52 0"
 				}
 
 			}
@@ -23007,7 +23007,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 589.0, 196.0, 50.0, 22.0 ],
-									"text" : "0"
+									"text" : "5"
 								}
 
 							}
@@ -23036,7 +23036,7 @@
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 378.0, 11.463920999999999, 51.0, 25.0 ],
-									"text" : "0"
+									"text" : "15"
 								}
 
 							}
@@ -23137,7 +23137,7 @@
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 555.0, 110.0, 51.0, 25.0 ],
-									"text" : "1"
+									"text" : "6"
 								}
 
 							}
@@ -25364,7 +25364,7 @@
 									"patching_rect" : [ 401.492553999999984, 209.0, 106.0, 17.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 165.5, 65.0, 52.0, 17.0 ],
-									"text" : "60 64 67"
+									"text" : "69 72 76"
 								}
 
 							}
@@ -28618,22 +28618,22 @@
 			}
 , 			{
 				"name" : "listToFunbuff.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/MPG",
-				"patcherrelativepath" : "../../../../../Library/MPG",
+				"bootpath" : "~/Documents/Max 8/Packages/Loom/patchers/MPG",
+				"patcherrelativepath" : "../../../../Loom/patchers/MPG",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "link.beats.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/MPG",
-				"patcherrelativepath" : "../../../../../Library/MPG",
+				"bootpath" : "~/Documents/Max 8/Packages/Loom/patchers/MPG",
+				"patcherrelativepath" : "../../../../Loom/patchers/MPG",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq_builder.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/MPG",
-				"patcherrelativepath" : "../../../../../Library/MPG",
+				"bootpath" : "~/Documents/Max 8/Packages/Loom/patchers/MPG",
+				"patcherrelativepath" : "../../../../Loom/patchers/MPG",
 				"type" : "JSON",
 				"implicit" : 1
 			}

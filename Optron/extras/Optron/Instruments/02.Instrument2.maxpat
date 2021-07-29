@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 801.0, 81.0, 879.0, 905.0 ],
+		"rect" : [ 801.0, 81.0, 794.0, 697.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,64 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-75",
+					"maxclass" : "dropfile",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 840.0, 2117.699219000000085, 129.0, 52.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 460.0, 663.5, 258.0, 91.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"id" : "obj-76",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 940.0, 2090.0, 154.0, 60.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 501.0, 685.5, 176.0, 47.0 ],
+					"text" : "Click the Plug icon on the left toolbar. Drag and Drop VST name into this area to load."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-72",
+					"maxclass" : "dropfile",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ -210.0, 846.699219000000085, 129.0, 52.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 62.5, 663.5, 258.0, 91.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"id" : "obj-74",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ -110.0, 819.0, 154.0, 60.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 103.5, 685.5, 176.0, 47.0 ],
+					"text" : "Click the Plug icon on the left toolbar. Drag and Drop VST name into this area to load."
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-73",
 					"maxclass" : "message",
@@ -1914,7 +1972,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ -149.0, 2347.0, 113.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 450.0, 847.0, 153.0, 25.0 ],
+					"presentation_rect" : [ 450.0, 820.0, 153.0, 25.0 ],
 					"text" : "Control Param"
 				}
 
@@ -1929,7 +1987,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ -175.0, 2347.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 423.25, 847.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 423.25, 820.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -5513,7 +5571,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 85.75, 2389.0, 153.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 450.0, 815.0, 153.0, 25.0 ],
+					"presentation_rect" : [ 450.0, 788.0, 153.0, 25.0 ],
 					"text" : "Bypass Effect"
 				}
 
@@ -5528,7 +5586,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 64.0, 2389.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 422.5, 815.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 422.5, 788.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -5557,7 +5615,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 145.75, 829.5, 172.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 139.75, 815.0, 77.0, 25.0 ],
+					"presentation_rect" : [ 139.25, 788.0, 77.0, 25.0 ],
 					"text" : "Volume"
 				}
 
@@ -5669,7 +5727,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ -375.0, 1509.067626999999902, 61.0, 69.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 53.0, 786.199219000000085, 138.5, 25.0 ],
+					"presentation_rect" : [ 52.5, 759.199219000000085, 138.5, 25.0 ],
 					"text" : "Open VST Window"
 				}
 
@@ -5684,7 +5742,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ -400.5, 1509.067626999999902, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 23.0, 786.199219000000085, 24.0, 24.0 ]
+					"presentation_rect" : [ 22.5, 759.199219000000085, 24.0, 24.0 ]
 				}
 
 			}
@@ -5767,9 +5825,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ -258.0, 945.699219000000085, 24.0, 24.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 22.0, 725.5, 24.0, 24.0 ]
+					"patching_rect" : [ -258.0, 945.699219000000085, 24.0, 24.0 ]
 				}
 
 			}
@@ -5781,9 +5837,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ -304.0, 881.699219000000085, 24.0, 24.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 22.0, 694.5, 24.0, 24.0 ]
+					"patching_rect" : [ -304.0, 881.699219000000085, 24.0, 24.0 ]
 				}
 
 			}
@@ -5795,9 +5849,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ -355.0, 860.699219000000085, 24.0, 24.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 22.0, 663.5, 24.0, 24.0 ]
+					"patching_rect" : [ -355.0, 860.699219000000085, 24.0, 24.0 ]
 				}
 
 			}
@@ -5831,8 +5883,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ -406.0, 1137.199219000000085, 172.0, 25.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 216.75, 755.0, 172.0, 25.0 ],
 					"text" : "Select plugin Instrument"
 				}
 
@@ -5886,8 +5936,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ -406.0, 945.699219000000085, 146.0, 25.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 53.0, 725.5, 146.0, 25.0 ],
 					"text" : "AudioUnit (Mac only)"
 				}
 
@@ -5902,8 +5950,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ -412.5, 913.699219000000085, 58.0, 25.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 53.0, 694.5, 58.0, 25.0 ],
 					"text" : "VST3"
 				}
 
@@ -5918,8 +5964,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ -437.0, 880.699219000000085, 51.0, 25.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 53.0, 663.5, 51.0, 25.0 ],
 					"text" : "VST"
 				}
 
@@ -5973,9 +6017,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ -487.0, 1167.199219000000085, 192.0, 23.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 22.75, 756.0, 192.0, 23.0 ]
+					"patching_rect" : [ -487.0, 1167.199219000000085, 192.0, 23.0 ]
 				}
 
 			}
@@ -6041,7 +6083,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ -70.0, 1354.5, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 27.0, 817.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 26.5, 790.0, 50.0, 22.0 ],
 					"textcolor" : [ 0.847058823529412, 0.423529411764706, 0.0, 1.0 ]
 				}
 
@@ -6056,7 +6098,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ -103.0, 1318.5, 116.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 23.0, 817.0, 116.0, 21.0 ]
+					"presentation_rect" : [ 22.5, 790.0, 116.0, 21.0 ]
 				}
 
 			}
@@ -6466,7 +6508,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 583.0, 2657.0, 278.5, 82.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 52.5, 654.0, 339.25, 198.0 ],
+					"presentation_rect" : [ 52.5, 654.0, 296.25, 169.0 ],
 					"proportion" : 0.5,
 					"rounded" : 25
 				}
@@ -6485,7 +6527,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 540.0, 2615.0, 262.0, 104.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.5, 616.0, 234.0, 245.0 ],
+					"presentation_rect" : [ 15.5, 616.0, 234.0, 216.0 ],
 					"proportion" : 0.5,
 					"rounded" : 25
 				}
@@ -6527,7 +6569,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 694.0, 2299.0, 61.0, 69.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 450.0, 786.199219000000085, 141.0, 25.0 ],
+					"presentation_rect" : [ 450.0, 759.199219000000085, 141.0, 25.0 ],
 					"text" : "Open VST Window"
 				}
 
@@ -6542,7 +6584,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 604.25, 2521.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 422.5, 786.199219000000085, 24.0, 24.0 ]
+					"presentation_rect" : [ 422.5, 759.199219000000085, 24.0, 24.0 ]
 				}
 
 			}
@@ -6625,9 +6667,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 747.0, 2158.0, 24.0, 24.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 422.5, 725.5, 24.0, 24.0 ]
+					"patching_rect" : [ 747.0, 2158.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -6639,9 +6679,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 701.0, 2094.0, 24.0, 24.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 422.5, 694.5, 24.0, 24.0 ]
+					"patching_rect" : [ 701.0, 2094.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -6653,9 +6691,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 650.0, 2073.0, 24.0, 24.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 422.5, 663.5, 24.0, 24.0 ]
+					"patching_rect" : [ 650.0, 2073.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -6689,8 +6725,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 599.0, 2349.5, 153.0, 25.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 616.5, 755.0, 153.0, 25.0 ],
 					"text" : "Select plugin effect"
 				}
 
@@ -6854,8 +6888,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 599.0, 2158.0, 146.0, 25.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 450.0, 725.5, 146.0, 25.0 ],
 					"text" : "AudioUnit (Mac only)"
 				}
 
@@ -6870,8 +6902,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 592.5, 2126.0, 58.0, 25.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 450.0, 694.5, 58.0, 25.0 ],
 					"text" : "VST3"
 				}
 
@@ -6886,8 +6916,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 568.0, 2093.0, 51.0, 25.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 450.0, 663.5, 51.0, 25.0 ],
 					"text" : "VST"
 				}
 
@@ -6954,9 +6982,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 518.0, 2379.5, 192.0, 23.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 422.5, 755.0, 192.0, 23.0 ]
+					"patching_rect" : [ 518.0, 2379.5, 192.0, 23.0 ]
 				}
 
 			}
@@ -10932,7 +10958,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 211.75, 1417.0, 85.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 450.0, 878.0, 81.0, 24.0 ],
+					"presentation_rect" : [ 450.0, 851.0, 81.0, 24.0 ],
 					"text" : "Overdrive"
 				}
 
@@ -15592,7 +15618,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 184.0, 1417.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 422.5, 878.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 422.5, 851.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -20525,7 +20551,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 244.5, 897.0, 278.5, 82.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 450.0, 654.0, 319.5, 260.0 ],
+					"presentation_rect" : [ 450.0, 654.0, 319.5, 231.0 ],
 					"proportion" : 0.5,
 					"rounded" : 25
 				}
@@ -20544,7 +20570,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 414.5, 610.0, 262.0, 104.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 414.5, 616.0, 234.0, 303.0 ],
+					"presentation_rect" : [ 414.5, 616.0, 234.0, 275.0 ],
 					"proportion" : 0.5,
 					"rounded" : 25
 				}
@@ -22523,8 +22549,40 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-286", 0 ],
+					"order" : 1,
+					"source" : [ "obj-72", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-73", 1 ],
+					"order" : 0,
+					"source" : [ "obj-72", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-200", 0 ],
 					"source" : [ "obj-73", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-224", 0 ],
+					"order" : 1,
+					"source" : [ "obj-75", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-233", 1 ],
+					"order" : 0,
+					"source" : [ "obj-75", 0 ]
 				}
 
 			}
