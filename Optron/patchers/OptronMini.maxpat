@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 227.0, 79.0, 718.0, 783.0 ],
+		"rect" : [ 824.0, 79.0, 718.0, 783.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,7 +37,20 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 221.0, 285.0, 50.0, 22.0 ],
+					"text" : "/strum"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-40",
 					"maxclass" : "comment",
@@ -51,14 +64,14 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 10,
+						"count" : 13,
 						"data" : [ 							{
 								"key" : 0,
 								"value" : [ -1.0, 1.0 ]
 							}
 , 							{
 								"key" : 1,
-								"value" : [ -1.0, 1.0 ]
+								"value" : [ 0, 44 ]
 							}
 , 							{
 								"key" : 2,
@@ -90,7 +103,19 @@
 							}
 , 							{
 								"key" : 9,
-								"value" : [ 0, 44 ]
+								"value" : [ 0.0, 1.0 ]
+							}
+, 							{
+								"key" : 10,
+								"value" : [ 0.0, 1.0 ]
+							}
+, 							{
+								"key" : 11,
+								"value" : [ 0, 1 ]
+							}
+, 							{
+								"key" : 12,
+								"value" : [ 0, 48 ]
 							}
  ]
 					}
@@ -102,7 +127,8 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 309.524901999999997, 272.0, 130.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"embed" : 1
+						"embed" : 1,
+						"precision" : 6
 					}
 ,
 					"text" : "coll OptronMiniRanges"
@@ -118,7 +144,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 425.0, 483.0, 50.0, 35.0 ],
-					"text" : "range -1. 1."
+					"text" : "range 0 1"
 				}
 
 			}
@@ -169,7 +195,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 376.0, 232.0, 50.0, 22.0 ],
-					"text" : "/aX"
+					"text" : "/strum"
 				}
 
 			}
@@ -216,7 +242,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 423.524901999999997, 122.0, 50.0, 22.0 ],
-					"text" : "0"
+					"text" : "11"
 				}
 
 			}
@@ -280,7 +306,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 39.0, 22.5, 58.0, 40.0 ],
+					"patching_rect" : [ 39.0, 22.5, 59.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 6.0, 137.0, 24.0 ],
 					"text" : "Optron Mini",
@@ -356,7 +382,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-2",
-					"items" : [ "aX", ",", "aY", ",", "aZ", ",", "gX", ",", "gY", ",", "gZ", ",", "pressure", ",", "line", ",", "fret", ",", "glitterPos" ],
+					"items" : [ "aX", ",", "aY", ",", "aZ", ",", "gX", ",", "gY", ",", "gZ", ",", "pressure", ",", "line", ",", "fret", ",", "hover", ",", "wave", ",", "strum", ",", "glitterPos" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -402,7 +428,9 @@
 					"patching_rect" : [ 100.858245999999994, 442.0, 232.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.0, 87.0, 138.0, 32.0 ],
+					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 5,
+					"settype" : 0,
 					"slidercolor" : [ 0.811765, 0.372549, 0.372549, 1.0 ],
 					"varname" : "scroller"
 				}
@@ -439,6 +467,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 1 ],
+					"order" : 2,
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 1 ],
 					"order" : 1,
 					"source" : [ "obj-11", 0 ]
 				}

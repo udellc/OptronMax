@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 455.0, 240.0, 249.0, 167.0 ],
+		"rect" : [ 455.0, 240.0, 731.0, 541.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,7 +37,21 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"comment" : "Master Volume 0 - 127",
+					"id" : "obj-24",
+					"index" : 0,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 599.5, 32.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-13",
 					"maxclass" : "newobj",
@@ -214,7 +228,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 734.0, 124.0, 67.0, 22.0 ],
-					"save" : [ "#N", "sflist~", "light", 483840, ";", "#X", "embed", 1, ";" ],
+					"save" : [ "#N", "sflist~", "light", 483840, ";", "#X", "preload", 2, "swing2.wav", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 3, "swing3.wav", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 4, "swing7.wav", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 5, "hit3.wav", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 6, "hit4.wav", 0.0, 0.0, 0, 1.0, ";", "#X", "embed", 1, ";" ],
 					"text" : "sflist~ light"
 				}
 
@@ -291,7 +305,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -324,6 +338,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1067,6 +1082,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"source" : [ "obj-29", 0 ]
 				}
@@ -1301,15 +1323,15 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "input.png",
-				"bootpath" : "~/Documents/Max 8/Library/Loom2",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Packages/Loom/media/img",
+				"patcherrelativepath" : "../../../Loom/media/img",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "output.png",
-				"bootpath" : "~/Documents/Max 8/Library/Loom2",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Packages/Loom/media/img",
+				"patcherrelativepath" : "../../../Loom/media/img",
 				"type" : "PNG",
 				"implicit" : 1
 			}
