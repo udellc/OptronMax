@@ -59,8 +59,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -31.5, -96.0, 111.0, 23.0 ],
-					"text" : "port \"from Max 1\""
+					"patching_rect" : [ -31.5, -96.0, 94.0, 23.0 ],
+					"text" : "port \"to Max 1\""
 				}
 
 			}
@@ -1030,7 +1030,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-176",
-					"items" : [ "link", ",", "live", ",", "rewire", ",", "internal" ],
+					"items" : [ "rewire", ",", "live", ",", "internal", ",", "link" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
