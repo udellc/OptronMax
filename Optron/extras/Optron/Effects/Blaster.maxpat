@@ -1608,8 +1608,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2231,8 +2231,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2628,7 +2628,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 573.083344000000125, 308.0, 50.0, 22.0 ],
-									"text" : "0"
+									"text" : "1"
 								}
 
 							}
@@ -2652,7 +2652,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 153.0, 548.900077999999894, 50.0, 22.0 ],
-									"text" : "106"
+									"text" : "128"
 								}
 
 							}
@@ -2676,7 +2676,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 490.0, 535.0, 50.0, 22.0 ],
-									"text" : "5"
+									"text" : "9"
 								}
 
 							}
@@ -2858,7 +2858,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 163.0, 464.0, 140.0, 22.0 ],
-									"text" : "1 106 5 0 0 215"
+									"text" : "1 128 9 0 1 215"
 								}
 
 							}
@@ -3545,8 +3545,8 @@
 , 											{
 												"name" : "newobjYellow-1",
 												"default" : 												{
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-													"fontsize" : [ 12.059008 ]
+													"fontsize" : [ 12.059008 ],
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -3857,7 +3857,7 @@
 									"patching_rect" : [ 153.0, 615.0, 160.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 164.0, 141.0, 22.0 ],
-									"text" : "CFI 1 106 5 0 0 215"
+									"text" : "CFI 1 128 9 0 1 215"
 								}
 
 							}
@@ -3887,7 +3887,7 @@
 									"patching_rect" : [ 366.583344000000011, 297.0, 190.0, 23.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 137.000000000000028, 190.0, 23.0 ],
-									"size" : 45.0
+									"size" : 48.0
 								}
 
 							}
@@ -4628,9 +4628,11 @@
 , 							{
 								"name" : "Luca",
 								"default" : 								{
-									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 									"fontname" : [ "Open Sans Semibold" ],
+									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
 									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -4642,9 +4644,7 @@
 										"autogradient" : 0
 									}
 ,
-									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ]
+									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4959,8 +4959,10 @@
 , 							{
 								"name" : "WTF",
 								"default" : 								{
-									"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
 									"fontname" : [ "HydrogenType" ],
+									"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
+									"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
+									"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ],
 									"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -4972,10 +4974,8 @@
 										"autogradient" : 0
 									}
 ,
-									"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
-									"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
 									"fontsize" : [ 18.0 ],
-									"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ]
+									"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4985,6 +4985,8 @@
 								"name" : "classic",
 								"default" : 								{
 									"fontname" : [ "Geneva" ],
+									"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+									"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
@@ -4996,10 +4998,8 @@
 										"proportion" : 0.39
 									}
 ,
-									"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 									"fontsize" : [ 9.0 ],
-									"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ]
+									"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5054,8 +5054,8 @@
 								"name" : "classicKslider",
 								"default" : 								{
 									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
@@ -5161,8 +5161,8 @@
 , 							{
 								"name" : "classicTextbutton",
 								"default" : 								{
-									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5190,8 +5190,8 @@
 , 							{
 								"name" : "classicWaveform~",
 								"default" : 								{
-									"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 0.5 ],
-									"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ]
+									"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ],
+									"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 0.5 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5201,6 +5201,7 @@
 								"name" : "dark-night-patch",
 								"default" : 								{
 									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
+									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -5210,7 +5211,6 @@
 										"proportion" : 0.39
 									}
 ,
-									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
 								}
 ,
@@ -5226,7 +5226,6 @@
 								"name" : "jpatcher002",
 								"default" : 								{
 									"fontname" : [ "Ableton Sans Book" ],
-									"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
 									"patchlinecolor" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
@@ -5237,7 +5236,8 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontsize" : [ 9.5 ]
+									"fontsize" : [ 9.5 ],
+									"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5247,9 +5247,11 @@
 								"name" : "jpink",
 								"default" : 								{
 									"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
+									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
+									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
@@ -5260,10 +5262,8 @@
 										"autogradient" : 0
 									}
 ,
-									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
+									"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5399,8 +5399,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5409,8 +5409,8 @@
 , 							{
 								"name" : "newobjYellow-2",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5428,8 +5428,8 @@
 , 							{
 								"name" : "purple",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-									"bgcolor" : [ 0.304029, 0.250694, 0.285628, 1.0 ]
+									"bgcolor" : [ 0.304029, 0.250694, 0.285628, 1.0 ],
+									"textcolor_inverse" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6350,8 +6350,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7214,8 +7214,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7950,7 +7950,7 @@
 									"patching_rect" : [ 472.0, 552.0, 148.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 6.0, 107.300017999999994, 188.0, 20.0 ],
-									"size" : 45.0
+									"size" : 48.0
 								}
 
 							}
@@ -7998,7 +7998,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 644.583344000000011, 392.0, 29.5, 22.0 ],
-									"text" : "0"
+									"text" : "4"
 								}
 
 							}
@@ -8010,7 +8010,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 383.583344000000011, 399.0, 29.5, 22.0 ],
-									"text" : "0"
+									"text" : "2"
 								}
 
 							}
@@ -8080,7 +8080,7 @@
 									"patching_rect" : [ 464.0, 392.0, 148.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 6.0, 73.300017999999994, 188.0, 22.0 ],
-									"size" : 45.0
+									"size" : 48.0
 								}
 
 							}
@@ -8375,7 +8375,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 637.583344000000011, 244.0, 29.5, 22.0 ],
-									"text" : "44"
+									"text" : "45"
 								}
 
 							}
@@ -8387,7 +8387,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 376.583344000000011, 251.0, 29.5, 22.0 ],
-									"text" : "44"
+									"text" : "43"
 								}
 
 							}
@@ -8481,7 +8481,7 @@
 									"patching_rect" : [ 457.0, 244.0, 148.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 6.0, 40.0, 188.0, 22.0 ],
-									"size" : 45.0
+									"size" : 48.0
 								}
 
 							}
@@ -8613,7 +8613,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 163.0, 464.0, 144.0, 22.0 ],
-									"text" : "1 44 0 0 0 0 0 11 4 0 122"
+									"text" : "1 43 2 0 2 2 0 11 4 0 122"
 								}
 
 							}
@@ -9215,9 +9215,11 @@
 , 											{
 												"name" : "Luca",
 												"default" : 												{
-													"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 													"fontname" : [ "Open Sans Semibold" ],
+													"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+													"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
 													"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+													"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 													"bgfillcolor" : 													{
 														"type" : "gradient",
@@ -9229,9 +9231,7 @@
 														"autogradient" : 0
 													}
 ,
-													"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-													"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-													"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ]
+													"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -9546,8 +9546,10 @@
 , 											{
 												"name" : "WTF",
 												"default" : 												{
-													"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
 													"fontname" : [ "HydrogenType" ],
+													"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
+													"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
+													"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ],
 													"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
 													"bgfillcolor" : 													{
 														"type" : "gradient",
@@ -9559,10 +9561,8 @@
 														"autogradient" : 0
 													}
 ,
-													"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
-													"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
 													"fontsize" : [ 18.0 ],
-													"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ]
+													"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -9572,6 +9572,8 @@
 												"name" : "classic",
 												"default" : 												{
 													"fontname" : [ "Geneva" ],
+													"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+													"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
 													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgfillcolor" : 													{
@@ -9583,10 +9585,8 @@
 														"proportion" : 0.39
 													}
 ,
-													"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-													"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 													"fontsize" : [ 9.0 ],
-													"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ]
+													"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -9641,8 +9641,8 @@
 												"name" : "classicKslider",
 												"default" : 												{
 													"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-													"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 													"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+													"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 ,
@@ -9748,8 +9748,8 @@
 , 											{
 												"name" : "classicTextbutton",
 												"default" : 												{
-													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+													"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -9777,8 +9777,8 @@
 , 											{
 												"name" : "classicWaveform~",
 												"default" : 												{
-													"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 0.5 ],
-													"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ]
+													"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ],
+													"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 0.5 ]
 												}
 ,
 												"parentstyle" : "",
@@ -9788,6 +9788,7 @@
 												"name" : "dark-night-patch",
 												"default" : 												{
 													"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
+													"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 													"bgfillcolor" : 													{
 														"type" : "gradient",
 														"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -9797,7 +9798,6 @@
 														"proportion" : 0.39
 													}
 ,
-													"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 													"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
 												}
 ,
@@ -9813,7 +9813,6 @@
 												"name" : "jpatcher002",
 												"default" : 												{
 													"fontname" : [ "Ableton Sans Book" ],
-													"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
 													"patchlinecolor" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
 													"bgfillcolor" : 													{
 														"type" : "color",
@@ -9824,7 +9823,8 @@
 														"proportion" : 0.39
 													}
 ,
-													"fontsize" : [ 9.5 ]
+													"fontsize" : [ 9.5 ],
+													"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -9834,9 +9834,11 @@
 												"name" : "jpink",
 												"default" : 												{
 													"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-													"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
+													"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 													"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+													"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 													"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
+													"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 													"bgfillcolor" : 													{
 														"type" : "color",
 														"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
@@ -9847,10 +9849,8 @@
 														"autogradient" : 0
 													}
 ,
-													"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 													"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-													"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-													"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
+													"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -9986,8 +9986,8 @@
 , 											{
 												"name" : "newobjYellow-1",
 												"default" : 												{
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-													"fontsize" : [ 12.059008 ]
+													"fontsize" : [ 12.059008 ],
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -9996,8 +9996,8 @@
 , 											{
 												"name" : "newobjYellow-2",
 												"default" : 												{
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-													"fontsize" : [ 12.059008 ]
+													"fontsize" : [ 12.059008 ],
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -10015,8 +10015,8 @@
 , 											{
 												"name" : "purple",
 												"default" : 												{
-													"textcolor_inverse" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-													"bgcolor" : [ 0.304029, 0.250694, 0.285628, 1.0 ]
+													"bgcolor" : [ 0.304029, 0.250694, 0.285628, 1.0 ],
+													"textcolor_inverse" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -10277,7 +10277,7 @@
 									"patching_rect" : [ 153.0, 615.0, 164.0, 35.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 50.5, 155.099921999999992, 213.0, 22.0 ],
-									"text" : "ARGB 1 44 0 0 0 0 0 11 4 0 122"
+									"text" : "ARGB 1 43 2 0 2 2 0 11 4 0 122"
 								}
 
 							}
@@ -11409,9 +11409,11 @@
 , 							{
 								"name" : "Luca",
 								"default" : 								{
-									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 									"fontname" : [ "Open Sans Semibold" ],
+									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
 									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -11423,9 +11425,7 @@
 										"autogradient" : 0
 									}
 ,
-									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ]
+									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11740,8 +11740,10 @@
 , 							{
 								"name" : "WTF",
 								"default" : 								{
-									"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
 									"fontname" : [ "HydrogenType" ],
+									"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
+									"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
+									"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ],
 									"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -11753,10 +11755,8 @@
 										"autogradient" : 0
 									}
 ,
-									"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
-									"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
 									"fontsize" : [ 18.0 ],
-									"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ]
+									"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11766,6 +11766,8 @@
 								"name" : "classic",
 								"default" : 								{
 									"fontname" : [ "Geneva" ],
+									"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+									"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
@@ -11777,10 +11779,8 @@
 										"proportion" : 0.39
 									}
 ,
-									"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 									"fontsize" : [ 9.0 ],
-									"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ]
+									"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11835,8 +11835,8 @@
 								"name" : "classicKslider",
 								"default" : 								{
 									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
@@ -11942,8 +11942,8 @@
 , 							{
 								"name" : "classicTextbutton",
 								"default" : 								{
-									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11971,8 +11971,8 @@
 , 							{
 								"name" : "classicWaveform~",
 								"default" : 								{
-									"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 0.5 ],
-									"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ]
+									"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ],
+									"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 0.5 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11982,6 +11982,7 @@
 								"name" : "dark-night-patch",
 								"default" : 								{
 									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
+									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -11991,7 +11992,6 @@
 										"proportion" : 0.39
 									}
 ,
-									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
 								}
 ,
@@ -12007,7 +12007,6 @@
 								"name" : "jpatcher002",
 								"default" : 								{
 									"fontname" : [ "Ableton Sans Book" ],
-									"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
 									"patchlinecolor" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
@@ -12018,7 +12017,8 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontsize" : [ 9.5 ]
+									"fontsize" : [ 9.5 ],
+									"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -12028,9 +12028,11 @@
 								"name" : "jpink",
 								"default" : 								{
 									"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
+									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
+									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
@@ -12041,10 +12043,8 @@
 										"autogradient" : 0
 									}
 ,
-									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
+									"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -12180,8 +12180,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -12190,8 +12190,8 @@
 , 							{
 								"name" : "newobjYellow-2",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -12209,8 +12209,8 @@
 , 							{
 								"name" : "purple",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-									"bgcolor" : [ 0.304029, 0.250694, 0.285628, 1.0 ]
+									"bgcolor" : [ 0.304029, 0.250694, 0.285628, 1.0 ],
+									"textcolor_inverse" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -12361,7 +12361,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 340.0, 1366.0, 40.0, 22.0 ],
-					"text" : "* 127."
+					"text" : "* 137."
 				}
 
 			}
@@ -13180,8 +13180,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -14094,8 +14094,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -14355,7 +14355,7 @@
 					"clipheight" : 29.0,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/1d.aif",
+								"absolutepath" : "1d.aif",
 								"filename" : "1d.aif",
 								"filekind" : "audiofile",
 								"id" : "u495001995",
@@ -14366,7 +14366,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/1e.aif",
+								"absolutepath" : "1e.aif",
 								"filename" : "1e.aif",
 								"filekind" : "audiofile",
 								"id" : "u844001998",
@@ -14377,7 +14377,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/1f.aif",
+								"absolutepath" : "1f.aif",
 								"filename" : "1f.aif",
 								"filekind" : "audiofile",
 								"id" : "u052002001",
@@ -14388,7 +14388,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/1g.aif",
+								"absolutepath" : "1g.aif",
 								"filename" : "1g.aif",
 								"filekind" : "audiofile",
 								"id" : "u288002004",
@@ -14399,7 +14399,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/1h.aif",
+								"absolutepath" : "1h.aif",
 								"filename" : "1h.aif",
 								"filekind" : "audiofile",
 								"id" : "u061002007",
@@ -14410,7 +14410,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/1i.aif",
+								"absolutepath" : "1i.aif",
 								"filename" : "1i.aif",
 								"filekind" : "audiofile",
 								"id" : "u027002010",
@@ -14421,7 +14421,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/1j.aif",
+								"absolutepath" : "1j.aif",
 								"filename" : "1j.aif",
 								"filekind" : "audiofile",
 								"id" : "u821002013",
@@ -14432,7 +14432,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/1k.aif",
+								"absolutepath" : "1k.aif",
 								"filename" : "1k.aif",
 								"filekind" : "audiofile",
 								"id" : "u493002016",
@@ -14443,7 +14443,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/2A.aif",
+								"absolutepath" : "2A.aif",
 								"filename" : "2A.aif",
 								"filekind" : "audiofile",
 								"id" : "u769002019",
@@ -14454,7 +14454,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/2b.aif",
+								"absolutepath" : "2b.aif",
 								"filename" : "2b.aif",
 								"filekind" : "audiofile",
 								"id" : "u452002022",
@@ -14465,7 +14465,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/2c.aif",
+								"absolutepath" : "2c.aif",
 								"filename" : "2c.aif",
 								"filekind" : "audiofile",
 								"id" : "u113002025",
@@ -14476,7 +14476,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/2d.aif",
+								"absolutepath" : "2d.aif",
 								"filename" : "2d.aif",
 								"filekind" : "audiofile",
 								"id" : "u195002028",
@@ -14487,7 +14487,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/2e.aif",
+								"absolutepath" : "2e.aif",
 								"filename" : "2e.aif",
 								"filekind" : "audiofile",
 								"id" : "u226002031",
@@ -14498,7 +14498,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/2f.aif",
+								"absolutepath" : "2f.aif",
 								"filename" : "2f.aif",
 								"filekind" : "audiofile",
 								"id" : "u064002034",
@@ -14509,7 +14509,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/2g.aif",
+								"absolutepath" : "2g.aif",
 								"filename" : "2g.aif",
 								"filekind" : "audiofile",
 								"id" : "u853002037",
@@ -14520,7 +14520,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/2h.aif",
+								"absolutepath" : "2h.aif",
 								"filename" : "2h.aif",
 								"filekind" : "audiofile",
 								"id" : "u134002040",
@@ -14531,7 +14531,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/2i.aif",
+								"absolutepath" : "2i.aif",
 								"filename" : "2i.aif",
 								"filekind" : "audiofile",
 								"id" : "u385002043",
@@ -14542,7 +14542,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/2j.aif",
+								"absolutepath" : "2j.aif",
 								"filename" : "2j.aif",
 								"filekind" : "audiofile",
 								"id" : "u510002046",
@@ -14553,7 +14553,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/2k.aif",
+								"absolutepath" : "2k.aif",
 								"filename" : "2k.aif",
 								"filekind" : "audiofile",
 								"id" : "u995002049",
@@ -14564,7 +14564,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/2l.aif",
+								"absolutepath" : "2l.aif",
 								"filename" : "2l.aif",
 								"filekind" : "audiofile",
 								"id" : "u531002052",
@@ -14575,7 +14575,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/2m.aif",
+								"absolutepath" : "2m.aif",
 								"filename" : "2m.aif",
 								"filekind" : "audiofile",
 								"id" : "u199002055",
@@ -14586,7 +14586,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/2n.aif",
+								"absolutepath" : "2n.aif",
 								"filename" : "2n.aif",
 								"filekind" : "audiofile",
 								"id" : "u184002058",
@@ -14597,7 +14597,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/2o.aif",
+								"absolutepath" : "2o.aif",
 								"filename" : "2o.aif",
 								"filekind" : "audiofile",
 								"id" : "u908002061",
@@ -14608,7 +14608,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/2p.aif",
+								"absolutepath" : "2p.aif",
 								"filename" : "2p.aif",
 								"filekind" : "audiofile",
 								"id" : "u184002064",
@@ -14619,7 +14619,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/2q.aif",
+								"absolutepath" : "2q.aif",
 								"filename" : "2q.aif",
 								"filekind" : "audiofile",
 								"id" : "u654002067",
@@ -14630,7 +14630,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/3a.aif",
+								"absolutepath" : "3a.aif",
 								"filename" : "3a.aif",
 								"filekind" : "audiofile",
 								"id" : "u714002070",
@@ -14641,7 +14641,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/3b.aif",
+								"absolutepath" : "3b.aif",
 								"filename" : "3b.aif",
 								"filekind" : "audiofile",
 								"id" : "u859002073",
@@ -14652,7 +14652,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/3c.aif",
+								"absolutepath" : "3c.aif",
 								"filename" : "3c.aif",
 								"filekind" : "audiofile",
 								"id" : "u085002076",
@@ -14663,7 +14663,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/3d.aif",
+								"absolutepath" : "3d.aif",
 								"filename" : "3d.aif",
 								"filekind" : "audiofile",
 								"id" : "u714002079",
@@ -14674,7 +14674,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/3e.aif",
+								"absolutepath" : "3e.aif",
 								"filename" : "3e.aif",
 								"filekind" : "audiofile",
 								"id" : "u204002082",
@@ -14685,7 +14685,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/3f.aif",
+								"absolutepath" : "3f.aif",
 								"filename" : "3f.aif",
 								"filekind" : "audiofile",
 								"id" : "u861002085",
@@ -14696,7 +14696,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/3g.aif",
+								"absolutepath" : "3g.aif",
 								"filename" : "3g.aif",
 								"filekind" : "audiofile",
 								"id" : "u148002088",
@@ -14707,7 +14707,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/3h.aif",
+								"absolutepath" : "3h.aif",
 								"filename" : "3h.aif",
 								"filekind" : "audiofile",
 								"id" : "u575002091",
@@ -14718,7 +14718,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/3i.aif",
+								"absolutepath" : "3i.aif",
 								"filename" : "3i.aif",
 								"filekind" : "audiofile",
 								"id" : "u917002094",
@@ -14729,7 +14729,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/3j.aif",
+								"absolutepath" : "3j.aif",
 								"filename" : "3j.aif",
 								"filekind" : "audiofile",
 								"id" : "u264002097",
@@ -14740,7 +14740,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/3k.aif",
+								"absolutepath" : "3k.aif",
 								"filename" : "3k.aif",
 								"filekind" : "audiofile",
 								"id" : "u765002100",
@@ -14751,7 +14751,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/3l.aif",
+								"absolutepath" : "3l.aif",
 								"filename" : "3l.aif",
 								"filekind" : "audiofile",
 								"id" : "u782002103",
@@ -14762,7 +14762,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/3m.aif",
+								"absolutepath" : "3m.aif",
 								"filename" : "3m.aif",
 								"filekind" : "audiofile",
 								"id" : "u629002106",
@@ -14773,7 +14773,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/3n.aif",
+								"absolutepath" : "3n.aif",
 								"filename" : "3n.aif",
 								"filekind" : "audiofile",
 								"id" : "u819002109",
@@ -14784,7 +14784,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/3o.aif",
+								"absolutepath" : "3o.aif",
 								"filename" : "3o.aif",
 								"filekind" : "audiofile",
 								"id" : "u058002112",
@@ -14795,7 +14795,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/3p.aif",
+								"absolutepath" : "3p.aif",
 								"filename" : "3p.aif",
 								"filekind" : "audiofile",
 								"id" : "u482002115",
@@ -14806,7 +14806,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/3q.aif",
+								"absolutepath" : "3q.aif",
 								"filename" : "3q.aif",
 								"filekind" : "audiofile",
 								"id" : "u468002118",
@@ -14817,7 +14817,7 @@
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/metalgod/Documents/Max 8/Projects/Optron/Transformer/3r.aif",
+								"absolutepath" : "3r.aif",
 								"filename" : "3r.aif",
 								"filekind" : "audiofile",
 								"id" : "u991002121",
@@ -15298,7 +15298,7 @@
 									"patching_rect" : [ 145.0, 512.0, 221.0, 23.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 5.5, 86.5, 97.0, 22.0 ],
-									"setminmax" : [ 64.0, 127.0 ],
+									"setminmax" : [ 64.0, 137.0 ],
 									"setstyle" : 3,
 									"slidercolor" : [ 0.811765, 0.372549, 0.372549, 1.0 ]
 								}
@@ -15360,7 +15360,7 @@
 									"patching_rect" : [ 462.5, 319.0, 63.0, 30.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 54.5, 61.0, 48.0, 22.0 ],
-									"text" : "127"
+									"text" : "137"
 								}
 
 							}
@@ -16292,8 +16292,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -16917,8 +16917,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -17495,372 +17495,372 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "Patch_Generator.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/Loom2",
-				"patcherrelativepath" : "../../../Library/Loom2",
+				"bootpath" : "~/Documents/Max 8/Packages/Loom/externals/DataProcessor",
+				"patcherrelativepath" : "../../../../Loom/externals/DataProcessor",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "generator.js",
-				"bootpath" : "~/Documents/Max 8/Library/Loom2",
-				"patcherrelativepath" : "../../../Library/Loom2",
+				"bootpath" : "~/Documents/Max 8/Packages/Loom/javascript",
+				"patcherrelativepath" : "../../../../Loom/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "1d.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "1e.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "1f.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "1g.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "1h.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "1i.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "1j.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "1k.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2A.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2b.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2c.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2d.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2e.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2f.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2g.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2h.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2i.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2j.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2k.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2l.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2m.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2n.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2o.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2p.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2q.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "3a.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "3b.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "3c.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "3d.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "3e.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "3f.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "3g.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "3h.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "3i.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "3j.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "3k.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "3l.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "3m.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "3n.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "3o.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "3p.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "3q.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "3r.aif",
-				"bootpath" : "~/Documents/Max 8/Projects/Optron/Transformer",
-				"patcherrelativepath" : "../../Optron/Transformer",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound/Transformer",
+				"patcherrelativepath" : "../../../media/sound/Transformer",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "findPan.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/Optron",
-				"patcherrelativepath" : "../../../Library/Optron",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/externals",
+				"patcherrelativepath" : "../../../externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Lazer1.aif",
-				"bootpath" : "~/Documents/Max 8/Library/soundLib/Laser",
-				"patcherrelativepath" : "../../../Library/soundLib/Laser",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound",
+				"patcherrelativepath" : "../../../media/sound",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Lazer2.aif",
-				"bootpath" : "~/Documents/Max 8/Library/soundLib/Laser",
-				"patcherrelativepath" : "../../../Library/soundLib/Laser",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound",
+				"patcherrelativepath" : "../../../media/sound",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Lazer3.aif",
-				"bootpath" : "~/Documents/Max 8/Library/soundLib/Laser",
-				"patcherrelativepath" : "../../../Library/soundLib/Laser",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound",
+				"patcherrelativepath" : "../../../media/sound",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Lazer4.aif",
-				"bootpath" : "~/Documents/Max 8/Library/soundLib/Laser",
-				"patcherrelativepath" : "../../../Library/soundLib/Laser",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound",
+				"patcherrelativepath" : "../../../media/sound",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Lazer5.aif",
-				"bootpath" : "~/Documents/Max 8/Library/soundLib/Laser",
-				"patcherrelativepath" : "../../../Library/soundLib/Laser",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound",
+				"patcherrelativepath" : "../../../media/sound",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Lazer6.aif",
-				"bootpath" : "~/Documents/Max 8/Library/soundLib/Laser",
-				"patcherrelativepath" : "../../../Library/soundLib/Laser",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound",
+				"patcherrelativepath" : "../../../media/sound",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Lazer7.aif",
-				"bootpath" : "~/Documents/Max 8/Library/soundLib/Laser",
-				"patcherrelativepath" : "../../../Library/soundLib/Laser",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound",
+				"patcherrelativepath" : "../../../media/sound",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
@@ -17896,8 +17896,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
