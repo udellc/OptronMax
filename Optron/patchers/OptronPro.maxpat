@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 278.0, 79.0, 504.0, 783.0 ],
+		"rect" : [ 858.0, 79.0, 718.0, 783.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 221.0, 285.0, 50.0, 22.0 ],
+					"text" : "/aX"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-40",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -52,34 +64,34 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 21,
+						"count" : 13,
 						"data" : [ 							{
 								"key" : 0,
-								"value" : [ 0.0, 1.0 ]
+								"value" : [ -1.0, 1.0 ]
 							}
 , 							{
 								"key" : 1,
-								"value" : [ 0.0, 1.0 ]
+								"value" : [ -1.0, 1.0 ]
 							}
 , 							{
 								"key" : 2,
-								"value" : [ -1, 7 ]
+								"value" : [ -1.0, 1.0 ]
 							}
 , 							{
 								"key" : 3,
-								"value" : [ 0.0, 1.0 ]
+								"value" : [ -120.0, 120.0 ]
 							}
 , 							{
 								"key" : 4,
-								"value" : [ 0.0, 1.0 ]
+								"value" : [ -120.0, 120.0 ]
 							}
 , 							{
 								"key" : 5,
-								"value" : [ 0.0, 1.0 ]
+								"value" : [ -120.0, 120.0 ]
 							}
 , 							{
 								"key" : 6,
-								"value" : [ -0.8, 0.8 ]
+								"value" : [ 0.0, 1.0 ]
 							}
 , 							{
 								"key" : 7,
@@ -87,7 +99,7 @@
 							}
 , 							{
 								"key" : 8,
-								"value" : [ -0.8, 0.8 ]
+								"value" : [ 0, 24 ]
 							}
 , 							{
 								"key" : 9,
@@ -95,47 +107,15 @@
 							}
 , 							{
 								"key" : 10,
-								"value" : [ -0.8, 0.8 ]
+								"value" : [ 0.0, 1.0 ]
 							}
 , 							{
 								"key" : 11,
-								"value" : [ 0.0, 1.0 ]
+								"value" : [ 0, 1 ]
 							}
 , 							{
 								"key" : 12,
-								"value" : [ -0.8, 0.8 ]
-							}
-, 							{
-								"key" : 13,
-								"value" : [ 0.0, 1.0 ]
-							}
-, 							{
-								"key" : 14,
-								"value" : [ -0.8, 0.8 ]
-							}
-, 							{
-								"key" : 15,
-								"value" : [ 0.0, 1.0 ]
-							}
-, 							{
-								"key" : 16,
-								"value" : [ -0.8, 0.8 ]
-							}
-, 							{
-								"key" : 17,
-								"value" : [ 0.0, 1.0 ]
-							}
-, 							{
-								"key" : 18,
-								"value" : [ -0.8, 0.8 ]
-							}
-, 							{
-								"key" : 19,
-								"value" : [ 0.0, 1.0 ]
-							}
-, 							{
-								"key" : 20,
-								"value" : [ -0.8, 0.8 ]
+								"value" : [ 0, 48 ]
 							}
  ]
 					}
@@ -145,13 +125,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 309.524901999999997, 272.0, 123.0, 22.0 ],
+					"patching_rect" : [ 309.524901999999997, 272.0, 127.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
 						"precision" : 6
 					}
 ,
-					"text" : "coll OptronZXRanges"
+					"text" : "coll OptronProRanges"
 				}
 
 			}
@@ -163,8 +143,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 425.0, 483.0, 50.0, 35.0 ],
-					"text" : "range -1 7"
+					"patching_rect" : [ 425.0, 483.0, 53.0, 35.0 ],
+					"text" : "range -1. 1."
 				}
 
 			}
@@ -210,13 +190,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-19",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 376.0, 232.0, 50.0, 35.0 ],
-					"text" : "/ZXTrigs"
+					"patching_rect" : [ 376.0, 232.0, 50.0, 22.0 ],
+					"text" : "/aX"
 				}
 
 			}
@@ -263,7 +242,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 423.524901999999997, 122.0, 50.0, 22.0 ],
-					"text" : "2"
+					"text" : "0"
 				}
 
 			}
@@ -326,10 +305,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 39.0, 22.5, 104.0, 24.0 ],
+					"patching_rect" : [ 39.0, 22.5, 82.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 6.0, 137.0, 24.0 ],
-					"text" : "Optron ZX Bar",
+					"text" : "Optron Pro",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "patch_title"
@@ -402,7 +381,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-2",
-					"items" : [ "ZXActive", ",", "ZXamp", ",", "ZXTrigs", ",", "ZXLineRH", ",", "ZXLineLH", ",", "ZX0/z", ",", "ZX0/x", ",", "ZX1/z", ",", "ZX1/x", ",", "ZX2/z", ",", "ZX2/x", ",", "ZX3/z", ",", "ZX3/x", ",", "ZX4/z", ",", "ZX4/x", ",", "ZX5/z", ",", "ZX5/x", ",", "ZX6/z", ",", "ZX6/x", ",", "ZX7/z", ",", "ZX7/x" ],
+					"items" : [ "aX", ",", "aY", ",", "aZ", ",", "gX", ",", "gY", ",", "gZ", ",", "pressure", ",", "line", ",", "fret", ",", "ePic", ",", "glitter" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -429,7 +408,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 117.583343999999997, 22.5, 49.5, 26.399947999999998 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 70.666668000000016, 145.833327999999995, 42.666663999999997 ],
+					"presentation_rect" : [ 1.5, 82.333336000000003, 145.833327999999995, 42.666663999999997 ],
 					"proportion" : 0.39,
 					"rounded" : 12
 				}
@@ -447,10 +426,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 100.858245999999994, 442.0, 232.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 76.0, 138.0, 32.0 ],
-					"setminmax" : [ -1.0, 7.0 ],
+					"presentation_rect" : [ 6.0, 87.0, 138.0, 32.0 ],
 					"setstyle" : 5,
-					"settype" : 0,
 					"slidercolor" : [ 0.811765, 0.372549, 0.372549, 1.0 ],
 					"varname" : "scroller"
 				}
@@ -487,6 +464,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 1 ],
+					"order" : 2,
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 1 ],
 					"order" : 1,
 					"source" : [ "obj-11", 0 ]
 				}

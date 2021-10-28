@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 824.0, 79.0, 718.0, 783.0 ],
+		"rect" : [ 824.0, 79.0, 387.0, 783.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 221.0, 285.0, 50.0, 22.0 ],
-					"text" : "/strum"
+					"text" : "/aX"
 				}
 
 			}
@@ -71,7 +71,7 @@
 							}
 , 							{
 								"key" : 1,
-								"value" : [ 0, 44 ]
+								"value" : [ -1.0, 1.0 ]
 							}
 , 							{
 								"key" : 2,
@@ -143,8 +143,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 425.0, 483.0, 50.0, 35.0 ],
-					"text" : "range 0 1"
+					"patching_rect" : [ 425.0, 483.0, 53.0, 35.0 ],
+					"text" : "range -1. 1."
 				}
 
 			}
@@ -195,7 +195,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 376.0, 232.0, 50.0, 22.0 ],
-					"text" : "/strum"
+					"text" : "/aX"
 				}
 
 			}
@@ -242,7 +242,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 423.524901999999997, 122.0, 50.0, 22.0 ],
-					"text" : "11"
+					"text" : "0"
 				}
 
 			}
@@ -301,15 +301,14 @@
 					"gradient" : 1,
 					"id" : "obj-9",
 					"ignoreclick" : 1,
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 39.0, 22.5, 59.0, 40.0 ],
+					"patching_rect" : [ 39.0, 22.5, 112.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 6.0, 137.0, 24.0 ],
-					"text" : "Optron Mini",
+					"text" : "Optron AirGlow",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "patch_title"
@@ -428,9 +427,7 @@
 					"patching_rect" : [ 100.858245999999994, 442.0, 232.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.0, 87.0, 138.0, 32.0 ],
-					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 5,
-					"settype" : 0,
 					"slidercolor" : [ 0.811765, 0.372549, 0.372549, 1.0 ],
 					"varname" : "scroller"
 				}
@@ -617,8 +614,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",

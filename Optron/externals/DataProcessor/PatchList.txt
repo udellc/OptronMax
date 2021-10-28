@@ -8,6 +8,7 @@ MidiIn
 OSC_In
 ArduinoIn
 OptronMini
+OptronPro
 OptronZX
 vocalInput
 --Process--
