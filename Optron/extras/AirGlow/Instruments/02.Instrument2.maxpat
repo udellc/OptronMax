@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 949.0, 79.0, 613.0, 885.0 ],
+		"rect" : [ 133.0, 79.0, 613.0, 885.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -5512,12 +5512,12 @@
 										"autogradient" : 0
 									}
 ,
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"fontname" : [ "Open Sans Semibold" ],
 									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
 									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+									"fontname" : [ "Open Sans Semibold" ],
+									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ]
 								}
 ,
@@ -5844,11 +5844,11 @@
 										"autogradient" : 0
 									}
 ,
-									"fontsize" : [ 18.0 ],
-									"fontname" : [ "HydrogenType" ],
 									"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
-									"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
+									"fontsize" : [ 18.0 ],
 									"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
+									"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
+									"fontname" : [ "HydrogenType" ],
 									"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ]
 								}
 ,
@@ -5868,11 +5868,11 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontsize" : [ 9.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontname" : [ "Geneva" ],
 									"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+									"fontsize" : [ 9.0 ],
 									"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+									"fontname" : [ "Geneva" ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ]
 								}
 ,
@@ -5968,8 +5968,8 @@
 , 							{
 								"name" : "classicNodes",
 								"default" : 								{
-									"fontsize" : [ 9.0 ],
 									"color" : [ 0.839216, 0.839216, 0.839216, 1.0 ],
+									"fontsize" : [ 9.0 ],
 									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
 								}
 ,
@@ -6084,8 +6084,8 @@
 										"proportion" : 0.39
 									}
 ,
-									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
-									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
+									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6131,13 +6131,13 @@
 										"autogradient" : 0
 									}
 ,
+									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
 									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
+									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6393,9 +6393,9 @@
 								"default" : 								{
 									"patchlinecolor" : [ 0.199068, 0.062496, 0.060031, 0.9 ],
 									"fontsize" : [ 36.0 ],
-									"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 									"fontname" : [ "Dirty Ego" ],
-									"selectioncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
+									"selectioncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
+									"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6901,30 +6901,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-112",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ -437.0, 777.0, 44.0, 22.0 ],
-					"text" : "scan 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-104",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ -437.0, 742.699219000000085, 58.0, 22.0 ],
-					"text" : "loadbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-100",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -7022,17 +6998,6 @@
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 239.0, 337.0, 29.5, 22.0 ],
 					"text" : "- 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-105",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ -487.0, 824.0, 108.0, 20.0 ],
-					"text" : "Instrument VST"
 				}
 
 			}
@@ -7230,66 +7195,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-270",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ -355.0, 832.699219000000085, 55.0, 22.0 ],
-					"text" : "del 8000"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-271",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ -355.0, 802.699219000000085, 58.0, 22.0 ],
-					"text" : "loadbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-274",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "clear" ],
-					"patching_rect" : [ -355.0, 890.699219000000085, 51.0, 22.0 ],
-					"text" : "t b clear"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-275",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "clear" ],
-					"patching_rect" : [ -304.0, 914.699219000000085, 51.0, 22.0 ],
-					"text" : "t b clear"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-276",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "clear" ],
-					"patching_rect" : [ -258.0, 974.199219000000085, 51.0, 22.0 ],
-					"text" : "t b clear"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-277",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -7320,223 +7225,6 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ -208.0, 1130.699219000000085, 58.0, 22.0 ],
 					"text" : "loadbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-280",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ -258.0, 945.699219000000085, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-281",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ -304.0, 881.699219000000085, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-282",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ -355.0, 860.699219000000085, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"border" : 0,
-					"evaluatehref" : 1,
-					"fontface" : 0,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-283",
-					"linkbold" : 1,
-					"linkcolor" : [ 0.203922, 0.47451, 0.780392, 1.0 ],
-					"maxclass" : "markup",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ -423.5, 998.199219000000085, 272.0, 19.0 ],
-					"text" : "Access plugin names using the <link href=\"; max openhelp vstscan\">vstscan </link> object",
-					"textcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-284",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ -406.0, 1137.199219000000085, 172.0, 25.0 ],
-					"text" : "Select plugin Instrument"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 13.0,
-					"id" : "obj-287",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ -463.0, 1121.199219000000085, 37.0, 23.0 ],
-					"text" : "clear"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-288",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ -406.0, 945.699219000000085, 146.0, 25.0 ],
-					"text" : "AudioUnit (Mac only)"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-289",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ -412.5, 913.699219000000085, 58.0, 25.0 ],
-					"text" : "VST3"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-290",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ -437.0, 880.699219000000085, 51.0, 25.0 ],
-					"text" : "VST"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 13.0,
-					"id" : "obj-292",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ -471.0, 914.699219000000085, 53.0, 23.0 ],
-					"text" : "listvst3"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 13.0,
-					"id" : "obj-293",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ -452.0, 945.699219000000085, 42.0, 23.0 ],
-					"text" : "listau"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 13.0,
-					"id" : "obj-294",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ -487.0, 881.699219000000085, 46.0, 23.0 ],
-					"text" : "listvst"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 13.0,
-					"id" : "obj-295",
-					"items" : [ "AGML2_Synth", ",", "chipcrusher2", ",", "chipsounds Multi", ",", "chipsounds", ",", "chipspeech", ",", "Crystal_Synth", ",", "Emissary", ",", "MAGC", ",", "MAmp", ",", "MAnalyzer", ",", "MAutoAlign", ",", "MAutoDynamicEq", ",", "MAutoEqualizer", ",", "MAutoEqualizerLP", ",", "MAutopan", ",", "MAutopanMB", ",", "MAutoPitch", ",", "MAutoStereoFix", ",", "MAutoVolume", ",", "MBandPass", ",", "MBassador", ",", "MBitFun", ",", "MBitFunMB", ",", "MCabinet", ",", "MCabinetMB", ",", "MCCGenerator", ",", "MChannelMatrix", ",", "MCharacter", ",", "MCharmVerb", ",", "MChorusMB", ",", "MComb", ",", "MCombMB", ",", "MCompare", ",", "MCompressor", ",", "MConvolutionEZ", ",", "MConvolutionMB", ",", "MDelayMB", ",", "MDistortionMB", ",", "MDoubleTracker", ",", "MDoubleTrackerMB", ",", "MDrumEnhancer", ",", "MDrumLeveler", ",", "MDrummer", ",", "MDrummer16out", ",", "MDrummer1out", ",", "MDynamicEq", ",", "MDynamics", ",", "MDynamicsMB", ",", "MDynamicsMBLarge", ",", "MEqualizer", ",", "MEqualizerLP", ",", "MFilter", ",", "MFlanger", ",", "MFlangerMB", ",", "MFreeformAnalogEq", ",", "MFreeformEqualizer", ",", "MFreeformPhase", ",", "MFreqShifter", ",", "MFreqShifterMB", ",", "MGranularMB", ",", "MHarmonizerMB", ",", "MLimiterMB", ",", "MLimiterX", ",", "MLoudnessAnalyzer", ",", "MMetronome", ",", "MModernCompressor", ",", "MMorph", ",", "MMultiAnalyzer", ",", "MNoiseGenerator", ",", "MNotepad", ",", "MOscillator", ",", "MOscilloscope", ",", "MPhaser", ",", "MPhaserMB", ",", "MPhatik", ",", "MPolySaturator", ",", "MPowerSynth", ",", "MRatio", ",", "MRatioMB", ",", "MRecorder", ",", "MReverb", ",", "MReverbMB", ",", "MRhythmizer", ",", "MRhythmizerMB", ",", "MRingModulator", ",", "MRingModulatorMB", ",", "MRotary", ",", "MSaturator", ",", "MSaturatorMB", ",", "MSoundFactory", ",", "MSoundFactory6out", ",", "MSpectralDelay", ",", "MSpectralDynamics", ",", "MSpectralDynamicsMini", ",", "MSpectralPan", ",", "MStereoExpander", ",", "MStereoGenerator", ",", "MStereoProcessor", ",", "MStereoScope", ",", "MStereoSpread", ",", "MSuperLooper", ",", "MTransformer", ",", "MTransient", ",", "MTransientMB", ",", "MTremolo", ",", "MTremoloMB", ",", "MTuner", ",", "MTurboComp", ",", "MTurboCompMB", ",", "MTurboDelay", ",", "MTurboDelayMB", ",", "MTurboEQ", ",", "MTurboReverb", ",", "MTurboReverbMB", ",", "MUltraMaximizer", ",", "MUnison", ",", "MUtility", ",", "MVibrato", ",", "MVibratoMB", ",", "MVintageRotary", ",", "MVocoder", ",", "MWaveFolder", ",", "MWaveFolderMB", ",", "MWaveShaper", ",", "MWaveShaperMB", ",", "MWobbler", ",", "MWobblerMB", ",", "MXXX", ",", "MXXX1", ",", "TS-999" ],
-					"maxclass" : "umenu",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ -487.0, 1167.199219000000085, 192.0, 23.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 13.0,
-					"id" : "obj-296",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ -487.0, 1083.199219000000085, 112.0, 23.0 ],
-					"text" : "prepend append"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 13.0,
-					"id" : "obj-297",
-					"maxclass" : "newobj",
-					"numinlets" : 7,
-					"numoutlets" : 7,
-					"outlettype" : [ "", "", "", "", "", "", "" ],
-					"patching_rect" : [ -487.0, 1028.199219000000085, 564.0, 23.0 ],
-					"text" : "route plug_vst plug_au plug_vst3 plug_vst_blacklisted plug_vst3_blacklisted plug_au_blacklisted"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 13.0,
-					"id" : "obj-298",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ -487.0, 994.199219000000085, 58.0, 23.0 ],
-					"text" : "vstscan"
 				}
 
 			}
@@ -7971,7 +7659,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "1492.CMlaKA....fQPMDZ....A.ESG8D...P......TVavQWdfLGauQGL.........................T.lCUzQP8OO...db19Vq+1n3.w+d+q.wm16CE7KrAoltJO1rJRaus5RuS22V4l3MEcDHGX5089q+FfjVxCVZRee0iDMvvX6YFL+lYL0m7walGYcsJMKLItiM1AYa8wSO5jtogxwxqU0tU.WXasHMYZ9D8nA.CDJv9zir.5jwJsNLdVl0emKiB0+.tqsUlNUImCr6XSI1Vyk2LtjS2nnjIm0qiMwiaac1nAi9Zt9rjopxVIy0IykZXLGGkn6XipyJRcsJpicXLz24yUwZaqnvqUUMFjLaRGaORwuxHIvAacrkpPmbxlDsjcenYpzN1bP9YQIWJitHOtTKAFtqLHXrsBmVxKVNun2wNVmmmpr5eU3B2wiF3x87wVe3WuXb+ew15RY7eMZ5RuxldsIWIiiKT7iACbQRTk+Qe2vt3xukJimoVJgFtHq7FyqcZxDM7D4V6D52445kW+OeKRlU5spLfRi3LYX7Ji3ZYTdkC1cWRfuUBTCRPZUBZqRvZUBuVkf2pDhVkvuUIBZUBLpcQZ2qha2sha2uha2whazydtLUN+mOM4NQp48c7PrfBxiPwbhOqo1T64gCmRXHBBQ7wXFEGzTaH310E18Qeq8TxAgD9BJnw99bBlInzFUYV8lETYm99HQ.Rz3XIBZWe7qM0yACNADNHfHHfeg2TavzZyibBDbpPDvYPKEBuF85.PTiyPuPlNSoWBrMIYty4QIyxUNEn9NeY3WcxyTo3ZPIkspedFfCOPpkVWo+wBnodBOvlyB+W3bFmUC2CFPU7zPY0oSg1.mrhFV8CAYHCYnWKz5XDtUfD2CTiKRCmMSkNFRzREOQk1NtAixnqvMn7ZvFjcAafqTugKoJbCwPDd3PJ7avVFBsuX35bvH1AadqAJhLfhFxPueneBpwItEUItYAi3cWv3fy9bwg0GxiiBmGpUSe8TzHyTznonwCsnw55qCi46i88CHPUddDVi0WceJu64qrmGVBL9n8MAFdwUPJJdv48DC6sEnCgsqzZP838VW1AHJzCdhcwkQ2EWZv5bewRLx+ENunGEideKQ9MsQ+af5pRgfOiUYElfSlVs345wdf2p2h.VdHAJ.0ClRW7tDEN7gq6Bb5C2mBRRfo0nR9vKZvAqrMdH9dGNmr6v4WLpawg0G9ddTjUYXXS7bS77+GDOu9p0x3hhUqEiwdv6RDxCIbtnQWUMYpoeNjkKurOAi84HwKedBuew9euEk+gkQHwaeyHr7ZQ44aujVCgL2163Vz2Ve2RhIjkIj0gFx5QK7SMixwiWE9Qvwv6KrFi8s1mJziT0FL0Gh9f7tGA5dPeNwG+XeqIUM+5yRozGLvYAmsKZ1rp+FxPFZ+oWjUGxfZXHC8Fl16hzXO8EowMEoYJR60PQZ0MIGNlFPEP.LJBW7ACedqrSTsthTJFwCBdPEoYJ.q3ppBv1dkqZo.rcCJ5saPw+XT+iGAvh7+7U4+CEXtAbz.Ndvfi0+pKHb0JOEv4LAg523W9Xu+jJvqHUjPvY9DO+FWUKLsNhouOfrAfZn.DmfaFw7sDhU4Zs2eSDq9GxZsye5Si63mr735leyFHUssiGLfaFvsCNyOJfkPgrt3LO3OnGzF.5.VS+J3OhOSvXMuiaLY98bl42m992USz02wkq1FmU1X24WFVXQs.ftHMYxsaDzki7Ie92GspSkSzgWqFUsqRoqt9S2tKSyTQfZnldg7xMfHOOUkozmohysByVIttzb1Z0+fantAX2qq0.kZQYj.qdxrLPAk5q5X69kvKSko+vs6hEQgSJ2VqViyWrHIU6V0QtSfFkkjGOMysZryb2XXbK5R2sFDGIbua1XZ0VZO89n8Ck5x98oRwus+aQmU6zi+YYZZnVF6b2jikZtLJJMIYtEdkde2jAWX1voGch6pM27oG8eMz4aNB"
+							"blob" : "1488.CMlaKA....fQPMDZ....A.ESG8D...P......TVavQWdfLGauQGL.........................T.kCUzQP8OO...db19Vc+1n3.weu+Uf3o8dnf+BaPpoqxGaVEos2Vco2o6sUtIdSQGAxAldcu+5uAHoklDJMIa+5pGIBvvX6YFL+FO1wm7walGYcsJMKLItiM1AYa8wSO5jtogxwxqU0dT.WXasHMYZ9D8nA.CDJv9zir.5jwJsNLdVl0emKiB0+.dpsUlNUImCr6XSI1Vyk2LtjS2nnjIm0qiMwiaac1nAi9Zt9rjopxRIy0IykZnMGGkn6XipyJRcsJpicXLT24yUwZaqnvqUUEFjLaRGaOZwYYjD3fsN1RUnSNYShVxtOTLUZGaNH+rnjKkQWjGWpk.C2UFDz1VgSK4EKmWT6XGqyySUV8uJbg63QCb4d9XqO7qWLt+uXacoL9uFMcoWYcu1jqjwwEJ9wfAtHIpx+nuqYWb42RkwyTKkPC2jU9f40tLYhFdibqc5Crx0Ku+e9VjLqzaUY.kFwYxv3UFw0xn7JGr61j.eqDnFjfzpDzVkf0pDdsJAuUIDsJgeqRDzpDXT6hztWE2taE2teE2tiE2nm8bYpb9C2M4NQp48c7PrfBxiPwbhOqoxT68gCmRXHBBQ7wXFEGzTYH310E1iQeq8VxAgD9BJnw99bBlInzFUYV8hETYm99HQ.RzXaIBZWe7q00yACNADNHfHHfeg2TYvzZ8ibBDbpPDvYPIEBuF85.PTi8PuPlNSoWBrMIYty4QIyxUNEn9NeY3WcxyTo0gRJKU+7L.GdfTKstR+iEPQ8DdfMmE9uv0LNqFtGzfp3ogxpKmBkAtXEMr5DAYHCYnWKz8wHbq.I1UTCrA0vPF58CsunFWjFNalJcLjdlJdhJscbCFkQWgaP40fMHaC1.WodCWRU3FhgH7vgT3bvFFBsuX384fQrGx7NwsHKw0SXDu8DFGb1mKNr9PdbT37PsZ5qmjFYljFMIMtuIMVWecXLeerue.AxxyivZL+pGS5cOeo8bXPQ9ncEJhuDJxCttmXXuMfhHrsAPg5w6ceYGfnPM3I1FWFcaboA2maKPbOna6fxVz+EdXeuHC18MsQ+af5pRgfOiUYElfSlVs3450df2puh.VdHAJ.0C5RW7sDEN7g66Bb5COmBRRft0nR9vGZvAqrLdH9NGNmr8v4WLpawg0G9ddTjUYXXS7bS77+GDOu9r0x3hhYqEiwdv2RDxgDNWznqplL0zOGxxoW1mfw9bj3kebBuew9euEk+vFQHwaWGQX48hxq2L4zgvH2143Vz2VqaIwDxxDxZeCY8SK7SMixwiWE9Qvwv2KrFi8cukJziTUFL0Gh9f7dDA5NnkS7meru6IUM+5yRpz6MvYAmMSZ9EK4VyhZXHC8FlLKEpgLjg1MZmSRi8zmjF2jjlIIsWCIoU2jb3XZ.U.AvnHbwBF97lYmnZdEoTLhGDbPIoYR.q3tpDv1blq1q+.EdaGT7OF0+3Q.rH+OeU9en.yMfiFvw8Fbr9ptfvUy7T.myDDpeiq7wNujJvmHUjPvY9DO+FmUKLsNhouOfrAfZn.DmfaFw7sDhU4bs2ecDq96ybsye5GF2wOYiiqa9MqgT01Ndv.tY.216Q9QArDJLpKNyC9AcPa.n8XN8qf+H9LAi07NtwLxumyQ98ou+c0Dc8cb4pswYkM1c9kgEVTK.nKRSlb6FAcYKexm+8QqpT4Dc30pQU6pT5p6+zs6xzLUDnFpoWHubMHxySUYJ8Yp3bqvrUhqKMmMl8O3Apa.185ZMPoVTFIvpmLKCTPo9pN1teI7xTY5Ob6tXQT3jxs0p037EKRR0tUUj6DnPYI4wSybqZ6L20ZF2hpzciFwQBO6l05Vsg1SeLZ+PotrdepT7aq+VzY0V83eVllFpkwN204XolKihRSRlagWo220YvE5Mb5Qm3tZyMe5Q+Gv2V91k"
 						}
 ,
 						"snapshotlist" : 						{
@@ -7993,7 +7681,7 @@
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "1492.CMlaKA....fQPMDZ....A.ESG8D...P......TVavQWdfLGauQGL.........................T.lCUzQP8OO...db19Vq+1n3.w+d+q.wm16CE7KrAoltJO1rJRaus5RuS22V4l3MEcDHGX5089q+FfjVxCVZRee0iDMvvX6YFL+lYL0m7walGYcsJMKLItiM1AYa8wSO5jtogxwxqU0tU.WXasHMYZ9D8nA.CDJv9zir.5jwJsNLdVl0emKiB0+.tqsUlNUImCr6XSI1Vyk2LtjS2nnjIm0qiMwiaac1nAi9Zt9rjopxVIy0IykZXLGGkn6XipyJRcsJpicXLz24yUwZaqnvqUUMFjLaRGaORwuxHIvAacrkpPmbxlDsjcenYpzN1bP9YQIWJitHOtTKAFtqLHXrsBmVxKVNun2wNVmmmpr5eU3B2wiF3x87wVe3WuXb+ew15RY7eMZ5RuxldsIWIiiKT7iACbQRTk+Qe2vt3xukJimoVJgFtHq7FyqcZxDM7D4V6D52445kW+OeKRlU5spLfRi3LYX7Ji3ZYTdkC1cWRfuUBTCRPZUBZqRvZUBuVkf2pDhVkvuUIBZUBLpcQZ2qha2sha2uha2whazydtLUN+mOM4NQp48c7PrfBxiPwbhOqo1T64gCmRXHBBQ7wXFEGzTaH310E18Qeq8TxAgD9BJnw99bBlInzFUYV8lETYm99HQ.Rz3XIBZWe7qM0yACNADNHfHHfeg2TavzZyibBDbpPDvYPKEBuF85.PTiyPuPlNSoWBrMIYty4QIyxUNEn9NeY3WcxyTo3ZPIkspedFfCOPpkVWo+wBnodBOvlyB+W3bFmUC2CFPU7zPY0oSg1.mrhFV8CAYHCYnWKz5XDtUfD2CTiKRCmMSkNFRzREOQk1NtAixnqvMn7ZvFjcAafqTugKoJbCwPDd3PJ7avVFBsuX35bvH1AadqAJhLfhFxPueneBpwItEUItYAi3cWv3fy9bwg0GxiiBmGpUSe8TzHyTznonwCsnw55qCi46i88CHPUddDVi0WceJu64qrmGVBL9n8MAFdwUPJJdv48DC6sEnCgsqzZP838VW1AHJzCdhcwkQ2EWZv5bewRLx+ENunGEideKQ9MsQ+af5pRgfOiUYElfSlVs345wdf2p2h.VdHAJ.0ClRW7tDEN7gq6Bb5C2mBRRfo0nR9vKZvAqrMdH9dGNmr6v4WLpawg0G9ddTjUYXXS7bS77+GDOu9p0x3hhUqEiwdv6RDxCIbtnQWUMYpoeNjkKurOAi84HwKedBuew9euEk+gkQHwaeyHr7ZQ44aujVCgL2163Vz2Ve2RhIjkIj0gFx5QK7SMixwiWE9Qvwv6KrFi8s1mJziT0FL0Gh9f7tGA5dPeNwG+XeqIUM+5yRozGLvYAmsKZ1rp+FxPFZ+oWjUGxfZXHC8Fl16hzXO8EowMEoYJR60PQZ0MIGNlFPEP.LJBW7ACedqrSTsthTJFwCBdPEoYJ.q3ppBv1dkqZo.rcCJ5saPw+XT+iGAvh7+7U4+CEXtAbz.Ndvfi0+pKHb0JOEv4LAg523W9Xu+jJvqHUjPvY9DO+FWUKLsNhouOfrAfZn.DmfaFw7sDhU4Zs2eSDq9GxZsye5Si63mr735leyFHUssiGLfaFvsCNyOJfkPgrt3LO3OnGzF.5.VS+J3OhOSvXMuiaLY98bl42m992USz02wkq1FmU1X24WFVXQs.ftHMYxsaDzki7Ie92GspSkSzgWqFUsqRoqt9S2tKSyTQfZnldg7xMfHOOUkozmohysByVIttzb1Z0+fantAX2qq0.kZQYj.qdxrLPAk5q5X69kvKSko+vs6hEQgSJ2VqViyWrHIU6V0QtSfFkkjGOMysZryb2XXbK5R2sFDGIbua1XZ0VZO89n8Ck5x98oRwus+aQmU6zi+YYZZnVF6b2jikZtLJJMIYtEdkde2jAWX1voGch6pM27oG8eMz4aNB"
+										"blob" : "1488.CMlaKA....fQPMDZ....A.ESG8D...P......TVavQWdfLGauQGL.........................T.kCUzQP8OO...db19Vc+1n3.weu+Uf3o8dnf+BaPpoqxGaVEos2Vco2o6sUtIdSQGAxAldcu+5uAHoklDJMIa+5pGIBvvX6YFL+FO1wm7walGYcsJMKLItiM1AYa8wSO5jtogxwxqU0dT.WXasHMYZ9D8nA.CDJv9zir.5jwJsNLdVl0emKiB0+.dpsUlNUImCr6XSI1Vyk2LtjS2nnjIm0qiMwiaac1nAi9Zt9rjopxRIy0IykZnMGGkn6XipyJRcsJpicXLT24yUwZaqnvqUUEFjLaRGaOZwYYjD3fsN1RUnSNYShVxtOTLUZGaNH+rnjKkQWjGWpk.C2UFDz1VgSK4EKmWT6XGqyySUV8uJbg63QCb4d9XqO7qWLt+uXacoL9uFMcoWYcu1jqjwwEJ9wfAtHIpx+nuqYWb42RkwyTKkPC2jU9f40tLYhFdibqc5Crx0Ku+e9VjLqzaUY.kFwYxv3UFw0xn7JGr61j.eqDnFjfzpDzVkf0pDdsJAuUIDsJgeqRDzpDXT6hztWE2taE2teE2tiE2nm8bYpb9C2M4NQp48c7PrfBxiPwbhOqoxT68gCmRXHBBQ7wXFEGzTYH310E1iQeq8VxAgD9BJnw99bBlInzFUYV8hETYm99HQ.RzXaIBZWe7q00yACNADNHfHHfeg2TYvzZ8ibBDbpPDvYPIEBuF85.PTi8PuPlNSoWBrMIYty4QIyxUNEn9NeY3WcxyTo0gRJKU+7L.GdfTKstR+iEPQ8DdfMmE9uv0LNqFtGzfp3ogxpKmBkAtXEMr5DAYHCYnWKz8wHbq.I1UTCrA0vPF58CsunFWjFNalJcLjdlJdhJscbCFkQWgaP40fMHaC1.WodCWRU3FhgH7vgT3bvFFBsuX384fQrGx7NwsHKw0SXDu8DFGb1mKNr9PdbT37PsZ5qmjFYljFMIMtuIMVWecXLeerue.AxxyivZL+pGS5cOeo8bXPQ9ncEJhuDJxCttmXXuMfhHrsAPg5w6ceYGfnPM3I1FWFcaboA2maKPbOna6fxVz+EdXeuHC18MsQ+af5pRgfOiUYElfSlVs3450df2puh.VdHAJ.0C5RW7sDEN7g66Bb5COmBRRft0nR9vGZvAqrLdH9NGNmr8v4WLpawg0G9ddTjUYXXS7bS77+GDOu9r0x3hhYqEiwdv2RDxgDNWznqplL0zOGxxoW1mfw9bj3kebBuew9euEk+vFQHwaWGQX48hxq2L4zgvH2143Vz2VqaIwDxxDxZeCY8SK7SMixwiWE9Qvwv2KrFi8cukJziTUFL0Gh9f7dDA5NnkS7meru6IUM+5yRpz6MvYAmMSZ9EK4VyhZXHC8FlLKEpgLjg1MZmSRi8zmjF2jjlIIsWCIoU2jb3XZ.U.AvnHbwBF97lYmnZdEoTLhGDbPIoYR.q3tpDv1blq1q+.EdaGT7OF0+3Q.rH+OeU9en.yMfiFvw8Fbr9ptfvUy7T.myDDpeiq7wNujJvmHUjPvY9DO+FmUKLsNhouOfrAfZn.DmfaFw7sDhU4bs2ecDq96ybsye5GF2wOYiiqa9MqgT01Ndv.tY.216Q9QArDJLpKNyC9AcPa.n8XN8qf+H9LAi07NtwLxumyQ98ou+c0Dc8cb4pswYkM1c9kgEVTK.nKRSlb6FAcYKexm+8QqpT4Dc30pQU6pT5p6+zs6xzLUDnFpoWHubMHxySUYJ8Yp3bqvrUhqKMmMl8O3Apa.185ZMPoVTFIvpmLKCTPo9pN1teI7xTY5Ob6tXQT3jxs0p037EKRR0tUUj6DnPYI4wSybqZ6L20ZF2hpzciFwQBO6l05Vsg1SeLZ+PotrdepT7aq+VzY0V83eVllFpkwN204XolKihRSRlagWo220YvE5Mb5Qm3tZyMe5Q+Gv2V91k"
 									}
 ,
 									"fileref" : 									{
@@ -13195,7 +12883,7 @@
 									"patching_rect" : [ 417.0, 311.0, 190.0, 23.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 6.0, 134.0, 190.0, 23.0 ],
-									"size" : 48.0
+									"size" : 144.0
 								}
 
 							}
@@ -13869,12 +13557,12 @@
 										"autogradient" : 0
 									}
 ,
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"fontname" : [ "Open Sans Semibold" ],
 									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
 									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+									"fontname" : [ "Open Sans Semibold" ],
+									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ]
 								}
 ,
@@ -14201,11 +13889,11 @@
 										"autogradient" : 0
 									}
 ,
-									"fontsize" : [ 18.0 ],
-									"fontname" : [ "HydrogenType" ],
 									"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
-									"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
+									"fontsize" : [ 18.0 ],
 									"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
+									"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
+									"fontname" : [ "HydrogenType" ],
 									"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ]
 								}
 ,
@@ -14225,11 +13913,11 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontsize" : [ 9.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontname" : [ "Geneva" ],
 									"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+									"fontsize" : [ 9.0 ],
 									"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+									"fontname" : [ "Geneva" ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ]
 								}
 ,
@@ -14325,8 +14013,8 @@
 , 							{
 								"name" : "classicNodes",
 								"default" : 								{
-									"fontsize" : [ 9.0 ],
 									"color" : [ 0.839216, 0.839216, 0.839216, 1.0 ],
+									"fontsize" : [ 9.0 ],
 									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
 								}
 ,
@@ -14441,8 +14129,8 @@
 										"proportion" : 0.39
 									}
 ,
-									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
-									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
+									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -14488,13 +14176,13 @@
 										"autogradient" : 0
 									}
 ,
+									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
 									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
+									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -14750,9 +14438,9 @@
 								"default" : 								{
 									"patchlinecolor" : [ 0.199068, 0.062496, 0.060031, 0.9 ],
 									"fontsize" : [ 36.0 ],
-									"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 									"fontname" : [ "Dirty Ego" ],
-									"selectioncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
+									"selectioncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
+									"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -20659,7 +20347,7 @@
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 380.0, 4.463921, 48.0, 27.0 ],
-									"text" : "5"
+									"text" : "0"
 								}
 
 							}
@@ -20702,7 +20390,7 @@
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 306.0, 89.5, 48.0, 27.0 ],
-									"text" : "60"
+									"text" : "57"
 								}
 
 							}
@@ -22981,7 +22669,7 @@
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 380.0, 4.463921, 48.0, 27.0 ],
-									"text" : "5"
+									"text" : "0"
 								}
 
 							}
@@ -23024,7 +22712,7 @@
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 306.0, 89.5, 48.0, 27.0 ],
-									"text" : "60"
+									"text" : "57"
 								}
 
 							}
@@ -25028,13 +24716,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-112", 0 ],
-					"source" : [ "obj-104", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-100", 0 ],
 					"source" : [ "obj-106", 0 ]
 				}
@@ -25107,13 +24788,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-198", 0 ],
 					"source" : [ "obj-111", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-298", 0 ],
-					"source" : [ "obj-112", 0 ]
 				}
 
 			}
@@ -26220,62 +25894,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-282", 0 ],
-					"source" : [ "obj-270", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-270", 0 ],
-					"source" : [ "obj-271", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-294", 0 ],
-					"source" : [ "obj-274", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-295", 0 ],
-					"source" : [ "obj-274", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-292", 0 ],
-					"source" : [ "obj-275", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-295", 0 ],
-					"source" : [ "obj-275", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-293", 0 ],
-					"source" : [ "obj-276", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-295", 0 ],
-					"source" : [ "obj-276", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-62", 0 ],
 					"source" : [ "obj-278", 0 ]
 				}
@@ -26344,34 +25962,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-276", 0 ],
-					"source" : [ "obj-280", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-275", 0 ],
-					"source" : [ "obj-281", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-274", 0 ],
-					"source" : [ "obj-282", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-295", 0 ],
-					"source" : [ "obj-287", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-106", 0 ],
 					"order" : 0,
 					"source" : [ "obj-29", 0 ]
@@ -26383,78 +25973,6 @@
 					"destination" : [ "obj-7", 0 ],
 					"order" : 1,
 					"source" : [ "obj-29", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-298", 0 ],
-					"source" : [ "obj-292", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-298", 0 ],
-					"source" : [ "obj-293", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-298", 0 ],
-					"source" : [ "obj-294", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-299", 0 ],
-					"order" : 1,
-					"source" : [ "obj-295", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-62", 1 ],
-					"order" : 0,
-					"source" : [ "obj-295", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-295", 0 ],
-					"source" : [ "obj-296", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-296", 0 ],
-					"source" : [ "obj-297", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-296", 0 ],
-					"source" : [ "obj-297", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-296", 0 ],
-					"source" : [ "obj-297", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-297", 0 ],
-					"source" : [ "obj-298", 0 ]
 				}
 
 			}
@@ -27313,12 +26831,12 @@
 						"autogradient" : 0
 					}
 ,
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"fontname" : [ "Open Sans Semibold" ],
 					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
 					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+					"fontname" : [ "Open Sans Semibold" ],
+					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ]
 				}
 ,
@@ -27645,11 +27163,11 @@
 						"autogradient" : 0
 					}
 ,
-					"fontsize" : [ 18.0 ],
-					"fontname" : [ "HydrogenType" ],
 					"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
-					"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
+					"fontsize" : [ 18.0 ],
 					"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
+					"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
+					"fontname" : [ "HydrogenType" ],
 					"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ]
 				}
 ,
@@ -27669,11 +27187,11 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontsize" : [ 9.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : [ "Geneva" ],
 					"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+					"fontsize" : [ 9.0 ],
 					"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+					"fontname" : [ "Geneva" ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ]
 				}
 ,
@@ -27769,8 +27287,8 @@
 , 			{
 				"name" : "classicNodes",
 				"default" : 				{
-					"fontsize" : [ 9.0 ],
 					"color" : [ 0.839216, 0.839216, 0.839216, 1.0 ],
+					"fontsize" : [ 9.0 ],
 					"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
 				}
 ,
@@ -27885,8 +27403,8 @@
 						"proportion" : 0.39
 					}
 ,
-					"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
-					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -27932,13 +27450,13 @@
 						"autogradient" : 0
 					}
 ,
+					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
 					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
+					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -28194,9 +27712,9 @@
 				"default" : 				{
 					"patchlinecolor" : [ 0.199068, 0.062496, 0.060031, 0.9 ],
 					"fontsize" : [ 36.0 ],
-					"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 					"fontname" : [ "Dirty Ego" ],
-					"selectioncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
+					"selectioncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
+					"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
