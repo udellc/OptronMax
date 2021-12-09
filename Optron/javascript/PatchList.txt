@@ -1,5 +1,6 @@
 --Input--
 OptronMini
+OptronPro
 OptronZX
 MidiIn
 OSC_In

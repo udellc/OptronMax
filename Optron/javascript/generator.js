@@ -4,7 +4,7 @@ inlets = 1
 outlets = 0
 
 // Path to patch files
-path = '~/Documents/Max 8/Library/Loom2' 
+path = '~/Documents/Max 8/Packages/Optron/javascript' 
 menu_list_file = path + "/PatchList.txt"
 
 
