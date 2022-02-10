@@ -1,5 +1,5 @@
 # Optron
-## Chet Udell 2016-2020
+## Chet Udell 2016-2022
 
 ### CC BY-NC-SA 4.0
 
