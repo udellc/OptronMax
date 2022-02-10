@@ -797,8 +797,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 112.75, 2676.0, 50.0, 22.0 ],
-					"text" : "cpPan~"
+					"patching_rect" : [ 112.75, 2676.0, 66.0, 22.0 ],
+					"text" : "nw.cppan~"
 				}
 
 			}
@@ -1987,7 +1987,7 @@
 									}
 ,
 									"text" : "pattr",
-									"varname" : "u271003633"
+									"varname" : "u390012227"
 								}
 
 							}
@@ -5339,7 +5339,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 188.0, 255.0, 95.0, 22.0 ],
-									"text" : "/hover 1.611257"
+									"text" : "/fret 0"
 								}
 
 							}
@@ -24865,7 +24865,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 188.0, 255.0, 95.0, 22.0 ],
-									"text" : "/hover 1.611257"
+									"text" : "/fret 0"
 								}
 
 							}
@@ -27563,7 +27563,7 @@
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 306.0, 89.5, 48.0, 27.0 ],
-									"text" : "64"
+									"text" : "52"
 								}
 
 							}
@@ -29849,7 +29849,7 @@
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 306.0, 89.5, 48.0, 27.0 ],
-									"text" : "64"
+									"text" : "52"
 								}
 
 							}
