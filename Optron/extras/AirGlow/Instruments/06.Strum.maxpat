@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 339.0, 79.0, 910.0, 885.0 ],
+		"rect" : [ 590.0, 79.0, 582.0, 885.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,1543 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-360",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ -231.0, 1626.0, 32.0, 22.0 ],
+					"text" : "print"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-359",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ -124.0, 1196.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-356",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ -154.75, -67.0, 29.5, 22.0 ],
+					"text" : "i 99"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-353",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ -157.0, -96.0, 34.0, 22.0 ],
+					"text" : "sel 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-352",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ -157.0, -125.0, 29.5, 22.0 ],
+					"text" : "> 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 1,
+					"embed" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-351",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "OptronMini.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 1,
+							"revision" : 5,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 824.0, 79.0, 387.0, 783.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 1,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 221.0, 285.0, 50.0, 22.0 ],
+									"text" : "/hover"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-40",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 451.0, 272.0, 150.0, 20.0 ],
+									"text" : "<< set range for viewer"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"coll_data" : 									{
+										"count" : 13,
+										"data" : [ 											{
+												"key" : 0,
+												"value" : [ -1.0, 1.0 ]
+											}
+, 											{
+												"key" : 1,
+												"value" : [ -1.0, 1.0 ]
+											}
+, 											{
+												"key" : 2,
+												"value" : [ -1.0, 1.0 ]
+											}
+, 											{
+												"key" : 3,
+												"value" : [ -120.0, 120.0 ]
+											}
+, 											{
+												"key" : 4,
+												"value" : [ -120.0, 120.0 ]
+											}
+, 											{
+												"key" : 5,
+												"value" : [ -120.0, 120.0 ]
+											}
+, 											{
+												"key" : 6,
+												"value" : [ 0.0, 1.0 ]
+											}
+, 											{
+												"key" : 7,
+												"value" : [ 0.0, 1.0 ]
+											}
+, 											{
+												"key" : 8,
+												"value" : [ 0, 7 ]
+											}
+, 											{
+												"key" : 9,
+												"value" : [ 0.0, 1.0 ]
+											}
+, 											{
+												"key" : 10,
+												"value" : [ 0.0, 1.0 ]
+											}
+, 											{
+												"key" : 11,
+												"value" : [ 0, 1 ]
+											}
+, 											{
+												"key" : 12,
+												"value" : [ 0, 48 ]
+											}
+ ]
+									}
+,
+									"id" : "obj-38",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 309.524901999999997, 272.0, 130.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"embed" : 1,
+										"precision" : 6
+									}
+,
+									"text" : "coll OptronMiniRanges"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-37",
+									"linecount" : 2,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 425.0, 483.0, 56.0, 35.0 ],
+									"text" : "range 0. 1."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-29",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 309.524901999999997, 309.0, 87.0, 22.0 ],
+									"text" : "prepend range"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-23",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 47.166655999999989, 272.0, 57.0, 22.0 ],
+									"text" : "route /aX"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"color" : [ 0.310593, 0.613758, 0.84, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-41",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 47.166655999999989, 187.0, 97.0, 22.0 ],
+									"text" : "udpreceive 7451"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-19",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 376.0, 232.0, 50.0, 22.0 ],
+									"text" : "/hover"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-17",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 423.524901999999997, 78.0, 58.0, 22.0 ],
+									"text" : "loadbang"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-13",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 418.358275999999933, 172.0, 150.0, 20.0 ],
+									"text" : "<< OSC-ify"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-11",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 349.524901999999997, 171.0, 65.0, 22.0 ],
+									"text" : "sprintf /%s"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-36",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 423.524901999999997, 122.0, 50.0, 22.0 ],
+									"text" : "9"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-27",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 844.0, 581.0, 50.0, 22.0 ],
+									"text" : "text"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-25",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 891.0, 487.0, 59.0, 22.0 ],
+									"text" : "route text"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-24",
+									"keymode" : 1,
+									"lines" : 1,
+									"maxclass" : "textedit",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "int", "", "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 891.0, 424.0, 100.0, 50.0 ],
+									"text" : "text"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+									"bgcolor2" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+									"bgfillcolor_angle" : 270.0,
+									"bgfillcolor_autogradient" : 0.0,
+									"bgfillcolor_color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+									"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+									"bgfillcolor_proportion" : 0.39,
+									"bgfillcolor_type" : "color",
+									"fontface" : 1,
+									"fontsize" : 14.0,
+									"gradient" : 1,
+									"id" : "obj-9",
+									"ignoreclick" : 1,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 39.0, 22.5, 112.0, 24.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 7.0, 6.0, 137.0, 24.0 ],
+									"text" : "Optron AirGlow",
+									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"textjustification" : 1,
+									"varname" : "patch_title"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"angle" : 0.0,
+									"bgcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
+									"border" : 5,
+									"bordercolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+									"id" : "obj-4",
+									"maxclass" : "panel",
+									"mode" : 0,
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 132.583344000000011, 37.5, 49.5, 26.399947999999998 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 2.0, 32.0, 82.0, 29.666664000000001 ],
+									"proportion" : 0.39,
+									"rounded" : 12
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-31",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 115.858245999999994, 488.886168999999995, 108.0, 33.0 ],
+									"text" : "Outgoing data of current parameter"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "Outgoing data of current parameter",
+									"id" : "obj-3",
+									"index" : 1,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 75.166656000000003, 488.886168999999995, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"format" : 6,
+									"id" : "obj-32",
+									"maxclass" : "flonum",
+									"maximum" : 4096.0,
+									"minimum" : -4096.0,
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 75.166656000000003, 406.0, 47.0, 22.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 87.0, 35.833331999999999, 57.0, 22.0 ],
+									"varname" : "param_view"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"items" : [ "aX", ",", "aY", ",", "aZ", ",", "gX", ",", "gY", ",", "gZ", ",", "pressure", ",", "line", ",", "fret", ",", "hover", ",", "wave", ",", "strum", ",", "glitterPos" ],
+									"maxclass" : "umenu",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "int", "", "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 309.524901999999997, 122.0, 100.0, 22.0 ],
+									"pattrmode" : 1,
+									"presentation" : 1,
+									"presentation_rect" : [ 7.0, 36.0, 72.0, 22.0 ],
+									"varname" : "sensor_selection"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"angle" : 0.0,
+									"bgcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
+									"border" : 5,
+									"bordercolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+									"id" : "obj-65",
+									"maxclass" : "panel",
+									"mode" : 0,
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 117.583343999999997, 22.5, 49.5, 26.399947999999998 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 1.5, 82.333336000000003, 145.833327999999995, 42.666663999999997 ],
+									"proportion" : 0.39,
+									"rounded" : 12
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.533333, 0.74902, 0.533333, 1.0 ],
+									"contdata" : 1,
+									"id" : "obj-121",
+									"maxclass" : "multislider",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 100.858245999999994, 442.0, 232.0, 34.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 6.0, 87.0, 138.0, 32.0 ],
+									"setminmax" : [ 0.0, 1.0 ],
+									"setstyle" : 5,
+									"slidercolor" : [ 0.811765, 0.372549, 0.372549, 1.0 ],
+									"varname" : "scroller"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"angle" : 0.0,
+									"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+									"border" : 2,
+									"bordercolor" : [ 0.239216, 0.254902, 0.278431, 0.0 ],
+									"id" : "obj-34",
+									"maxclass" : "panel",
+									"mode" : 0,
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 39.0, 52.5, 49.5, 26.399947999999998 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 0.0, 0.0, 150.0, 126.0 ],
+									"proportion" : 0.39,
+									"varname" : "background"
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 1 ],
+									"order" : 0,
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 1 ],
+									"order" : 2,
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 1 ],
+									"order" : 1,
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-36", 0 ],
+									"source" : [ "obj-17", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"source" : [ "obj-2", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-36", 1 ],
+									"order" : 0,
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-38", 0 ],
+									"order" : 1,
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-32", 0 ],
+									"source" : [ "obj-23", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-25", 0 ],
+									"source" : [ "obj-24", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-27", 1 ],
+									"source" : [ "obj-25", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-121", 0 ],
+									"order" : 1,
+									"source" : [ "obj-29", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-37", 1 ],
+									"order" : 0,
+									"source" : [ "obj-29", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-121", 0 ],
+									"order" : 0,
+									"source" : [ "obj-32", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"order" : 1,
+									"source" : [ "obj-32", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"source" : [ "obj-36", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-29", 0 ],
+									"source" : [ "obj-38", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"source" : [ "obj-41", 0 ]
+								}
+
+							}
+ ],
+						"styles" : [ 							{
+								"name" : "AudioStatus_Menu",
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+										"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "newobjBrown-1",
+								"default" : 								{
+									"accentcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "newobjYellow-1",
+								"default" : 								{
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "numberGold-1",
+								"default" : 								{
+									"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+ ]
+					}
+,
+					"patching_rect" : [ -238.0, -268.0, 150.0, 126.0 ],
+					"varname" : "patch_10[2]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-308",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ -427.0, 76.0, 41.0, 22.0 ],
+					"text" : "sel 99"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-300",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ -361.0, 54.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-297",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ -427.0, 49.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-295",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ -234.0, -21.0, 22.0, 22.0 ],
+					"text" : "t 5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-294",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ -285.0, -50.0, 22.0, 22.0 ],
+					"text" : "t 4"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-293",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ -335.0, -80.0, 22.0, 22.0 ],
+					"text" : "t 3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-292",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ -387.0, -100.0, 22.0, 22.0 ],
+					"text" : "t 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-290",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ -431.0, -129.0, 22.0, 22.0 ],
+					"text" : "t 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-274",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "int", "int" ],
+					"patching_rect" : [ -427.0, 16.0, 48.0, 22.0 ],
+					"text" : "change"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-270",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "float" ],
+					"patching_rect" : [ -234.0, -50.0, 70.0, 22.0 ],
+					"text" : "split 0.65 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-158",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "float" ],
+					"patching_rect" : [ -285.0, -80.0, 83.0, 22.0 ],
+					"text" : "split 0.51 0.65"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-51",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "float" ],
+					"patching_rect" : [ -336.0, -108.0, 83.0, 22.0 ],
+					"text" : "split 0.49 0.51"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-46",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "float" ],
+					"patching_rect" : [ -387.0, -134.0, 83.0, 22.0 ],
+					"text" : "split 0.35 0.49"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-33",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "float" ],
+					"patching_rect" : [ -431.0, -160.0, 70.0, 22.0 ],
+					"text" : "split 0. 0.35"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 1,
+					"embed" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-13",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "OptronMini.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 1,
+							"revision" : 5,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 824.0, 79.0, 387.0, 783.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 1,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 221.0, 285.0, 50.0, 22.0 ],
+									"text" : "/wave"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-40",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 451.0, 272.0, 150.0, 20.0 ],
+									"text" : "<< set range for viewer"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"coll_data" : 									{
+										"count" : 13,
+										"data" : [ 											{
+												"key" : 0,
+												"value" : [ -1.0, 1.0 ]
+											}
+, 											{
+												"key" : 1,
+												"value" : [ -1.0, 1.0 ]
+											}
+, 											{
+												"key" : 2,
+												"value" : [ -1.0, 1.0 ]
+											}
+, 											{
+												"key" : 3,
+												"value" : [ -120.0, 120.0 ]
+											}
+, 											{
+												"key" : 4,
+												"value" : [ -120.0, 120.0 ]
+											}
+, 											{
+												"key" : 5,
+												"value" : [ -120.0, 120.0 ]
+											}
+, 											{
+												"key" : 6,
+												"value" : [ 0.0, 1.0 ]
+											}
+, 											{
+												"key" : 7,
+												"value" : [ 0.0, 1.0 ]
+											}
+, 											{
+												"key" : 8,
+												"value" : [ 0, 7 ]
+											}
+, 											{
+												"key" : 9,
+												"value" : [ 0.0, 1.0 ]
+											}
+, 											{
+												"key" : 10,
+												"value" : [ 0.0, 1.0 ]
+											}
+, 											{
+												"key" : 11,
+												"value" : [ 0, 1 ]
+											}
+, 											{
+												"key" : 12,
+												"value" : [ 0, 48 ]
+											}
+ ]
+									}
+,
+									"id" : "obj-38",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 309.524901999999997, 272.0, 130.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"embed" : 1,
+										"precision" : 6
+									}
+,
+									"text" : "coll OptronMiniRanges"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-37",
+									"linecount" : 2,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 425.0, 483.0, 53.0, 35.0 ],
+									"text" : "range 0. 1."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-29",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 309.524901999999997, 309.0, 87.0, 22.0 ],
+									"text" : "prepend range"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-23",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 47.166655999999989, 272.0, 57.0, 22.0 ],
+									"text" : "route /aX"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"color" : [ 0.310593, 0.613758, 0.84, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-41",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 47.166655999999989, 187.0, 97.0, 22.0 ],
+									"text" : "udpreceive 7451"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-19",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 376.0, 232.0, 50.0, 22.0 ],
+									"text" : "/wave"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-17",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 423.524901999999997, 78.0, 58.0, 22.0 ],
+									"text" : "loadbang"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-13",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 418.358275999999933, 172.0, 150.0, 20.0 ],
+									"text" : "<< OSC-ify"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-11",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 349.524901999999997, 171.0, 65.0, 22.0 ],
+									"text" : "sprintf /%s"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-36",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 423.524901999999997, 122.0, 50.0, 22.0 ],
+									"text" : "10"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-27",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 844.0, 581.0, 50.0, 22.0 ],
+									"text" : "text"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-25",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 891.0, 487.0, 59.0, 22.0 ],
+									"text" : "route text"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-24",
+									"keymode" : 1,
+									"lines" : 1,
+									"maxclass" : "textedit",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "int", "", "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 891.0, 424.0, 100.0, 50.0 ],
+									"text" : "text"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+									"bgcolor2" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+									"bgfillcolor_angle" : 270.0,
+									"bgfillcolor_autogradient" : 0.0,
+									"bgfillcolor_color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+									"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+									"bgfillcolor_proportion" : 0.39,
+									"bgfillcolor_type" : "color",
+									"fontface" : 1,
+									"fontsize" : 14.0,
+									"gradient" : 1,
+									"id" : "obj-9",
+									"ignoreclick" : 1,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 39.0, 22.5, 112.0, 24.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 7.0, 6.0, 137.0, 24.0 ],
+									"text" : "Optron AirGlow",
+									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"textjustification" : 1,
+									"varname" : "patch_title"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"angle" : 0.0,
+									"bgcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
+									"border" : 5,
+									"bordercolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+									"id" : "obj-4",
+									"maxclass" : "panel",
+									"mode" : 0,
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 132.583344000000011, 37.5, 49.5, 26.399947999999998 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 2.0, 32.0, 82.0, 29.666664000000001 ],
+									"proportion" : 0.39,
+									"rounded" : 12
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-31",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 115.858245999999994, 488.886168999999995, 108.0, 33.0 ],
+									"text" : "Outgoing data of current parameter"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "Outgoing data of current parameter",
+									"id" : "obj-3",
+									"index" : 1,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 75.166656000000003, 488.886168999999995, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"format" : 6,
+									"id" : "obj-32",
+									"maxclass" : "flonum",
+									"maximum" : 4096.0,
+									"minimum" : -4096.0,
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 75.166656000000003, 406.0, 47.0, 22.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 87.0, 35.833331999999999, 57.0, 22.0 ],
+									"varname" : "param_view"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"items" : [ "aX", ",", "aY", ",", "aZ", ",", "gX", ",", "gY", ",", "gZ", ",", "pressure", ",", "line", ",", "fret", ",", "hover", ",", "wave", ",", "strum", ",", "glitterPos" ],
+									"maxclass" : "umenu",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "int", "", "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 309.524901999999997, 122.0, 100.0, 22.0 ],
+									"pattrmode" : 1,
+									"presentation" : 1,
+									"presentation_rect" : [ 7.0, 36.0, 72.0, 22.0 ],
+									"varname" : "sensor_selection"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"angle" : 0.0,
+									"bgcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
+									"border" : 5,
+									"bordercolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+									"id" : "obj-65",
+									"maxclass" : "panel",
+									"mode" : 0,
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 117.583343999999997, 22.5, 49.5, 26.399947999999998 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 1.5, 82.333336000000003, 145.833327999999995, 42.666663999999997 ],
+									"proportion" : 0.39,
+									"rounded" : 12
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.533333, 0.74902, 0.533333, 1.0 ],
+									"contdata" : 1,
+									"id" : "obj-121",
+									"maxclass" : "multislider",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 100.858245999999994, 442.0, 232.0, 34.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 6.0, 87.0, 138.0, 32.0 ],
+									"setminmax" : [ 0.0, 1.0 ],
+									"setstyle" : 5,
+									"slidercolor" : [ 0.811765, 0.372549, 0.372549, 1.0 ],
+									"varname" : "scroller"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"angle" : 0.0,
+									"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+									"border" : 2,
+									"bordercolor" : [ 0.239216, 0.254902, 0.278431, 0.0 ],
+									"id" : "obj-34",
+									"maxclass" : "panel",
+									"mode" : 0,
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 39.0, 52.5, 49.5, 26.399947999999998 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 0.0, 0.0, 150.0, 126.0 ],
+									"proportion" : 0.39,
+									"varname" : "background"
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 1 ],
+									"order" : 0,
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 1 ],
+									"order" : 2,
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 1 ],
+									"order" : 1,
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-36", 0 ],
+									"source" : [ "obj-17", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"source" : [ "obj-2", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-36", 1 ],
+									"order" : 0,
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-38", 0 ],
+									"order" : 1,
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-32", 0 ],
+									"source" : [ "obj-23", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-25", 0 ],
+									"source" : [ "obj-24", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-27", 1 ],
+									"source" : [ "obj-25", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-121", 0 ],
+									"order" : 1,
+									"source" : [ "obj-29", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-37", 1 ],
+									"order" : 0,
+									"source" : [ "obj-29", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-121", 0 ],
+									"order" : 0,
+									"source" : [ "obj-32", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"order" : 1,
+									"source" : [ "obj-32", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"source" : [ "obj-36", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-29", 0 ],
+									"source" : [ "obj-38", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"source" : [ "obj-41", 0 ]
+								}
+
+							}
+ ],
+						"styles" : [ 							{
+								"name" : "AudioStatus_Menu",
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+										"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "newobjBrown-1",
+								"default" : 								{
+									"accentcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "newobjYellow-1",
+								"default" : 								{
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "numberGold-1",
+								"default" : 								{
+									"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+ ]
+					}
+,
+					"patching_rect" : [ -431.0, -294.0, 150.0, 126.0 ],
+					"varname" : "patch_10[1]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-289",
 					"maxclass" : "newobj",
@@ -1111,7 +2648,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 589.0, 196.0, 50.0, 22.0 ],
-									"text" : "0"
+									"text" : "3"
 								}
 
 							}
@@ -1183,7 +2720,7 @@
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 447.0, 153.779540999999995, 51.0, 25.0 ],
-									"text" : "48"
+									"text" : "52"
 								}
 
 							}
@@ -1241,7 +2778,7 @@
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 555.0, 110.0, 51.0, 25.0 ],
-									"text" : "0"
+									"text" : "3"
 								}
 
 							}
@@ -1700,7 +3237,7 @@
 													"maxclass" : "inlet",
 													"numinlets" : 0,
 													"numoutlets" : 1,
-													"outlettype" : [ "int" ],
+													"outlettype" : [ "" ],
 													"patching_rect" : [ 98.0, 72.0, 14.0, 14.0 ]
 												}
 
@@ -3468,7 +5005,7 @@
 									"patching_rect" : [ 401.492553999999984, 209.0, 106.0, 17.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 165.5, 65.0, 52.0, 17.0 ],
-									"text" : "48 52 55"
+									"text" : "57 61 64"
 								}
 
 							}
@@ -4076,7 +5613,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 46.0, -35.0, 25.0, 25.0 ]
 								}
 
@@ -4564,7 +6101,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -413.0, 271.0, 150.0, 20.0 ],
+					"patching_rect" : [ -448.0, 125.0, 150.0, 20.0 ],
 					"text" : "Tilt = octave select"
 				}
 
@@ -6150,7 +7687,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 188.0, 255.0, 95.0, 22.0 ],
-									"text" : "/hover 2.007874"
+									"text" : "/hover 1.403053"
 								}
 
 							}
@@ -6737,7 +8274,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ -413.0, 293.0, 150.0, 126.0 ],
+					"patching_rect" : [ -448.0, 147.0, 150.0, 126.0 ],
 					"varname" : "patch_1[1]",
 					"viewvisibility" : 1
 				}
@@ -8181,8 +9718,8 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial Bold" ],
+									"fontsize" : [ 11.0 ],
 									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
@@ -8192,8 +9729,8 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
 									"fontname" : [ "Arial Bold" ],
+									"fontsize" : [ 10.0 ],
 									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
@@ -8203,9 +9740,6 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -8214,7 +9748,10 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-
+,
+									"fontname" : [ "Arial" ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8240,13 +9777,6 @@
 , 							{
 								"name" : "Luca",
 								"default" : 								{
-									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-									"fontname" : [ "Open Sans Semibold" ],
-									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -8256,7 +9786,14 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-
+,
+									"fontname" : [ "Open Sans Semibold" ],
+									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8265,8 +9802,8 @@
 , 							{
 								"name" : "M4L 10 Bold",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
 									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.25 ]
 								}
 ,
@@ -8286,8 +9823,8 @@
 , 							{
 								"name" : "Matt",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8571,13 +10108,6 @@
 , 							{
 								"name" : "WTF",
 								"default" : 								{
-									"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
-									"fontsize" : [ 18.0 ],
-									"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
-									"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
-									"fontname" : [ "HydrogenType" ],
-									"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ],
-									"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -8587,7 +10117,14 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-
+,
+									"fontname" : [ "HydrogenType" ],
+									"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
+									"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
+									"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
+									"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ],
+									"fontsize" : [ 18.0 ],
+									"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8596,13 +10133,6 @@
 , 							{
 								"name" : "classic",
 								"default" : 								{
-									"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"fontsize" : [ 9.0 ],
-									"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"fontname" : [ "Geneva" ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
@@ -8611,7 +10141,14 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-
+,
+									"fontname" : [ "Geneva" ],
+									"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+									"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+									"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 9.0 ],
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8667,8 +10204,8 @@
 								"default" : 								{
 									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8706,9 +10243,9 @@
 , 							{
 								"name" : "classicNodes",
 								"default" : 								{
-									"fontsize" : [ 9.0 ],
 									"color" : [ 0.839216, 0.839216, 0.839216, 1.0 ],
-									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
+									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+									"fontsize" : [ 9.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8812,9 +10349,6 @@
 , 							{
 								"name" : "dark-night-patch",
 								"default" : 								{
-									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
-									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -8823,7 +10357,10 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-
+,
+									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
+									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8837,10 +10374,6 @@
 , 							{
 								"name" : "jpatcher002",
 								"default" : 								{
-									"fontsize" : [ 9.5 ],
-									"fontname" : [ "Ableton Sans Book" ],
-									"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
-									"patchlinecolor" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
@@ -8849,7 +10382,11 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-
+,
+									"fontname" : [ "Ableton Sans Book" ],
+									"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
+									"fontsize" : [ 9.5 ],
+									"patchlinecolor" : [ 0.65098, 0.65098, 0.65098, 0.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8858,14 +10395,6 @@
 , 							{
 								"name" : "jpink",
 								"default" : 								{
-									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
-									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
@@ -8875,7 +10404,15 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-
+,
+									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
+									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9040,8 +10577,8 @@
 , 							{
 								"name" : "purple",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-									"bgcolor" : [ 0.304029, 0.250694, 0.285628, 1.0 ]
+									"bgcolor" : [ 0.304029, 0.250694, 0.285628, 1.0 ],
+									"textcolor_inverse" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9078,9 +10615,9 @@
 , 							{
 								"name" : "stb001",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
 									"fontname" : [ "Arial Bold" ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9119,8 +10656,8 @@
 , 							{
 								"name" : "test",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9129,10 +10666,10 @@
 , 							{
 								"name" : "whitey",
 								"default" : 								{
-									"fontsize" : [ 36.0 ],
 									"fontname" : [ "Dirty Ego" ],
 									"selectioncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 									"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+									"fontsize" : [ 36.0 ],
 									"patchlinecolor" : [ 0.199068, 0.062496, 0.060031, 0.9 ]
 								}
 ,
@@ -9915,7 +11452,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 425.0, 483.0, 56.0, 35.0 ],
-													"text" : "range 0 44"
+													"text" : "range -1. 1."
 												}
 
 											}
@@ -10199,9 +11736,7 @@
 													"patching_rect" : [ 100.858245999999994, 442.0, 232.0, 34.0 ],
 													"presentation" : 1,
 													"presentation_rect" : [ 6.0, 87.0, 138.0, 32.0 ],
-													"setminmax" : [ 0.0, 44.0 ],
 													"setstyle" : 5,
-													"settype" : 0,
 													"slidercolor" : [ 0.811765, 0.372549, 0.372549, 1.0 ],
 													"varname" : "scroller"
 												}
@@ -13319,8 +14854,8 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial Bold" ],
+									"fontsize" : [ 11.0 ],
 									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
@@ -13330,8 +14865,8 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
 									"fontname" : [ "Arial Bold" ],
+									"fontsize" : [ 10.0 ],
 									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
@@ -13341,9 +14876,6 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -13352,7 +14884,10 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-
+,
+									"fontname" : [ "Arial" ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -13378,13 +14913,6 @@
 , 							{
 								"name" : "Luca",
 								"default" : 								{
-									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-									"fontname" : [ "Open Sans Semibold" ],
-									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -13394,7 +14922,14 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-
+,
+									"fontname" : [ "Open Sans Semibold" ],
+									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -13403,8 +14938,8 @@
 , 							{
 								"name" : "M4L 10 Bold",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
 									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.25 ]
 								}
 ,
@@ -13424,8 +14959,8 @@
 , 							{
 								"name" : "Matt",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -13709,13 +15244,6 @@
 , 							{
 								"name" : "WTF",
 								"default" : 								{
-									"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
-									"fontsize" : [ 18.0 ],
-									"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
-									"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
-									"fontname" : [ "HydrogenType" ],
-									"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ],
-									"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -13725,7 +15253,14 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-
+,
+									"fontname" : [ "HydrogenType" ],
+									"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
+									"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
+									"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
+									"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ],
+									"fontsize" : [ 18.0 ],
+									"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ]
 								}
 ,
 								"parentstyle" : "",
@@ -13734,13 +15269,6 @@
 , 							{
 								"name" : "classic",
 								"default" : 								{
-									"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"fontsize" : [ 9.0 ],
-									"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"fontname" : [ "Geneva" ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
@@ -13749,7 +15277,14 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-
+,
+									"fontname" : [ "Geneva" ],
+									"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+									"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+									"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 9.0 ],
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -13805,8 +15340,8 @@
 								"default" : 								{
 									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -13844,9 +15379,9 @@
 , 							{
 								"name" : "classicNodes",
 								"default" : 								{
-									"fontsize" : [ 9.0 ],
 									"color" : [ 0.839216, 0.839216, 0.839216, 1.0 ],
-									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
+									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+									"fontsize" : [ 9.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -13950,9 +15485,6 @@
 , 							{
 								"name" : "dark-night-patch",
 								"default" : 								{
-									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
-									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -13961,7 +15493,10 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-
+,
+									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
+									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ]
 								}
 ,
 								"parentstyle" : "",
@@ -13975,10 +15510,6 @@
 , 							{
 								"name" : "jpatcher002",
 								"default" : 								{
-									"fontsize" : [ 9.5 ],
-									"fontname" : [ "Ableton Sans Book" ],
-									"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
-									"patchlinecolor" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
@@ -13987,7 +15518,11 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-
+,
+									"fontname" : [ "Ableton Sans Book" ],
+									"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
+									"fontsize" : [ 9.5 ],
+									"patchlinecolor" : [ 0.65098, 0.65098, 0.65098, 0.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -13996,14 +15531,6 @@
 , 							{
 								"name" : "jpink",
 								"default" : 								{
-									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
-									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
@@ -14013,7 +15540,15 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-
+,
+									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
+									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -14178,8 +15713,8 @@
 , 							{
 								"name" : "purple",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-									"bgcolor" : [ 0.304029, 0.250694, 0.285628, 1.0 ]
+									"bgcolor" : [ 0.304029, 0.250694, 0.285628, 1.0 ],
+									"textcolor_inverse" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -14216,9 +15751,9 @@
 , 							{
 								"name" : "stb001",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
 									"fontname" : [ "Arial Bold" ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -14257,8 +15792,8 @@
 , 							{
 								"name" : "test",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -14267,10 +15802,10 @@
 , 							{
 								"name" : "whitey",
 								"default" : 								{
-									"fontsize" : [ 36.0 ],
 									"fontname" : [ "Dirty Ego" ],
 									"selectioncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 									"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+									"fontsize" : [ 36.0 ],
 									"patchlinecolor" : [ 0.199068, 0.062496, 0.060031, 0.9 ]
 								}
 ,
@@ -14492,13 +16027,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-62",
-					"linecount" : 4,
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -367.5, 1006.0, 240.5, 62.0 ],
-					"text" : "\"Macintosh HD:/Users/metalgod/Library/Application Support/Cycling '74/Max 8/Settings/VSTs/chipsounds.vstinfo\""
+					"patching_rect" : [ -367.5, 1006.0, 240.5, 49.0 ],
+					"text" : "\"Macintosh HD:/Users/metalgod/Documents/Max 8/Packages/Optron/misc/AGML2.vst\""
 				}
 
 			}
@@ -14975,64 +16510,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-305",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 20.0, 1096.0, 29.5, 22.0 ],
-					"text" : "+ 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-304",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 20.0, 1126.0, 52.0, 22.0 ],
-					"text" : "gate 2 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-303",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 20.0, 1070.0, 43.0, 22.0 ],
-					"text" : "r turbo"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-302",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 61.25, 1070.0, 83.0, 20.0 ],
-					"text" : "<< turbo trigs"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-277",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ -145.0, 1130.699219000000085, 150.0, 20.0 ],
-					"text" : "Load previous plugin"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-278",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -15129,7 +16606,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 906.0, 324.0, 640.0, 480.0 ],
+						"rect" : [ 620.0, 673.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -15157,6 +16634,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-7",
@@ -15336,7 +16814,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 247.0, 40.0, 30.0, 30.0 ]
 								}
 
@@ -15562,14 +17040,14 @@
 						"subtype" : "Undefined",
 						"embed" : 1,
 						"snapshot" : 						{
-							"pluginname" : "chipsounds.vstinfo",
-							"plugindisplayname" : "chipsounds",
-							"pluginsavedname" : "C74_VST:/chipsounds",
-							"pluginsaveduniqueid" : 1347176271,
+							"pluginname" : "AGML2.vst",
+							"plugindisplayname" : "Ample Guitar M II Lite",
+							"pluginsavedname" : "~/Documents/Max 8/Packages/Optron/misc/AGML2.vst",
+							"pluginsaveduniqueid" : 0,
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "727.CMlaKA....fQPMDZ....A.ESG8D...P......TVavQWdfLGauQGL.........................HvlCUzQPgnC...db19Ue+l1v.geu+UX4m1dngDHPHRjVQokIjFsUB1yUljqAq43vbrYz8W+t7qRJZcVaOMow8RrO+c122k3S4ax0GxDj8fpfmKindNtTx0WcwjoJNaEaOzYovQATxNUdhIVu3VzgqaH8pKHnMYEn0bYZA4aFlfqeAWkRJzJfkgtinC5SIYrCqp7LUHxiWdSDs+vQTxxE2t3AidYdBTEEynyyXZ7LWIx0QT2ttDvdPDQ4RbuMYfTSIB9dnNXDYQLdVkOXBF5vibIAJSImhXQi6YXTfJhNBgmJx2vDqMxpjDczqkO3QS3IU9jrrxM2yg7nQAjYa465s59fQ9iCaeN8dxGLRAOiqgjORIaXxutHooDcZILdKSJKYwkHa2kKdot7nOlE617jhISgFHZbRQ0BYcFlGqw2OcYclQ2L+6OIXEU0tZ9TwoolCsTZOSXJg53F5GVZiG6FD5F38ZEnJhkLt7jPdODdG2z2AQeqHFXEguUDCshXjUDAVQL1JhPqH7bsCwdU0ydY0ydc0ydg06cqrqYpTP2bMINOy4QQdpAbJag3744O3XJ.U2uDqhZlo.uTeKSyHa0urCCcXvPrpUv+AN1ejem6M3ABxDNqdXBFCNn0lW+nu6Y6rc19WwdaOhd0MI9S6Z3ctqwY6r8+i8210XshmlBpU3O6CxXPYuug+.+As8M5OrSai9+p1FdmjmUyClWZClELO7MKNycv7eCQlzqTcQy36d9YHV2UtQyOyWSwoYa3kDxhjBTUV7qZfZ0v7ourncOYwZTkzhiBpple2qyK.AlEPxZ1lSDM7nBJ.8RPZHPQKbcEapeA7IlRw0LoywTUCGvEugIDp77LRoDFldaD8Xp0CyMTjYuVUlWcwOAyY5TLB"
+							"blob" : "21378.CMlaKA....fQPMDZ....ADTarMG.BL.D....A........................................LkQVMjLgzyT...OAEzQeMEUAQUQf3TXsUVOhPTYlEVcrQmH9vSPxQWZiUGagQWZu4FHVEFa0UVOhLUcyIxK9vCTuMWZzk1atAhUgwVck0iHvHxK9vyPn8lbj0BTgQGZfXUXrUWY8HxKUMWYxM2KsUFcgw1YuQ1KD81X00VYtQ2buDTavwVYfL0a04FYuLDZuIGYfHTXts1bh7hO7LDZuIGYyARP0QGZuIWOhDTavwVYfL0a04FYh.xPgQWYm8lb40iHP8Fbh.xRkkWOhLjHf.UXzgVOh7RUyUlby8RakQWXrc1aj8BQuMVcsUlazM2KA0FbrUFHS8VctQ1KCg1axQFHBElaqMmHf3TXsUVOhPTYlEVcrQmH9vyPn8lbjARRD0iHwHBHR81az0iHCIBHTkGbk0iHMElZh.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOhzRLh7hO7LEcxklamARRD0iH0HBHFIWYz0iHyHxK9vyTzIWZtcFHIQTOhPiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HxLh.hQxUFc8HBLh7hO7LEcxklamARRD0iHxHBHFIWYz0iHwHxK9vyTzIWZtcFHIQTOhDiHfXjbkQWOh.iHu3COuLDZuIGY9vyPn8lbjARRD0iHxHBHR81az0iHAIBHTkGbk0iHMElZh.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOhzRLh7hO7LEcxklamARRD0iH0HBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhPiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HxLh.hQxUFc8HhLh7hO7LEcxklamARRD0iHxHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhDiHfXjbkQWOh.iHu3COuLDZuIGY9vyPn8lbjARRD0iHyHBHR81az0iHDIBHTkGbk0iHsklah.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOhzRLh7hO7LEcxklamARRD0iH0HBHFIWYz0iHsDiHu3COSQmbo41YfjDQ8HBMh.hQxUFc8HBLh7hO7LEcxklamARRD0iHyHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhHiHfXjbkQWOhLiHu3COSQmbo41YfjDQ8HRLh.hQxUFc8HRLh7hO77xPn8lbj4COCg1axQFHIQTOhPiHfH0auQWOhXjHfPUdvUVOhzVZtIBHP81b8HRLh3COSQmbo41YfjDQ8HhMh.hQxUFc8HRLh7hO7LEcxklamARRD0iH0HBHFIWYz0iHyHxK9vyTzIWZtcFHIQTOhPiHfXjbkQWOhLiHu3COSQmbo41YfjDQ8HxLh.hQxUFc8HRLh7hO7LEcxklamARRD0iHxHBHFIWYz0iHwHxK9vyTzIWZtcFHIQTOhDiHfXjbkQWOhDiHu3COuLDZuIGY9vyPn8lbjARRD0iH0HBHR81az0iHEIBHTkGbk0iHsklah.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HRMh.hQxUFc8HhLh7hO7LEcxklamARRD0iHzHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhLiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HhLh.hQxUFc8HBLh7hO7LEcxklamARRD0iHwHBHFIWYz0iHvHxK9vyKCg1axQlO7LDZuIGYfjDQ8HhMh.hTu8Fc8HhQh.BU4AWY8HRSgolHf.0ay0iHwHhO7LEcxklamARRD0iH1HBHFIWYz0iHwHxK9vyTzIWZtcFHIQTOhTiHfXjbkQWOhLiHu3COSQmbo41YfjDQ8HBMh.hQxUFc8HxLh7hO7LEcxklamARRD0iHyHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhHiHfXjbkQWOhDiHu3COSQmbo41YfjDQ8HRLh.hQxUFc8HRLh7hO77xPn8lbj4COCg1axQFHIQTOhbiHfH0auQWOhPjHfPUdvUVOhzTXpIBHP81b8HRLh3COSQmbo41YfjDQ8HhMh.hQxUFc8HRKwHxK9vyTzIWZtcFHIQTOhTiHfXjbkQWOhzRLh7hO7LEcxklamARRD0iHzHBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhLiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HhLh.hQxUFc8HxLh7hO7LEcxklamARRD0iHwHBHFIWYz0iHxHxK9vyKCg1axQlO7LDZuIGYfjDQ8HBNh.hTu8Fc8HxQh.BU4AWY8HRSgolHf.0ay0iHwHhO7LEcxklamARRD0iH1HBHFIWYz0iHyHxK9vyTzIWZtcFHIQTOhTiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HBMh.hQxUFc8HBLh7hO7LEcxklamARRD0iHyHBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhHiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HRLh.hQxUFc8HxLh7hO77xPn8lbj4COCg1axQFHIQTOhjiHfH0auQWOhTjHfPUdvUVOhzTXpIBHP81b8HRLh3COSQmbo41YfjDQ8HhMh.hQxUFc8HBLh7hO7LEcxklamARRD0iH0HBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhPiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HxLh.hQxUFc8HRLh7hO7LEcxklamARRD0iHxHBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhDiHfXjbkQWOh.iHu3COuLDZuIGY9vyPn8lbjARRD0iHw.iHfH0auQWOhDjHfPUdvUVOhzVZtIBHP81b8HRLh3COSQmbo41YfjDQ8HhMh.hQxUFc8HRKwHxK9vyTzIWZtcFHIQTOhTiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HBMh.hQxUFc8HhLh7hO7LEcxklamARRD0iHyHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhHiHfXjbkQWOhDiHu3COSQmbo41YfjDQ8HRLh.hQxUFc8HBLh7hO77xPn8lbj4COCg1axQFHIQTOhDSLh.hTu8Fc8HRPiHBHTkGbk0iHMElZh.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOhzRLh7hO7LEcxklamARRD0iH0HBHFIWYz0iHwHxK9vyTzIWZtcFHIQTOhPiHfXjbkQWOhLiHu3COSQmbo41YfjDQ8HxLh.hQxUFc8HxLh7hO7LEcxklamARRD0iHxHBHFIWYz0iHyHxK9vyTzIWZtcFHIQTOhDiHfXjbkQWOhDiHu3COuLDZuIGY9vyPn8lbjARRD0iHwHiHfH0auQWOhbjHfPUdvUVOhbiHf.0ay0iHwHhO7LEcxklamARRD0iH1HBHFIWYz0iHyHxK9vyTzIWZtcFHIQTOhTiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HBMh.hQxUFc8HBLh7hO7LEcxklamARRD0iHyHBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhHiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HRLh.hQxUFc8HRLh7hO77xPn8lbj4COCg1axQFHIQTOhDyLh.hTu8Fc8HxPh.BU4AWY8HRSgolHf.0ay0iHwHhO7LEcxklamARRD0iH1HBHFIWYz0iHsDiHu3COSQmbo41YfjDQ8HRMh.hQxUFc8HxLh7hO7LEcxklamARRD0iHzHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhLiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HhLh.hQxUFc8HRLh7hO7LEcxklamARRD0iHwHBHFIWYz0iHvHxK9vyKCg1axQlO7LDZuIGYfjDQ8HRLzHBHR81az0iHAIBHTkGbk0iHMElZh.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOhzRLh7hO7LEcxklamARRD0iH0HBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhPiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HxLh.hQxUFc8HhLh7hO7LEcxklamARRD0iHxHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhDiHfXjbkQWOh.iHu3COuLDZuIGY9vyPn8lbjARRD0iHwTiHfH0auQWOhPjHfPUdvUVOhzVZtIBHP81b8HRLh3COSQmbo41YfjDQ8HhMh.hQxUFc8HRKwHxK9vyTzIWZtcFHIQTOhTiHfXjbkQWOhzRLh7hO7LEcxklamARRD0iHzHBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhLiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HhLh.hQxUFc8HxLh7hO7LEcxklamARRD0iHwHBHFIWYz0iHwHxK9vyKCg1axQlO7LDZuIGYfjDQ8HRL1HBHR81az0iHFIBHTkGbk0iHsklah.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOhDiHu3COSQmbo41YfjDQ8HRMh.hQxUFc8HxLh7hO7LEcxklamARRD0iHzHBHFIWYz0iHyHxK9vyTzIWZtcFHIQTOhLiHfXjbkQWOhDiHu3COSQmbo41YfjDQ8HhLh.hQxUFc8HRLh7hO7LEcxklamARRD0iHwHBHFIWYz0iHwHxK9vyKCg1axQlO7LDZuIGYfjDQ8HRL2HBHR81az0iHEIBHTkGbk0iHsklah.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HRMh.hQxUFc8HhLh7hO7LEcxklamARRD0iHzHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhLiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HhLh.hQxUFc8HBLh7hO7LEcxklamARRD0iHwHBHFIWYz0iHvHxK9vyKCg1axQlO7LDZuIGYfjDQ8HRL3HBHR81az0iHFIBHTkGbk0iHMElZh.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOhDiHu3COSQmbo41YfjDQ8HRMh.hQxUFc8HxLh7hO7LEcxklamARRD0iHzHBHFIWYz0iHyHxK9vyTzIWZtcFHIQTOhLiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HhLh.hQxUFc8HRLh7hO7LEcxklamARRD0iHwHBHFIWYz0iHwHxK9vyKCg1axQlO7LDZuIGYfjDQ8HRL4HBHR81az0iHDIBHTkGbk0iHMElZh.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOhzRLh7hO7LEcxklamARRD0iH0HBHFIWYz0iHsDiHu3COSQmbo41YfjDQ8HBMh.hQxUFc8HBLh7hO7LEcxklamARRD0iHyHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhHiHfXjbkQWOhLiHu3COSQmbo41YfjDQ8HRLh.hQxUFc8HhLh7hO77xPn8lbj4COCg1axQFHIQTOhHCLh.hTu8Fc8HxQh.BU4AWY8HRSgolHf.0ay0iHwHhO7LEcxklamARRD0iH1HBHFIWYz0iHyHxK9vyTzIWZtcFHIQTOhTiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HBMh.hQxUFc8HBLh7hO7LEcxklamARRD0iHyHBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhHiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HRLh.hQxUFc8HxLh7hO77xPn8lbj4COCg1axQFHIQTOhHSLh.hTu8Fc8HRQh.BU4AWY8HRSgolHf.0ay0iHwHhO7LEcxklamARRD0iH1HBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhTiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HBMh.hQxUFc8HhLh7hO7LEcxklamARRD0iHyHBHFIWYz0iHwHxK9vyTzIWZtcFHIQTOhHiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HRLh.hQxUFc8HBLh7hO77xPn8lbj4COCg1axQFHIQTOhHiLh.hTu8Fc8HRPh.BU4AWY8HRao4lHf.0ay0iHwHhO7LEcxklamARRD0iH1HBHFIWYz0iHsDiHu3COSQmbo41YfjDQ8HRMh.hQxUFc8HBLh7hO7LEcxklamARRD0iHzHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhLiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HhLh.hQxUFc8HRLh7hO7LEcxklamARRD0iHwHBHFIWYz0iHvHxK9vyKCg1axQlO7LDZuIGYfjDQ8HhLyHBHR81az0iHAMhHfPUdvUVOhzTXpIBHP81b8HRLh3COSQmbo41YfjDQ8HhMh.hQxUFc8HRKwHxK9vyTzIWZtcFHIQTOhTiHfXjbkQWOhDiHu3COSQmbo41YfjDQ8HBMh.hQxUFc8HxLh7hO7LEcxklamARRD0iHyHBHFIWYz0iHyHxK9vyTzIWZtcFHIQTOhHiHfXjbkQWOhLiHu3COSQmbo41YfjDQ8HRLh.hQxUFc8HRLh7hO77xPn8lbj4COCg1axQFHIQTOhHCMh.hTu8Fc8HxQh.BU4AWY8HxMh.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOhLiHu3COSQmbo41YfjDQ8HRMh.hQxUFc8HhLh7hO7LEcxklamARRD0iHzHBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhLiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HhLh.hQxUFc8HBLh7hO7LEcxklamARRD0iHwHBHFIWYz0iHwHxK9vyKCg1axQlO77xPn8lbjMmO7.UXzQWYx4VKPEFcnAhUgwVck0iHuT0bkI2buzVYzEFam8FYuPzaiUWak4Fcy8RPsAGakAxTuUmaj8xTzIWcsABTgQGckImayIxK9vCTgQGckImafDTczg1ax0iHA0FbrUFHS8VctQlHfLTXzU1YuIWd8HBTuAmHfPUZsUVKSk1YtEFc0IWY8HBMuPiHfDUcg4FcooWY8HRLuDiMh.hPP0TOhDyLvHBHIQTOhDiHf.UXzgVOh7RUyUlby8RakQWXrc1aj8BQuMVcsUlazM2KA0FbrUFHS8VctQ1KSQmb00FHPEFczUlbtMmHf3TXsUVOhPTYlEVcrQWLh3CON8FckAhSuQWY8HxMxHBHVUFauMVZzkWOhDCLvHBHBU1Yo4VOhDiHfTjaj0iHxHxK9viSuQWYf3zazUVOhbCMh.hUkw1aikFc40iH3.iHfHTYmkla8HxLh.RQtQVOhLiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhXCLh.hPkcVZt0iHzHBHE4FY8HRMh7hO73zazUFHN8Fck0iH2XiHfXUYr81XoQWd8HxMvHBHBU1Yo4VOhXiHfTjaj0iH2HxK9viSuQWYf3zazUVOhbiMh.hUkw1aikFc40iH1.iHfHTYmkla8HBNh.RQtQVOhfiHu3CON8FckAhSuQWY8HxMzHBHVUFauMVZzkWOhPCLh.hPkcVZt0iHwDiHfTjaj0iHwDiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhjCLh.hPkcVZt0iHwHiHfTjaj0iHwHiHu3CON8FckAhSuQWY8HxMzHBHVUFauMVZzkWOhTCLh.hPkcVZt0iHwTiHfTjaj0iHwTiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhXCLh.hPkcVZt0iHwXiHfTjaj0iHwXiHu3CON8FckAhSuQWY8HxMxHBHVUFauMVZzkWOhbCLh.hPkcVZt0iH4HBHE4FY8HRLvHxK9viSuQWYf3zazUVOhbCMh.hUkw1aikFc40iH0.iHfHTYmkla8HRLyHBHE4FY8HRLyHxK9viSuQWYf3zazUVOhbiMh.hUkw1aikFc40iHz.iHfHTYmkla8HRLzHBHE4FY8HRLzHxK9vyKPEFczUlbt4COPEFczUlbtARP0QGZuIWOhDTavwVYfL0a04FYh.xPgQWYm8lb40iHP8Fbh.BUo0VYsLUZm4VXzUmbk0iHz7BMh.RT0Elazkldk0iHw7RL1HBHBAUS8HRLv.iHfjDQ8HhLh.BTgQGZ8HxKUMWYxM2KsUFcgw1YuQ1KD81X00VYtQ2buDTavwVYfL0a04FYuLEcxUWaf.UXzQWYx41bh.hSg0VY8HBQkYVX0wFcxHhO73zazUFHN8Fck0iH2HiHfXUYr81XoQWd8HRLv.iHfHTYmkla8HRLh.RQtQVOhHiHu3CON8FckAhSuQWY8HxMzHBHVUFauMVZzkWOhXCLh.hPkcVZt0iH2HBHE4FY8HxMh7hO73zazUFHN8Fck0iH2XiHfXUYr81XoQWd8HRNvHBHBU1Yo4VOhfiHfTjaj0iH3HxK9viSuQWYf3zazUVOhbCNh.hUkw1aikFc40iH1.iHfHTYmkla8HRNh.RQtQVOhjiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhbCLh.hPkcVZt0iHwXiHfTjaj0iHwXiHu3CON8FckAhSuQWY8HxMzHBHVUFauMVZzkWOhPCLh.hPkcVZt0iHyHBHE4FY8HxLh7hO73zazUFHN8Fck0iH2XiHfXUYr81XoQWd8HBMvHBHBU1Yo4VOhPiHfTjaj0iHzHxK9viSuQWYf3zazUVOhbiLh.hUkw1aikFc40iH4.iHfHTYmkla8HRMh.RQtQVOhTiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhLCLh.hPkcVZt0iH1HBHE4FY8HhMh7hO73zazUFHN8Fck0iH2XiHfXUYr81XoQWd8HBNvHBHBU1Yo4VOhDCLh.RQtQVOhDCLh7hO73zazUFHN8Fck0iH2PiHfXUYr81XoQWd8HBNvHBHBU1Yo4VOhDSLh.RQtQVOhDSLh7hO73zazUFHN8Fck0iH2XiHfXUYr81XoQWd8HRMvHBHBU1Yo4VOhDiLh.RQtQVOhDiLh7hO73zazUFHN8Fck0iH2HiHfXUYr81XoQWd8HBNvHBHBU1Yo4VOhDyLh.RQtQVOhDCMh7hO73zazUFHN8Fck0iH2PiHfXUYr81XoQWd8HhMvHBHBU1Yo4VOhDSMh.RQtQVOhDSMh7hO77BTgQGckIma9vCTgQGckImafDTczg1ax0iHA0FbrUFHS8VctQlHfLTXzU1YuIWd8HBTuAmHfPUZsUVKSk1YtEFc0IWY8HBMuPiHfDUcg4FcooWY8HRLuDiMh.hPP0TOhDCLvHBHIQTOhLiHf.UXzgVOh7RUyUlby8RakQWXrc1aj8BQuMVcsUlazM2KA0FbrUFHS8VctQ1KSQmb00FHPEFczUlbtMmHf3TXsUVOhPTYlEVcrQ2Lh3CON8FckAhSuQWY8HxMxHBHVUFauMVZzkWOhTSMh.hPkcVZt0iHwHBHE4FY8HBMh7hO73zazUFHN8Fck0iH2biHfXUYr81XoQWd8HRLv.iHfHTYmkla8HRMh.RQtQVOhXiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhfCLh.hPkcVZt0iH2HBHE4FY8HBNh7hO73zazUFHN8Fck0iH2PiHfXUYr81XoQWd8HhMvHBHBU1Yo4VOhjiHfTjaj0iH4HxK9viSuQWYf3zazUVOhbiMh.hUkw1aikFc40iH1.iHfHTYmkla8HRLwHBHE4FY8HRLxHxK9viSuQWYf3zazUVOhbyMh.hUkw1aikFc40iH1.iHfHTYmkla8HRLyHBHE4FY8HRLzHxK9viSuQWYf3zazUVOhbiMh.hUkw1aikFc40iH4.iHfHTYmkla8HRL0HBHE4FY8HRL1HxK9vyKPEFczUlbt4COPEFczUlbtARP0QGZuIWOhDTavwVYfL0a04FYh.xPgQWYm8lb40iHP8Fbh.BUo0VYsLUZm4VXzUmbk0iHz7BMh.RT0Elazkldk0iHw7RL1HBHBAUS8HRLv.iHfjDQ8HBMh.BTgQGZ8HxKUMWYxM2KsUFcgw1YuQ1KD81X00VYtQ2buDTavwVYfL0a04FYuLEcxUWaf.UXzQWYx41bh.hSg0VY8HBQkYVX0wFczHhO73zazUFHN8Fck0iH2HiHfXUYr81XoQWd8HRNvHBHBU1Yo4VOhDiHfTjaj0iHxHxK9viSuQWYf3zazUVOhbCMh.hUkw1aikFc40iHy.iHfHTYmkla8HxLh.RQtQVOhLiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhXCLh.hPkcVZt0iHzHBHE4FY8HBMh7hO73zazUFHN8Fck0iH2HiHfXUYr81XoQWd8HhMvHBHBU1Yo4VOhTiHfTjaj0iH1HxK9viSuQWYf3zazUVOhbiMh.hUkw1aikFc40iH2.iHfHTYmkla8HxMh.RQtQVOhfiHu3CON8FckAhSuQWY8HxM4HBHVUFauMVZzkWOhLCLh.hPkcVZt0iH4HBHE4FY8HRNh7hO73zazUFHN8Fck0iH3LiHfXUYr81XoQWd8HBMvHBHBU1Yo4VOhDCLh.RQtQVOhDCLh7hO73zazUFHN8Fck0iH3DiHfXUYr81XoQWd8HRMvHBHBU1Yo4VOhDSLh.RQtQVOhDSLh7hO73zazUFHN8Fck0iH2XiHfXUYr81XoQWd8HhMvHBHBU1Yo4VOhDiLh.RQtQVOhDiLh7hO73zazUFHN8Fck0iH2HiHfXUYr81XoQWd8HxMvHBHBU1Yo4VOhDyLh.RQtQVOhDyLh7hO73zazUFHN8Fck0iH3DiHfXUYr81XoQWd8HBMvHBHBU1Yo4VOhDCMh.RQtQVOhDCMh7hO73zazUFHN8Fck0iH2XiHfXUYr81XoQWd8HBNvHBHBU1Yo4VOhDSMh.RQtQVOhDiMh7hO77BTgQGckIma9vCTgQGckImafDTczg1ax0iHA0FbrUFHS8VctQlHfLTXzU1YuIWd8HBTuAmHfPUZsUVKSk1YtEFc0IWY8HBMuPiHfDUcg4FcooWY8HRLuDiMh.hPP0TOhDCLvHBHIQTOhTiHf.UXzgVOh7RUyUlby8RakQWXrc1aj8BQuMVcsUlazM2KA0FbrUFHS8VctQ1KSQmb00FHPEFczUlbtMmHf3TXsUVOhPTYlEVcrQWMh3CON8FckAhSuQWY8HxMxHBHVUFauMVZzkWOhfCLh.hPkcVZt0iHwHBHE4FY8HRLh7hO73zazUFHN8Fck0iH2fiHfXUYr81XoQWd8HxMvHBHBU1Yo4VOhHiHfTjaj0iHxHxK9viSuQWYf3zazUVOhbiLh.hUkw1aikFc40iH1.iHfHTYmkla8HxLh.RQtQVOhPiHu3CON8FckAhSuQWY8HxMxHBHVUFauMVZzkWOhDCLvHBHBU1Yo4VOhTiHfTjaj0iH0HxK9viSuQWYf3zazUVOhfSLh.hUkw1aikFc40iH1.iHfHTYmkla8HhMh.RQtQVOhXiHu3CON8FckAhSuQWY8HBNyHBHVUFauMVZzkWOhXCLh.hPkcVZt0iH2HBHE4FY8HxMh7hO73zazUFHN8Fck0iH2XiHfXUYr81XoQWd8HRNvHBHBU1Yo4VOhfiHfTjaj0iH3HxK9viSuQWYf3zazUVOhbiLh.hUkw1aikFc40iH1.iHfHTYmkla8HRNh.RQtQVOhjiHu3CON8FckAhSuQWY8HBNyHBHVUFauMVZzkWOhbCLh.hPkcVZt0iHw.iHfTjaj0iHw.iHu3CON8FckAhSuQWY8HxMxHBHVUFauMVZzkWOhbCLh.hPkcVZt0iHwDiHfTjaj0iHwHiHu3CON8FckAhSuQWY8HBNwHBHVUFauMVZzkWOhXCLh.hPkcVZt0iHwPiHfTjaj0iHwPiHu3CON8FckAhSuQWY8HBNyHBHVUFauMVZzkWOhXCLh.hPkcVZt0iHwTiHfTjaj0iHwTiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhfCLh.hPkcVZt0iHwXiHfTjaj0iHwXiHu3CON8FckAhSuQWY8HxMxHBHVUFauMVZzkWOhDCLvHBHBU1Yo4VOhDyLh.RQtQVOhDyLh7hO77BTgQGckIma9vCTgQGckImafDTczg1ax0iHA0FbrUFHS8VctQlHfLTXzU1YuIWd8HBTuAmHfPUZsUVKSk1YtEFc0IWY8HBMuPiHfDUcg4FcooWY8HRLuDiMh.hPP0TOhDCLvHBHIQTOhXiHf.UXzgVOh7RUyUlby8RakQWXrc1aj8BQuMVcsUlazM2KA0FbrUFHS8VctQ1KSQmb00FHPEFczUlbtMmHf3TXsUVOhPTYlEVcrQmMh3CON8FckAhSuQWY8HxM4HBHVUFauMVZzkWOhjCLh.hPkcVZt0iHwHBHE4FY8HRLh7hO73zazUFHN8Fck0iH2jiHfXUYr81XoQWd8HRMvHBHBU1Yo4VOhHiHfTjaj0iHxHxK9viSuQWYf3zazUVOhbSNh.hUkw1aikFc40iHy.iHfHTYmkla8HxLh.RQtQVOhLiHu3CON8FckAhSuQWY8HxM4HBHVUFauMVZzkWOhjCLh.hPkcVZt0iHzHBHE4FY8HBMh7hO73zazUFHN8Fck0iH2jiHfXUYr81XoQWd8HxLvHBHBU1Yo4VOhTiHfTjaj0iH0HxK9viSuQWYf3zazUVOhbSNh.hUkw1aikFc40iHz.iHfHTYmkla8HhMh.RQtQVOhXiHu3CON8FckAhSuQWY8HxM4HBHVUFauMVZzkWOhjCLh.hPkcVZt0iH2HBHE4FY8HxMh7hO73zazUFHN8Fck0iH2jiHfXUYr81XoQWd8HRMvHBHBU1Yo4VOhfiHfTjaj0iH3HxK9viSuQWYf3zazUVOhbSNh.hUkw1aikFc40iHy.iHfHTYmkla8HRNh.RQtQVOhjiHu3CON8FckAhSuQWY8HxM4HBHVUFauMVZzkWOhjCLh.hPkcVZt0iHw.iHfTjaj0iHw.iHu3CON8FckAhSuQWY8HxM4HBHVUFauMVZzkWOhLCLh.hPkcVZt0iHwDiHfTjaj0iHwDiHu3CON8FckAhSuQWY8HxM4HBHVUFauMVZzkWOhPCLh.hPkcVZt0iHwHiHfTjaj0iHwHiHu3CON8FckAhSuQWY8HxM4HBHVUFauMVZzkWOhjCLh.hPkcVZt0iHwLiHfTjaj0iHwLiHu3CON8FckAhSuQWY8HBNwHBHVUFauMVZzkWOhjCLh.hPkcVZt0iHwTiHfTjaj0iHwTiHu3CON8FckAhSuQWY8HBNyHBHVUFauMVZzkWOhjCLh.hPkcVZt0iHwXiHfTjaj0iHwXiHu3CON8FckAhSuQWY8HxM2HBHVUFauMVZzkWOhjCLh.hPkcVZt0iHwPiHfTjaj0iHwPiHu3COu.UXzQWYx4lO7.UXzQWYx4FHAUGcn8lb8HRPsAGakAxTuUmajIBHCEFckc1axkWOh.0avIBHTkVak0xToclagQWcxUVOhPyKzHBHQUWXtQWZ5UVOhDyKwXiHfHDTM0iHw.CLh.RRD0iH2HBHPEFcn0iHuT0bkI2buzVYzEFam8FYuPzaiUWak4Fcy8RPsAGakAxTuUmaj8xTzIWcsABTgQGckImayIBHNEVak0iHDUlYgUGazciH9viSuQWYf3zazUVOhbiLh.hUkw1aikFc40iH3.iHfHTYmkla8HRLh.RQtQVOhLiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhTCLh.hPkcVZt0iHzHBHE4FY8HBMh7hO73zazUFHN8Fck0iH2PiHfXUYr81XoQWd8HRLv.iHfHTYmkla8HRMh.RQtQVOhTiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhLCLh.hPkcVZt0iH1HBHE4FY8HhMh7hO73zazUFHN8Fck0iH2PiHfXUYr81XoQWd8HhMvHBHBU1Yo4VOhbiHfTjaj0iH2HxK9viSuQWYf3zazUVOhbiMh.hUkw1aikFc40iH2.iHfHTYmkla8HBNh.RQtQVOhfiHu3CON8FckAhSuQWY8HhM4HBHVUFauMVZzkWOhfCLh.hPkcVZt0iH4HBHE4FY8HRLvHxK9viSuQWYf3zazUVOhXyMh.hUkw1aikFc40iH2.iHfHTYmkla8HRNh.RQtQVOhDCLh7hO73zazUFHN8Fck0iH2DiHfXUYr81XoQWd8HRNvHBHBU1Yo4VOhDSLh.RQtQVOhDiLh7hO73zazUFHN8Fck0iH1biHfXUYr81XoQWd8HhMvHBHBU1Yo4VOhDCMh.RQtQVOhDCMh7hO73zazUFHN8Fck0iH1jiHfXUYr81XoQWd8HhMvHBHBU1Yo4VOhDSMh.RQtQVOhDSMh7hO73zazUFHN8Fck0iH2DiHfXUYr81XoQWd8HBNvHBHBU1Yo4VOhDiMh.RQtQVOhDiMh7hO73zazUFHN8Fck0iH1PiHfXUYr81XoQWd8HBNvHBHBU1Yo4VOhDyLh.RQtQVOhDyLh7hO77BTgQGckIma9vCTgQGckImafDTczg1ax0iHA0FbrUFHS8VctQlHfLTXzU1YuIWd8HBTuAmHfPUZsUVKSk1YtEFc0IWY8HBMuPiHfDUcg4FcooWY8HRLuDiMh.hPP0TOhDCLvHBHIQTOhfiHf.UXzgVOh7RUyUlby8RakQWXrc1aj8BQuMVcsUlazM2KA0FbrUFHS8VctQ1KSQmb00FHPEFczUlbtMmHf3TXsUVOhPTYlEVcrQGNh3CON8FckAhSuQWY8HhMzHBHVUFauMVZzkWOhjCLh.hPkcVZt0iHwHBHE4FY8HRLh7hO73zazUFHN8Fck0iH1biHfXUYr81XoQWd8HhMvHBHBU1Yo4VOhHiHfTjaj0iHxHxK9viSuQWYf3zazUVOhXSNh.hUkw1aikFc40iH4.iHfHTYmkla8HxLh.RQtQVOhLiHu3CON8FckAhSuQWY8HhM2HBHVUFauMVZzkWOhPCLh.hPkcVZt0iHzHBHE4FY8HBMh7hO73zazUFHN8Fck0iH2DiHfXUYr81XoQWd8HRNvHBHBU1Yo4VOhTiHfTjaj0iH0HxK9viSuQWYf3zazUVOhXyMh.hUkw1aikFc40iH0.iHfHTYmkla8HhMh.RQtQVOhXiHu3CON8FckAhSuQWY8HhM4HBHVUFauMVZzkWOhbCLh.hPkcVZt0iH2HBHE4FY8HxMh7hO73zazUFHN8Fck0iH1biHfXUYr81XoQWd8HBMvHBHBU1Yo4VOhfiHfTjaj0iH3HxK9viSuQWYf3zazUVOhXyMh.hUkw1aikFc40iHz.iHfHTYmkla8HRLvHBHE4FY8HRLvHxK9viSuQWYf3zazUVOhXSNh.hUkw1aikFc40iH3.iHfHTYmkla8HRLwHBHE4FY8HRLxHxK9viSuQWYf3zazUVOhbSLh.hUkw1aikFc40iHw.CLh.hPkcVZt0iHwLiHfTjaj0iHwLiHu3CON8FckAhSuQWY8HhM2HBHVUFauMVZzkWOhXCLh.hPkcVZt0iHwPiHfTjaj0iHwPiHu3CON8FckAhSuQWY8HhM4HBHVUFauMVZzkWOhjCLh.hPkcVZt0iHwTiHfTjaj0iHwTiHu3CON8FckAhSuQWY8HxMwHBHVUFauMVZzkWOhfCLh.hPkcVZt0iHwXiHfTjaj0iHwXiHu3CON8FckAhSuQWY8HxM2HBHVUFauMVZzkWOhLCLh.hPkcVZt0iH4HBHE4FY8HRNh7hO77BTgQGckIma9vCUgIVKPEFcnAhUgwVck0iHuT0bkI2buzVYzEFam8FYuPzaiUWak4Fcy8RPsAGakAxTuUmaj8BUgI1bubTcoQWXx8xUkw1Xu0VYfP2afbTcoQWXxABUgIFHPwVX4UlbtbFb3IxK9vCSgkWYxARRD0iHwHBHVEFa0UVOhjiMh7hO7vTX4UlbfjDQ8HhLh.hUgwVck0iH1PiHu3COLEVdkIGHIQTOhLiHfXUXrUWY8HxLxHxK9vyPu4Fcx8FafjDQ8HhLh.BTgIWXsUFckIWOhzTKPkFcigFHBUlajIxK9vyPu4Fcx8FafjDQ8HBMh.BTgIWXsUFckIWOhzTKVklXxEFcuIxK9vyPu4Fcx8FafjDQ8HRMh.BTgIWXsUFckIWOhzTKFEDHGEVZtIxK9vyPu4Fcx8FafjDQ8HRLvHBHPElbg0VYzUlb8HRSszTXyQWYxAhUuwlHu3COC8lazI2arARRD0iHwLiHf.UXxEVakQWYx0iHM0BTg4lHu3COC8lazI2arARRD0iH1biHf.UXxEVakQWYx0iHH8FajABTkQVXrABUuclHu3COC8lazI2arARRD0iH2XiHf.UXxEVakQWYx0iHM0hTkMGHRUFakE1bkIxK9vCTgIWXsUFckIGHNEVak0iHM0RSoMFHw.hUuwlHfXUXrUWY8HBLtfSN4jSN4jyM1DSM3DCMx.CN4fCMh7hO7.UXxEVakQWYxAhSg0VY8HRSszTZiAhLfX0arIBHVEFa0UVOh.iK3jSN4jSN4biMwTCNwPiLvfSN3PiHu3COPElbg0VYzUlbf3TXsUVOhzTKME1bzUlbfX0arIBHVEFa0UVOh.iK3jSN4jSN4biMwTCNwPiLvfSN3PiHu3COPElbg0VYzUlbf3TXsUVOhzTKPElah.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHM0xUoQFcnIBHVEFa0UVOhTCLh7hO7.UXxEVakQWYxAhSg0VY8HRSsPza0IFao41YfbUZjIBHVEFa0UVOhDSMh7hO7.UXxEVakQWYxAhSg0VY8HRSsPza0IFao41YfP0amIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhzTKRUFafbTXo4lHfXUXrUWY8HBLtXCLv.CLv.iLyfCMwfSM2jSLvDiMh7hO7.UXxEVakQWYxAhSg0VY8HRSsXDdfbTXo4lHfXUXrUWY8HRLh7hO7.UXxEVakQWYxAhSg0VY8HRSsHUYyAxQgklah.hUgwVck0iHwHxK9vCTgIWXsUFckIGHNEVak0iHM0hQAAxQgklah.hUgwVck0iHwHxK9vCTgIWXsUFckIGHNEVak0iHM0hQRAxQgklah.hUgwVck0iHwHxK9vCTgIWXsUFckIGHNEVak0iHM0hQxUFcfL0a04FYh.hUgwVck0iHwHxK9vCTgIWXsUFckIGHNEVak0iHM0hTkMGHRUFakE1bkIBHVEFa0UVOh.iKz.CLv.CLv.SM4XCLzXCMzbyM0PiHu3COPElbg0VYzUlbf3TXsUVOhzTKSQWXxQGHTkVakIBHVEFa0UVOhLSMh7hO7.UXxEVakQWYxAhSg0VY8HRSsLTXv8lHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HRSs.UZzMFZfHTYtQlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HRSsXUZhIWXz8lHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLEcxUWafP0amcFakIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKSQmb00FHTARSuQVYh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xTzIWcsABUo0VYh.hUgwVck0iHxjiHu3COPElbg0VYzUlbf3TXsUVOhLUKAQzTRAxT2kFciglHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsHzajkGHRU1bv8layUlHfXUXrUWY8HRL1HxK9vCTgIWXsUFckIGHNEVak0iHS0RS0QWYfPTYvQGZh.hUgwVck0iH0.CLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLEcx81ZkAhUuwlHfXUXrUWY8HBLtfSN4jSN4jyM1DSM3DCMx.CN4fCMh7hO7.UXxEVakQWYxAhSg0VY8HxTsfTcsAxTTARPrwlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsfTcsAxTTARQgMFZh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0BR00FHSQmb00FHVUFah.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjARSuQVYh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0BUxElayA2ayUlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLUQQAxT441XfP0amIBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOhLUKSUTTfL0co41Yh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xTEEEHQUWXtQWZ5UlHfXUXrUWY8HhLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLUQQABUo0VYfLUZmIBHVEFa0UVOhHiHu3COPElbg0VYzUlbf3TXsUVOhPUKSkmaiABUuc1YrUlHfXUXrUWY8HRLh7hO7.UXxEVakQWYxAhSg0VY8HBUsvzauAGHT81YmwVYh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHT0hUkwFHPI2avIBHVEFa0UVOhjiHu3COPElbg0VYzUlbf3TXsUVOhPUKVUFaffTcsIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhPUKScWZtclHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HBUsLEcxUWafPEHPI2avIBHVEFa0UVOhjiHu3COPElbg0VYzUlbf3TXsUVOhXTKC8VasP0amcFakIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhXTKOQTKT81YmwVYh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHF0RQQ0BUuc1YrUlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQsbUXn0BUuc1YrUlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQsLDZu0BUuc1YrUlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQs.EZg0BUuc1YrUlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQsPDa40BUuc1YrUlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQsHUY10BUuc1YrUlHfXUXrUWY8HRLh7hO7.UXxEVakQWYxAhSg0VY8HhQsLzas0BUnIWYh.hUgwVck0iHsHCLh7hO7.UXxEVakQWYxAhSg0VY8HhQsLzas0hTgQWZuIBHVEFa0UVOh.iK0HxK9vCTgIWXsUFckIGHNEVak0iHF0xPu0VKAQGcgM1Zh.hUgwVck0iH0HxK9vCTgIWXsUFckIGHNEVak0iHF0xPu0VKRUFakE1bkIBHVEFa0UVOhTCLh7hO7.UXxEVakQWYxAhSg0VY8HhQsLzas0xQgklah.hUgwVck0iHxHxK9vCTgIWXsUFckIGHNEVak0iHF0xSD0xQgklah.hUgwVck0iHwTCLh7hO7.UXxEVakQWYxAhSg0VY8HhQs7DQs7TczAWczIBHVEFa0UVOh.iKw.CLv.CLv.SLzjCLwDiMwDSNyfiHu3COPElbg0VYzUlbf3TXsUVOhXTKOQTKT8lakIBHVEFa0UVOhLiLv.iHu3COPElbg0VYzUlbf3TXsUVOhXTKEEUKQECHT81YmwVYh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHF0RQQ0RTw.xQgklah.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHF0RQQ0RT0.BUuc1YrUlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQsTTTsDUMfbTXo4lHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQsTTTsDkLfbTXo4lHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQsTTTsD0LfbTXo4lHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQsTTTsDEMfbTXo4lHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQsbUXn0RSo4lHfXUXrUWY8HRM0.iHu3COPElbg0VYzUlbf3TXsUVOhXTKWEFZszTX3IBHVEFa0UVOhPCLv.iHu3COPElbg0VYzUlbf3TXsUVOhXTKWEFZs.UYjEFah.hUgwVck0iH0TCLh7hO7.UXxEVakQWYxAhSg0VY8HhQsLDZu0xTk4FYh.hUgwVck0iHv3RMh7hO7.UXxEVakQWYxAhSg0VY8HhQs.EZg0xTk4FYh.hUgwVck0iHv3hLv.CLv.CLvHSN3.iLyHiLyfyM2HxK9vCTgIWXsUFckIGHNEVak0iHF0BQrkWKSUlajIBHVEFa0UVOh.iKw.CLv.CLv.SLzjCLwDiMwDSNyfiHu3COPElbg0VYzUlbf3TXsUVOhXTKRUlcsLUYtQlHfXUXrUWY8HBLtHCLv.CLv.CLxjCNvHyLxHyL3byMh7hO7.UXxEVakQWYxAhSg0VY8HhQsLDZu0BQkAGcnIBHVEFa0UVOh.iKw.CLv.CLv.SLzjCLwDiMwDSNyfiHu3COPElbg0VYzUlbf3TXsUVOhXTKCg1asHUXzUlHfXUXrUWY8HBLtDCLv.CLv.CLwPSNvDSL1DSL4LCNh7hO7.UXxEVakQWYxAhSg0VY8HhQs.EZg0BQkAGcnIBHVEFa0UVOh.iK0HxK9vCTgIWXsUFckIGHNEVak0iHF0BTnEVKREFckIBHVEFa0UVOh.iK0HxK9vCTgIWXsUFckIGHNEVak0iHF0BTnEVKFUVYjIVXislHfXUXrUWY8HBLtTiHu3COPElbg0VYzUlbf3TXsUVOhXTKDwVdsvjKTkVakIBHVEFa0UVOh.iKxTiHu3COPElbg0VYzUlbf3TXsUVOhXTKDwVdsHkKTkVakIBHVEFa0UVOh.iK0HxK9vCTgIWXsUFckIGHNEVak0iHF0BQrkWKFUVYjIVXislHfXUXrUWY8HBLtLCLv.CLv.SLwjiLvjiL3jSM0.CNh7hO7.UXxEVakQWYxAhSg0VY8HhQsHUY10xUoQFcnIBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOhXTKRUlcsPTXsAmHfXUXrUWY8HBLtTiHu3COPElbg0VYzUlbf3TXsUVOhXTKRUlcsLUZ5UlHfXUXrUWY8HBLtPSN4jSN4jCMvLSN0LSM0HiLzXSLh7hO7.UXxEVakQWYxAhSg0VY8HxTuUmajARSuQVYh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHSQmbfXCHTUmakImHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTzIGH0.BU04VYxIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLEcxABMfPUctUlbh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHSQmbfLCHTUmakImHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTzIGHx.BU04VYxIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLEcxARLfPUctUlbh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHOAWYtAxTzIGHFklbyQmHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HBRuwFYf.UYjEFafP0amIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOh.EagkGHM8FYkIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhDTcz8FHLU1YgQ2ah.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHSQmbusFHN8VZyUFHT81Yh.hUgwVck0iHwHxK9vCTgIWXsUFckIGHNEVak0iHBUlajAhTg41YkIBHVEFa0UVOhHiHu3COPElbg0VYzUlbf3TXsUVOh.0arkGHBUlajUlbfP0amIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhzzajAhTg41YkIBHVEFa0UVOh.iKxTiHu3COPElbg0VYzUlbf3TXsUVOhDTcz8FHM8FYfP0amIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLTdiwVYfzzajUFHScWZzMFZh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHCk2XrUFHPwVcyABUuclHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HBTkQVXrAhSuk1bkABUuclHfXUXrUWY8HRLh7hO7.UXxEVakQWYxAhSg0VY8HRSoQVZfbTcoQWXxABUuclHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhS00FHH81bzABTgIWXsMmHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYfH0auQGHwHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHR81azAhLh.hUgwVck0iH4HxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfLiHfXUXrUWY8HhLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYfH0auQGHzHBHVEFa0UVOhTiHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHR81azARMh.hUgwVck0iHzHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfXiHfXUXrUWY8HRMh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYfH0auQGH2HBHVEFa0UVOhHiHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHR81azABNh.hUgwVck0iH2HxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfjiHfXUXrUWY8HBMh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYfH0auQGHw.iHfXUXrUWY8HRNh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYfH0auQGHwDiHfXUXrUWY8HRLvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfDiLh.hUgwVck0iH2HxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfDyLh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfDCMh.hUgwVck0iH4HxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfDSMh.hUgwVck0iHxHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfDiMh.hUgwVck0iH0HxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfDyMh.hUgwVck0iHzHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfDCNh.hUgwVck0iH0HxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfDSNh.hUgwVck0iHxHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfHCLh.hUgwVck0iH2HxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfHSLh.hUgwVck0iHzHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfHiLh.hUgwVck0iH4HxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfHyLh.hUgwVck0iHw.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHR81azAhLzHBHVEFa0UVOhbiHu3COPElbg0VYzUlbf3TXsUVOhLUKDQGHCg1axQFHRIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARLh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABU4AWYfHiHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYfPUdvUFHyHBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkABMh.hUgwVck0iHwHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABU4AWYfTiHfXUXrUWY8HRLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYfPUdvUFH1HBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkAxMh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABU4AWYffiHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYfPUdvUFH4HBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARLvHBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARLwHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARLxHBHVEFa0UVOhHiHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARLyHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARLzHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARL0HBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARL1HBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARL2HBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARL3HBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARL4HBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkAhLvHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkAhLwHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkAhLxHBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkAhLyHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkAhLzHBHVEFa0UVOhHiHu3COPElbg0VYzUlbf3TXsUVOhLUKDQGHCg1axQFHTIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHP81bfDiHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYf.0ayAhLh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABTuMGHyHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHP81bfPiHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYf.0ayARMh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABTuMGH1HBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHP81bfbiHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYf.0ayABNh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABTuMGH4HBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHP81bfDCLh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABTuMGHwDiHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYf.0ayARLxHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHP81bfDyLh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABTuMGHwPiHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYf.0ayARL0HBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHP81bfDiMh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABTuMGHwbiHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYf.0ayARL3HBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHP81bfDSNh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABTuMGHx.iHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYf.0ayAhLwHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHP81bfHiLh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABTuMGHxLiHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYf.0ayAhLzHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKDQGHCg1axQFHPIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHI4FYkgmHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYf.UXmUlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTs.UXzQWYx4FHI4FYkgmHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLUQQABTrEVdfP0amIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhPUKPwVX4ABUuc1YrUlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HBUs.EagkmXgM1ZfP0amcFakIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhPUKTIWXisFHI4FYkgmHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HRSgMGckIGHTUmakIBHVEFa0UVOhPCMvHxK9vCTgIWXsUFckIGHNEVak0iHMkDQIAxS0QmHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HRSggGHV8VZiU1bh.hUgwVck0iH1PiHu3COPElbg0VYzUlbf3TXsUVOhXUYrAxTk41boQWZ1kFc4IBHVEFa0UVOhDCLvHxK9vCTgIWXsUFckIGHNEVak0iHOAWYtAxTzIWZtcFH1HBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOh7Dbk4FHSQmbo41YfTiHfXUXrUWY8HRLh7hO7.UXxEVakQWYxAhSg0VY8HxSvUlafLEcxklamABMh.hUgwVck0iHwHxK9vCTgIWXsUFckIGHNEVak0iHOAWYtAxTzIWZtcFHyHBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOh7Dbk4FHSQmbo41YfHiHfXUXrUWY8HRLh7hO7.UXxEVakQWYxAhSg0VY8HxSvUlafLEcxklamARLh.hUgwVck0iHwHxK9vCTgIWXsUFckIGHNEVak0iHMkFYoAxQ0kFcgIGHSQmb1HBHVEFa0UVOhTiHu3COPElbg0VYzUlbf3TXsUVOhzTZjkFHGUWZzElbfLEcxUiHfXUXrUWY8HBMh7hO7.UXxEVakQWYxAhSg0VY8HRSoQVZfbTcoQWXxAxTzIGMh.hUgwVck0iHyHxK9vCTgIWXsUFckIGHNEVak0iHMkFYoAxQ0kFcgIGHSQmbyHBHVEFa0UVOhHiHu3COPElbg0VYzUlbf3TXsUVOhzTZjkFHGUWZzElbfLEcxIiHfXUXrUWY8HRLh7hO7.UXxEVakQWYxAhSg0VY8HRSoQVZfbTcoQWXxAxTzIWLh.hUgwVck0iHvHxK9vCQB4TXsUFHVEFa0UVOhDzQMwjLFclHu3COTUmak0BTgQGZfXUXrUWY8HxKUMWYxM2KsUFcgw1YuQ1KD81X00VYtQ2buDTavwVYfL0a04FYuDzQMwjLuPUctU1KTUmak8EQkYVX0wFctDzQMwjLFclHu3COuDTPG80TTEDUE4C."
 						}
 ,
 						"snapshotlist" : 						{
@@ -15578,46 +17056,28 @@
 									"filetype" : "C74Snapshot",
 									"version" : 2,
 									"minorversion" : 0,
-									"name" : "chipsounds",
-									"origin" : "chipsounds.vstinfo",
+									"name" : "Ample Guitar M II Lite",
+									"origin" : "AGML2.vst",
 									"type" : "VST",
 									"subtype" : "Instrument",
 									"embed" : 0,
 									"snapshot" : 									{
-										"pluginname" : "chipsounds.vstinfo",
-										"plugindisplayname" : "chipsounds",
-										"pluginsavedname" : "C74_VST:/chipsounds",
-										"pluginsaveduniqueid" : 1347176271,
+										"pluginname" : "AGML2.vst",
+										"plugindisplayname" : "Ample Guitar M II Lite",
+										"pluginsavedname" : "~/Documents/Max 8/Packages/Optron/misc/AGML2.vst",
+										"pluginsaveduniqueid" : 0,
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "727.CMlaKA....fQPMDZ....A.ESG8D...P......TVavQWdfLGauQGL.........................HvlCUzQPgnC...db19Ue+l1v.geu+UX4m1dngDHPHRjVQokIjFsUB1yUljqAq43vbrYz8W+t7qRJZcVaOMow8RrO+c122k3S4ax0GxDj8fpfmKindNtTx0WcwjoJNaEaOzYovQATxNUdhIVu3VzgqaH8pKHnMYEn0bYZA4aFlfqeAWkRJzJfkgtinC5SIYrCqp7LUHxiWdSDs+vQTxxE2t3AidYdBTEEynyyXZ7LWIx0QT2ttDvdPDQ4RbuMYfTSIB9dnNXDYQLdVkOXBF5vibIAJSImhXQi6YXTfJhNBgmJx2vDqMxpjDczqkO3QS3IU9jrrxM2yg7nQAjYa465s59fQ9iCaeN8dxGLRAOiqgjORIaXxutHooDcZILdKSJKYwkHa2kKdot7nOlE617jhISgFHZbRQ0BYcFlGqw2OcYclQ2L+6OIXEU0tZ9TwoolCsTZOSXJg53F5GVZiG6FD5F38ZEnJhkLt7jPdODdG2z2AQeqHFXEguUDCshXjUDAVQL1JhPqH7bsCwdU0ydY0ydc0ydg06cqrqYpTP2bMINOy4QQdpAbJag3744O3XJ.U2uDqhZlo.uTeKSyHa0urCCcXvPrpUv+AN1ejem6M3ABxDNqdXBFCNn0lW+nu6Y6rc19WwdaOhd0MI9S6Z3ctqwY6r8+i8210XshmlBpU3O6CxXPYuug+.+As8M5OrSai9+p1FdmjmUyClWZClELO7MKNycv7eCQlzqTcQy36d9YHV2UtQyOyWSwoYa3kDxhjBTUV7qZfZ0v7ourncOYwZTkzhiBpple2qyK.AlEPxZ1lSDM7nBJ.8RPZHPQKbcEapeA7IlRw0LoywTUCGvEugIDp77LRoDFldaD8Xp0CyMTjYuVUlWcwOAyY5TLB"
+										"blob" : "21378.CMlaKA....fQPMDZ....ADTarMG.BL.D....A........................................LkQVMjLgzyT...OAEzQeMEUAQUQf3TXsUVOhPTYlEVcrQmH9vSPxQWZiUGagQWZu4FHVEFa0UVOhLUcyIxK9vCTuMWZzk1atAhUgwVck0iHvHxK9vyPn8lbj0BTgQGZfXUXrUWY8HxKUMWYxM2KsUFcgw1YuQ1KD81X00VYtQ2buDTavwVYfL0a04FYuLDZuIGYfHTXts1bh7hO7LDZuIGYyARP0QGZuIWOhDTavwVYfL0a04FYh.xPgQWYm8lb40iHP8Fbh.xRkkWOhLjHf.UXzgVOh7RUyUlby8RakQWXrc1aj8BQuMVcsUlazM2KA0FbrUFHS8VctQ1KCg1axQFHBElaqMmHf3TXsUVOhPTYlEVcrQmH9vyPn8lbjARRD0iHwHBHR81az0iHCIBHTkGbk0iHMElZh.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOhzRLh7hO7LEcxklamARRD0iH0HBHFIWYz0iHyHxK9vyTzIWZtcFHIQTOhPiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HxLh.hQxUFc8HBLh7hO7LEcxklamARRD0iHxHBHFIWYz0iHwHxK9vyTzIWZtcFHIQTOhDiHfXjbkQWOh.iHu3COuLDZuIGY9vyPn8lbjARRD0iHxHBHR81az0iHAIBHTkGbk0iHMElZh.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOhzRLh7hO7LEcxklamARRD0iH0HBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhPiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HxLh.hQxUFc8HhLh7hO7LEcxklamARRD0iHxHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhDiHfXjbkQWOh.iHu3COuLDZuIGY9vyPn8lbjARRD0iHyHBHR81az0iHDIBHTkGbk0iHsklah.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOhzRLh7hO7LEcxklamARRD0iH0HBHFIWYz0iHsDiHu3COSQmbo41YfjDQ8HBMh.hQxUFc8HBLh7hO7LEcxklamARRD0iHyHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhHiHfXjbkQWOhLiHu3COSQmbo41YfjDQ8HRLh.hQxUFc8HRLh7hO77xPn8lbj4COCg1axQFHIQTOhPiHfH0auQWOhXjHfPUdvUVOhzVZtIBHP81b8HRLh3COSQmbo41YfjDQ8HhMh.hQxUFc8HRLh7hO7LEcxklamARRD0iH0HBHFIWYz0iHyHxK9vyTzIWZtcFHIQTOhPiHfXjbkQWOhLiHu3COSQmbo41YfjDQ8HxLh.hQxUFc8HRLh7hO7LEcxklamARRD0iHxHBHFIWYz0iHwHxK9vyTzIWZtcFHIQTOhDiHfXjbkQWOhDiHu3COuLDZuIGY9vyPn8lbjARRD0iH0HBHR81az0iHEIBHTkGbk0iHsklah.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HRMh.hQxUFc8HhLh7hO7LEcxklamARRD0iHzHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhLiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HhLh.hQxUFc8HBLh7hO7LEcxklamARRD0iHwHBHFIWYz0iHvHxK9vyKCg1axQlO7LDZuIGYfjDQ8HhMh.hTu8Fc8HhQh.BU4AWY8HRSgolHf.0ay0iHwHhO7LEcxklamARRD0iH1HBHFIWYz0iHwHxK9vyTzIWZtcFHIQTOhTiHfXjbkQWOhLiHu3COSQmbo41YfjDQ8HBMh.hQxUFc8HxLh7hO7LEcxklamARRD0iHyHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhHiHfXjbkQWOhDiHu3COSQmbo41YfjDQ8HRLh.hQxUFc8HRLh7hO77xPn8lbj4COCg1axQFHIQTOhbiHfH0auQWOhPjHfPUdvUVOhzTXpIBHP81b8HRLh3COSQmbo41YfjDQ8HhMh.hQxUFc8HRKwHxK9vyTzIWZtcFHIQTOhTiHfXjbkQWOhzRLh7hO7LEcxklamARRD0iHzHBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhLiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HhLh.hQxUFc8HxLh7hO7LEcxklamARRD0iHwHBHFIWYz0iHxHxK9vyKCg1axQlO7LDZuIGYfjDQ8HBNh.hTu8Fc8HxQh.BU4AWY8HRSgolHf.0ay0iHwHhO7LEcxklamARRD0iH1HBHFIWYz0iHyHxK9vyTzIWZtcFHIQTOhTiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HBMh.hQxUFc8HBLh7hO7LEcxklamARRD0iHyHBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhHiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HRLh.hQxUFc8HxLh7hO77xPn8lbj4COCg1axQFHIQTOhjiHfH0auQWOhTjHfPUdvUVOhzTXpIBHP81b8HRLh3COSQmbo41YfjDQ8HhMh.hQxUFc8HBLh7hO7LEcxklamARRD0iH0HBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhPiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HxLh.hQxUFc8HRLh7hO7LEcxklamARRD0iHxHBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhDiHfXjbkQWOh.iHu3COuLDZuIGY9vyPn8lbjARRD0iHw.iHfH0auQWOhDjHfPUdvUVOhzVZtIBHP81b8HRLh3COSQmbo41YfjDQ8HhMh.hQxUFc8HRKwHxK9vyTzIWZtcFHIQTOhTiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HBMh.hQxUFc8HhLh7hO7LEcxklamARRD0iHyHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhHiHfXjbkQWOhDiHu3COSQmbo41YfjDQ8HRLh.hQxUFc8HBLh7hO77xPn8lbj4COCg1axQFHIQTOhDSLh.hTu8Fc8HRPiHBHTkGbk0iHMElZh.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOhzRLh7hO7LEcxklamARRD0iH0HBHFIWYz0iHwHxK9vyTzIWZtcFHIQTOhPiHfXjbkQWOhLiHu3COSQmbo41YfjDQ8HxLh.hQxUFc8HxLh7hO7LEcxklamARRD0iHxHBHFIWYz0iHyHxK9vyTzIWZtcFHIQTOhDiHfXjbkQWOhDiHu3COuLDZuIGY9vyPn8lbjARRD0iHwHiHfH0auQWOhbjHfPUdvUVOhbiHf.0ay0iHwHhO7LEcxklamARRD0iH1HBHFIWYz0iHyHxK9vyTzIWZtcFHIQTOhTiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HBMh.hQxUFc8HBLh7hO7LEcxklamARRD0iHyHBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhHiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HRLh.hQxUFc8HRLh7hO77xPn8lbj4COCg1axQFHIQTOhDyLh.hTu8Fc8HxPh.BU4AWY8HRSgolHf.0ay0iHwHhO7LEcxklamARRD0iH1HBHFIWYz0iHsDiHu3COSQmbo41YfjDQ8HRMh.hQxUFc8HxLh7hO7LEcxklamARRD0iHzHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhLiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HhLh.hQxUFc8HRLh7hO7LEcxklamARRD0iHwHBHFIWYz0iHvHxK9vyKCg1axQlO7LDZuIGYfjDQ8HRLzHBHR81az0iHAIBHTkGbk0iHMElZh.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOhzRLh7hO7LEcxklamARRD0iH0HBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhPiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HxLh.hQxUFc8HhLh7hO7LEcxklamARRD0iHxHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhDiHfXjbkQWOh.iHu3COuLDZuIGY9vyPn8lbjARRD0iHwTiHfH0auQWOhPjHfPUdvUVOhzVZtIBHP81b8HRLh3COSQmbo41YfjDQ8HhMh.hQxUFc8HRKwHxK9vyTzIWZtcFHIQTOhTiHfXjbkQWOhzRLh7hO7LEcxklamARRD0iHzHBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhLiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HhLh.hQxUFc8HxLh7hO7LEcxklamARRD0iHwHBHFIWYz0iHwHxK9vyKCg1axQlO7LDZuIGYfjDQ8HRL1HBHR81az0iHFIBHTkGbk0iHsklah.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOhDiHu3COSQmbo41YfjDQ8HRMh.hQxUFc8HxLh7hO7LEcxklamARRD0iHzHBHFIWYz0iHyHxK9vyTzIWZtcFHIQTOhLiHfXjbkQWOhDiHu3COSQmbo41YfjDQ8HhLh.hQxUFc8HRLh7hO7LEcxklamARRD0iHwHBHFIWYz0iHwHxK9vyKCg1axQlO7LDZuIGYfjDQ8HRL2HBHR81az0iHEIBHTkGbk0iHsklah.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HRMh.hQxUFc8HhLh7hO7LEcxklamARRD0iHzHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhLiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HhLh.hQxUFc8HBLh7hO7LEcxklamARRD0iHwHBHFIWYz0iHvHxK9vyKCg1axQlO7LDZuIGYfjDQ8HRL3HBHR81az0iHFIBHTkGbk0iHMElZh.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOhDiHu3COSQmbo41YfjDQ8HRMh.hQxUFc8HxLh7hO7LEcxklamARRD0iHzHBHFIWYz0iHyHxK9vyTzIWZtcFHIQTOhLiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HhLh.hQxUFc8HRLh7hO7LEcxklamARRD0iHwHBHFIWYz0iHwHxK9vyKCg1axQlO7LDZuIGYfjDQ8HRL4HBHR81az0iHDIBHTkGbk0iHMElZh.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOhzRLh7hO7LEcxklamARRD0iH0HBHFIWYz0iHsDiHu3COSQmbo41YfjDQ8HBMh.hQxUFc8HBLh7hO7LEcxklamARRD0iHyHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhHiHfXjbkQWOhLiHu3COSQmbo41YfjDQ8HRLh.hQxUFc8HhLh7hO77xPn8lbj4COCg1axQFHIQTOhHCLh.hTu8Fc8HxQh.BU4AWY8HRSgolHf.0ay0iHwHhO7LEcxklamARRD0iH1HBHFIWYz0iHyHxK9vyTzIWZtcFHIQTOhTiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HBMh.hQxUFc8HBLh7hO7LEcxklamARRD0iHyHBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhHiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HRLh.hQxUFc8HxLh7hO77xPn8lbj4COCg1axQFHIQTOhHSLh.hTu8Fc8HRQh.BU4AWY8HRSgolHf.0ay0iHwHhO7LEcxklamARRD0iH1HBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhTiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HBMh.hQxUFc8HhLh7hO7LEcxklamARRD0iHyHBHFIWYz0iHwHxK9vyTzIWZtcFHIQTOhHiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HRLh.hQxUFc8HBLh7hO77xPn8lbj4COCg1axQFHIQTOhHiLh.hTu8Fc8HRPh.BU4AWY8HRao4lHf.0ay0iHwHhO7LEcxklamARRD0iH1HBHFIWYz0iHsDiHu3COSQmbo41YfjDQ8HRMh.hQxUFc8HBLh7hO7LEcxklamARRD0iHzHBHFIWYz0iHxHxK9vyTzIWZtcFHIQTOhLiHfXjbkQWOhHiHu3COSQmbo41YfjDQ8HhLh.hQxUFc8HRLh7hO7LEcxklamARRD0iHwHBHFIWYz0iHvHxK9vyKCg1axQlO7LDZuIGYfjDQ8HhLyHBHR81az0iHAMhHfPUdvUVOhzTXpIBHP81b8HRLh3COSQmbo41YfjDQ8HhMh.hQxUFc8HRKwHxK9vyTzIWZtcFHIQTOhTiHfXjbkQWOhDiHu3COSQmbo41YfjDQ8HBMh.hQxUFc8HxLh7hO7LEcxklamARRD0iHyHBHFIWYz0iHyHxK9vyTzIWZtcFHIQTOhHiHfXjbkQWOhLiHu3COSQmbo41YfjDQ8HRLh.hQxUFc8HRLh7hO77xPn8lbj4COCg1axQFHIQTOhHCMh.hTu8Fc8HxQh.BU4AWY8HxMh.BTuMWOhDiH9vyTzIWZtcFHIQTOhXiHfXjbkQWOhLiHu3COSQmbo41YfjDQ8HRMh.hQxUFc8HhLh7hO7LEcxklamARRD0iHzHBHFIWYz0iHvHxK9vyTzIWZtcFHIQTOhLiHfXjbkQWOh.iHu3COSQmbo41YfjDQ8HhLh.hQxUFc8HBLh7hO7LEcxklamARRD0iHwHBHFIWYz0iHwHxK9vyKCg1axQlO77xPn8lbjMmO7.UXzQWYx4VKPEFcnAhUgwVck0iHuT0bkI2buzVYzEFam8FYuPzaiUWak4Fcy8RPsAGakAxTuUmaj8xTzIWcsABTgQGckImayIxK9vCTgQGckImafDTczg1ax0iHA0FbrUFHS8VctQlHfLTXzU1YuIWd8HBTuAmHfPUZsUVKSk1YtEFc0IWY8HBMuPiHfDUcg4FcooWY8HRLuDiMh.hPP0TOhDyLvHBHIQTOhDiHf.UXzgVOh7RUyUlby8RakQWXrc1aj8BQuMVcsUlazM2KA0FbrUFHS8VctQ1KSQmb00FHPEFczUlbtMmHf3TXsUVOhPTYlEVcrQWLh3CON8FckAhSuQWY8HxMxHBHVUFauMVZzkWOhDCLvHBHBU1Yo4VOhDiHfTjaj0iHxHxK9viSuQWYf3zazUVOhbCMh.hUkw1aikFc40iH3.iHfHTYmkla8HxLh.RQtQVOhLiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhXCLh.hPkcVZt0iHzHBHE4FY8HRMh7hO73zazUFHN8Fck0iH2XiHfXUYr81XoQWd8HxMvHBHBU1Yo4VOhXiHfTjaj0iH2HxK9viSuQWYf3zazUVOhbiMh.hUkw1aikFc40iH1.iHfHTYmkla8HBNh.RQtQVOhfiHu3CON8FckAhSuQWY8HxMzHBHVUFauMVZzkWOhPCLh.hPkcVZt0iHwDiHfTjaj0iHwDiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhjCLh.hPkcVZt0iHwHiHfTjaj0iHwHiHu3CON8FckAhSuQWY8HxMzHBHVUFauMVZzkWOhTCLh.hPkcVZt0iHwTiHfTjaj0iHwTiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhXCLh.hPkcVZt0iHwXiHfTjaj0iHwXiHu3CON8FckAhSuQWY8HxMxHBHVUFauMVZzkWOhbCLh.hPkcVZt0iH4HBHE4FY8HRLvHxK9viSuQWYf3zazUVOhbCMh.hUkw1aikFc40iH0.iHfHTYmkla8HRLyHBHE4FY8HRLyHxK9viSuQWYf3zazUVOhbiMh.hUkw1aikFc40iHz.iHfHTYmkla8HRLzHBHE4FY8HRLzHxK9vyKPEFczUlbt4COPEFczUlbtARP0QGZuIWOhDTavwVYfL0a04FYh.xPgQWYm8lb40iHP8Fbh.BUo0VYsLUZm4VXzUmbk0iHz7BMh.RT0Elazkldk0iHw7RL1HBHBAUS8HRLv.iHfjDQ8HhLh.BTgQGZ8HxKUMWYxM2KsUFcgw1YuQ1KD81X00VYtQ2buDTavwVYfL0a04FYuLEcxUWaf.UXzQWYx41bh.hSg0VY8HBQkYVX0wFcxHhO73zazUFHN8Fck0iH2HiHfXUYr81XoQWd8HRLv.iHfHTYmkla8HRLh.RQtQVOhHiHu3CON8FckAhSuQWY8HxMzHBHVUFauMVZzkWOhXCLh.hPkcVZt0iH2HBHE4FY8HxMh7hO73zazUFHN8Fck0iH2XiHfXUYr81XoQWd8HRNvHBHBU1Yo4VOhfiHfTjaj0iH3HxK9viSuQWYf3zazUVOhbCNh.hUkw1aikFc40iH1.iHfHTYmkla8HRNh.RQtQVOhjiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhbCLh.hPkcVZt0iHwXiHfTjaj0iHwXiHu3CON8FckAhSuQWY8HxMzHBHVUFauMVZzkWOhPCLh.hPkcVZt0iHyHBHE4FY8HxLh7hO73zazUFHN8Fck0iH2XiHfXUYr81XoQWd8HBMvHBHBU1Yo4VOhPiHfTjaj0iHzHxK9viSuQWYf3zazUVOhbiLh.hUkw1aikFc40iH4.iHfHTYmkla8HRMh.RQtQVOhTiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhLCLh.hPkcVZt0iH1HBHE4FY8HhMh7hO73zazUFHN8Fck0iH2XiHfXUYr81XoQWd8HBNvHBHBU1Yo4VOhDCLh.RQtQVOhDCLh7hO73zazUFHN8Fck0iH2PiHfXUYr81XoQWd8HBNvHBHBU1Yo4VOhDSLh.RQtQVOhDSLh7hO73zazUFHN8Fck0iH2XiHfXUYr81XoQWd8HRMvHBHBU1Yo4VOhDiLh.RQtQVOhDiLh7hO73zazUFHN8Fck0iH2HiHfXUYr81XoQWd8HBNvHBHBU1Yo4VOhDyLh.RQtQVOhDCMh7hO73zazUFHN8Fck0iH2PiHfXUYr81XoQWd8HhMvHBHBU1Yo4VOhDSMh.RQtQVOhDSMh7hO77BTgQGckIma9vCTgQGckImafDTczg1ax0iHA0FbrUFHS8VctQlHfLTXzU1YuIWd8HBTuAmHfPUZsUVKSk1YtEFc0IWY8HBMuPiHfDUcg4FcooWY8HRLuDiMh.hPP0TOhDCLvHBHIQTOhLiHf.UXzgVOh7RUyUlby8RakQWXrc1aj8BQuMVcsUlazM2KA0FbrUFHS8VctQ1KSQmb00FHPEFczUlbtMmHf3TXsUVOhPTYlEVcrQ2Lh3CON8FckAhSuQWY8HxMxHBHVUFauMVZzkWOhTSMh.hPkcVZt0iHwHBHE4FY8HBMh7hO73zazUFHN8Fck0iH2biHfXUYr81XoQWd8HRLv.iHfHTYmkla8HRMh.RQtQVOhXiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhfCLh.hPkcVZt0iH2HBHE4FY8HBNh7hO73zazUFHN8Fck0iH2PiHfXUYr81XoQWd8HhMvHBHBU1Yo4VOhjiHfTjaj0iH4HxK9viSuQWYf3zazUVOhbiMh.hUkw1aikFc40iH1.iHfHTYmkla8HRLwHBHE4FY8HRLxHxK9viSuQWYf3zazUVOhbyMh.hUkw1aikFc40iH1.iHfHTYmkla8HRLyHBHE4FY8HRLzHxK9viSuQWYf3zazUVOhbiMh.hUkw1aikFc40iH4.iHfHTYmkla8HRL0HBHE4FY8HRL1HxK9vyKPEFczUlbt4COPEFczUlbtARP0QGZuIWOhDTavwVYfL0a04FYh.xPgQWYm8lb40iHP8Fbh.BUo0VYsLUZm4VXzUmbk0iHz7BMh.RT0Elazkldk0iHw7RL1HBHBAUS8HRLv.iHfjDQ8HBMh.BTgQGZ8HxKUMWYxM2KsUFcgw1YuQ1KD81X00VYtQ2buDTavwVYfL0a04FYuLEcxUWaf.UXzQWYx41bh.hSg0VY8HBQkYVX0wFczHhO73zazUFHN8Fck0iH2HiHfXUYr81XoQWd8HRNvHBHBU1Yo4VOhDiHfTjaj0iHxHxK9viSuQWYf3zazUVOhbCMh.hUkw1aikFc40iHy.iHfHTYmkla8HxLh.RQtQVOhLiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhXCLh.hPkcVZt0iHzHBHE4FY8HBMh7hO73zazUFHN8Fck0iH2HiHfXUYr81XoQWd8HhMvHBHBU1Yo4VOhTiHfTjaj0iH1HxK9viSuQWYf3zazUVOhbiMh.hUkw1aikFc40iH2.iHfHTYmkla8HxMh.RQtQVOhfiHu3CON8FckAhSuQWY8HxM4HBHVUFauMVZzkWOhLCLh.hPkcVZt0iH4HBHE4FY8HRNh7hO73zazUFHN8Fck0iH3LiHfXUYr81XoQWd8HBMvHBHBU1Yo4VOhDCLh.RQtQVOhDCLh7hO73zazUFHN8Fck0iH3DiHfXUYr81XoQWd8HRMvHBHBU1Yo4VOhDSLh.RQtQVOhDSLh7hO73zazUFHN8Fck0iH2XiHfXUYr81XoQWd8HhMvHBHBU1Yo4VOhDiLh.RQtQVOhDiLh7hO73zazUFHN8Fck0iH2HiHfXUYr81XoQWd8HxMvHBHBU1Yo4VOhDyLh.RQtQVOhDyLh7hO73zazUFHN8Fck0iH3DiHfXUYr81XoQWd8HBMvHBHBU1Yo4VOhDCMh.RQtQVOhDCMh7hO73zazUFHN8Fck0iH2XiHfXUYr81XoQWd8HBNvHBHBU1Yo4VOhDSMh.RQtQVOhDiMh7hO77BTgQGckIma9vCTgQGckImafDTczg1ax0iHA0FbrUFHS8VctQlHfLTXzU1YuIWd8HBTuAmHfPUZsUVKSk1YtEFc0IWY8HBMuPiHfDUcg4FcooWY8HRLuDiMh.hPP0TOhDCLvHBHIQTOhTiHf.UXzgVOh7RUyUlby8RakQWXrc1aj8BQuMVcsUlazM2KA0FbrUFHS8VctQ1KSQmb00FHPEFczUlbtMmHf3TXsUVOhPTYlEVcrQWMh3CON8FckAhSuQWY8HxMxHBHVUFauMVZzkWOhfCLh.hPkcVZt0iHwHBHE4FY8HRLh7hO73zazUFHN8Fck0iH2fiHfXUYr81XoQWd8HxMvHBHBU1Yo4VOhHiHfTjaj0iHxHxK9viSuQWYf3zazUVOhbiLh.hUkw1aikFc40iH1.iHfHTYmkla8HxLh.RQtQVOhPiHu3CON8FckAhSuQWY8HxMxHBHVUFauMVZzkWOhDCLvHBHBU1Yo4VOhTiHfTjaj0iH0HxK9viSuQWYf3zazUVOhfSLh.hUkw1aikFc40iH1.iHfHTYmkla8HhMh.RQtQVOhXiHu3CON8FckAhSuQWY8HBNyHBHVUFauMVZzkWOhXCLh.hPkcVZt0iH2HBHE4FY8HxMh7hO73zazUFHN8Fck0iH2XiHfXUYr81XoQWd8HRNvHBHBU1Yo4VOhfiHfTjaj0iH3HxK9viSuQWYf3zazUVOhbiLh.hUkw1aikFc40iH1.iHfHTYmkla8HRNh.RQtQVOhjiHu3CON8FckAhSuQWY8HBNyHBHVUFauMVZzkWOhbCLh.hPkcVZt0iHw.iHfTjaj0iHw.iHu3CON8FckAhSuQWY8HxMxHBHVUFauMVZzkWOhbCLh.hPkcVZt0iHwDiHfTjaj0iHwHiHu3CON8FckAhSuQWY8HBNwHBHVUFauMVZzkWOhXCLh.hPkcVZt0iHwPiHfTjaj0iHwPiHu3CON8FckAhSuQWY8HBNyHBHVUFauMVZzkWOhXCLh.hPkcVZt0iHwTiHfTjaj0iHwTiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhfCLh.hPkcVZt0iHwXiHfTjaj0iHwXiHu3CON8FckAhSuQWY8HxMxHBHVUFauMVZzkWOhDCLvHBHBU1Yo4VOhDyLh.RQtQVOhDyLh7hO77BTgQGckIma9vCTgQGckImafDTczg1ax0iHA0FbrUFHS8VctQlHfLTXzU1YuIWd8HBTuAmHfPUZsUVKSk1YtEFc0IWY8HBMuPiHfDUcg4FcooWY8HRLuDiMh.hPP0TOhDCLvHBHIQTOhXiHf.UXzgVOh7RUyUlby8RakQWXrc1aj8BQuMVcsUlazM2KA0FbrUFHS8VctQ1KSQmb00FHPEFczUlbtMmHf3TXsUVOhPTYlEVcrQmMh3CON8FckAhSuQWY8HxM4HBHVUFauMVZzkWOhjCLh.hPkcVZt0iHwHBHE4FY8HRLh7hO73zazUFHN8Fck0iH2jiHfXUYr81XoQWd8HRMvHBHBU1Yo4VOhHiHfTjaj0iHxHxK9viSuQWYf3zazUVOhbSNh.hUkw1aikFc40iHy.iHfHTYmkla8HxLh.RQtQVOhLiHu3CON8FckAhSuQWY8HxM4HBHVUFauMVZzkWOhjCLh.hPkcVZt0iHzHBHE4FY8HBMh7hO73zazUFHN8Fck0iH2jiHfXUYr81XoQWd8HxLvHBHBU1Yo4VOhTiHfTjaj0iH0HxK9viSuQWYf3zazUVOhbSNh.hUkw1aikFc40iHz.iHfHTYmkla8HhMh.RQtQVOhXiHu3CON8FckAhSuQWY8HxM4HBHVUFauMVZzkWOhjCLh.hPkcVZt0iH2HBHE4FY8HxMh7hO73zazUFHN8Fck0iH2jiHfXUYr81XoQWd8HRMvHBHBU1Yo4VOhfiHfTjaj0iH3HxK9viSuQWYf3zazUVOhbSNh.hUkw1aikFc40iHy.iHfHTYmkla8HRNh.RQtQVOhjiHu3CON8FckAhSuQWY8HxM4HBHVUFauMVZzkWOhjCLh.hPkcVZt0iHw.iHfTjaj0iHw.iHu3CON8FckAhSuQWY8HxM4HBHVUFauMVZzkWOhLCLh.hPkcVZt0iHwDiHfTjaj0iHwDiHu3CON8FckAhSuQWY8HxM4HBHVUFauMVZzkWOhPCLh.hPkcVZt0iHwHiHfTjaj0iHwHiHu3CON8FckAhSuQWY8HxM4HBHVUFauMVZzkWOhjCLh.hPkcVZt0iHwLiHfTjaj0iHwLiHu3CON8FckAhSuQWY8HBNwHBHVUFauMVZzkWOhjCLh.hPkcVZt0iHwTiHfTjaj0iHwTiHu3CON8FckAhSuQWY8HBNyHBHVUFauMVZzkWOhjCLh.hPkcVZt0iHwXiHfTjaj0iHwXiHu3CON8FckAhSuQWY8HxM2HBHVUFauMVZzkWOhjCLh.hPkcVZt0iHwPiHfTjaj0iHwPiHu3COu.UXzQWYx4lO7.UXzQWYx4FHAUGcn8lb8HRPsAGakAxTuUmajIBHCEFckc1axkWOh.0avIBHTkVak0xToclagQWcxUVOhPyKzHBHQUWXtQWZ5UVOhDyKwXiHfHDTM0iHw.CLh.RRD0iH2HBHPEFcn0iHuT0bkI2buzVYzEFam8FYuPzaiUWak4Fcy8RPsAGakAxTuUmaj8xTzIWcsABTgQGckImayIBHNEVak0iHDUlYgUGazciH9viSuQWYf3zazUVOhbiLh.hUkw1aikFc40iH3.iHfHTYmkla8HRLh.RQtQVOhLiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhTCLh.hPkcVZt0iHzHBHE4FY8HBMh7hO73zazUFHN8Fck0iH2PiHfXUYr81XoQWd8HRLv.iHfHTYmkla8HRMh.RQtQVOhTiHu3CON8FckAhSuQWY8HxM1HBHVUFauMVZzkWOhLCLh.hPkcVZt0iH1HBHE4FY8HhMh7hO73zazUFHN8Fck0iH2PiHfXUYr81XoQWd8HhMvHBHBU1Yo4VOhbiHfTjaj0iH2HxK9viSuQWYf3zazUVOhbiMh.hUkw1aikFc40iH2.iHfHTYmkla8HBNh.RQtQVOhfiHu3CON8FckAhSuQWY8HhM4HBHVUFauMVZzkWOhfCLh.hPkcVZt0iH4HBHE4FY8HRLvHxK9viSuQWYf3zazUVOhXyMh.hUkw1aikFc40iH2.iHfHTYmkla8HRNh.RQtQVOhDCLh7hO73zazUFHN8Fck0iH2DiHfXUYr81XoQWd8HRNvHBHBU1Yo4VOhDSLh.RQtQVOhDiLh7hO73zazUFHN8Fck0iH1biHfXUYr81XoQWd8HhMvHBHBU1Yo4VOhDCMh.RQtQVOhDCMh7hO73zazUFHN8Fck0iH1jiHfXUYr81XoQWd8HhMvHBHBU1Yo4VOhDSMh.RQtQVOhDSMh7hO73zazUFHN8Fck0iH2DiHfXUYr81XoQWd8HBNvHBHBU1Yo4VOhDiMh.RQtQVOhDiMh7hO73zazUFHN8Fck0iH1PiHfXUYr81XoQWd8HBNvHBHBU1Yo4VOhDyLh.RQtQVOhDyLh7hO77BTgQGckIma9vCTgQGckImafDTczg1ax0iHA0FbrUFHS8VctQlHfLTXzU1YuIWd8HBTuAmHfPUZsUVKSk1YtEFc0IWY8HBMuPiHfDUcg4FcooWY8HRLuDiMh.hPP0TOhDCLvHBHIQTOhfiHf.UXzgVOh7RUyUlby8RakQWXrc1aj8BQuMVcsUlazM2KA0FbrUFHS8VctQ1KSQmb00FHPEFczUlbtMmHf3TXsUVOhPTYlEVcrQGNh3CON8FckAhSuQWY8HhMzHBHVUFauMVZzkWOhjCLh.hPkcVZt0iHwHBHE4FY8HRLh7hO73zazUFHN8Fck0iH1biHfXUYr81XoQWd8HhMvHBHBU1Yo4VOhHiHfTjaj0iHxHxK9viSuQWYf3zazUVOhXSNh.hUkw1aikFc40iH4.iHfHTYmkla8HxLh.RQtQVOhLiHu3CON8FckAhSuQWY8HhM2HBHVUFauMVZzkWOhPCLh.hPkcVZt0iHzHBHE4FY8HBMh7hO73zazUFHN8Fck0iH2DiHfXUYr81XoQWd8HRNvHBHBU1Yo4VOhTiHfTjaj0iH0HxK9viSuQWYf3zazUVOhXyMh.hUkw1aikFc40iH0.iHfHTYmkla8HhMh.RQtQVOhXiHu3CON8FckAhSuQWY8HhM4HBHVUFauMVZzkWOhbCLh.hPkcVZt0iH2HBHE4FY8HxMh7hO73zazUFHN8Fck0iH1biHfXUYr81XoQWd8HBMvHBHBU1Yo4VOhfiHfTjaj0iH3HxK9viSuQWYf3zazUVOhXyMh.hUkw1aikFc40iHz.iHfHTYmkla8HRLvHBHE4FY8HRLvHxK9viSuQWYf3zazUVOhXSNh.hUkw1aikFc40iH3.iHfHTYmkla8HRLwHBHE4FY8HRLxHxK9viSuQWYf3zazUVOhbSLh.hUkw1aikFc40iHw.CLh.hPkcVZt0iHwLiHfTjaj0iHwLiHu3CON8FckAhSuQWY8HhM2HBHVUFauMVZzkWOhXCLh.hPkcVZt0iHwPiHfTjaj0iHwPiHu3CON8FckAhSuQWY8HhM4HBHVUFauMVZzkWOhjCLh.hPkcVZt0iHwTiHfTjaj0iHwTiHu3CON8FckAhSuQWY8HxMwHBHVUFauMVZzkWOhfCLh.hPkcVZt0iHwXiHfTjaj0iHwXiHu3CON8FckAhSuQWY8HxM2HBHVUFauMVZzkWOhLCLh.hPkcVZt0iH4HBHE4FY8HRNh7hO77BTgQGckIma9vCUgIVKPEFcnAhUgwVck0iHuT0bkI2buzVYzEFam8FYuPzaiUWak4Fcy8RPsAGakAxTuUmaj8BUgI1bubTcoQWXx8xUkw1Xu0VYfP2afbTcoQWXxABUgIFHPwVX4UlbtbFb3IxK9vCSgkWYxARRD0iHwHBHVEFa0UVOhjiMh7hO7vTX4UlbfjDQ8HhLh.hUgwVck0iH1PiHu3COLEVdkIGHIQTOhLiHfXUXrUWY8HxLxHxK9vyPu4Fcx8FafjDQ8HhLh.BTgIWXsUFckIWOhzTKPkFcigFHBUlajIxK9vyPu4Fcx8FafjDQ8HBMh.BTgIWXsUFckIWOhzTKVklXxEFcuIxK9vyPu4Fcx8FafjDQ8HRMh.BTgIWXsUFckIWOhzTKFEDHGEVZtIxK9vyPu4Fcx8FafjDQ8HRLvHBHPElbg0VYzUlb8HRSszTXyQWYxAhUuwlHu3COC8lazI2arARRD0iHwLiHf.UXxEVakQWYx0iHM0BTg4lHu3COC8lazI2arARRD0iH1biHf.UXxEVakQWYx0iHH8FajABTkQVXrABUuclHu3COC8lazI2arARRD0iH2XiHf.UXxEVakQWYx0iHM0hTkMGHRUFakE1bkIxK9vCTgIWXsUFckIGHNEVak0iHM0RSoMFHw.hUuwlHfXUXrUWY8HBLtfSN4jSN4jyM1DSM3DCMx.CN4fCMh7hO7.UXxEVakQWYxAhSg0VY8HRSszTZiAhLfX0arIBHVEFa0UVOh.iK3jSN4jSN4biMwTCNwPiLvfSN3PiHu3COPElbg0VYzUlbf3TXsUVOhzTKME1bzUlbfX0arIBHVEFa0UVOh.iK3jSN4jSN4biMwTCNwPiLvfSN3PiHu3COPElbg0VYzUlbf3TXsUVOhzTKPElah.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHM0xUoQFcnIBHVEFa0UVOhTCLh7hO7.UXxEVakQWYxAhSg0VY8HRSsPza0IFao41YfbUZjIBHVEFa0UVOhDSMh7hO7.UXxEVakQWYxAhSg0VY8HRSsPza0IFao41YfP0amIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhzTKRUFafbTXo4lHfXUXrUWY8HBLtXCLv.CLv.iLyfCMwfSM2jSLvDiMh7hO7.UXxEVakQWYxAhSg0VY8HRSsXDdfbTXo4lHfXUXrUWY8HRLh7hO7.UXxEVakQWYxAhSg0VY8HRSsHUYyAxQgklah.hUgwVck0iHwHxK9vCTgIWXsUFckIGHNEVak0iHM0hQAAxQgklah.hUgwVck0iHwHxK9vCTgIWXsUFckIGHNEVak0iHM0hQRAxQgklah.hUgwVck0iHwHxK9vCTgIWXsUFckIGHNEVak0iHM0hQxUFcfL0a04FYh.hUgwVck0iHwHxK9vCTgIWXsUFckIGHNEVak0iHM0hTkMGHRUFakE1bkIBHVEFa0UVOh.iKz.CLv.CLv.SM4XCLzXCMzbyM0PiHu3COPElbg0VYzUlbf3TXsUVOhzTKSQWXxQGHTkVakIBHVEFa0UVOhLSMh7hO7.UXxEVakQWYxAhSg0VY8HRSsLTXv8lHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HRSs.UZzMFZfHTYtQlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HRSsXUZhIWXz8lHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLEcxUWafP0amcFakIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKSQmb00FHTARSuQVYh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xTzIWcsABUo0VYh.hUgwVck0iHxjiHu3COPElbg0VYzUlbf3TXsUVOhLUKAQzTRAxT2kFciglHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsHzajkGHRU1bv8layUlHfXUXrUWY8HRL1HxK9vCTgIWXsUFckIGHNEVak0iHS0RS0QWYfPTYvQGZh.hUgwVck0iH0.CLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLEcx81ZkAhUuwlHfXUXrUWY8HBLtfSN4jSN4jyM1DSM3DCMx.CN4fCMh7hO7.UXxEVakQWYxAhSg0VY8HxTsfTcsAxTTARPrwlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsfTcsAxTTARQgMFZh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0BR00FHSQmb00FHVUFah.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjARSuQVYh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0BUxElayA2ayUlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLUQQAxT441XfP0amIBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOhLUKSUTTfL0co41Yh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xTEEEHQUWXtQWZ5UlHfXUXrUWY8HhLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLUQQABUo0VYfLUZmIBHVEFa0UVOhHiHu3COPElbg0VYzUlbf3TXsUVOhPUKSkmaiABUuc1YrUlHfXUXrUWY8HRLh7hO7.UXxEVakQWYxAhSg0VY8HBUsvzauAGHT81YmwVYh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHT0hUkwFHPI2avIBHVEFa0UVOhjiHu3COPElbg0VYzUlbf3TXsUVOhPUKVUFaffTcsIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhPUKScWZtclHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HBUsLEcxUWafPEHPI2avIBHVEFa0UVOhjiHu3COPElbg0VYzUlbf3TXsUVOhXTKC8VasP0amcFakIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhXTKOQTKT81YmwVYh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHF0RQQ0BUuc1YrUlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQsbUXn0BUuc1YrUlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQsLDZu0BUuc1YrUlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQs.EZg0BUuc1YrUlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQsPDa40BUuc1YrUlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQsHUY10BUuc1YrUlHfXUXrUWY8HRLh7hO7.UXxEVakQWYxAhSg0VY8HhQsLzas0BUnIWYh.hUgwVck0iHsHCLh7hO7.UXxEVakQWYxAhSg0VY8HhQsLzas0hTgQWZuIBHVEFa0UVOh.iK0HxK9vCTgIWXsUFckIGHNEVak0iHF0xPu0VKAQGcgM1Zh.hUgwVck0iH0HxK9vCTgIWXsUFckIGHNEVak0iHF0xPu0VKRUFakE1bkIBHVEFa0UVOhTCLh7hO7.UXxEVakQWYxAhSg0VY8HhQsLzas0xQgklah.hUgwVck0iHxHxK9vCTgIWXsUFckIGHNEVak0iHF0xSD0xQgklah.hUgwVck0iHwTCLh7hO7.UXxEVakQWYxAhSg0VY8HhQs7DQs7TczAWczIBHVEFa0UVOh.iKw.CLv.CLv.SLzjCLwDiMwDSNyfiHu3COPElbg0VYzUlbf3TXsUVOhXTKOQTKT8lakIBHVEFa0UVOhLiLv.iHu3COPElbg0VYzUlbf3TXsUVOhXTKEEUKQECHT81YmwVYh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHF0RQQ0RTw.xQgklah.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHF0RQQ0RT0.BUuc1YrUlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQsTTTsDUMfbTXo4lHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQsTTTsDkLfbTXo4lHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQsTTTsD0LfbTXo4lHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQsTTTsDEMfbTXo4lHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhQsbUXn0RSo4lHfXUXrUWY8HRM0.iHu3COPElbg0VYzUlbf3TXsUVOhXTKWEFZszTX3IBHVEFa0UVOhPCLv.iHu3COPElbg0VYzUlbf3TXsUVOhXTKWEFZs.UYjEFah.hUgwVck0iH0TCLh7hO7.UXxEVakQWYxAhSg0VY8HhQsLDZu0xTk4FYh.hUgwVck0iHv3RMh7hO7.UXxEVakQWYxAhSg0VY8HhQs.EZg0xTk4FYh.hUgwVck0iHv3hLv.CLv.CLvHSN3.iLyHiLyfyM2HxK9vCTgIWXsUFckIGHNEVak0iHF0BQrkWKSUlajIBHVEFa0UVOh.iKw.CLv.CLv.SLzjCLwDiMwDSNyfiHu3COPElbg0VYzUlbf3TXsUVOhXTKRUlcsLUYtQlHfXUXrUWY8HBLtHCLv.CLv.CLxjCNvHyLxHyL3byMh7hO7.UXxEVakQWYxAhSg0VY8HhQsLDZu0BQkAGcnIBHVEFa0UVOh.iKw.CLv.CLv.SLzjCLwDiMwDSNyfiHu3COPElbg0VYzUlbf3TXsUVOhXTKCg1asHUXzUlHfXUXrUWY8HBLtDCLv.CLv.CLwPSNvDSL1DSL4LCNh7hO7.UXxEVakQWYxAhSg0VY8HhQs.EZg0BQkAGcnIBHVEFa0UVOh.iK0HxK9vCTgIWXsUFckIGHNEVak0iHF0BTnEVKREFckIBHVEFa0UVOh.iK0HxK9vCTgIWXsUFckIGHNEVak0iHF0BTnEVKFUVYjIVXislHfXUXrUWY8HBLtTiHu3COPElbg0VYzUlbf3TXsUVOhXTKDwVdsvjKTkVakIBHVEFa0UVOh.iKxTiHu3COPElbg0VYzUlbf3TXsUVOhXTKDwVdsHkKTkVakIBHVEFa0UVOh.iK0HxK9vCTgIWXsUFckIGHNEVak0iHF0BQrkWKFUVYjIVXislHfXUXrUWY8HBLtLCLv.CLv.SLwjiLvjiL3jSM0.CNh7hO7.UXxEVakQWYxAhSg0VY8HhQsHUY10xUoQFcnIBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOhXTKRUlcsPTXsAmHfXUXrUWY8HBLtTiHu3COPElbg0VYzUlbf3TXsUVOhXTKRUlcsLUZ5UlHfXUXrUWY8HBLtPSN4jSN4jCMvLSN0LSM0HiLzXSLh7hO7.UXxEVakQWYxAhSg0VY8HxTuUmajARSuQVYh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHSQmbfXCHTUmakImHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTzIGH0.BU04VYxIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLEcxABMfPUctUlbh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHSQmbfLCHTUmakImHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTzIGHx.BU04VYxIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLEcxARLfPUctUlbh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHOAWYtAxTzIGHFklbyQmHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HBRuwFYf.UYjEFafP0amIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOh.EagkGHM8FYkIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhDTcz8FHLU1YgQ2ah.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHSQmbusFHN8VZyUFHT81Yh.hUgwVck0iHwHxK9vCTgIWXsUFckIGHNEVak0iHBUlajAhTg41YkIBHVEFa0UVOhHiHu3COPElbg0VYzUlbf3TXsUVOh.0arkGHBUlajUlbfP0amIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhzzajAhTg41YkIBHVEFa0UVOh.iKxTiHu3COPElbg0VYzUlbf3TXsUVOhDTcz8FHM8FYfP0amIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLTdiwVYfzzajUFHScWZzMFZh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHCk2XrUFHPwVcyABUuclHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HBTkQVXrAhSuk1bkABUuclHfXUXrUWY8HRLh7hO7.UXxEVakQWYxAhSg0VY8HRSoQVZfbTcoQWXxABUuclHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HhS00FHH81bzABTgIWXsMmHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYfH0auQGHwHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHR81azAhLh.hUgwVck0iH4HxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfLiHfXUXrUWY8HhLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYfH0auQGHzHBHVEFa0UVOhTiHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHR81azARMh.hUgwVck0iHzHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfXiHfXUXrUWY8HRMh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYfH0auQGH2HBHVEFa0UVOhHiHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHR81azABNh.hUgwVck0iH2HxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfjiHfXUXrUWY8HBMh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYfH0auQGHw.iHfXUXrUWY8HRNh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYfH0auQGHwDiHfXUXrUWY8HRLvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfDiLh.hUgwVck0iH2HxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfDyLh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfDCMh.hUgwVck0iH4HxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfDSMh.hUgwVck0iHxHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfDiMh.hUgwVck0iH0HxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfDyMh.hUgwVck0iHzHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfDCNh.hUgwVck0iH0HxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfDSNh.hUgwVck0iHxHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfHCLh.hUgwVck0iH2HxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfHSLh.hUgwVck0iHzHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfHiLh.hUgwVck0iH4HxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjAhTu8FcfHyLh.hUgwVck0iHw.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHR81azAhLzHBHVEFa0UVOhbiHu3COPElbg0VYzUlbf3TXsUVOhLUKDQGHCg1axQFHRIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARLh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABU4AWYfHiHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYfPUdvUFHyHBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkABMh.hUgwVck0iHwHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABU4AWYfTiHfXUXrUWY8HRLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYfPUdvUFH1HBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkAxMh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABU4AWYffiHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYfPUdvUFH4HBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARLvHBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARLwHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARLxHBHVEFa0UVOhHiHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARLyHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARLzHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARL0HBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARL1HBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARL2HBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARL3HBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkARL4HBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkAhLvHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkAhLwHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkAhLxHBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkAhLyHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHTkGbkAhLzHBHVEFa0UVOhHiHu3COPElbg0VYzUlbf3TXsUVOhLUKDQGHCg1axQFHTIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHP81bfDiHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYf.0ayAhLh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABTuMGHyHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHP81bfPiHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYf.0ayARMh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABTuMGH1HBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHP81bfbiHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYf.0ayABNh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABTuMGH4HBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHP81bfDCLh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABTuMGHwDiHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYf.0ayARLxHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHP81bfDyLh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABTuMGHwPiHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYf.0ayARL0HBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHP81bfDiMh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABTuMGHwbiHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYf.0ayARL3HBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHP81bfDSNh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABTuMGHx.iHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYf.0ayAhLwHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHP81bfHiLh.hUgwVck0iHvHxK9vCTgIWXsUFckIGHNEVak0iHS0xPn8lbjABTuMGHxLiHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYf.0ayAhLzHBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKDQGHCg1axQFHPIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhLUKCg1axQFHI4FYkgmHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLDZuIGYf.UXmUlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTs.UXzQWYx4FHI4FYkgmHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HxTsLUQQABTrEVdfP0amIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhPUKPwVX4ABUuc1YrUlHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HBUs.EagkmXgM1ZfP0amcFakIBHVEFa0UVOh.iHu3COPElbg0VYzUlbf3TXsUVOhPUKTIWXisFHI4FYkgmHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HRSgMGckIGHTUmakIBHVEFa0UVOhPCMvHxK9vCTgIWXsUFckIGHNEVak0iHMkDQIAxS0QmHfXUXrUWY8HBLh7hO7.UXxEVakQWYxAhSg0VY8HRSggGHV8VZiU1bh.hUgwVck0iH1PiHu3COPElbg0VYzUlbf3TXsUVOhXUYrAxTk41boQWZ1kFc4IBHVEFa0UVOhDCLvHxK9vCTgIWXsUFckIGHNEVak0iHOAWYtAxTzIWZtcFH1HBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOh7Dbk4FHSQmbo41YfTiHfXUXrUWY8HRLh7hO7.UXxEVakQWYxAhSg0VY8HxSvUlafLEcxklamABMh.hUgwVck0iHwHxK9vCTgIWXsUFckIGHNEVak0iHOAWYtAxTzIWZtcFHyHBHVEFa0UVOhDiHu3COPElbg0VYzUlbf3TXsUVOh7Dbk4FHSQmbo41YfHiHfXUXrUWY8HRLh7hO7.UXxEVakQWYxAhSg0VY8HxSvUlafLEcxklamARLh.hUgwVck0iHwHxK9vCTgIWXsUFckIGHNEVak0iHMkFYoAxQ0kFcgIGHSQmb1HBHVEFa0UVOhTiHu3COPElbg0VYzUlbf3TXsUVOhzTZjkFHGUWZzElbfLEcxUiHfXUXrUWY8HBMh7hO7.UXxEVakQWYxAhSg0VY8HRSoQVZfbTcoQWXxAxTzIGMh.hUgwVck0iHyHxK9vCTgIWXsUFckIGHNEVak0iHMkFYoAxQ0kFcgIGHSQmbyHBHVEFa0UVOhHiHu3COPElbg0VYzUlbf3TXsUVOhzTZjkFHGUWZzElbfLEcxIiHfXUXrUWY8HRLh7hO7.UXxEVakQWYxAhSg0VY8HRSoQVZfbTcoQWXxAxTzIWLh.hUgwVck0iHvHxK9vCQB4TXsUFHVEFa0UVOhDzQMwjLFclHu3COTUmak0BTgQGZfXUXrUWY8HxKUMWYxM2KsUFcgw1YuQ1KD81X00VYtQ2buDTavwVYfL0a04FYuDzQMwjLuPUctU1KTUmak8EQkYVX0wFctDzQMwjLFclHu3COuDTPG80TTEDUE4C."
 									}
 ,
 									"fileref" : 									{
-										"name" : "chipsounds",
-										"filename" : "chipsounds.maxsnap",
+										"name" : "Ample Guitar M II Lite",
+										"filename" : "Ample Guitar M II Lite_20210621_1.maxsnap",
 										"filepath" : "~/Documents/Max 8/Snapshots",
 										"filepos" : -1,
-										"snapshotfileid" : "eb3b7372874a63a3f9b09dc509448931"
-									}
-
-								}
-, 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "Crystal",
-									"origin" : "chipsounds.vstinfo",
-									"type" : "VST",
-									"subtype" : "Instrument",
-									"embed" : 0,
-									"fileref" : 									{
-										"name" : "Crystal",
-										"filename" : "Crystal.maxsnap",
-										"filepath" : "~/Documents/Max 8/Snapshots",
-										"filepos" : -1,
-										"snapshotfileid" : "045ea8c956ba6122967594d61c2643de"
+										"snapshotfileid" : "9a6da49478cda6a5cae18fc6476d31dc"
 									}
 
 								}
@@ -16134,7 +17594,7 @@
 				"box" : 				{
 					"fontsize" : 13.0,
 					"id" : "obj-238",
-					"items" : [ "AGML2", ",", "chipcrusher2", ",", "chipsounds Multi", ",", "chipsounds", ",", "chipspeech", ",", "Crystal_Synth", ",", "Emissary", ",", "MAGC", ",", "MAmp", ",", "MAnalyzer", ",", "MAutoAlign", ",", "MAutoDynamicEq", ",", "MAutoEqualizer", ",", "MAutoEqualizerLP", ",", "MAutopan", ",", "MAutopanMB", ",", "MAutoPitch", ",", "MAutoStereoFix", ",", "MAutoVolume", ",", "MBandPass", ",", "MBassador", ",", "MBitFun", ",", "MBitFunMB", ",", "MCabinet", ",", "MCabinetMB", ",", "MCCGenerator", ",", "MChannelMatrix", ",", "MCharacter", ",", "MCharmVerb", ",", "MChorusMB", ",", "MComb", ",", "MCombMB", ",", "MCompare", ",", "MCompressor", ",", "MConvolutionEZ", ",", "MConvolutionMB", ",", "MDelayMB", ",", "MDistortionMB", ",", "MDoubleTracker", ",", "MDoubleTrackerMB", ",", "MDrumEnhancer", ",", "MDrumLeveler", ",", "MDrummer", ",", "MDrummer16out", ",", "MDrummer1out", ",", "MDynamicEq", ",", "MDynamics", ",", "MDynamicsMB", ",", "MDynamicsMBLarge", ",", "MEqualizer", ",", "MEqualizerLP", ",", "MFilter", ",", "MFlanger", ",", "MFlangerMB", ",", "MFreeformAnalogEq", ",", "MFreeformEqualizer", ",", "MFreeformPhase", ",", "MFreqShifter", ",", "MFreqShifterMB", ",", "MGranularMB", ",", "MHarmonizerMB", ",", "MLimiterMB", ",", "MLimiterX", ",", "MLoudnessAnalyzer", ",", "MMetronome", ",", "MModernCompressor", ",", "MMorph", ",", "MMultiAnalyzer", ",", "MNoiseGenerator", ",", "MNotepad", ",", "MOscillator", ",", "MOscilloscope", ",", "MPhaser", ",", "MPhaserMB", ",", "MPhatik", ",", "MPolySaturator", ",", "MPowerSynth", ",", "MRatio", ",", "MRatioMB", ",", "MRecorder", ",", "MReverb", ",", "MReverbMB", ",", "MRhythmizer", ",", "MRhythmizerMB", ",", "MRingModulator", ",", "MRingModulatorMB", ",", "MRotary", ",", "MSaturator", ",", "MSaturatorMB", ",", "MSoundFactory", ",", "MSoundFactory6out", ",", "MSpectralDelay", ",", "MSpectralDynamics", ",", "MSpectralDynamicsMini", ",", "MSpectralPan", ",", "MStereoExpander", ",", "MStereoGenerator", ",", "MStereoProcessor", ",", "MStereoScope", ",", "MStereoSpread", ",", "MSuperLooper", ",", "MTransformer", ",", "MTransient", ",", "MTransientMB", ",", "MTremolo", ",", "MTremoloMB", ",", "MTuner", ",", "MTurboComp", ",", "MTurboCompMB", ",", "MTurboDelay", ",", "MTurboDelayMB", ",", "MTurboEQ", ",", "MTurboReverb", ",", "MTurboReverbMB", ",", "MUltraMaximizer", ",", "MUnison", ",", "MUtility", ",", "MVibrato", ",", "MVibratoMB", ",", "MVintageRotary", ",", "MVocoder", ",", "MWaveFolder", ",", "MWaveFolderMB", ",", "MWaveShaper", ",", "MWaveShaperMB", ",", "MWobbler", ",", "MWobblerMB", ",", "MXXX", ",", "MXXX1", ",", "TS-999" ],
+					"items" : [ "AGML2_Synth", ",", "chipcrusher2", ",", "chipsounds Multi", ",", "chipsounds", ",", "chipspeech", ",", "Crystal_Synth", ",", "Emissary", ",", "MAGC", ",", "MAmp", ",", "MAnalyzer", ",", "MAutoAlign", ",", "MAutoDynamicEq", ",", "MAutoEqualizer", ",", "MAutoEqualizerLP", ",", "MAutopan", ",", "MAutopanMB", ",", "MAutoPitch", ",", "MAutoStereoFix", ",", "MAutoVolume", ",", "MBandPass", ",", "MBassador", ",", "MBitFun", ",", "MBitFunMB", ",", "MCabinet", ",", "MCabinetMB", ",", "MCCGenerator", ",", "MChannelMatrix", ",", "MCharacter", ",", "MCharmVerb", ",", "MChorusMB", ",", "MComb", ",", "MCombMB", ",", "MCompare", ",", "MCompressor", ",", "MConvolutionEZ", ",", "MConvolutionMB", ",", "MDelayMB", ",", "MDistortionMB", ",", "MDoubleTracker", ",", "MDoubleTrackerMB", ",", "MDrumEnhancer", ",", "MDrumLeveler", ",", "MDrummer", ",", "MDrummer16out", ",", "MDrummer1out", ",", "MDynamicEq", ",", "MDynamics", ",", "MDynamicsMB", ",", "MDynamicsMBLarge", ",", "MEqualizer", ",", "MEqualizerLP", ",", "MFilter", ",", "MFlanger", ",", "MFlangerMB", ",", "MFreeformAnalogEq", ",", "MFreeformEqualizer", ",", "MFreeformPhase", ",", "MFreqShifter", ",", "MFreqShifterMB", ",", "MGranularMB", ",", "MHarmonizerMB", ",", "MLimiterMB", ",", "MLimiterX", ",", "MLoudnessAnalyzer", ",", "MMetronome", ",", "MModernCompressor", ",", "MMorph", ",", "MMultiAnalyzer", ",", "MNoiseGenerator", ",", "MNotepad", ",", "MOscillator", ",", "MOscilloscope", ",", "MPhaser", ",", "MPhaserMB", ",", "MPhatik", ",", "MPolySaturator", ",", "MPowerSynth", ",", "MRatio", ",", "MRatioMB", ",", "MRecorder", ",", "MReverb", ",", "MReverbMB", ",", "MRhythmizer", ",", "MRhythmizerMB", ",", "MRingModulator", ",", "MRingModulatorMB", ",", "MRotary", ",", "MSaturator", ",", "MSaturatorMB", ",", "MSoundFactory", ",", "MSoundFactory6out", ",", "MSpectralDelay", ",", "MSpectralDynamics", ",", "MSpectralDynamicsMini", ",", "MSpectralPan", ",", "MStereoExpander", ",", "MStereoGenerator", ",", "MStereoProcessor", ",", "MStereoScope", ",", "MStereoSpread", ",", "MSuperLooper", ",", "MTransformer", ",", "MTransient", ",", "MTransientMB", ",", "MTremolo", ",", "MTremoloMB", ",", "MTuner", ",", "MTurboComp", ",", "MTurboCompMB", ",", "MTurboDelay", ",", "MTurboDelayMB", ",", "MTurboEQ", ",", "MTurboReverb", ",", "MTurboReverbMB", ",", "MUltraMaximizer", ",", "MUnison", ",", "MUtility", ",", "MVibrato", ",", "MVibratoMB", ",", "MVintageRotary", ",", "MVocoder", ",", "MWaveFolder", ",", "MWaveFolderMB", ",", "MWaveShaper", ",", "MWaveShaperMB", ",", "MWobbler", ",", "MWobblerMB", ",", "MXXX", ",", "MXXX1", ",", "TS-999" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -19686,7 +21146,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 342.0, 209.0, 29.5, 22.0 ],
-									"text" : "196"
+									"text" : "97"
 								}
 
 							}
@@ -20484,7 +21944,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 238.0, 538.0, 140.0, 22.0 ],
-									"text" : "0 196 254 47 0 47"
+									"text" : "0 97 254 47 0 47"
 								}
 
 							}
@@ -21465,8 +22925,8 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial Bold" ],
+									"fontsize" : [ 11.0 ],
 									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
@@ -21476,8 +22936,8 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
 									"fontname" : [ "Arial Bold" ],
+									"fontsize" : [ 10.0 ],
 									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
@@ -21487,9 +22947,6 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -21498,7 +22955,10 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-
+,
+									"fontname" : [ "Arial" ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -21524,13 +22984,6 @@
 , 							{
 								"name" : "Luca",
 								"default" : 								{
-									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-									"fontname" : [ "Open Sans Semibold" ],
-									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -21540,7 +22993,14 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-
+,
+									"fontname" : [ "Open Sans Semibold" ],
+									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -21549,8 +23009,8 @@
 , 							{
 								"name" : "M4L 10 Bold",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
 									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.25 ]
 								}
 ,
@@ -21570,8 +23030,8 @@
 , 							{
 								"name" : "Matt",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -21855,13 +23315,6 @@
 , 							{
 								"name" : "WTF",
 								"default" : 								{
-									"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
-									"fontsize" : [ 18.0 ],
-									"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
-									"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
-									"fontname" : [ "HydrogenType" ],
-									"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ],
-									"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -21871,7 +23324,14 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-
+,
+									"fontname" : [ "HydrogenType" ],
+									"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
+									"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
+									"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
+									"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ],
+									"fontsize" : [ 18.0 ],
+									"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ]
 								}
 ,
 								"parentstyle" : "",
@@ -21880,13 +23340,6 @@
 , 							{
 								"name" : "classic",
 								"default" : 								{
-									"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"fontsize" : [ 9.0 ],
-									"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"fontname" : [ "Geneva" ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
@@ -21895,7 +23348,14 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-
+,
+									"fontname" : [ "Geneva" ],
+									"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+									"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+									"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 9.0 ],
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -21951,8 +23411,8 @@
 								"default" : 								{
 									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -21990,9 +23450,9 @@
 , 							{
 								"name" : "classicNodes",
 								"default" : 								{
-									"fontsize" : [ 9.0 ],
 									"color" : [ 0.839216, 0.839216, 0.839216, 1.0 ],
-									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
+									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+									"fontsize" : [ 9.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -22096,9 +23556,6 @@
 , 							{
 								"name" : "dark-night-patch",
 								"default" : 								{
-									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
-									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -22107,7 +23564,10 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-
+,
+									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
+									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ]
 								}
 ,
 								"parentstyle" : "",
@@ -22121,10 +23581,6 @@
 , 							{
 								"name" : "jpatcher002",
 								"default" : 								{
-									"fontsize" : [ 9.5 ],
-									"fontname" : [ "Ableton Sans Book" ],
-									"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
-									"patchlinecolor" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
@@ -22133,7 +23589,11 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-
+,
+									"fontname" : [ "Ableton Sans Book" ],
+									"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
+									"fontsize" : [ 9.5 ],
+									"patchlinecolor" : [ 0.65098, 0.65098, 0.65098, 0.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -22142,14 +23602,6 @@
 , 							{
 								"name" : "jpink",
 								"default" : 								{
-									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
-									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
@@ -22159,7 +23611,15 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-
+,
+									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
+									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -22324,8 +23784,8 @@
 , 							{
 								"name" : "purple",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-									"bgcolor" : [ 0.304029, 0.250694, 0.285628, 1.0 ]
+									"bgcolor" : [ 0.304029, 0.250694, 0.285628, 1.0 ],
+									"textcolor_inverse" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -22362,9 +23822,9 @@
 , 							{
 								"name" : "stb001",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
 									"fontname" : [ "Arial Bold" ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -22403,8 +23863,8 @@
 , 							{
 								"name" : "test",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -22413,10 +23873,10 @@
 , 							{
 								"name" : "whitey",
 								"default" : 								{
-									"fontsize" : [ 36.0 ],
 									"fontname" : [ "Dirty Ego" ],
 									"selectioncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 									"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+									"fontsize" : [ 36.0 ],
 									"patchlinecolor" : [ 0.199068, 0.062496, 0.060031, 0.9 ]
 								}
 ,
@@ -22509,7 +23969,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.611764705882353, 0.0, 1.0, 1.0 ],
+					"bgcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"blinkcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-202",
 					"maxclass" : "button",
@@ -22961,7 +24421,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.611764705882353, 0.0, 1.0, 1.0 ],
+					"bgcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : 36.0,
 					"id" : "obj-190",
 					"maxclass" : "number",
@@ -22975,7 +24435,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.611764705882353, 0.0, 1.0, 1.0 ],
+					"bgcolor" : [ 0.0, 1.0, 0.28235294117647, 1.0 ],
 					"fontsize" : 36.0,
 					"id" : "obj-191",
 					"maxclass" : "number",
@@ -23038,17 +24498,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-185",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ -224.5, 643.0, 45.0, 22.0 ],
-					"text" : "s turbo"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-175",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -23067,32 +24516,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 412.5, 143.5, 160.0, 60.0 ],
 					"text" : "Pressure becomes velocity.\nReleasing fret to reposition finger does not trigger bottom note automatically"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.996078431372549, 0.36078431372549, 0.36078431372549, 0.988235294117647 ],
-					"bubble" : 1,
-					"bubbleusescolors" : 1,
-					"id" : "obj-173",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ -199.0, 617.0, 98.0, 24.0 ],
-					"text" : "Turbo"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-174",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ -225.0, 617.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -25027,7 +26450,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 153.0, 548.900077999999894, 50.0, 22.0 ],
-									"text" : "196"
+									"text" : "97"
 								}
 
 							}
@@ -25198,7 +26621,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 163.0, 464.0, 140.0, 22.0 ],
-									"text" : "1 196 193 85 0 0 107"
+									"text" : "1 97 193 85 0 0 107"
 								}
 
 							}
@@ -26151,7 +27574,7 @@
 									"patching_rect" : [ 153.0, 615.0, 160.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 177.0, 172.0, 22.0 ],
-									"text" : "FRE 1 196 193 85 0 0 107"
+									"text" : "FRE 1 97 193 85 0 0 107"
 								}
 
 							}
@@ -26835,8 +28258,8 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial Bold" ],
+									"fontsize" : [ 11.0 ],
 									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
@@ -26846,8 +28269,8 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
 									"fontname" : [ "Arial Bold" ],
+									"fontsize" : [ 10.0 ],
 									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
@@ -26857,9 +28280,6 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -26868,7 +28288,10 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-
+,
+									"fontname" : [ "Arial" ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -26894,13 +28317,6 @@
 , 							{
 								"name" : "Luca",
 								"default" : 								{
-									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-									"fontname" : [ "Open Sans Semibold" ],
-									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -26910,7 +28326,14 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-
+,
+									"fontname" : [ "Open Sans Semibold" ],
+									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -26919,8 +28342,8 @@
 , 							{
 								"name" : "M4L 10 Bold",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
 									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.25 ]
 								}
 ,
@@ -26940,8 +28363,8 @@
 , 							{
 								"name" : "Matt",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -27225,13 +28648,6 @@
 , 							{
 								"name" : "WTF",
 								"default" : 								{
-									"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
-									"fontsize" : [ 18.0 ],
-									"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
-									"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
-									"fontname" : [ "HydrogenType" ],
-									"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ],
-									"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -27241,7 +28657,14 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-
+,
+									"fontname" : [ "HydrogenType" ],
+									"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
+									"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
+									"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
+									"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ],
+									"fontsize" : [ 18.0 ],
+									"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ]
 								}
 ,
 								"parentstyle" : "",
@@ -27250,13 +28673,6 @@
 , 							{
 								"name" : "classic",
 								"default" : 								{
-									"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"fontsize" : [ 9.0 ],
-									"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"fontname" : [ "Geneva" ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
@@ -27265,7 +28681,14 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-
+,
+									"fontname" : [ "Geneva" ],
+									"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+									"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+									"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 9.0 ],
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -27321,8 +28744,8 @@
 								"default" : 								{
 									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -27360,9 +28783,9 @@
 , 							{
 								"name" : "classicNodes",
 								"default" : 								{
-									"fontsize" : [ 9.0 ],
 									"color" : [ 0.839216, 0.839216, 0.839216, 1.0 ],
-									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
+									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+									"fontsize" : [ 9.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -27466,9 +28889,6 @@
 , 							{
 								"name" : "dark-night-patch",
 								"default" : 								{
-									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
-									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -27477,7 +28897,10 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-
+,
+									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
+									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ]
 								}
 ,
 								"parentstyle" : "",
@@ -27491,10 +28914,6 @@
 , 							{
 								"name" : "jpatcher002",
 								"default" : 								{
-									"fontsize" : [ 9.5 ],
-									"fontname" : [ "Ableton Sans Book" ],
-									"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
-									"patchlinecolor" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
@@ -27503,7 +28922,11 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-
+,
+									"fontname" : [ "Ableton Sans Book" ],
+									"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
+									"fontsize" : [ 9.5 ],
+									"patchlinecolor" : [ 0.65098, 0.65098, 0.65098, 0.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -27512,14 +28935,6 @@
 , 							{
 								"name" : "jpink",
 								"default" : 								{
-									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
-									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
@@ -27529,7 +28944,15 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-
+,
+									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
+									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -27694,8 +29117,8 @@
 , 							{
 								"name" : "purple",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-									"bgcolor" : [ 0.304029, 0.250694, 0.285628, 1.0 ]
+									"bgcolor" : [ 0.304029, 0.250694, 0.285628, 1.0 ],
+									"textcolor_inverse" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -27732,9 +29155,9 @@
 , 							{
 								"name" : "stb001",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
 									"fontname" : [ "Arial Bold" ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -27773,8 +29196,8 @@
 , 							{
 								"name" : "test",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -27783,10 +29206,10 @@
 , 							{
 								"name" : "whitey",
 								"default" : 								{
-									"fontsize" : [ 36.0 ],
 									"fontname" : [ "Dirty Ego" ],
 									"selectioncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 									"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+									"fontsize" : [ 36.0 ],
 									"patchlinecolor" : [ 0.199068, 0.062496, 0.060031, 0.9 ]
 								}
 ,
@@ -29433,7 +30856,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 425.0, 483.0, 53.0, 35.0 ],
-									"text" : "range 0 44"
+									"text" : "range -1. 1."
 								}
 
 							}
@@ -29717,9 +31140,7 @@
 									"patching_rect" : [ 100.858245999999994, 442.0, 232.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 6.0, 87.0, 138.0, 32.0 ],
-									"setminmax" : [ 0.0, 44.0 ],
 									"setstyle" : 5,
-									"settype" : 0,
 									"slidercolor" : [ 0.811765, 0.372549, 0.372549, 1.0 ],
 									"varname" : "scroller"
 								}
@@ -30888,7 +32309,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 188.0, 255.0, 95.0, 22.0 ],
-									"text" : "/hover 2.007874"
+									"text" : "/hover 1.403053"
 								}
 
 							}
@@ -33680,7 +35101,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-267", 1 ],
+					"order" : 1,
+					"source" : [ "obj-107", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-306", 0 ],
+					"order" : 0,
 					"source" : [ "obj-107", 0 ]
 				}
 
@@ -33860,6 +35290,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-125", 0 ],
 					"source" : [ "obj-130", 0 ]
 				}
@@ -34009,6 +35446,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-270", 0 ],
+					"source" : [ "obj-158", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-294", 0 ],
+					"source" : [ "obj-158", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"order" : 0,
 					"source" : [ "obj-164", 0 ]
@@ -34073,13 +35524,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-58", 0 ],
 					"source" : [ "obj-17", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-185", 0 ],
-					"source" : [ "obj-174", 0 ]
 				}
 
 			}
@@ -34729,7 +36173,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-269", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-268", 1 ]
 				}
 
@@ -34737,7 +36181,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-310", 1 ],
-					"order" : 2,
+					"order" : 3,
 					"source" : [ "obj-268", 1 ]
 				}
 
@@ -34746,6 +36190,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-347", 0 ],
 					"order" : 0,
+					"source" : [ "obj-268", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-360", 0 ],
+					"order" : 1,
 					"source" : [ "obj-268", 1 ]
 				}
 
@@ -34769,6 +36221,13 @@
 					"destination" : [ "obj-281", 1 ],
 					"midpoints" : [ 513.5, 571.0, 291.0, 571.0 ],
 					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-295", 0 ],
+					"source" : [ "obj-270", 0 ]
 				}
 
 			}
@@ -34798,6 +36257,30 @@
 				"patchline" : 				{
 					"destination" : [ "obj-349", 0 ],
 					"source" : [ "obj-273", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-297", 0 ],
+					"order" : 2,
+					"source" : [ "obj-274", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-300", 0 ],
+					"order" : 0,
+					"source" : [ "obj-274", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-308", 0 ],
+					"order" : 1,
+					"source" : [ "obj-274", 0 ]
 				}
 
 			}
@@ -34900,6 +36383,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-267", 0 ],
+					"order" : 1,
+					"source" : [ "obj-287", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-359", 0 ],
+					"order" : 0,
 					"source" : [ "obj-287", 1 ]
 				}
 
@@ -34908,13 +36400,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-289", 1 ],
 					"source" : [ "obj-288", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"source" : [ "obj-289", 0 ]
 				}
 
 			}
@@ -34931,6 +36416,41 @@
 					"destination" : [ "obj-7", 0 ],
 					"order" : 1,
 					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-274", 0 ],
+					"source" : [ "obj-290", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-274", 0 ],
+					"source" : [ "obj-292", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-274", 0 ],
+					"source" : [ "obj-293", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-274", 0 ],
+					"source" : [ "obj-294", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-274", 0 ],
+					"source" : [ "obj-295", 0 ]
 				}
 
 			}
@@ -34957,43 +36477,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-305", 0 ],
-					"source" : [ "obj-303", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-267", 1 ],
-					"source" : [ "obj-304", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-306", 0 ],
-					"source" : [ "obj-304", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-304", 0 ],
-					"source" : [ "obj-305", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-267", 1 ],
-					"source" : [ "obj-306", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-291", 0 ],
 					"source" : [ "obj-307", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-308", 1 ]
 				}
 
 			}
@@ -35113,6 +36605,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-109", 0 ],
 					"source" : [ "obj-329", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-290", 0 ],
+					"source" : [ "obj-33", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-46", 0 ],
+					"source" : [ "obj-33", 1 ]
 				}
 
 			}
@@ -35277,6 +36783,34 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-352", 0 ],
+					"source" : [ "obj-351", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-353", 0 ],
+					"source" : [ "obj-352", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-356", 0 ],
+					"source" : [ "obj-353", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-274", 0 ],
+					"source" : [ "obj-356", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
 					"source" : [ "obj-36", 0 ]
 				}
@@ -35326,15 +36860,22 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-259", 0 ],
-					"source" : [ "obj-47", 0 ]
+					"destination" : [ "obj-292", 0 ],
+					"source" : [ "obj-46", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-267", 0 ],
-					"source" : [ "obj-47", 3 ]
+					"destination" : [ "obj-51", 0 ],
+					"source" : [ "obj-46", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-259", 0 ],
+					"source" : [ "obj-47", 0 ]
 				}
 
 			}
@@ -35363,6 +36904,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-157", 1 ],
 					"source" : [ "obj-50", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-158", 0 ],
+					"source" : [ "obj-51", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-293", 0 ],
+					"source" : [ "obj-51", 0 ]
 				}
 
 			}
@@ -35747,14 +37302,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "chipsounds.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../../Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Crystal.maxsnap",
+				"name" : "Ample Guitar M II Lite_20210621_1.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../../Snapshots",
 				"type" : "mx@s",
@@ -35835,8 +37383,8 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
-					"fontsize" : [ 11.0 ],
 					"fontname" : [ "Arial Bold" ],
+					"fontsize" : [ 11.0 ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 				}
 ,
@@ -35846,8 +37394,8 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
 					"fontname" : [ "Arial Bold" ],
+					"fontsize" : [ 10.0 ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 				}
 ,
@@ -35857,9 +37405,6 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
-					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial" ],
-					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -35868,7 +37413,10 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-
+,
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"fontsize" : [ 11.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -35894,13 +37442,6 @@
 , 			{
 				"name" : "Luca",
 				"default" : 				{
-					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-					"fontname" : [ "Open Sans Semibold" ],
-					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -35910,7 +37451,14 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"fontname" : [ "Open Sans Semibold" ],
+					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -35919,8 +37467,8 @@
 , 			{
 				"name" : "M4L 10 Bold",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
 					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.25 ]
 				}
 ,
@@ -35940,8 +37488,8 @@
 , 			{
 				"name" : "Matt",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -36225,13 +37773,6 @@
 , 			{
 				"name" : "WTF",
 				"default" : 				{
-					"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
-					"fontsize" : [ 18.0 ],
-					"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
-					"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
-					"fontname" : [ "HydrogenType" ],
-					"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ],
-					"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -36241,7 +37782,14 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"fontname" : [ "HydrogenType" ],
+					"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
+					"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
+					"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
+					"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ],
+					"fontsize" : [ 18.0 ],
+					"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ]
 				}
 ,
 				"parentstyle" : "",
@@ -36250,13 +37798,6 @@
 , 			{
 				"name" : "classic",
 				"default" : 				{
-					"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-					"fontsize" : [ 9.0 ],
-					"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-					"fontname" : [ "Geneva" ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
-					"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
@@ -36265,7 +37806,14 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-
+,
+					"fontname" : [ "Geneva" ],
+					"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+					"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+					"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontsize" : [ 9.0 ],
+					"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -36321,8 +37869,8 @@
 				"default" : 				{
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-					"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -36360,9 +37908,9 @@
 , 			{
 				"name" : "classicNodes",
 				"default" : 				{
-					"fontsize" : [ 9.0 ],
 					"color" : [ 0.839216, 0.839216, 0.839216, 1.0 ],
-					"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
+					"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+					"fontsize" : [ 9.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -36466,9 +38014,6 @@
 , 			{
 				"name" : "dark-night-patch",
 				"default" : 				{
-					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
-					"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -36477,7 +38022,10 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-
+,
+					"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ]
 				}
 ,
 				"parentstyle" : "",
@@ -36491,10 +38039,6 @@
 , 			{
 				"name" : "jpatcher002",
 				"default" : 				{
-					"fontsize" : [ 9.5 ],
-					"fontname" : [ "Ableton Sans Book" ],
-					"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
-					"patchlinecolor" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
@@ -36503,7 +38047,11 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-
+,
+					"fontname" : [ "Ableton Sans Book" ],
+					"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
+					"fontsize" : [ 9.5 ],
+					"patchlinecolor" : [ 0.65098, 0.65098, 0.65098, 0.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -36512,14 +38060,6 @@
 , 			{
 				"name" : "jpink",
 				"default" : 				{
-					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
-					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
@@ -36529,7 +38069,15 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
+					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -36694,8 +38242,8 @@
 , 			{
 				"name" : "purple",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-					"bgcolor" : [ 0.304029, 0.250694, 0.285628, 1.0 ]
+					"bgcolor" : [ 0.304029, 0.250694, 0.285628, 1.0 ],
+					"textcolor_inverse" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -36732,9 +38280,9 @@
 , 			{
 				"name" : "stb001",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
 					"fontname" : [ "Arial Bold" ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -36773,8 +38321,8 @@
 , 			{
 				"name" : "test",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -36783,10 +38331,10 @@
 , 			{
 				"name" : "whitey",
 				"default" : 				{
-					"fontsize" : [ 36.0 ],
 					"fontname" : [ "Dirty Ego" ],
 					"selectioncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 					"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"fontsize" : [ 36.0 ],
 					"patchlinecolor" : [ 0.199068, 0.062496, 0.060031, 0.9 ]
 				}
 ,
