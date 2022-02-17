@@ -1,6 +1,6 @@
 # License
 ## Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
-### Chet Udell 2016 - 2021
+### Chet Udell 2016 - 2022
 
 
 By exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License ("Public License"). To the extent this Public License may be interpreted as a contract, You are granted the Licensed Rights in consideration of Your acceptance of these terms and conditions, and the Licensor grants You such rights in consideration of benefits the Licensor receives from making the Licensed Material available under these terms and conditions.
@@ -98,7 +98,7 @@ To the extent possible, if any provision of this Public License is deemed unenfo
 No term or condition of this Public License will be waived and no failure to comply consented to unless expressly agreed to by the Licensor.
 Nothing in this Public License constitutes or may be interpreted as a limitation upon, or waiver of, any privileges and immunities that apply to the Licensor or You, including from the legal processes of any jurisdiction or authority.
 
-*Neither the name of Optron, myoptron, or Stratos Instruments LLC nor the names of its
+*Neither the name of Optron, Airglow, myoptron, or Stratos Instruments LLC nor the names of its
   contributors may be used to endorse or promote products derived from
   this software without specific prior written permission.*
 
