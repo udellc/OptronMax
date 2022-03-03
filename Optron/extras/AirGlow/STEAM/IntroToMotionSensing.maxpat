@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 5,
+			"minor" : 2,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 744.0, 155.0, 1121.0, 752.0 ],
+		"rect" : [ 637.0, 155.0, 1121.0, 752.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,283 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontsize" : 14.0,
+					"id" : "obj-207",
+					"items" : [ "Select", "an", "answer:", ",", "pitch", "gets", "higher", ",", "pitch", "gets", "lower", ",", "sound", "gets", "softer", ",", "sound", "gets", "louder", ",", "it", "breaks", "your", "momma's", "back" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 17.0, 4384.3125, 295.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-199",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 100.0, 4450.3125, 33.0, 22.0 ],
+					"text" : "== 3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-200",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 141.0, 4450.3125, 33.0, 22.0 ],
+					"text" : "== 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-201",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 106.0, 4531.3125, 35.0, 22.0 ],
+					"text" : "dac~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"basictuning" : 440,
+					"data" : 					{
+						"clips" : [ 							{
+								"absolutepath" : "4triangle-ring.aif",
+								"filename" : "4triangle-ring.aif",
+								"filekind" : "audiofile",
+								"id" : "u960012626",
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+ ]
+					}
+,
+					"followglobaltempo" : 0,
+					"formantcorrection" : 0,
+					"hidden" : 1,
+					"id" : "obj-202",
+					"maxclass" : "playlist~",
+					"mode" : "basic",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"originallength" : [ 0.0, "ticks" ],
+					"originaltempo" : 120.0,
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 105.0, 4480.3125, 150.0, 30.0 ],
+					"pitchcorrection" : 0,
+					"quality" : "basic",
+					"timestretch" : [ 0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 14.0,
+					"id" : "obj-203",
+					"items" : [ "Select", "an", "answer:", ",", "pitch", "gets", "higher", ",", "pitch", "gets", "lower", ",", "sound", "gets", "softer", ",", "sound", "gets", "louder", ",", "it", "breaks", "your", "momma's", "back" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 17.0, 4311.3125, 295.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 14.0,
+					"id" : "obj-205",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 17.0, 4344.3125, 436.0, 38.0 ],
+					"presentation_linecount" : 2,
+					"text" : "What happens to the sound when you tilt clockwise (right) on the X axis?"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 14.0,
+					"id" : "obj-206",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 17.0, 4271.3125, 443.0, 38.0 ],
+					"presentation_linecount" : 2,
+					"text" : "What happens to the sound when you tilt down towards the floor on the Y axis?"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbletextmargin" : 4,
+					"fontsize" : 12.0,
+					"id" : "obj-198",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 530.0, 4394.0, 311.0, 22.0 ],
+					"presentation_linecount" : 2,
+					"text" : "Plug outlet of scale into the left inlet of this gain slider"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbletextmargin" : 4,
+					"fontsize" : 12.0,
+					"id" : "obj-197",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 953.0, 4030.0, 274.0, 22.0 ],
+					"text" : "Plug outlet of scale into the gain slider below"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbletextmargin" : 4,
+					"fontsize" : 12.0,
+					"id" : "obj-196",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 530.0, 4036.0, 322.0, 22.0 ],
+					"text" : "Plug outlet of scale into this inlet of Scale Degree"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 14.0,
+					"id" : "obj-189",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 17.0, 4227.0, 380.0, 22.0 ],
+					"text" : "6) Plug the outlet of the right scale object into the gain slider"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 14.0,
+					"id" : "obj-188",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 17.0, 4185.0, 440.0, 38.0 ],
+					"presentation_linecount" : 2,
+					"text" : "5) Plug the outlet of the left scale object into the inlet of the Scale Degree object"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 14.0,
+					"id" : "obj-182",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 17.0, 4111.0, 440.0, 69.0 ],
+					"presentation_linecount" : 4,
+					"text" : "4) When finished editing, the scale object on the left shoud say\n[ scale -1. 1. -10 10 ] - without the square brackets. The one on the right should say:\n[ scale -1. 1. 0 127 ]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 14.0,
+					"id" : "obj-176",
+					"linecount" : 6,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 17.0, 4006.0, 440.0, 100.0 ],
+					"presentation_linecount" : 6,
+					"text" : "3) We need to scale the incoming accelerometer value range from -1.0 through 1.0 to a new range that Scale Degree will understand. Looking at the HSV example above, modify your scale objects attached to the Optron Airglow sensor inputs to have an input min and max of -1.0 through 1.0; and an output min and max defined by the comments next to each scale object. "
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 14.0,
+					"id" : "obj-175",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 17.0, 3967.0, 440.0, 38.0 ],
+					"presentation_linecount" : 2,
+					"text" : "2) Unlock this canvas so you can edit. Do this by clicking the lock icon on the bottom left of this window."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 14.0,
+					"id" : "obj-174",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 17.0, 3927.0, 440.0, 38.0 ],
+					"presentation_linecount" : 2,
+					"text" : "1) Choose aX on the dropdown menu for the Optron Airglow sensor on the left, and aY for the sensor on the right."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-149",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 407.0, 70.0, 661.0, 35.0 ],
+					"text" : ";\rmax launchbrowser https://docs.google.com/document/d/1RMLkrDFkleh6Cv4XUuLDACu8Wq8YEPOVRYzMEzwh5K0/edit"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"hidden" : 1,
 					"id" : "obj-191",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 501.0, 3588.65625, 33.0, 22.0 ],
+					"patching_rect" : [ 501.0, 3612.65625, 33.0, 22.0 ],
 					"text" : "== 1"
 				}
 
@@ -59,7 +329,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 542.0, 3588.65625, 33.0, 22.0 ],
+					"patching_rect" : [ 542.0, 3612.65625, 33.0, 22.0 ],
 					"text" : "== 2"
 				}
 
@@ -71,7 +341,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 507.0, 3669.65625, 35.0, 22.0 ],
+					"patching_rect" : [ 507.0, 3693.65625, 35.0, 22.0 ],
 					"text" : "dac~"
 				}
 
@@ -84,7 +354,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 583.0, 3588.65625, 33.0, 22.0 ],
+					"patching_rect" : [ 583.0, 3612.65625, 33.0, 22.0 ],
 					"text" : "== 3"
 				}
 
@@ -119,7 +389,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 506.0, 3618.65625, 150.0, 30.0 ],
+					"patching_rect" : [ 506.0, 3642.65625, 150.0, 30.0 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -134,7 +404,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 501.0, 2808.0, 33.0, 22.0 ],
+					"patching_rect" : [ 501.0, 2832.0, 33.0, 22.0 ],
 					"text" : "== 1"
 				}
 
@@ -147,7 +417,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 542.0, 2808.0, 33.0, 22.0 ],
+					"patching_rect" : [ 542.0, 2832.0, 33.0, 22.0 ],
 					"text" : "== 2"
 				}
 
@@ -159,7 +429,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 507.0, 2889.0, 35.0, 22.0 ],
+					"patching_rect" : [ 507.0, 2913.0, 35.0, 22.0 ],
 					"text" : "dac~"
 				}
 
@@ -172,7 +442,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 583.0, 2808.0, 33.0, 22.0 ],
+					"patching_rect" : [ 583.0, 2832.0, 33.0, 22.0 ],
 					"text" : "== 3"
 				}
 
@@ -207,7 +477,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 506.0, 2838.0, 150.0, 30.0 ],
+					"patching_rect" : [ 506.0, 2862.0, 150.0, 30.0 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -269,13 +539,12 @@
 				"box" : 				{
 					"hidden" : 1,
 					"id" : "obj-178",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 815.0, 1662.5, 301.0, 35.0 ],
-					"text" : "if ($f1 < 0.1 && $f1 > -0.2) && ($f2 < 0.1 && $f2 > -0.2) && ($f3 < 0.1 && $f3 > -0.2) then 1 else 0"
+					"patching_rect" : [ 815.0, 1662.5, 521.0, 22.0 ],
+					"text" : "if ($f1 < 0.1 && $f1 > -0.1) && ($f2 < 0.1 && $f2 > -0.1) && ($f3 < 0.1 && $f3 > -0.1) then 1 else 0"
 				}
 
 			}
@@ -518,7 +787,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 480.0, 3098.65625, 176.0, 22.0 ],
+					"patching_rect" : [ 480.0, 3122.65625, 176.0, 22.0 ],
 					"text" : "These are radiobuttons >>"
 				}
 
@@ -533,7 +802,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 614.799999999999955, 3297.65625, 67.0, 16.0 ],
+					"patching_rect" : [ 614.799999999999955, 3321.65625, 67.0, 16.0 ],
 					"text" : "Volume"
 				}
 
@@ -548,7 +817,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 572.200000000000045, 3269.65625, 66.0, 16.0 ],
+					"patching_rect" : [ 572.200000000000045, 3293.65625, 66.0, 16.0 ],
 					"text" : "Saturation"
 				}
 
@@ -563,7 +832,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 553.0, 3239.65625, 46.0, 16.0 ],
+					"patching_rect" : [ 553.0, 3263.65625, 46.0, 16.0 ],
 					"text" : "Hue"
 				}
 
@@ -671,7 +940,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 1791.6875, 328.0, 27.0 ],
+					"patching_rect" : [ 17.0, 1815.6875, 328.0, 27.0 ],
 					"text" : "Activity: Zero G"
 				}
 
@@ -684,7 +953,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 1818.6875, 441.0, 132.0 ],
+					"patching_rect" : [ 17.0, 1842.6875, 441.0, 132.0 ],
 					"text" : "Prove through observation. You've been told an object in free fall experiences 0G of acceleration. This will be true for all X, Y, and Z axes. Hold your Airglow over your head in front of you in both hands, horizontally. Open your hands and move them down beneith the Airglow so it free falls for a moment. Let the Airglow fall into your hands below.\nWhen X, Y, and Z all register close to 0G at the same time, we can trigger an event like a sound to happen."
 				}
 
@@ -700,7 +969,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.5, 1784.5, 456.0, 172.1875 ],
+					"patching_rect" : [ 12.5, 1808.5, 456.0, 172.1875 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 9.5, 1624.3125, 136.5, 276.0 ],
 					"proportion" : 0.5,
@@ -717,7 +986,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1002.0, 3969.0, 290.0, 22.0 ],
+					"patching_rect" : [ 1002.0, 3993.0, 290.0, 22.0 ],
 					"text" : "Gain expects number range between 0 and 127"
 				}
 
@@ -731,7 +1000,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 582.0, 3982.0, 290.0, 22.0 ],
+					"patching_rect" : [ 582.0, 4006.0, 290.0, 22.0 ],
 					"text" : "Scale degree module expects numbers -10 to 10"
 				}
 
@@ -746,7 +1015,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 577.0, 4291.5, 161.0, 35.0 ],
+					"patching_rect" : [ 577.0, 4315.5, 161.0, 35.0 ],
 					"text" : "Synthesize a waveform using the input frequency "
 				}
 
@@ -761,7 +1030,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 746.0, 4137.0, 276.0, 35.0 ],
+					"patching_rect" : [ 746.0, 4161.0, 276.0, 35.0 ],
 					"text" : "MIDI: Musical Instrument Digital Interface. Computer values for musical data"
 				}
 
@@ -776,7 +1045,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 746.0, 4067.5, 356.0, 35.0 ],
+					"patching_rect" : [ 746.0, 4091.5, 356.0, 35.0 ],
 					"text" : "Tonic and Scale: The center pitch and pattern of notes to play, affects the feeling of the music."
 				}
 
@@ -790,7 +1059,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 558.0, 4251.0, 160.0, 22.0 ],
+					"patching_rect" : [ 558.0, 4275.0, 160.0, 22.0 ],
 					"text" : "Frequency in Hertz (Hz)"
 				}
 
@@ -803,7 +1072,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 506.0, 4251.0, 50.0, 22.0 ]
+					"patching_rect" : [ 506.0, 4275.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -816,7 +1085,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 544.0, 4203.0, 276.0, 22.0 ],
+					"patching_rect" : [ 544.0, 4227.0, 276.0, 22.0 ],
 					"text" : "Convert MIDI pitch numbers to frequency"
 				}
 
@@ -831,7 +1100,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 746.0, 4100.0, 276.0, 35.0 ],
+					"patching_rect" : [ 746.0, 4124.0, 276.0, 35.0 ],
 					"text" : "Pitch: How high or low a sound is in the audio frequency spectrum"
 				}
 
@@ -846,7 +1115,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 530.0, 4424.3125, 276.0, 35.0 ],
+					"patching_rect" : [ 530.0, 4448.3125, 276.0, 35.0 ],
 					"text" : "Gain: the volume or loudness of a sound\nParameter values expected: 0 - 127"
 				}
 
@@ -858,7 +1127,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 925.0, 3982.0, 71.5, 22.0 ],
+					"patching_rect" : [ 925.0, 4006.0, 71.5, 22.0 ],
 					"text" : "scale"
 				}
 
@@ -870,8 +1139,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 506.0, 3982.0, 71.5, 22.0 ],
-					"text" : "scale"
+					"patching_rect" : [ 506.0, 4006.0, 105.0, 22.0 ],
+					"text" : "scale -1. 1. -10 10"
 				}
 
 			}
@@ -885,6 +1154,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-141",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "OptronMini.maxpat",
 					"numinlets" : 0,
@@ -895,8 +1165,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 5,
+							"minor" : 2,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -956,7 +1226,7 @@
 , 							{
 								"box" : 								{
 									"coll_data" : 									{
-										"count" : 10,
+										"count" : 13,
 										"data" : [ 											{
 												"key" : 0,
 												"value" : [ -1.0, 1.0 ]
@@ -995,7 +1265,19 @@
 											}
 , 											{
 												"key" : 9,
-												"value" : [ 0, 44 ]
+												"value" : [ 0.0, 1.0 ]
+											}
+, 											{
+												"key" : 10,
+												"value" : [ 0.0, 1.0 ]
+											}
+, 											{
+												"key" : 11,
+												"value" : [ 0, 1 ]
+											}
+, 											{
+												"key" : 12,
+												"value" : [ 0, 48 ]
 											}
  ]
 									}
@@ -1492,8 +1774,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1511,7 +1793,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 925.0, 3803.0, 150.0, 126.0 ],
+					"patching_rect" : [ 925.0, 3827.0, 150.0, 126.0 ],
 					"varname" : "patch_0[8]",
 					"viewvisibility" : 1
 				}
@@ -1527,6 +1809,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-140",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "OptronMini.maxpat",
 					"numinlets" : 0,
@@ -1537,8 +1820,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 5,
+							"minor" : 2,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1598,7 +1881,7 @@
 , 							{
 								"box" : 								{
 									"coll_data" : 									{
-										"count" : 10,
+										"count" : 13,
 										"data" : [ 											{
 												"key" : 0,
 												"value" : [ -1.0, 1.0 ]
@@ -1637,7 +1920,19 @@
 											}
 , 											{
 												"key" : 9,
-												"value" : [ 0, 44 ]
+												"value" : [ 0.0, 1.0 ]
+											}
+, 											{
+												"key" : 10,
+												"value" : [ 0.0, 1.0 ]
+											}
+, 											{
+												"key" : 11,
+												"value" : [ 0, 1 ]
+											}
+, 											{
+												"key" : 12,
+												"value" : [ 0, 48 ]
 											}
  ]
 									}
@@ -2134,8 +2429,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2153,7 +2448,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 506.0, 3803.0, 150.0, 126.0 ],
+					"patching_rect" : [ 506.0, 3827.0, 150.0, 126.0 ],
 					"varname" : "patch_0[7]",
 					"viewvisibility" : 1
 				}
@@ -2166,7 +2461,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 506.0, 4203.0, 32.0, 22.0 ],
+					"patching_rect" : [ 506.0, 4227.0, 32.0, 22.0 ],
 					"text" : "mtof"
 				}
 
@@ -2181,6 +2476,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-138",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "ScaleDegree.maxpat",
 					"numinlets" : 3,
@@ -2191,8 +2487,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 5,
+							"minor" : 2,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2422,7 +2718,7 @@
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 306.0, 89.5, 48.0, 27.0 ],
-									"text" : "57"
+									"text" : "52"
 								}
 
 							}
@@ -2792,8 +3088,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 5,
+											"minor" : 2,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3737,8 +4033,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 5,
+											"minor" : 2,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4296,8 +4592,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4315,7 +4611,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 506.0, 4038.0, 238.0, 149.0 ],
+					"patching_rect" : [ 506.0, 4062.0, 238.0, 149.0 ],
 					"varname" : "patch_2",
 					"viewvisibility" : 1
 				}
@@ -4328,7 +4624,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 506.0, 4298.0, 69.0, 22.0 ],
+					"patching_rect" : [ 506.0, 4322.0, 69.0, 22.0 ],
 					"text" : "phasor~ 20"
 				}
 
@@ -4342,7 +4638,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 506.0, 4376.0, 22.0, 140.0 ]
+					"patching_rect" : [ 506.0, 4400.0, 22.0, 140.0 ]
 				}
 
 			}
@@ -4352,7 +4648,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 506.0, 4563.0, 77.0, 77.0 ]
+					"patching_rect" : [ 506.0, 4587.0, 77.0, 77.0 ]
 				}
 
 			}
@@ -4360,12 +4656,12 @@
 				"box" : 				{
 					"fontsize" : 14.0,
 					"id" : "obj-129",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 3845.0, 440.0, 38.0 ],
-					"text" : "Now, we will translate or \"map\" one of the X, Y, or Z accelrometer sensor streams to control your Airglow lights. "
+					"patching_rect" : [ 17.0, 3869.0, 440.0, 53.0 ],
+					"text" : "In this activity, we will map 2 different accelerometer streams to control 2 different parameters of a synthesizer. You will need to \"patch\" or program objects yourself."
 				}
 
 			}
@@ -4377,7 +4673,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 3816.0, 481.0, 27.0 ],
+					"patching_rect" : [ 17.0, 3840.0, 447.0, 27.0 ],
 					"text" : "Part 4: Mapping Motion to Sound"
 				}
 
@@ -4393,7 +4689,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.5, 3803.0, 456.0, 564.0 ],
+					"patching_rect" : [ 12.5, 3827.0, 456.0, 432.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.5, 3582.0, 136.5, 276.0 ],
 					"proportion" : 0.5,
@@ -4409,7 +4705,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 3711.0, 440.0, 69.0 ],
+					"patching_rect" : [ 17.0, 3735.0, 440.0, 69.0 ],
 					"text" : "Select Saturation or Volume from the radiobuttons and change the sensors input to other accelerometer axes. Observe and report on how the sensors and lights behave together. What is your favorite combination?"
 				}
 
@@ -4425,7 +4721,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.5, 3701.0, 456.0, 89.0 ],
+					"patching_rect" : [ 12.5, 3725.0, 456.0, 89.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 72.5, 3366.0, 136.5, 276.0 ],
 					"proportion" : 0.5,
@@ -4443,7 +4739,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 17.0, 3593.65625, 295.0, 24.0 ]
+					"patching_rect" : [ 17.0, 3617.65625, 295.0, 24.0 ]
 				}
 
 			}
@@ -4457,7 +4753,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 17.0, 3666.65625, 206.0, 24.0 ]
+					"patching_rect" : [ 17.0, 3690.65625, 206.0, 24.0 ]
 				}
 
 			}
@@ -4469,7 +4765,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 3626.65625, 436.0, 38.0 ],
+					"patching_rect" : [ 17.0, 3650.65625, 436.0, 38.0 ],
 					"text" : "What is happening to the light when you select Hue and move the Airglow?"
 				}
 
@@ -4481,7 +4777,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 3569.65625, 443.0, 22.0 ],
+					"patching_rect" : [ 17.0, 3593.65625, 443.0, 22.0 ],
 					"text" : "What does gate do?"
 				}
 
@@ -4494,7 +4790,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 3439.65625, 443.0, 116.0 ],
+					"patching_rect" : [ 17.0, 3463.65625, 443.0, 116.0 ],
 					"text" : "After the data stream is formatted to the correct range, we can connect it to our parameter. Data from the scale object is going into a gate object. Like switching train tracks, gate takes a data stream in the right inlet. A number in the left inlet of gate will send the data stream to the corresponding outlet. Click the radiobutton labeled Hue. Move your Optron along the accelerometer axis you selected in the Input step above. Answer the following questions:"
 				}
 
@@ -4507,7 +4803,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 3410.65625, 118.0, 27.0 ],
+					"patching_rect" : [ 17.0, 3434.65625, 118.0, 27.0 ],
 					"text" : "Mapping"
 				}
 
@@ -4522,7 +4818,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 16.0, 2960.0, 146.0, 24.0 ]
+					"patching_rect" : [ 16.0, 2984.0, 146.0, 24.0 ]
 				}
 
 			}
@@ -4534,7 +4830,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 16.0, 2919.0, 441.0, 38.0 ],
+					"patching_rect" : [ 16.0, 2943.0, 441.0, 38.0 ],
 					"text" : "What data range do the Hue, Saturation, and Volume parameters expect for control?"
 				}
 
@@ -4547,7 +4843,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 3257.65625, 444.0, 147.0 ],
+					"patching_rect" : [ 17.0, 3281.65625, 444.0, 147.0 ],
 					"text" : "Very rarely is a sensor's data formatted or in the ideal range for the parameter you intend to control. In this example, Hue, Saturation, and Volume parameters expect incoming data to be a value between 0 - 255. But, the accelerometer range is from -1G to +1G.\nThe outlet of the Airlgow input module goes into an object called scale. Scale uses a linear formula to translate an old sensor range's minimum and maximum to a new minimum and maximum. In this case, we are translating -1.0 through +1.0 into 0 thorugh 255. Do you know any formulas that would be good for doing this?"
 				}
 
@@ -4560,7 +4856,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 3228.65625, 118.0, 27.0 ],
+					"patching_rect" : [ 17.0, 3252.65625, 118.0, 27.0 ],
 					"text" : "Processing"
 				}
 
@@ -4574,7 +4870,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 744.0, 3179.65625, 276.0, 18.0 ],
+					"patching_rect" : [ 744.0, 3203.65625, 276.0, 18.0 ],
 					"text" : "route a data stream to one of 3 possible outlets"
 				}
 
@@ -4589,7 +4885,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 828.5, 3131.65625, 271.0, 31.0 ],
+					"patching_rect" : [ 828.5, 3155.65625, 271.0, 31.0 ],
 					"text" : "rescale sensor range from -1.0 through +1.0 to 0 through 255"
 				}
 
@@ -4602,7 +4898,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 3169.15625, 442.0, 53.0 ],
+					"patching_rect" : [ 17.0, 3193.15625, 442.0, 53.0 ],
 					"text" : "Input is selecting a specific sensor that will be used to control your parameter. The Optron Airglow Module dropdown menu allows you to select sensors from the Airglow. Choose aX, aY, or aZ. "
 				}
 
@@ -4615,7 +4911,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 3140.15625, 52.0, 27.0 ],
+					"patching_rect" : [ 17.0, 3164.15625, 52.0, 27.0 ],
 					"text" : "Input"
 				}
 
@@ -4628,7 +4924,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 3082.8125, 440.0, 53.0 ],
+					"patching_rect" : [ 17.0, 3106.8125, 440.0, 53.0 ],
 					"text" : "Now, we will translate or \"map\" one of the X, Y, or Z accelrometer sensor streams to control your Airglow lights. There are 3 phases to controling a parameter with a sensor: Input, Processing, Mapping"
 				}
 
@@ -4643,7 +4939,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 634.5, 3039.65625, 92.0, 18.0 ],
+					"patching_rect" : [ 634.5, 3063.65625, 92.0, 18.0 ],
 					"text" : "aX, aY, or aZ"
 				}
 
@@ -4655,7 +4951,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 751.0, 2534.846153846153811, 194.0, 20.0 ],
+					"patching_rect" : [ 751.0, 2558.846153846153811, 194.0, 20.0 ],
 					"text" : "https://www.tech-faq.com/hsv.html",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -4669,7 +4965,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 3040.0, 440.0, 38.0 ],
+					"patching_rect" : [ 17.0, 3064.0, 440.0, 38.0 ],
 					"text" : "Now, we will translate or \"map\" one of the X, Y, or Z accelrometer sensor streams to control your Airglow lights. "
 				}
 
@@ -4682,7 +4978,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 3011.0, 481.0, 27.0 ],
+					"patching_rect" : [ 17.0, 3035.0, 440.0, 27.0 ],
 					"text" : "Part 3: Mapping Motion to HSV Parameters"
 				}
 
@@ -4698,7 +4994,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.5, 2998.0, 456.0, 564.0 ],
+					"patching_rect" : [ 12.5, 3022.0, 456.0, 564.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 12.5, 2617.3125, 136.5, 276.0 ],
 					"proportion" : 0.5,
@@ -4716,7 +5012,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 16.0, 2886.0, 146.0, 24.0 ]
+					"patching_rect" : [ 16.0, 2910.0, 146.0, 24.0 ]
 				}
 
 			}
@@ -4728,7 +5024,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 16.0, 2846.0, 441.0, 38.0 ],
+					"patching_rect" : [ 16.0, 2870.0, 441.0, 38.0 ],
 					"text" : "Which parameter would I change if I wanted to make my light dimmer?"
 				}
 
@@ -4743,7 +5039,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 39.0, 2718.0, 142.0, 24.0 ]
+					"patching_rect" : [ 39.0, 2742.0, 142.0, 24.0 ]
 				}
 
 			}
@@ -4754,7 +5050,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 16.0, 2742.0, 441.0, 22.0 ],
+					"patching_rect" : [ 16.0, 2766.0, 441.0, 22.0 ],
 					"text" : "from other things."
 				}
 
@@ -4766,7 +5062,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 183.0, 2718.0, 315.0, 22.0 ],
+					"patching_rect" : [ 183.0, 2742.0, 315.0, 22.0 ],
 					"text" : "is something you can change independently"
 				}
 
@@ -4778,7 +5074,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 2718.0, 21.0, 22.0 ],
+					"patching_rect" : [ 17.0, 2742.0, 21.0, 22.0 ],
 					"text" : "A "
 				}
 
@@ -4791,7 +5087,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 2076.0, 444.0, 69.0 ],
+					"patching_rect" : [ 17.0, 2100.0, 444.0, 69.0 ],
 					"text" : "Parameters are things we can change indepentendtly of one another. Think of the frequency, volume, treble, and bass knobs on a stereo. Each one of these can be changed to its own unique state without affecting the the other parameters."
 				}
 
@@ -4804,7 +5100,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 2047.0, 107.0, 27.0 ],
+					"patching_rect" : [ 17.0, 2071.0, 107.0, 27.0 ],
 					"text" : "Parameters"
 				}
 
@@ -4819,7 +5115,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 17.0, 2816.0, 146.0, 24.0 ]
+					"patching_rect" : [ 17.0, 2840.0, 146.0, 24.0 ]
 				}
 
 			}
@@ -4831,7 +5127,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 2776.0, 441.0, 38.0 ],
+					"patching_rect" : [ 17.0, 2800.0, 441.0, 38.0 ],
 					"text" : "Which parameter would I change if I wanted to select a different color for my light?"
 				}
 
@@ -4844,7 +5140,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 2600.5, 448.0, 85.0 ],
+					"patching_rect" : [ 17.0, 2624.5, 448.0, 85.0 ],
 					"text" : "Volume, or Value is the brightness of the color. The amount of this affect can vary depending on color saturation. Values range from 0 to 255 equal to to 0% to 100%. When the value is ‘0’ the color space will be totally black. With the increase in the value, the color space brightness up and shows the color."
 				}
 
@@ -4857,7 +5153,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 2571.5, 481.0, 27.0 ],
+					"patching_rect" : [ 17.0, 2595.5, 481.0, 27.0 ],
 					"text" : "Volume / Value"
 				}
 
@@ -4873,7 +5169,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 751.0, 2326.0, 238.0, 228.84615384615384 ],
+					"patching_rect" : [ 751.0, 2350.0, 238.0, 228.84615384615384 ],
 					"pic" : "hsv.jpeg"
 				}
 
@@ -4886,7 +5182,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 2320.5, 448.0, 241.0 ],
+					"patching_rect" : [ 17.0, 2344.5, 448.0, 241.0 ],
 					"text" : "Saturation indicates the range of white mixed with the Hue color. We use values of 0 - 255 to indicate Saturation of 0% to 100%. A Saturation of 255 will yield the full color with no white. Saturation value of 0 will yield white with none of the Hue color.\n0 = 0% -> white with none of the Hue color.\n127 = 50% -> Mixed white and Hue oolor\n255 = 100% -> full Hue color with no white\nSaturated colors can be very striking when used effectively. \nImages with high saturation give the impression of artificiality, and \nEmotion: Saturation value has an impact on the emotion of a photograph. A muted image typically conveys somber or constrained emotion, whereas saturated colors generally connote extreme feeling and passion. Think about what sort of emotional impact you want your images to have and how increasing or decreasing saturation can help you achieve that aesthetic."
 				}
 
@@ -4899,7 +5195,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 2291.5, 481.0, 27.0 ],
+					"patching_rect" : [ 17.0, 2315.5, 481.0, 27.0 ],
 					"text" : "Saturation"
 				}
 
@@ -4914,7 +5210,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 506.0, 2326.0, 227.0, 227.0 ],
+					"patching_rect" : [ 506.0, 2350.0, 227.0, 227.0 ],
 					"pic" : "clock.png"
 				}
 
@@ -4927,7 +5223,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 2182.5, 444.0, 100.0 ],
+					"patching_rect" : [ 17.0, 2206.5, 444.0, 100.0 ],
 					"text" : "Hue refers to the selected color on a color wheel or spectrum. Airglow uses a light library called FastLED. We select colors using a rainbow Hue chart, where numbers 0 - 255 correspond to a color position on a color wheel. The numbers wrap around like numbers 1 through 12 on a clock. The difference in Hue between 255 and 0 is extremely small even though it appears to be a large jump."
 				}
 
@@ -4940,7 +5236,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 2153.5, 481.0, 27.0 ],
+					"patching_rect" : [ 17.0, 2177.5, 481.0, 27.0 ],
 					"text" : "Hue"
 				}
 
@@ -4952,7 +5248,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 741.0, 2296.923398328690837, 629.0, 20.0 ],
+					"patching_rect" : [ 741.0, 2320.923398328690837, 629.0, 20.0 ],
 					"text" : "From FastLED.io https://raw.githubusercontent.com/FastLED/FastLED/gh-pages/images/HSV-rainbow-with-desc.jpg",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -4969,7 +5265,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 506.0, 2012.076601671309163, 864.0, 304.846796657381617 ],
+					"patching_rect" : [ 506.0, 2036.076601671309163, 864.0, 304.846796657381617 ],
 					"pic" : "fastLEDHueChart.jpeg"
 				}
 
@@ -5047,12 +5343,12 @@
 				"box" : 				{
 					"fontsize" : 14.0,
 					"id" : "obj-14",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 1726.5, 444.0, 53.0 ],
-					"text" : "Movement on any axis of rotation will affect 2 of the axes. Move along the Y, and then the Z axis and note which movements affect which pairs of axes."
+					"patching_rect" : [ 17.0, 1729.0, 444.0, 69.0 ],
+					"text" : "Movement on any axis of rotation will affect 2 of the axes. Move along the Y, and then the Z axis and note which movements affect which pairs of axes. Can you move your Airglow so only the X and Y accelerometers respond, but not Z?"
 				}
 
 			}
@@ -5079,7 +5375,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 17.0, 1647.5, 440.0, 38.0 ],
-					"text" : "Move the Airglow along the X axis one more time. Which axes respond?"
+					"text" : "Move the Airglow along the X axis one more time. Look at the Accelerometers X, Y, and Z. Which two axes respond?"
 				}
 
 			}
@@ -5268,7 +5564,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 683.799999999999955, 3294.65625, 50.0, 22.0 ]
+					"patching_rect" : [ 683.799999999999955, 3318.65625, 50.0, 22.0 ]
 				}
 
 			}
@@ -5280,7 +5576,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 640.200000000000045, 3266.65625, 50.0, 22.0 ]
+					"patching_rect" : [ 640.200000000000045, 3290.65625, 50.0, 22.0 ]
 				}
 
 			}
@@ -5292,7 +5588,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 596.600000000000023, 3239.65625, 50.0, 22.0 ]
+					"patching_rect" : [ 596.600000000000023, 3263.65625, 50.0, 22.0 ]
 				}
 
 			}
@@ -5306,7 +5602,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 637.0, 3149.65625, 67.0, 16.0 ],
+					"patching_rect" : [ 637.0, 3173.65625, 67.0, 16.0 ],
 					"text" : "Volume"
 				}
 
@@ -5321,7 +5617,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 638.0, 3131.65625, 66.0, 16.0 ],
+					"patching_rect" : [ 638.0, 3155.65625, 66.0, 16.0 ],
 					"text" : "Saturation"
 				}
 
@@ -5336,7 +5632,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 658.0, 3116.65625, 46.0, 16.0 ],
+					"patching_rect" : [ 658.0, 3140.65625, 46.0, 16.0 ],
 					"text" : "Hue"
 				}
 
@@ -5351,7 +5647,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 658.0, 3098.65625, 45.0, 16.0 ],
+					"patching_rect" : [ 658.0, 3122.65625, 45.0, 16.0 ],
 					"text" : "Off"
 				}
 
@@ -5366,7 +5662,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 700.0, 3098.65625, 18.0, 66.0 ],
+					"patching_rect" : [ 700.0, 3122.65625, 18.0, 66.0 ],
 					"shape" : 2,
 					"size" : 4,
 					"style" : "Default M4L",
@@ -5381,7 +5677,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 700.0, 3179.65625, 42.0, 22.0 ],
+					"patching_rect" : [ 700.0, 3203.65625, 42.0, 22.0 ],
 					"text" : "gate 3"
 				}
 
@@ -5393,7 +5689,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 723.0, 3138.65625, 101.0, 22.0 ],
+					"patching_rect" : [ 723.0, 3162.65625, 101.0, 22.0 ],
 					"text" : "scale -1. 1. 0 255"
 				}
 
@@ -5408,6 +5704,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-63",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "OptronMini.maxpat",
 					"numinlets" : 0,
@@ -5418,8 +5715,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 5,
+							"minor" : 2,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5479,7 +5776,7 @@
 , 							{
 								"box" : 								{
 									"coll_data" : 									{
-										"count" : 10,
+										"count" : 13,
 										"data" : [ 											{
 												"key" : 0,
 												"value" : [ -1.0, 1.0 ]
@@ -5518,7 +5815,19 @@
 											}
 , 											{
 												"key" : 9,
-												"value" : [ 0, 44 ]
+												"value" : [ 0.0, 1.0 ]
+											}
+, 											{
+												"key" : 10,
+												"value" : [ 0.0, 1.0 ]
+											}
+, 											{
+												"key" : 11,
+												"value" : [ 0, 1 ]
+											}
+, 											{
+												"key" : 12,
+												"value" : [ 0, 48 ]
 											}
  ]
 									}
@@ -6015,8 +6324,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6034,7 +6343,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 723.0, 2998.34375, 150.0, 126.0 ],
+					"patching_rect" : [ 723.0, 3022.34375, 150.0, 126.0 ],
 					"varname" : "patch_0[6]",
 					"viewvisibility" : 1
 				}
@@ -6050,6 +6359,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-62",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "OptronHSV.maxpat",
 					"numinlets" : 6,
@@ -6059,8 +6369,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 5,
+							"minor" : 2,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6435,8 +6745,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 5,
+											"minor" : 2,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6916,8 +7226,8 @@
 , 											{
 												"name" : "newobjYellow-1",
 												"default" : 												{
-													"fontsize" : [ 12.059008 ],
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+													"fontsize" : [ 12.059008 ]
 												}
 ,
 												"parentstyle" : "",
@@ -8146,9 +8456,9 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
+									"fontname" : [ "Arial Bold" ],
 									"fontsize" : [ 11.0 ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontname" : [ "Arial Bold" ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8157,9 +8467,9 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
+									"fontname" : [ "Arial Bold" ],
 									"fontsize" : [ 10.0 ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontname" : [ "Arial Bold" ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8168,7 +8478,6 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -8178,8 +8487,9 @@
 										"proportion" : 0.39
 									}
 ,
+									"fontface" : [ 1 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8205,9 +8515,8 @@
 , 							{
 								"name" : "Luca",
 								"default" : 								{
-									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -8218,10 +8527,11 @@
 										"autogradient" : 0
 									}
 ,
-									"fontname" : [ "Open Sans Semibold" ],
-									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
+									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+									"fontname" : [ "Open Sans Semibold" ],
+									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8230,9 +8540,9 @@
 , 							{
 								"name" : "M4L 10 Bold",
 								"default" : 								{
+									"fontface" : [ 1 ],
 									"fontsize" : [ 10.0 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.25 ],
-									"fontface" : [ 1 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.25 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8251,8 +8561,8 @@
 , 							{
 								"name" : "Matt",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8536,9 +8846,8 @@
 , 							{
 								"name" : "WTF",
 								"default" : 								{
+									"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
 									"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ],
-									"fontsize" : [ 18.0 ],
-									"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -8549,10 +8858,11 @@
 										"autogradient" : 0
 									}
 ,
-									"fontname" : [ "HydrogenType" ],
-									"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
 									"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
-									"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ]
+									"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
+									"fontname" : [ "HydrogenType" ],
+									"fontsize" : [ 18.0 ],
+									"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8561,10 +8871,8 @@
 , 							{
 								"name" : "classic",
 								"default" : 								{
+									"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 									"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontsize" : [ 9.0 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
@@ -8574,9 +8882,11 @@
 										"proportion" : 0.39
 									}
 ,
+									"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 									"fontname" : [ "Geneva" ],
-									"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
+									"fontsize" : [ 9.0 ],
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8630,10 +8940,10 @@
 , 							{
 								"name" : "classicKslider",
 								"default" : 								{
-									"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
+									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+									"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8671,9 +8981,9 @@
 , 							{
 								"name" : "classicNodes",
 								"default" : 								{
-									"fontsize" : [ 9.0 ],
 									"color" : [ 0.839216, 0.839216, 0.839216, 1.0 ],
-									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
+									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+									"fontsize" : [ 9.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8767,8 +9077,8 @@
 , 							{
 								"name" : "classicWaveform~",
 								"default" : 								{
-									"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 0.5 ],
-									"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ]
+									"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ],
+									"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 0.5 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8777,8 +9087,7 @@
 , 							{
 								"name" : "dark-night-patch",
 								"default" : 								{
-									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
+									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -8788,7 +9097,8 @@
 										"proportion" : 0.39
 									}
 ,
-									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
+									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
+									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8802,9 +9112,6 @@
 , 							{
 								"name" : "jpatcher002",
 								"default" : 								{
-									"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
-									"fontsize" : [ 9.5 ],
-									"patchlinecolor" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
@@ -8814,7 +9121,10 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontname" : [ "Ableton Sans Book" ]
+									"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
+									"fontname" : [ "Ableton Sans Book" ],
+									"fontsize" : [ 9.5 ],
+									"patchlinecolor" : [ 0.65098, 0.65098, 0.65098, 0.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8823,11 +9133,8 @@
 , 							{
 								"name" : "jpink",
 								"default" : 								{
-									"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
-									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
@@ -8838,9 +9145,12 @@
 										"autogradient" : 0
 									}
 ,
-									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
 									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
+									"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
+									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8976,8 +9286,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8986,8 +9296,8 @@
 , 							{
 								"name" : "newobjYellow-2",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9043,9 +9353,9 @@
 , 							{
 								"name" : "stb001",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"fontname" : [ "Arial Bold" ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9084,8 +9394,8 @@
 , 							{
 								"name" : "test",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9094,11 +9404,11 @@
 , 							{
 								"name" : "whitey",
 								"default" : 								{
-									"selectioncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
-									"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+									"fontname" : [ "Dirty Ego" ],
 									"fontsize" : [ 36.0 ],
 									"patchlinecolor" : [ 0.199068, 0.062496, 0.060031, 0.9 ],
-									"fontname" : [ "Dirty Ego" ]
+									"selectioncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
+									"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9107,7 +9417,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 553.0, 3328.65625, 237.0, 191.0 ],
+					"patching_rect" : [ 553.0, 3352.65625, 237.0, 191.0 ],
 					"varname" : "patch_1",
 					"viewvisibility" : 1
 				}
@@ -9121,7 +9431,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 2012.0, 481.0, 27.0 ],
+					"patching_rect" : [ 17.0, 2036.0, 481.0, 27.0 ],
 					"text" : "Part 2: Visualization, HSV"
 				}
 
@@ -9373,19 +9683,6 @@
 			}
 , 			{
 				"box" : 				{
-					"hidden" : 1,
-					"id" : "obj-24",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 197.0, 97.0, 155.0, 22.0 ],
-					"text" : "link to Teacher Lesson Plan"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-21",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -9445,6 +9742,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-11",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "OptronMini.maxpat",
 					"numinlets" : 0,
@@ -9455,8 +9753,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 5,
+							"minor" : 2,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -9516,7 +9814,7 @@
 , 							{
 								"box" : 								{
 									"coll_data" : 									{
-										"count" : 10,
+										"count" : 13,
 										"data" : [ 											{
 												"key" : 0,
 												"value" : [ -1.0, 1.0 ]
@@ -9555,7 +9853,19 @@
 											}
 , 											{
 												"key" : 9,
-												"value" : [ 0, 44 ]
+												"value" : [ 0.0, 1.0 ]
+											}
+, 											{
+												"key" : 10,
+												"value" : [ 0.0, 1.0 ]
+											}
+, 											{
+												"key" : 11,
+												"value" : [ 0, 1 ]
+											}
+, 											{
+												"key" : 12,
+												"value" : [ 0, 48 ]
 											}
  ]
 									}
@@ -10053,8 +10363,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10088,6 +10398,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-12",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "OptronMini.maxpat",
 					"numinlets" : 0,
@@ -10098,8 +10409,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 5,
+							"minor" : 2,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -10159,7 +10470,7 @@
 , 							{
 								"box" : 								{
 									"coll_data" : 									{
-										"count" : 10,
+										"count" : 13,
 										"data" : [ 											{
 												"key" : 0,
 												"value" : [ -1.0, 1.0 ]
@@ -10198,7 +10509,19 @@
 											}
 , 											{
 												"key" : 9,
-												"value" : [ 0, 44 ]
+												"value" : [ 0.0, 1.0 ]
+											}
+, 											{
+												"key" : 10,
+												"value" : [ 0.0, 1.0 ]
+											}
+, 											{
+												"key" : 11,
+												"value" : [ 0, 1 ]
+											}
+, 											{
+												"key" : 12,
+												"value" : [ 0, 48 ]
 											}
  ]
 									}
@@ -10696,8 +11019,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10731,6 +11054,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-13",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "OptronMini.maxpat",
 					"numinlets" : 0,
@@ -10741,8 +11065,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 5,
+							"minor" : 2,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -10802,7 +11126,7 @@
 , 							{
 								"box" : 								{
 									"coll_data" : 									{
-										"count" : 10,
+										"count" : 13,
 										"data" : [ 											{
 												"key" : 0,
 												"value" : [ -1.0, 1.0 ]
@@ -10841,7 +11165,19 @@
 											}
 , 											{
 												"key" : 9,
-												"value" : [ 0, 44 ]
+												"value" : [ 0.0, 1.0 ]
+											}
+, 											{
+												"key" : 10,
+												"value" : [ 0.0, 1.0 ]
+											}
+, 											{
+												"key" : 11,
+												"value" : [ 0, 1 ]
+											}
+, 											{
+												"key" : 12,
+												"value" : [ 0, 48 ]
 											}
  ]
 									}
@@ -11339,8 +11675,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11374,6 +11710,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-10",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "OptronMini.maxpat",
 					"numinlets" : 0,
@@ -11384,8 +11721,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 5,
+							"minor" : 2,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -11445,7 +11782,7 @@
 , 							{
 								"box" : 								{
 									"coll_data" : 									{
-										"count" : 10,
+										"count" : 13,
 										"data" : [ 											{
 												"key" : 0,
 												"value" : [ -1.0, 1.0 ]
@@ -11484,7 +11821,19 @@
 											}
 , 											{
 												"key" : 9,
-												"value" : [ 0, 44 ]
+												"value" : [ 0.0, 1.0 ]
+											}
+, 											{
+												"key" : 10,
+												"value" : [ 0.0, 1.0 ]
+											}
+, 											{
+												"key" : 11,
+												"value" : [ 0, 1 ]
+											}
+, 											{
+												"key" : 12,
+												"value" : [ 0, 48 ]
 											}
  ]
 									}
@@ -11981,8 +12330,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -12016,6 +12365,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-9",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "OptronMini.maxpat",
 					"numinlets" : 0,
@@ -12026,8 +12376,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 5,
+							"minor" : 2,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -12087,7 +12437,7 @@
 , 							{
 								"box" : 								{
 									"coll_data" : 									{
-										"count" : 10,
+										"count" : 13,
 										"data" : [ 											{
 												"key" : 0,
 												"value" : [ -1.0, 1.0 ]
@@ -12126,7 +12476,19 @@
 											}
 , 											{
 												"key" : 9,
-												"value" : [ 0, 44 ]
+												"value" : [ 0.0, 1.0 ]
+											}
+, 											{
+												"key" : 10,
+												"value" : [ 0.0, 1.0 ]
+											}
+, 											{
+												"key" : 11,
+												"value" : [ 0, 1 ]
+											}
+, 											{
+												"key" : 12,
+												"value" : [ 0, 48 ]
 											}
  ]
 									}
@@ -12623,8 +12985,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -12658,6 +13020,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-8",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "OptronMini.maxpat",
 					"numinlets" : 0,
@@ -12668,8 +13031,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 5,
+							"minor" : 2,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -12729,7 +13092,7 @@
 , 							{
 								"box" : 								{
 									"coll_data" : 									{
-										"count" : 10,
+										"count" : 13,
 										"data" : [ 											{
 												"key" : 0,
 												"value" : [ -1.0, 1.0 ]
@@ -12768,7 +13131,19 @@
 											}
 , 											{
 												"key" : 9,
-												"value" : [ 0, 44 ]
+												"value" : [ 0.0, 1.0 ]
+											}
+, 											{
+												"key" : 10,
+												"value" : [ 0.0, 1.0 ]
+											}
+, 											{
+												"key" : 11,
+												"value" : [ 0, 1 ]
+											}
+, 											{
+												"key" : 12,
+												"value" : [ 0, 48 ]
 											}
  ]
 									}
@@ -13265,8 +13640,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -13300,6 +13675,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-22",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "Patch_Generator.maxpat",
 					"numinlets" : 0,
@@ -13309,8 +13685,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 5,
+							"minor" : 2,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -13605,8 +13981,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -13848,7 +14224,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.5, 2007.3125, 456.0, 691.6875 ],
+					"patching_rect" : [ 12.5, 2031.3125, 456.0, 691.6875 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 13.5, 1402.3125, 136.5, 276.0 ],
 					"proportion" : 0.5,
@@ -13952,6 +14328,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-145", 0 ],
 					"source" : [ "obj-141", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-138", 0 ],
+					"source" : [ "obj-144", 0 ]
 				}
 
 			}
@@ -14165,7 +14548,55 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
+					"destination" : [ "obj-202", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-199", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-202", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-200", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-201", 1 ],
+					"hidden" : 1,
+					"source" : [ "obj-202", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-201", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-202", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-199", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-203", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-200", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-207", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-149", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-21", 0 ]
 				}
@@ -14308,28 +14739,56 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "xyzRollPitchYaw.png",
-				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/img",
-				"patcherrelativepath" : "../../../media/img",
-				"type" : "PNG",
+				"name" : "1triangle-ring.aif",
+				"bootpath" : "~/Documents/Max 8/Library/thirdParty/CNMAT-Everything-OSX-MachO/CNMAT_MMJ-Depot/media/Audio/Triangles-New",
+				"patcherrelativepath" : "../../../../../Library/thirdParty/CNMAT-Everything-OSX-MachO/CNMAT_MMJ-Depot/media/Audio/Triangles-New",
+				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "generator.js",
-				"bootpath" : "~/Documents/Max 8/Packages/Loom/javascript",
-				"patcherrelativepath" : "../../../../Loom/javascript",
-				"type" : "TEXT",
+				"name" : "3triangle-ring.aif",
+				"bootpath" : "~/Documents/Max 8/Library/thirdParty/CNMAT-Everything-OSX-MachO/CNMAT_MMJ-Depot/media/Audio/Triangles-New",
+				"patcherrelativepath" : "../../../../../Library/thirdParty/CNMAT-Everything-OSX-MachO/CNMAT_MMJ-Depot/media/Audio/Triangles-New",
+				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "fallingApple.png",
-				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/img",
-				"patcherrelativepath" : "../../../media/img",
-				"type" : "PNG",
+				"name" : "4triangle-ring.aif",
+				"bootpath" : "~/Documents/Max 8/Library/thirdParty/CNMAT-Everything-OSX-MachO/CNMAT_MMJ-Depot/media/Audio/Triangles-New",
+				"patcherrelativepath" : "../../../../../Library/thirdParty/CNMAT-Everything-OSX-MachO/CNMAT_MMJ-Depot/media/Audio/Triangles-New",
+				"type" : "AIFF",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "5triangle-ring.aif",
+				"bootpath" : "~/Documents/Max 8/Library/thirdParty/CNMAT-Everything-OSX-MachO/CNMAT_MMJ-Depot/media/Audio/Triangles-New",
+				"patcherrelativepath" : "../../../../../Library/thirdParty/CNMAT-Everything-OSX-MachO/CNMAT_MMJ-Depot/media/Audio/Triangles-New",
+				"type" : "AIFF",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "YayNik333.wav",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound",
+				"patcherrelativepath" : "../../../media/sound",
+				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "angular-velocity-interpertation.png",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/img",
+				"patcherrelativepath" : "../../../media/img",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "clock.png",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/img",
+				"patcherrelativepath" : "../../../media/img",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fallingApple.png",
 				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/img",
 				"patcherrelativepath" : "../../../media/img",
 				"type" : "PNG",
@@ -14343,10 +14802,10 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "clock.png",
-				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/img",
-				"patcherrelativepath" : "../../../media/img",
-				"type" : "PNG",
+				"name" : "generator.js",
+				"bootpath" : "~/Documents/Max 8/Packages/Loom/javascript",
+				"patcherrelativepath" : "../../../../Loom/javascript",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -14358,51 +14817,23 @@
 			}
 , 			{
 				"name" : "input.png",
-				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/img",
-				"patcherrelativepath" : "../../../media/img",
+				"bootpath" : "~/Documents/Max 8/Packages/Loom/media/img",
+				"patcherrelativepath" : "../../../../Loom/media/img",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "output.png",
-				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/img",
-				"patcherrelativepath" : "../../../media/img",
+				"bootpath" : "~/Documents/Max 8/Packages/Loom/media/img",
+				"patcherrelativepath" : "../../../../Loom/media/img",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "5triangle-ring.aif",
-				"bootpath" : "~/Documents/Max 8/Packages/Loom/externals/CNMAT-Everything-OSX-MachO/CNMAT_MMJ-Depot/media/Audio/Triangles-New",
-				"patcherrelativepath" : "../../../../Loom/externals/CNMAT-Everything-OSX-MachO/CNMAT_MMJ-Depot/media/Audio/Triangles-New",
-				"type" : "AIFF",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "1triangle-ring.aif",
-				"bootpath" : "~/Documents/Max 8/Packages/Optron/externals/CNMAT-Everything-OSX-MachO/CNMAT_MMJ-Depot/media/Audio/Triangles-New",
-				"patcherrelativepath" : "../../../externals/CNMAT-Everything-OSX-MachO/CNMAT_MMJ-Depot/media/Audio/Triangles-New",
-				"type" : "AIFF",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "YayNik333.wav",
-				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/sound",
-				"patcherrelativepath" : "../../../media/sound",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "3triangle-ring.aif",
-				"bootpath" : "~/Documents/Max 8/Packages/Loom/externals/CNMAT-Everything-OSX-MachO/CNMAT_MMJ-Depot/media/Audio/Triangles-New",
-				"patcherrelativepath" : "../../../../Loom/externals/CNMAT-Everything-OSX-MachO/CNMAT_MMJ-Depot/media/Audio/Triangles-New",
-				"type" : "AIFF",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "4triangle-ring.aif",
-				"bootpath" : "~/Documents/Max 8/Packages/Loom/externals/CNMAT-Everything-OSX-MachO/CNMAT_MMJ-Depot/media/Audio/Triangles-New",
-				"patcherrelativepath" : "../../../../Loom/externals/CNMAT-Everything-OSX-MachO/CNMAT_MMJ-Depot/media/Audio/Triangles-New",
-				"type" : "AIFF",
+				"name" : "xyzRollPitchYaw.png",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/img",
+				"patcherrelativepath" : "../../../media/img",
+				"type" : "PNG",
 				"implicit" : 1
 			}
  ],
@@ -14445,9 +14876,9 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
+					"fontname" : [ "Arial Bold" ],
 					"fontsize" : [ 11.0 ],
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontname" : [ "Arial Bold" ]
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14456,9 +14887,9 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
+					"fontname" : [ "Arial Bold" ],
 					"fontsize" : [ 10.0 ],
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontname" : [ "Arial Bold" ]
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14467,7 +14898,6 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
-					"fontsize" : [ 11.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -14477,8 +14907,9 @@
 						"proportion" : 0.39
 					}
 ,
+					"fontface" : [ 1 ],
 					"fontname" : [ "Arial" ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 11.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14504,9 +14935,8 @@
 , 			{
 				"name" : "Luca",
 				"default" : 				{
-					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -14517,10 +14947,11 @@
 						"autogradient" : 0
 					}
 ,
-					"fontname" : [ "Open Sans Semibold" ],
-					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
+					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+					"fontname" : [ "Open Sans Semibold" ],
+					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14529,9 +14960,9 @@
 , 			{
 				"name" : "M4L 10 Bold",
 				"default" : 				{
+					"fontface" : [ 1 ],
 					"fontsize" : [ 10.0 ],
-					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.25 ],
-					"fontface" : [ 1 ]
+					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.25 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14550,8 +14981,8 @@
 , 			{
 				"name" : "Matt",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14835,9 +15266,8 @@
 , 			{
 				"name" : "WTF",
 				"default" : 				{
+					"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
 					"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ],
-					"fontsize" : [ 18.0 ],
-					"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -14848,10 +15278,11 @@
 						"autogradient" : 0
 					}
 ,
-					"fontname" : [ "HydrogenType" ],
-					"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
 					"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
-					"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ]
+					"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
+					"fontname" : [ "HydrogenType" ],
+					"fontsize" : [ 18.0 ],
+					"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14860,10 +15291,8 @@
 , 			{
 				"name" : "classic",
 				"default" : 				{
+					"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 					"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : [ 9.0 ],
-					"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
@@ -14873,9 +15302,11 @@
 						"proportion" : 0.39
 					}
 ,
+					"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 					"fontname" : [ "Geneva" ],
-					"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-					"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
+					"fontsize" : [ 9.0 ],
+					"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14929,10 +15360,10 @@
 , 			{
 				"name" : "classicKslider",
 				"default" : 				{
-					"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
+					"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+					"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14970,9 +15401,9 @@
 , 			{
 				"name" : "classicNodes",
 				"default" : 				{
-					"fontsize" : [ 9.0 ],
 					"color" : [ 0.839216, 0.839216, 0.839216, 1.0 ],
-					"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
+					"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+					"fontsize" : [ 9.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15066,8 +15497,8 @@
 , 			{
 				"name" : "classicWaveform~",
 				"default" : 				{
-					"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 0.5 ],
-					"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ]
+					"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ],
+					"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 0.5 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15076,8 +15507,7 @@
 , 			{
 				"name" : "dark-night-patch",
 				"default" : 				{
-					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
+					"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -15087,7 +15517,8 @@
 						"proportion" : 0.39
 					}
 ,
-					"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
+					"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15101,9 +15532,6 @@
 , 			{
 				"name" : "jpatcher002",
 				"default" : 				{
-					"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
-					"fontsize" : [ 9.5 ],
-					"patchlinecolor" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
@@ -15113,7 +15541,10 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontname" : [ "Ableton Sans Book" ]
+					"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
+					"fontname" : [ "Ableton Sans Book" ],
+					"fontsize" : [ 9.5 ],
+					"patchlinecolor" : [ 0.65098, 0.65098, 0.65098, 0.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15122,11 +15553,8 @@
 , 			{
 				"name" : "jpink",
 				"default" : 				{
-					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
-					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
@@ -15137,9 +15565,12 @@
 						"autogradient" : 0
 					}
 ,
-					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
 					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
+					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
+					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15275,8 +15706,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15285,8 +15716,8 @@
 , 			{
 				"name" : "newobjYellow-2",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15342,9 +15773,9 @@
 , 			{
 				"name" : "stb001",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ],
 					"fontname" : [ "Arial Bold" ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15383,8 +15814,8 @@
 , 			{
 				"name" : "test",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15393,11 +15824,11 @@
 , 			{
 				"name" : "whitey",
 				"default" : 				{
-					"selectioncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
-					"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"fontname" : [ "Dirty Ego" ],
 					"fontsize" : [ 36.0 ],
 					"patchlinecolor" : [ 0.199068, 0.062496, 0.060031, 0.9 ],
-					"fontname" : [ "Dirty Ego" ]
+					"selectioncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
+					"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
