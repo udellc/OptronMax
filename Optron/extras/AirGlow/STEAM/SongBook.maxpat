@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 631.0, 79.0, 1225.0, 909.0 ],
+		"rect" : [ 533.0, 79.0, 1225.0, 909.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,59 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontsize" : 14.0,
+					"id" : "obj-5",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 10.0, 4405.75, 447.0, 38.0 ],
+					"presentation_linecount" : 2,
+					"text" : "This familiar tune has mostly step-wise motion, but has a few skips. Try to play these charts."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontsize" : 18.0,
+					"id" : "obj-12",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 10.0, 4373.75, 334.0, 27.0 ],
+					"text" : "More steps and skips"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"id" : "obj-19",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 4.0, 4368.0, 464.5, 98.75 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 833.5, 4368.25, 136.5, 276.0 ],
+					"proportion" : 0.5,
+					"rounded" : 25
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"forceaspect" : 1,
 					"id" : "obj-74",
 					"maxclass" : "fpic",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 10.0, 4375.875, 796.5, 564.900758533501971 ],
+					"patching_rect" : [ 10.0, 4486.875, 796.5, 564.900758533501971 ],
 					"pic" : "MorningGrieg.png"
 				}
 
@@ -782,7 +828,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.5, 2753.0, 447.0, 53.0 ],
+					"patching_rect" : [ 7.5, 2753.0, 450.0, 53.0 ],
 					"text" : "Let's try a different pattern where we play a note, skip a note, and play the next one. Listen to what it sounds like to play 3 notes, skipping one note in between:"
 				}
 
@@ -830,7 +876,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.5, 4367.0, 816.0, 588.75 ],
+					"patching_rect" : [ 1.5, 4478.0, 816.0, 588.75 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -65.5, 1242.0, 136.5, 276.0 ],
 					"proportion" : 0.5,

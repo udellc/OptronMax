@@ -40,6 +40,45 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-167",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 476.0, 3325.0, 29.5, 22.0 ],
+					"text" : "i 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-150",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 476.0, 3297.0, 63.0, 22.0 ],
+					"text" : "closebang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-24",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 476.0, 3269.0, 70.0, 22.0 ],
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontsize" : 14.0,
 					"id" : "obj-207",
 					"items" : [ "Select", "an", "answer:", ",", "pitch", "gets", "higher", ",", "pitch", "gets", "lower", ",", "sound", "gets", "softer", ",", "sound", "gets", "louder", ",", "it", "breaks", "your", "momma's", "back" ],
@@ -150,7 +189,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 17.0, 4344.3125, 436.0, 38.0 ],
-					"presentation_linecount" : 2,
 					"text" : "What happens to the sound when you tilt clockwise (right) on the X axis?"
 				}
 
@@ -164,7 +202,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 17.0, 4271.3125, 443.0, 38.0 ],
-					"presentation_linecount" : 2,
 					"text" : "What happens to the sound when you tilt down towards the floor on the Y axis?"
 				}
 
@@ -179,7 +216,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 530.0, 4394.0, 311.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Plug outlet of scale into the left inlet of this gain slider"
 				}
 
@@ -233,7 +269,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 17.0, 4185.0, 440.0, 38.0 ],
-					"presentation_linecount" : 2,
 					"text" : "5) Plug the outlet of the left scale object into the inlet of the Scale Degree object"
 				}
 
@@ -247,7 +282,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 17.0, 4111.0, 440.0, 69.0 ],
-					"presentation_linecount" : 4,
 					"text" : "4) When finished editing, the scale object on the left shoud say\n[ scale -1. 1. -10 10 ] - without the square brackets. The one on the right should say:\n[ scale -1. 1. 0 127 ]"
 				}
 
@@ -261,7 +295,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 17.0, 4006.0, 440.0, 100.0 ],
-					"presentation_linecount" : 6,
 					"text" : "3) We need to scale the incoming accelerometer value range from -1.0 through 1.0 to a new range that Scale Degree will understand. Looking at the HSV example above, modify your scale objects attached to the Optron Airglow sensor inputs to have an input min and max of -1.0 through 1.0; and an output min and max defined by the comments next to each scale object. "
 				}
 
@@ -275,7 +308,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 17.0, 3967.0, 440.0, 38.0 ],
-					"presentation_linecount" : 2,
 					"text" : "2) Unlock this canvas so you can edit. Do this by clicking the lock icon on the bottom left of this window."
 				}
 
@@ -289,7 +321,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 17.0, 3927.0, 440.0, 38.0 ],
-					"presentation_linecount" : 2,
 					"text" : "1) Choose aX on the dropdown menu for the Optron Airglow sensor on the left, and aY for the sensor on the right."
 				}
 
@@ -1139,8 +1170,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 506.0, 4006.0, 105.0, 22.0 ],
-					"text" : "scale -1. 1. -10 10"
+					"patching_rect" : [ 506.0, 4006.0, 71.5, 22.0 ],
+					"text" : "scale"
 				}
 
 			}
@@ -2675,7 +2706,7 @@
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 380.0, 4.463921, 48.0, 27.0 ],
-									"text" : "5"
+									"text" : "4"
 								}
 
 							}
@@ -2718,7 +2749,7 @@
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 306.0, 89.5, 48.0, 27.0 ],
-									"text" : "52"
+									"text" : "60"
 								}
 
 							}
@@ -2861,7 +2892,7 @@
 											}
 , 											{
 												"key" : 11,
-												"value" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ]
+												"value" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
 											}
 , 											{
 												"key" : 12,
@@ -5666,7 +5697,7 @@
 					"shape" : 2,
 					"size" : 4,
 					"style" : "Default M4L",
-					"value" : 0
+					"value" : 1
 				}
 
 			}
@@ -6519,7 +6550,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "int" ],
 									"patching_rect" : [ 80.0, 100.100043999999997, 30.0, 30.0 ]
 								}
 
@@ -6677,7 +6708,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 342.0, 209.0, 29.5, 22.0 ],
-									"text" : "187"
+									"text" : "81"
 								}
 
 							}
@@ -6701,7 +6732,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 686.0, 192.0, 50.0, 22.0 ],
-									"text" : "64"
+									"text" : "218"
 								}
 
 							}
@@ -7475,7 +7506,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 238.0, 538.0, 140.0, 22.0 ],
-									"text" : "1 187 64 162 0 47"
+									"text" : "1 81 218 162 0 47"
 								}
 
 							}
@@ -7774,7 +7805,7 @@
 									"patching_rect" : [ 153.0, 672.0, 160.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 6.0, 163.0, 190.0, 22.0 ],
-									"text" : "HSv 1 187 64 162 0 47"
+									"text" : "HSv 1 81 218 162 0 47"
 								}
 
 							}
@@ -14333,8 +14364,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-138", 0 ],
-					"source" : [ "obj-144", 0 ]
+					"destination" : [ "obj-167", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-150", 0 ]
 				}
 
 			}
@@ -14375,6 +14407,14 @@
 					"destination" : [ "obj-163", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-165", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-62", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-167", 0 ]
 				}
 
 			}
@@ -14599,6 +14639,14 @@
 					"destination" : [ "obj-149", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-62", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-24", 0 ]
 				}
 
 			}
