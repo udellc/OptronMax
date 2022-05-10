@@ -325,14 +325,16 @@
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 2,
 					"id" : "obj-25",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -156.0, 187.0, 150.0, 20.0 ],
+					"patching_rect" : [ -156.0, 187.0, 150.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 338.0, 56.5, 150.0, 20.0 ],
-					"text" : "Toggle On or Off"
+					"presentation_rect" : [ 306.5, 43.5, 150.0, 39.0 ],
+					"text" : "Click to toggle on or off"
 				}
 
 			}
@@ -357,7 +359,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 377.0, 101.0, 150.0, 24.0 ],
+					"patching_rect" : [ 271.0, 74.0, 150.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 296.0, 537.0, 150.0, 24.0 ],
 					"text" : "Click for Theme Music"
@@ -372,7 +374,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 346.0, 101.0, 24.0, 24.0 ],
+					"patching_rect" : [ 240.0, 74.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 265.0, 537.0, 24.0, 24.0 ]
 				}
@@ -386,7 +388,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 346.0, 136.0, 161.0, 49.0 ],
+					"patching_rect" : [ 240.0, 109.0, 161.0, 49.0 ],
 					"text" : ";\rmax launchbrowser https://youtu.be/bMyFCfklj18"
 				}
 
@@ -449,7 +451,7 @@
 					"patching_rect" : [ -178.0, 29.0, 317.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 20.0, 14.0, 257.0, 47.0 ],
-					"text" : "Mini Lightsaber"
+					"text" : "Laser Sabre"
 				}
 
 			}
@@ -2315,13 +2317,12 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-50",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 342.0, 345.0, 29.5, 35.0 ],
-									"text" : "0 47"
+									"patching_rect" : [ 342.0, 345.0, 29.5, 22.0 ],
+									"text" : "0 1"
 								}
 
 							}
@@ -3167,7 +3168,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 238.0, 538.0, 140.0, 22.0 ],
-									"text" : "1 162 225 31 0 47"
+									"text" : "1 162 225 31 0 1"
 								}
 
 							}
@@ -3466,7 +3467,7 @@
 									"patching_rect" : [ 153.0, 672.0, 160.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 6.0, 163.0, 190.0, 22.0 ],
-									"text" : "HSv 1 162 225 31 0 47"
+									"text" : "HSv 1 162 225 31 0 1"
 								}
 
 							}
@@ -12769,7 +12770,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1058.0, 338.0, 731.0, 541.0 ],
+						"rect" : [ 360.0, 365.0, 731.0, 541.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -12805,7 +12806,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 616.5, 497.0, 87.0, 22.0 ],
-									"text" : "loadmess 1.44"
+									"text" : "loadmess 0.94"
 								}
 
 							}
@@ -15493,8 +15494,8 @@
 			}
 , 			{
 				"name" : "input.png",
-				"bootpath" : "~/Documents/Max 8/Packages/Loom/media/img",
-				"patcherrelativepath" : "../../../../Loom/media/img",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/img",
+				"patcherrelativepath" : "../../../media/img",
 				"type" : "PNG",
 				"implicit" : 1
 			}
@@ -15532,9 +15533,16 @@
 			}
 , 			{
 				"name" : "output.png",
-				"bootpath" : "~/Documents/Max 8/Packages/Loom/media/img",
-				"patcherrelativepath" : "../../../../Loom/media/img",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/img",
+				"patcherrelativepath" : "../../../media/img",
 				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "scales.coll",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/externals/DataProcessor",
+				"patcherrelativepath" : "../../../externals/DataProcessor",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],
