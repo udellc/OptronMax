@@ -40,6 +40,39 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-372",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ -305.0, 2894.0, 174.0, 20.0 ],
+					"text" : "Send to Performer App Record"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-368",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ -8.5, 2894.0, 104.0, 22.0 ],
+					"text" : "send~ 02.Bass_R"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-367",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ -128.5, 2894.0, 102.0, 22.0 ],
+					"text" : "send~ 02.Bass_L"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-198",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -17159,7 +17192,7 @@
 				"box" : 				{
 					"fontsize" : 13.0,
 					"id" : "obj-295",
-					"items" : [ "AGML2_Synth", ",", "chipcrusher2", ",", "chipsounds Multi", ",", "chipsounds", ",", "chipspeech", ",", "Crystal_Synth", ",", "Emissary", ",", "MAGC", ",", "MAmp", ",", "MAnalyzer", ",", "MAutoAlign", ",", "MAutoDynamicEq", ",", "MAutoEqualizer", ",", "MAutoEqualizerLP", ",", "MAutopan", ",", "MAutopanMB", ",", "MAutoPitch", ",", "MAutoStereoFix", ",", "MAutoVolume", ",", "MBandPass", ",", "MBassador", ",", "MBitFun", ",", "MBitFunMB", ",", "MCabinet", ",", "MCabinetMB", ",", "MCCGenerator", ",", "MChannelMatrix", ",", "MCharacter", ",", "MCharmVerb", ",", "MChorusMB", ",", "MComb", ",", "MCombMB", ",", "MCompare", ",", "MCompressor", ",", "MConvolutionEZ", ",", "MConvolutionMB", ",", "MDelayMB", ",", "MDistortionMB", ",", "MDoubleTracker", ",", "MDoubleTrackerMB", ",", "MDrumEnhancer", ",", "MDrumLeveler", ",", "MDrummer", ",", "MDrummer16out", ",", "MDrummer1out", ",", "MDynamicEq", ",", "MDynamics", ",", "MDynamicsMB", ",", "MDynamicsMBLarge", ",", "MEqualizer", ",", "MEqualizerLP", ",", "MFilter", ",", "MFlanger", ",", "MFlangerMB", ",", "MFreeformAnalogEq", ",", "MFreeformEqualizer", ",", "MFreeformPhase", ",", "MFreqShifter", ",", "MFreqShifterMB", ",", "MGranularMB", ",", "MHarmonizerMB", ",", "MLimiterMB", ",", "MLimiterX", ",", "MLoudnessAnalyzer", ",", "MMetronome", ",", "MModernCompressor", ",", "MMorph", ",", "MMultiAnalyzer", ",", "MNoiseGenerator", ",", "MNotepad", ",", "MOscillator", ",", "MOscilloscope", ",", "MPhaser", ",", "MPhaserMB", ",", "MPhatik", ",", "MPolySaturator", ",", "MPowerSynth", ",", "MRatio", ",", "MRatioMB", ",", "MRecorder", ",", "MReverb", ",", "MReverbMB", ",", "MRhythmizer", ",", "MRhythmizerMB", ",", "MRingModulator", ",", "MRingModulatorMB", ",", "MRotary", ",", "MSaturator", ",", "MSaturatorMB", ",", "MSoundFactory", ",", "MSoundFactory6out", ",", "MSpectralDelay", ",", "MSpectralDynamics", ",", "MSpectralDynamicsMini", ",", "MSpectralPan", ",", "MStereoExpander", ",", "MStereoGenerator", ",", "MStereoProcessor", ",", "MStereoScope", ",", "MStereoSpread", ",", "MSuperLooper", ",", "MTransformer", ",", "MTransient", ",", "MTransientMB", ",", "MTremolo", ",", "MTremoloMB", ",", "MTuner", ",", "MTurboComp", ",", "MTurboCompMB", ",", "MTurboDelay", ",", "MTurboDelayMB", ",", "MTurboEQ", ",", "MTurboReverb", ",", "MTurboReverbMB", ",", "MUltraMaximizer", ",", "MUnison", ",", "MUtility", ",", "MVibrato", ",", "MVibratoMB", ",", "MVintageRotary", ",", "MVocoder", ",", "MWaveFolder", ",", "MWaveFolderMB", ",", "MWaveShaper", ",", "MWaveShaperMB", ",", "MWobbler", ",", "MWobblerMB", ",", "MXXX", ",", "MXXX1", ",", "TS-999" ],
+					"items" : [ "AGML2_Synth", ",", "chipcrusher2", ",", "chipsounds Multi", ",", "chipsounds", ",", "chipspeech", ",", "Crystal_Synth", ",", "Emissary", ",", "Labs", ",", "MAGC", ",", "MAmp", ",", "MAnalyzer", ",", "MAutoAlign", ",", "MAutoDynamicEq", ",", "MAutoEqualizer", ",", "MAutoEqualizerLP", ",", "MAutopan", ",", "MAutopanMB", ",", "MAutoPitch_", ",", "MAutoStereoFix", ",", "MAutoVolume", ",", "MBandPass", ",", "MBassador", ",", "MBitFun", ",", "MBitFunMB", ",", "MCabinet", ",", "MCabinetMB", ",", "MCCGenerator", ",", "MChannelMatrix", ",", "MCharacter", ",", "MCharmVerb", ",", "MChorusMB", ",", "MComb", ",", "MCombMB", ",", "MCompare", ",", "MCompressor", ",", "MConvolutionEZ", ",", "MConvolutionMB", ",", "MDelayMB", ",", "MDistortionMB", ",", "MDoubleTracker", ",", "MDoubleTrackerMB", ",", "MDrumEnhancer", ",", "MDrumLeveler", ",", "MDrummer", ",", "MDrummer16out", ",", "MDrummer1out", ",", "MDynamicEq", ",", "MDynamics", ",", "MDynamicsMB", ",", "MDynamicsMBLarge", ",", "MEqualizer", ",", "MEqualizerLP", ",", "MFilter", ",", "MFlanger", ",", "MFlangerMB", ",", "MFreeformAnalogEq", ",", "MFreeformEqualizer", ",", "MFreeformPhase", ",", "MFreqShifter", ",", "MFreqShifterMB", ",", "MGranularMB", ",", "MHarmonizerMB", ",", "MLimiterMB", ",", "MLimiterX", ",", "MLoudnessAnalyzer", ",", "MMetronome", ",", "MModernCompressor", ",", "MMorph", ",", "MMultiAnalyzer", ",", "MNoiseGenerator", ",", "MNotepad", ",", "MOscillator", ",", "MOscilloscope", ",", "MPhaser", ",", "MPhaserMB", ",", "MPhatik", ",", "MPolySaturator", ",", "MPowerSynth_Synth", ",", "MRatio", ",", "MRatioMB", ",", "MRecorder", ",", "MReverb", ",", "MReverbMB", ",", "MRhythmizer", ",", "MRhythmizerMB", ",", "MRingModulator", ",", "MRingModulatorMB", ",", "MRotary", ",", "MSaturator", ",", "MSaturatorMB", ",", "MSoundFactory", ",", "MSoundFactory6out", ",", "MSpectralDelay", ",", "MSpectralDynamics", ",", "MSpectralDynamicsMini", ",", "MSpectralPan", ",", "MStereoExpander", ",", "MStereoGenerator", ",", "MStereoProcessor", ",", "MStereoScope", ",", "MStereoSpread", ",", "MSuperLooper", ",", "MTransformer", ",", "MTransient", ",", "MTransientMB", ",", "MTremolo", ",", "MTremoloMB", ",", "MTuner", ",", "MTurboComp", ",", "MTurboCompMB", ",", "MTurboDelay", ",", "MTurboDelayMB", ",", "MTurboEQ", ",", "MTurboReverb", ",", "MTurboReverbMB", ",", "MUltraMaximizer", ",", "MUnison", ",", "MUtility", ",", "MVibrato", ",", "MVibratoMB", ",", "MVintageRotary", ",", "MVocoder", ",", "MWaveFolder", ",", "MWaveFolderMB", ",", "MWaveShaper", ",", "MWaveShaperMB", ",", "MWobbler", ",", "MWobblerMB", ",", "MXXX", ",", "MXXX1", ",", "TS-999_" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -17639,7 +17672,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "730.CMlaKA....fQPMDZ....A.ESG8D...P......TVavQWdfLGauQGL.........................HfmCUzQPcnC...db19Ue+l1v.geu+UX4m1dngDHPHRjVQokJjFsUB1yUljqAq43vbrYr8W+t7qRJZcdZOMow8hsO+c12cf+fuIWeHSP1CpBdtLh543RIWe0ESlp3rUr8PmsBGEPI6T4IlX8haQGttgzqtff1jUfVykoEjuZXBt963tTRgVArLzcDcPeJIicXUkmoBQd7xahn8GNhRVt31EOZzKySfpnXFcdFSi24JQtNh510k.1ChHJWhmsICjZJQv2C0AiHKhinAkCLACc3Qtj.kojSQrnw8LLJPEQGgvSE4aXh0FYURhN50VO3US3IU9jrrxC2yg7jQAjYa465s5gfQ9iCaGm9.4CFofmw0PxGojML4WVjzzhNsEFukIkkUwkX0tKWT2rzGShcadVwjoPCBMtnnZirNSyi03GOcK5LitY82dVvJpZc0kSUIM0bnsh1yDlRnNtg9gk13wtAgtAdu1.phXIiKOIj2Cg2wC8cPz2JhAVQ3aEwPqHFYEQfUDishHzJBOW6Pr2U8r2V8r2W8r2X8d2N6ZlJEzMuRhyybdRjmZ.mRFDmOM+QGSAn757MwpnlYJv2z2xzLxV822ggNLXH10J3+.m6OxuyyF7BAYBmUOMAiAmzZyqG56d1Nams+Ur2xQzqlj3Of0XshmlBpU3uZCxXPYm2vef+fVdi9C6Paz+WQa3cRdVsNXdoMXVv7v2r4L2Ay+aKj2P+4dl96rc19+w9MrFS5UJtnY9cu7BDq6p1n4OyWymLMaCujFzhhBTTV7qRfZkvb+mWzdlrXMJRZwQ8TUqu600Ef.yBHYMayIhFdRAEfdIHMDnnEttpZpY6tmoTbMS5bLU0vAbyaXBgJOOiTJggo2FQOlZ8vbC0X1qUj4UW7S.Cr1TjA"
+							"blob" : "726.CMlaKA....fQPMDZ....A.ESG8D...P......TVavQWdfLGauQGL.........................HflCUzQPcnC...db19Ue+l1v.geu+UX4m1dngDHPHRjVQokJjFsUB1yUljqAq43vbrYr8W+t7qRJZcVaOMow8RrO+c122k3S4ax0GxDj8fpfmKindNtTx0WcwjoJNaEaOzYovQATxNUdhIVu3VzgqaH8pKHnMYEn0bYZA4qFlfq+NtJkTnU.KCcGQGzmRxXGVU4YpPjGu7lHZ+ginjkKtcwiF8x7DnJJlQmmwz3YtRjqintccIf8fHhxk3dax.olRD78PcvHxhX7rJevDLzgG4RBTlRNEwhF2yvn.UDcDBOUjugIVajUII5nWKevilvSp7IYYkatmC4IiBHy1x20a0CAi7GG19b5CjOXjBdFWCIejR1vjeYQRSI5zRX7VlTVxhKQ1tKWTWrzGShcadVwjoPCBMNonZgrNCyi03qmtjNynal+smErhpRWMcpnzTygVFsmILkPcbC8CKswicCBcC7ds.TEwRFWdRHuGBuia56fnuUDCrhv2JhgVQLxJh.qHFaEQnUDdt1gXup5Yur5Yut5Yuv58tU10LUJnatkDmm47jHO0.NkcPb9z7GcLEfp6WhUQMyTf2oukoYjs5uuCCcXvPrpUv+AN1ejemqM3ABxDNqdXBFCNn0lW+nu6Y6rc19WwdaOhd0MI9S6Z3ctqwY6r8+i8210XshmlBpU3+5CxXPYuug+.+As8M5OrSai9+p1FdmjmUyClWZClELO7MKNycv7eCQlzqTbQy36d4EHV2UsQyOyWSwoYa3kDxhhBTTV7qRfZkvb+mWztmrXMJRZwQ8TUyu604Ef.yBHYMayIhFdRAEfdIHMDnnEtthM0u.tmoTbMS5bLU0vAbwaXBgJOOiTJggo2FQOlZ8vbC0X1qUj4UW7SvUXLEV"
 						}
 ,
 						"snapshotlist" : 						{
@@ -17661,7 +17694,7 @@
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "730.CMlaKA....fQPMDZ....A.ESG8D...P......TVavQWdfLGauQGL.........................HfmCUzQPcnC...db19Ue+l1v.geu+UX4m1dngDHPHRjVQokJjFsUB1yUljqAq43vbrYr8W+t7qRJZcdZOMow8hsO+c12cf+fuIWeHSP1CpBdtLh543RIWe0ESlp3rUr8PmsBGEPI6T4IlX8haQGttgzqtff1jUfVykoEjuZXBt963tTRgVArLzcDcPeJIicXUkmoBQd7xahn8GNhRVt31EOZzKySfpnXFcdFSi24JQtNh510k.1ChHJWhmsICjZJQv2C0AiHKhinAkCLACc3Qtj.kojSQrnw8LLJPEQGgvSE4aXh0FYURhN50VO3US3IU9jrrxC2yg7jQAjYa465s5gfQ9iCaGm9.4CFofmw0PxGojML4WVjzzhNsEFukIkkUwkX0tKWT2rzGShcadVwjoPCBMtnnZirNSyi03GOcK5LitY82dVvJpZc0kSUIM0bnsh1yDlRnNtg9gk13wtAgtAdu1.phXIiKOIj2Cg2wC8cPz2JhAVQ3aEwPqHFYEQfUDishHzJBOW6Pr2U8r2V8r2W8r2X8d2N6ZlJEzMuRhyybdRjmZ.mRFDmOM+QGSAn757MwpnlYJv2z2xzLxV822ggNLXH10J3+.m6OxuyyF7BAYBmUOMAiAmzZyqG56d1Nams+Ur2xQzqlj3Of0XshmlBpU3uZCxXPYm2vef+fVdi9C6Paz+WQa3cRdVsNXdoMXVv7v2r4L2Ay+aKj2P+4dl96rc19+w9MrFS5UJtnY9cu7BDq6p1n4OyWymLMaCujFzhhBTTV7qRfZkvb+mWzdlrXMJRZwQ8TUqu600Ef.yBHYMayIhFdRAEfdIHMDnnEttpZpY6tmoTbMS5bLU0vAbyaXBgJOOiTJggo2FQOlZ8vbC0X1qUj4UW7S.Cr1TjA"
+										"blob" : "726.CMlaKA....fQPMDZ....A.ESG8D...P......TVavQWdfLGauQGL.........................HflCUzQPcnC...db19Ue+l1v.geu+UX4m1dngDHPHRjVQokJjFsUB1yUljqAq43vbrYr8W+t7qRJZcVaOMow8RrO+c122k3S4ax0GxDj8fpfmKindNtTx0WcwjoJNaEaOzYovQATxNUdhIVu3VzgqaH8pKHnMYEn0bYZA4qFlfq+NtJkTnU.KCcGQGzmRxXGVU4YpPjGu7lHZ+ginjkKtcwiF8x7DnJJlQmmwz3YtRjqintccIf8fHhxk3dax.olRD78PcvHxhX7rJevDLzgG4RBTlRNEwhF2yvn.UDcDBOUjugIVajUII5nWKevilvSp7IYYkatmC4IiBHy1x20a0CAi7GG19b5CjOXjBdFWCIejR1vjeYQRSI5zRX7VlTVxhKQ1tKWTWrzGShcadVwjoPCBMNonZgrNCyi03qmtjNynal+smErhpRWMcpnzTygVFsmILkPcbC8CKswicCBcC7ds.TEwRFWdRHuGBuia56fnuUDCrhv2JhgVQLxJh.qHFaEQnUDdt1gXup5Yur5Yut5Yuv58tU10LUJnatkDmm47jHO0.NkcPb9z7GcLEfp6WhUQMyTf2oukoYjs5uuCCcXvPrpUv+AN1ejemqM3ABxDNqdXBFCNn0lW+nu6Y6rc19WwdaOhd0MI9S6Z3ctqwY6r8+i8210XshmlBpU3+5CxXPYuug+.+As8M5OrSai9+p1FdmjmUyClWZClELO7MKNycv7eCQlzqTbQy36d4EHV2UsQyOyWSwoYa3kDxhhBTTV7qRfZkvb+mWztmrXMJRZwQ8TUyu604Ef.yBHYMayIhFdRAEfdIHMDnnEtthM0u.tmoTbMS5bLU0vAbwaXBgJOOiTJggo2FQOlZ8vbC0X1qUj4UW7SvUXLEV"
 									}
 ,
 									"fileref" : 									{
@@ -18180,7 +18213,7 @@
 				"box" : 				{
 					"fontsize" : 13.0,
 					"id" : "obj-238",
-					"items" : [ "AGML2_Synth", ",", "chipcrusher2", ",", "chipsounds Multi", ",", "chipsounds", ",", "chipspeech", ",", "Crystal_Synth", ",", "Emissary", ",", "MAGC", ",", "MAmp", ",", "MAnalyzer", ",", "MAutoAlign", ",", "MAutoDynamicEq", ",", "MAutoEqualizer", ",", "MAutoEqualizerLP", ",", "MAutopan", ",", "MAutopanMB", ",", "MAutoPitch", ",", "MAutoStereoFix", ",", "MAutoVolume", ",", "MBandPass", ",", "MBassador", ",", "MBitFun", ",", "MBitFunMB", ",", "MCabinet", ",", "MCabinetMB", ",", "MCCGenerator", ",", "MChannelMatrix", ",", "MCharacter", ",", "MCharmVerb", ",", "MChorusMB", ",", "MComb", ",", "MCombMB", ",", "MCompare", ",", "MCompressor", ",", "MConvolutionEZ", ",", "MConvolutionMB", ",", "MDelayMB", ",", "MDistortionMB", ",", "MDoubleTracker", ",", "MDoubleTrackerMB", ",", "MDrumEnhancer", ",", "MDrumLeveler", ",", "MDrummer", ",", "MDrummer16out", ",", "MDrummer1out", ",", "MDynamicEq", ",", "MDynamics", ",", "MDynamicsMB", ",", "MDynamicsMBLarge", ",", "MEqualizer", ",", "MEqualizerLP", ",", "MFilter", ",", "MFlanger", ",", "MFlangerMB", ",", "MFreeformAnalogEq", ",", "MFreeformEqualizer", ",", "MFreeformPhase", ",", "MFreqShifter", ",", "MFreqShifterMB", ",", "MGranularMB", ",", "MHarmonizerMB", ",", "MLimiterMB", ",", "MLimiterX", ",", "MLoudnessAnalyzer", ",", "MMetronome", ",", "MModernCompressor", ",", "MMorph", ",", "MMultiAnalyzer", ",", "MNoiseGenerator", ",", "MNotepad", ",", "MOscillator", ",", "MOscilloscope", ",", "MPhaser", ",", "MPhaserMB", ",", "MPhatik", ",", "MPolySaturator", ",", "MPowerSynth", ",", "MRatio", ",", "MRatioMB", ",", "MRecorder", ",", "MReverb", ",", "MReverbMB", ",", "MRhythmizer", ",", "MRhythmizerMB", ",", "MRingModulator", ",", "MRingModulatorMB", ",", "MRotary", ",", "MSaturator", ",", "MSaturatorMB", ",", "MSoundFactory", ",", "MSoundFactory6out", ",", "MSpectralDelay", ",", "MSpectralDynamics", ",", "MSpectralDynamicsMini", ",", "MSpectralPan", ",", "MStereoExpander", ",", "MStereoGenerator", ",", "MStereoProcessor", ",", "MStereoScope", ",", "MStereoSpread", ",", "MSuperLooper", ",", "MTransformer", ",", "MTransient", ",", "MTransientMB", ",", "MTremolo", ",", "MTremoloMB", ",", "MTuner", ",", "MTurboComp", ",", "MTurboCompMB", ",", "MTurboDelay", ",", "MTurboDelayMB", ",", "MTurboEQ", ",", "MTurboReverb", ",", "MTurboReverbMB", ",", "MUltraMaximizer", ",", "MUnison", ",", "MUtility", ",", "MVibrato", ",", "MVibratoMB", ",", "MVintageRotary", ",", "MVocoder", ",", "MWaveFolder", ",", "MWaveFolderMB", ",", "MWaveShaper", ",", "MWaveShaperMB", ",", "MWobbler", ",", "MWobblerMB", ",", "MXXX", ",", "MXXX1", ",", "TS-999" ],
+					"items" : [ "AGML2_Synth", ",", "chipcrusher2", ",", "chipsounds Multi", ",", "chipsounds", ",", "chipspeech", ",", "Crystal_Synth", ",", "Emissary", ",", "Labs", ",", "MAGC", ",", "MAmp", ",", "MAnalyzer", ",", "MAutoAlign", ",", "MAutoDynamicEq", ",", "MAutoEqualizer", ",", "MAutoEqualizerLP", ",", "MAutopan", ",", "MAutopanMB", ",", "MAutoPitch_", ",", "MAutoStereoFix", ",", "MAutoVolume", ",", "MBandPass", ",", "MBassador", ",", "MBitFun", ",", "MBitFunMB", ",", "MCabinet", ",", "MCabinetMB", ",", "MCCGenerator", ",", "MChannelMatrix", ",", "MCharacter", ",", "MCharmVerb", ",", "MChorusMB", ",", "MComb", ",", "MCombMB", ",", "MCompare", ",", "MCompressor", ",", "MConvolutionEZ", ",", "MConvolutionMB", ",", "MDelayMB", ",", "MDistortionMB", ",", "MDoubleTracker", ",", "MDoubleTrackerMB", ",", "MDrumEnhancer", ",", "MDrumLeveler", ",", "MDrummer", ",", "MDrummer16out", ",", "MDrummer1out", ",", "MDynamicEq", ",", "MDynamics", ",", "MDynamicsMB", ",", "MDynamicsMBLarge", ",", "MEqualizer", ",", "MEqualizerLP", ",", "MFilter", ",", "MFlanger", ",", "MFlangerMB", ",", "MFreeformAnalogEq", ",", "MFreeformEqualizer", ",", "MFreeformPhase", ",", "MFreqShifter", ",", "MFreqShifterMB", ",", "MGranularMB", ",", "MHarmonizerMB", ",", "MLimiterMB", ",", "MLimiterX", ",", "MLoudnessAnalyzer", ",", "MMetronome", ",", "MModernCompressor", ",", "MMorph", ",", "MMultiAnalyzer", ",", "MNoiseGenerator", ",", "MNotepad", ",", "MOscillator", ",", "MOscilloscope", ",", "MPhaser", ",", "MPhaserMB", ",", "MPhatik", ",", "MPolySaturator", ",", "MPowerSynth_Synth", ",", "MRatio", ",", "MRatioMB", ",", "MRecorder", ",", "MReverb", ",", "MReverbMB", ",", "MRhythmizer", ",", "MRhythmizerMB", ",", "MRingModulator", ",", "MRingModulatorMB", ",", "MRotary", ",", "MSaturator", ",", "MSaturatorMB", ",", "MSoundFactory", ",", "MSoundFactory6out", ",", "MSpectralDelay", ",", "MSpectralDynamics", ",", "MSpectralDynamicsMini", ",", "MSpectralPan", ",", "MStereoExpander", ",", "MStereoGenerator", ",", "MStereoProcessor", ",", "MStereoScope", ",", "MStereoSpread", ",", "MSuperLooper", ",", "MTransformer", ",", "MTransient", ",", "MTransientMB", ",", "MTremolo", ",", "MTremoloMB", ",", "MTuner", ",", "MTurboComp", ",", "MTurboCompMB", ",", "MTurboDelay", ",", "MTurboDelayMB", ",", "MTurboEQ", ",", "MTurboReverb", ",", "MTurboReverbMB", ",", "MUltraMaximizer", ",", "MUnison", ",", "MUtility", ",", "MVibrato", ",", "MVibratoMB", ",", "MVintageRotary", ",", "MVocoder", ",", "MWaveFolder", ",", "MWaveFolderMB", ",", "MWaveShaper", ",", "MWaveShaperMB", ",", "MWobbler", ",", "MWobblerMB", ",", "MXXX", ",", "MXXX1", ",", "TS-999_" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -27514,7 +27547,7 @@
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 380.0, 4.463921, 48.0, 27.0 ],
-									"text" : "5"
+									"text" : "0"
 								}
 
 							}
@@ -27557,7 +27590,7 @@
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 306.0, 89.5, 48.0, 27.0 ],
-									"text" : "52"
+									"text" : "60"
 								}
 
 							}
@@ -29801,7 +29834,7 @@
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 380.0, 4.463921, 48.0, 27.0 ],
-									"text" : "5"
+									"text" : "0"
 								}
 
 							}
@@ -29844,7 +29877,7 @@
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 306.0, 89.5, 48.0, 27.0 ],
-									"text" : "52"
+									"text" : "60"
 								}
 
 							}
@@ -33435,6 +33468,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-367", 0 ],
+					"order" : 2,
+					"source" : [ "obj-318", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-368", 0 ],
+					"order" : 2,
+					"source" : [ "obj-318", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-70", 1 ],
 					"order" : 1,
 					"source" : [ "obj-318", 1 ]
@@ -34133,8 +34182,8 @@
 			}
 , 			{
 				"name" : "Patch_Generator.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Optron/externals/DataProcessor",
-				"patcherrelativepath" : "../../../externals/DataProcessor",
+				"bootpath" : "~/Documents/Max 8/Packages/Loom/externals/DataProcessor",
+				"patcherrelativepath" : "../../../../Loom/externals/DataProcessor",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -34154,8 +34203,8 @@
 			}
 , 			{
 				"name" : "generator.js",
-				"bootpath" : "~/Documents/Max 8/Packages/Optron/javascript",
-				"patcherrelativepath" : "../../../javascript",
+				"bootpath" : "~/Documents/Max 8/Packages/Loom/javascript",
+				"patcherrelativepath" : "../../../../Loom/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -34167,8 +34216,8 @@
 			}
 , 			{
 				"name" : "input.png",
-				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/img",
-				"patcherrelativepath" : "../../../media/img",
+				"bootpath" : "~/Documents/Max 8/Packages/Loom/media/img",
+				"patcherrelativepath" : "../../../../Loom/media/img",
 				"type" : "PNG",
 				"implicit" : 1
 			}
@@ -34181,8 +34230,8 @@
 			}
 , 			{
 				"name" : "output.png",
-				"bootpath" : "~/Documents/Max 8/Packages/Optron/media/img",
-				"patcherrelativepath" : "../../../media/img",
+				"bootpath" : "~/Documents/Max 8/Packages/Loom/media/img",
+				"patcherrelativepath" : "../../../../Loom/media/img",
 				"type" : "PNG",
 				"implicit" : 1
 			}
@@ -34191,6 +34240,13 @@
 				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/spatialization/panning/lib",
 				"patcherrelativepath" : "../../../../../../../Library/Application Support/Cycling '74/Max 8/Examples/spatialization/panning/lib",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "scales.coll",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/externals/DataProcessor",
+				"patcherrelativepath" : "../../../externals/DataProcessor",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{

@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontsize" : 48.0,
+					"id" : "obj-166",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 202.5, 1284.0, 571.0, 60.0 ],
+					"text" : "More Explaination here"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"hidden" : 1,
 					"id" : "obj-167",
 					"maxclass" : "newobj",
@@ -803,7 +815,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 555.3125, 456.0, 161.1875 ],
+					"patching_rect" : [ 5.0, 555.3125, 464.0, 160.1875 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.5, 555.3125, 136.5, 276.0 ],
 					"proportion" : 0.5,
@@ -14875,6 +14887,13 @@
 				"bootpath" : "~/Documents/Max 8/Packages/Loom/media/img",
 				"patcherrelativepath" : "../../../../Loom/media/img",
 				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "scales.coll",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/externals/DataProcessor",
+				"patcherrelativepath" : "../../../externals/DataProcessor",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
