@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 692.0, 79.0, 811.0, 878.0 ],
+		"rect" : [ 1011.0, 79.0, 766.0, 878.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,11 +40,63 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontsize" : 14.0,
+					"id" : "obj-332",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 12.5, 945.802360774818226, 445.0, 22.0 ],
+					"text" : "Turn off the metronome on the example to the right and continue."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-330",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 615.5, 914.802360774818226, 33.0, 22.0 ],
+					"text" : "== 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 14.0,
+					"id" : "obj-328",
+					"items" : [ "Select", "an", "answer:", ",", "Tempo", "gets", "slower", ",", "Tempo", "gets", "faster", ",", "Tempo", "tastes", "better", ",", "Tempo", "changes", "color" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 12.5, 825.911319612590887, 140.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 14.0,
+					"id" : "obj-117",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 12.5, 796.911319612590887, 662.0, 22.0 ],
+					"presentation_linecount" : 2,
+					"text" : "Interact with the Example on the right. When you increase the value of BPM, what happens to the tempo?"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-331",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 750.0, 5365.0, 276.0, 20.0 ],
+					"patching_rect" : [ 750.0, 5489.0, 276.0, 20.0 ],
 					"text" : "<< pass beat pulses through if radio button is > 0"
 				}
 
@@ -56,7 +108,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 714.75, 5365.0, 32.0, 22.0 ],
+					"patching_rect" : [ 714.75, 5489.0, 32.0, 22.0 ],
 					"text" : "gate"
 				}
 
@@ -68,7 +120,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 782.25, 5319.5, 29.5, 22.0 ],
+					"patching_rect" : [ 782.25, 5443.5, 29.5, 22.0 ],
 					"text" : "> 0"
 				}
 
@@ -80,7 +132,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 497.25, 5361.0, 32.0, 22.0 ],
+					"patching_rect" : [ 497.25, 5485.0, 32.0, 22.0 ],
 					"text" : "gate"
 				}
 
@@ -92,7 +144,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 597.0, 5314.0, 29.5, 22.0 ],
+					"patching_rect" : [ 597.0, 5438.0, 29.5, 22.0 ],
 					"text" : "> 0"
 				}
 
@@ -105,7 +157,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.5, 5319.5, 453.0, 132.0 ],
+					"patching_rect" : [ 12.5, 5443.5, 453.0, 132.0 ],
 					"text" : "Experiment: start by clicking 1 for the left radio group and 2 for the right radio group. Listen for the clave to play every other beat.\nClick 3 for the right radio group and listen to the clave play every third beat.\nNow click 2 for the left radio group and listen to a 2-3 polyrhythm. The triangle plays every 2nd beat and clave every 3rd beat.\nExperiment with different numbers on the left and right to hear different poly rhythms."
 				}
 
@@ -118,7 +170,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.5, 5183.75, 455.0, 132.0 ],
+					"patching_rect" : [ 12.5, 5307.75, 455.0, 132.0 ],
 					"text" : "In the example on the right, beat numbers 0 - 15 are divided by a number you select from the radio buttons. You can choose to divide the beat by 1 - 8. Dividing beat numbers by 1 will output a remainder of 0 every time. Dividing beat numbers by 2 will output a remainder of 0 for even and 1 for odd beat numbers. Dividing by 3 will out put a remainder of 0 every third number, etc. By selecting when we have a remainder of 0, and playing a beat, we can hear these mathematical patterns and make cool beats!"
 				}
 
@@ -131,7 +183,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.5, 5126.75, 451.0, 53.0 ],
+					"patching_rect" : [ 12.5, 5250.75, 451.0, 53.0 ],
 					"text" : "The modulo operator divides a number in the left inlet by the number in the right inlet and outputs the remainder. This can be a fun and simple way to create polyrhythms."
 				}
 
@@ -144,7 +196,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.5, 5097.75, 299.0, 27.0 ],
+					"patching_rect" : [ 12.5, 5221.75, 299.0, 27.0 ],
 					"text" : "Polyrhythm: Turn Math Into Beats"
 				}
 
@@ -160,7 +212,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.5, 5092.0, 459.0, 366.0 ],
+					"patching_rect" : [ 6.5, 5216.0, 459.0, 366.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.5, 5095.0, 136.5, 276.0 ],
 					"proportion" : 0.5,
@@ -176,7 +228,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 806.0, 5252.0, 41.0, 19.0 ],
+					"patching_rect" : [ 806.0, 5376.0, 41.0, 19.0 ],
 					"text" : "8"
 				}
 
@@ -189,7 +241,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 806.0, 5233.5, 41.0, 19.0 ],
+					"patching_rect" : [ 806.0, 5357.5, 41.0, 19.0 ],
 					"text" : "7"
 				}
 
@@ -202,7 +254,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 806.0, 5213.5, 41.0, 19.0 ],
+					"patching_rect" : [ 806.0, 5337.5, 41.0, 19.0 ],
 					"text" : "6"
 				}
 
@@ -215,7 +267,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 806.0, 5195.5, 41.0, 19.0 ],
+					"patching_rect" : [ 806.0, 5319.5, 41.0, 19.0 ],
 					"text" : "5"
 				}
 
@@ -228,7 +280,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 806.0, 5175.5, 41.0, 19.0 ],
+					"patching_rect" : [ 806.0, 5299.5, 41.0, 19.0 ],
 					"text" : "4"
 				}
 
@@ -241,7 +293,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 806.0, 5154.0, 41.0, 19.0 ],
+					"patching_rect" : [ 806.0, 5278.0, 41.0, 19.0 ],
 					"text" : "3"
 				}
 
@@ -254,7 +306,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 806.0, 5136.0, 41.0, 19.0 ],
+					"patching_rect" : [ 806.0, 5260.0, 41.0, 19.0 ],
 					"text" : "2"
 				}
 
@@ -267,7 +319,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 806.0, 5114.0, 41.0, 19.0 ],
+					"patching_rect" : [ 806.0, 5238.0, 41.0, 19.0 ],
 					"text" : "1"
 				}
 
@@ -280,7 +332,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 806.0, 5094.0, 41.0, 19.0 ],
+					"patching_rect" : [ 806.0, 5218.0, 41.0, 19.0 ],
 					"text" : "0"
 				}
 
@@ -293,7 +345,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 782.25, 5283.0, 50.0, 22.0 ]
+					"patching_rect" : [ 782.25, 5407.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -308,9 +360,9 @@
 					"offset" : 20,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 782.25, 5094.0, 18.0, 182.0 ],
+					"patching_rect" : [ 782.25, 5218.0, 18.0, 182.0 ],
 					"size" : 9,
-					"value" : 3
+					"value" : 0
 				}
 
 			}
@@ -321,7 +373,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 714.75, 5400.0, 29.5, 22.0 ],
+					"patching_rect" : [ 714.75, 5524.0, 29.5, 22.0 ],
 					"text" : "1"
 				}
 
@@ -334,7 +386,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 715.25, 5220.0, 50.0, 22.0 ]
+					"patching_rect" : [ 715.25, 5344.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -346,7 +398,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 715.5, 5293.0, 24.0, 24.0 ]
+					"patching_rect" : [ 715.5, 5417.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -357,7 +409,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 715.5, 5257.0, 34.0, 22.0 ],
+					"patching_rect" : [ 715.5, 5381.0, 34.0, 22.0 ],
 					"text" : "sel 0"
 				}
 
@@ -369,7 +421,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 715.25, 5184.0, 29.5, 22.0 ],
+					"patching_rect" : [ 715.25, 5308.0, 29.5, 22.0 ],
 					"text" : "% 4"
 				}
 
@@ -382,7 +434,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 715.5, 5472.25, 40.0, 22.0 ],
+					"patching_rect" : [ 715.5, 5596.25, 40.0, 22.0 ],
 					"text" : "*~ 0.2"
 				}
 
@@ -395,7 +447,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 506.5, 5473.25, 47.0, 22.0 ],
+					"patching_rect" : [ 506.5, 5597.25, 47.0, 22.0 ],
 					"text" : "*~ 0.15"
 				}
 
@@ -407,7 +459,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 699.5, 5511.0, 35.0, 22.0 ],
+					"patching_rect" : [ 699.5, 5635.0, 35.0, 22.0 ],
 					"text" : "dac~"
 				}
 
@@ -441,7 +493,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 715.5, 5434.0, 150.0, 30.0 ],
+					"patching_rect" : [ 715.5, 5558.0, 150.0, 30.0 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -455,7 +507,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 497.25, 5515.0, 35.0, 22.0 ],
+					"patching_rect" : [ 497.25, 5639.0, 35.0, 22.0 ],
 					"text" : "dac~"
 				}
 
@@ -489,7 +541,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 497.25, 5434.0, 150.0, 30.0 ],
+					"patching_rect" : [ 497.25, 5558.0, 150.0, 30.0 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -503,7 +555,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 497.25, 5395.0, 29.5, 22.0 ],
+					"patching_rect" : [ 497.25, 5519.0, 29.5, 22.0 ],
 					"text" : "1"
 				}
 
@@ -516,7 +568,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 620.75, 5252.0, 41.0, 19.0 ],
+					"patching_rect" : [ 620.75, 5376.0, 41.0, 19.0 ],
 					"text" : "8"
 				}
 
@@ -529,7 +581,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 620.75, 5233.5, 41.0, 19.0 ],
+					"patching_rect" : [ 620.75, 5357.5, 41.0, 19.0 ],
 					"text" : "7"
 				}
 
@@ -542,7 +594,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 620.75, 5213.5, 41.0, 19.0 ],
+					"patching_rect" : [ 620.75, 5337.5, 41.0, 19.0 ],
 					"text" : "6"
 				}
 
@@ -555,7 +607,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 620.75, 5195.5, 41.0, 19.0 ],
+					"patching_rect" : [ 620.75, 5319.5, 41.0, 19.0 ],
 					"text" : "5"
 				}
 
@@ -568,7 +620,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 620.75, 5175.5, 41.0, 19.0 ],
+					"patching_rect" : [ 620.75, 5299.5, 41.0, 19.0 ],
 					"text" : "4"
 				}
 
@@ -581,7 +633,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 620.75, 5154.0, 41.0, 19.0 ],
+					"patching_rect" : [ 620.75, 5278.0, 41.0, 19.0 ],
 					"text" : "3"
 				}
 
@@ -594,7 +646,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 620.75, 5136.0, 41.0, 19.0 ],
+					"patching_rect" : [ 620.75, 5260.0, 41.0, 19.0 ],
 					"text" : "2"
 				}
 
@@ -607,7 +659,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 620.75, 5114.0, 41.0, 19.0 ],
+					"patching_rect" : [ 620.75, 5238.0, 41.0, 19.0 ],
 					"text" : "1"
 				}
 
@@ -620,7 +672,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 620.75, 5094.0, 41.0, 19.0 ],
+					"patching_rect" : [ 620.75, 5218.0, 41.0, 19.0 ],
 					"text" : "0"
 				}
 
@@ -633,7 +685,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.5, 4988.5, 447.0, 69.0 ],
+					"patching_rect" : [ 12.5, 5112.5, 447.0, 69.0 ],
 					"text" : "Extend this activity by performing a rhythm on your AirGlow using the Percussion track. Select the Quarter note duration, play a rhythm that uses the quarter-triple and eighth-triple subdivision of the beat.\nCan you think of any favorite songs that use triplet subdivisions?"
 				}
 
@@ -645,7 +697,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.5, 4878.0, 161.0, 20.0 ],
+					"patching_rect" : [ 12.5, 5002.0, 161.0, 20.0 ],
 					"text" : "Discussion:"
 				}
 
@@ -658,7 +710,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.5, 4900.0, 451.0, 85.0 ],
+					"patching_rect" : [ 12.5, 5024.0, 455.0, 85.0 ],
 					"text" : "Click the radio buttons on the top left of the example to select and listen to note durations. You may double-click on each link.beats object to see how the blue pie slices divide the measure. \nFor each duration, count the beats out loud by following along with the words below each link.beats object."
 				}
 
@@ -674,7 +726,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.5, 4873.5, 459.0, 190.25 ],
+					"patching_rect" : [ 6.5, 4997.5, 459.0, 190.25 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.5, 4943.0, 136.5, 276.0 ],
 					"proportion" : 0.5,
@@ -742,7 +794,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 806.25, 3241.5, 110.0, 24.0 ],
+					"patching_rect" : [ 806.25, 3365.5, 110.0, 24.0 ],
 					"text" : "Quarter Notes"
 				}
 
@@ -755,7 +807,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 751.25, 3280.5, 32.0, 22.0 ],
+					"patching_rect" : [ 751.25, 3404.5, 32.0, 22.0 ],
 					"text" : "gate"
 				}
 
@@ -768,7 +820,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 751.25, 3176.5, 29.5, 22.0 ],
+					"patching_rect" : [ 751.25, 3300.5, 29.5, 22.0 ],
 					"text" : "> 0"
 				}
 
@@ -781,7 +833,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 751.0, 3386.75, 40.0, 22.0 ],
+					"patching_rect" : [ 751.0, 3510.75, 40.0, 22.0 ],
 					"text" : "*~ 0.2"
 				}
 
@@ -793,7 +845,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 751.0, 3420.5, 35.0, 22.0 ],
+					"patching_rect" : [ 751.0, 3544.5, 35.0, 22.0 ],
 					"text" : "dac~"
 				}
 
@@ -806,7 +858,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 751.25, 3314.5, 29.5, 22.0 ],
+					"patching_rect" : [ 751.25, 3438.5, 29.5, 22.0 ],
 					"text" : "1"
 				}
 
@@ -820,7 +872,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 765.0, 3234.5, 38.0, 38.0 ]
+					"patching_rect" : [ 765.0, 3358.5, 38.0, 38.0 ]
 				}
 
 			}
@@ -854,7 +906,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 751.0, 3348.5, 150.0, 30.0 ],
+					"patching_rect" : [ 751.0, 3472.5, 150.0, 30.0 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -868,7 +920,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 845.25, 3203.5, 302.0, 24.0 ],
+					"patching_rect" : [ 845.25, 3327.5, 302.0, 24.0 ],
 					"text" : "Play 1 triplet for every 2 quarter notes. (cycle/6). "
 				}
 
@@ -881,7 +933,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "bang", "bang" ],
-					"patching_rect" : [ 764.25, 3203.5, 79.0, 22.0 ],
+					"patching_rect" : [ 764.25, 3327.5, 79.0, 22.0 ],
 					"text" : "link.beats 1 4"
 				}
 
@@ -894,7 +946,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 615.5, 870.213680387409113, 40.0, 22.0 ],
+					"patching_rect" : [ 615.5, 994.213680387409113, 40.0, 22.0 ],
 					"text" : "*~ 0.1"
 				}
 
@@ -906,7 +958,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 615.5, 902.25, 35.0, 22.0 ],
+					"patching_rect" : [ 615.5, 1026.25, 35.0, 22.0 ],
 					"text" : "dac~"
 				}
 
@@ -919,7 +971,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 615.5, 795.802360774818226, 33.0, 22.0 ],
+					"patching_rect" : [ 660.0, 914.802360774818226, 33.0, 22.0 ],
 					"text" : "== 3"
 				}
 
@@ -954,7 +1006,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 615.5, 825.802360774818226, 150.0, 30.0 ],
+					"patching_rect" : [ 615.5, 949.802360774818226, 150.0, 30.0 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -971,7 +1023,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.5, 842.911319612590887, 140.0, 24.0 ]
+					"patching_rect" : [ 12.5, 900.911319612590887, 140.0, 24.0 ]
 				}
 
 			}
@@ -983,8 +1035,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.5, 802.911319612590887, 445.0, 38.0 ],
-					"text" : "Interact with the Example on the right. What is the period in ms for a BPM of 60?"
+					"patching_rect" : [ 12.5, 860.911319612590887, 445.0, 38.0 ],
+					"text" : "Scroll to the far right of this page. Interact with the example on the far right. What is the period do you get in ms if you set the BPM to 60?"
 				}
 
 			}
@@ -995,7 +1047,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1067.5, 4824.0, 110.0, 24.0 ],
+					"patching_rect" : [ 1067.5, 4948.0, 110.0, 24.0 ],
 					"text" : "Quarter Notes"
 				}
 
@@ -1007,7 +1059,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1012.5, 4863.0, 32.0, 22.0 ],
+					"patching_rect" : [ 1012.5, 4987.0, 32.0, 22.0 ],
 					"text" : "gate"
 				}
 
@@ -1019,7 +1071,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 1012.5, 4759.0, 29.5, 22.0 ],
+					"patching_rect" : [ 1012.5, 4883.0, 29.5, 22.0 ],
 					"text" : "> 0"
 				}
 
@@ -1032,7 +1084,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1012.25, 4969.25, 40.0, 22.0 ],
+					"patching_rect" : [ 1012.25, 5093.25, 40.0, 22.0 ],
 					"text" : "*~ 0.2"
 				}
 
@@ -1045,7 +1097,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 606.25, 5008.5, 47.0, 22.0 ],
+					"patching_rect" : [ 606.25, 5132.5, 47.0, 22.0 ],
 					"text" : "*~ 0.15"
 				}
 
@@ -1057,7 +1109,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 996.25, 5008.0, 35.0, 22.0 ],
+					"patching_rect" : [ 996.25, 5132.0, 35.0, 22.0 ],
 					"text" : "dac~"
 				}
 
@@ -1069,7 +1121,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1012.5, 4897.0, 29.5, 22.0 ],
+					"patching_rect" : [ 1012.5, 5021.0, 29.5, 22.0 ],
 					"text" : "1"
 				}
 
@@ -1082,7 +1134,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1026.25, 4817.0, 38.0, 38.0 ]
+					"patching_rect" : [ 1026.25, 4941.0, 38.0, 38.0 ]
 				}
 
 			}
@@ -1115,7 +1167,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1012.25, 4931.0, 150.0, 30.0 ],
+					"patching_rect" : [ 1012.25, 5055.0, 150.0, 30.0 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -1129,7 +1181,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1106.5, 4786.0, 302.0, 24.0 ],
+					"patching_rect" : [ 1106.5, 4910.0, 302.0, 24.0 ],
 					"text" : "Play 1 triplet for every 2 quarter notes. (cycle/6). "
 				}
 
@@ -1141,7 +1193,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "bang", "bang" ],
-					"patching_rect" : [ 1025.5, 4786.0, 79.0, 22.0 ],
+					"patching_rect" : [ 1025.5, 4910.0, 79.0, 22.0 ],
 					"text" : "link.beats 1 8"
 				}
 
@@ -1156,7 +1208,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 629.0, 4736.25, 100.0, 22.0 ]
+					"patching_rect" : [ 629.0, 4860.25, 100.0, 22.0 ]
 				}
 
 			}
@@ -1167,7 +1219,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 330.5, 4736.75, 100.0, 13.0 ],
+					"patching_rect" : [ 330.5, 4860.75, 100.0, 13.0 ],
 					"text" : "www.musictheoryacademy.com"
 				}
 
@@ -1178,7 +1230,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 359.5, 4826.375, 26.0, 20.0 ],
+					"patching_rect" : [ 359.5, 4950.375, 26.0, 20.0 ],
 					"text" : "lee"
 				}
 
@@ -1189,7 +1241,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 334.5, 4826.375, 18.0, 20.0 ],
+					"patching_rect" : [ 334.5, 4950.375, 18.0, 20.0 ],
 					"text" : "la"
 				}
 
@@ -1201,7 +1253,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 308.5, 4824.375, 20.0, 22.0 ],
+					"patching_rect" : [ 308.5, 4948.375, 20.0, 22.0 ],
 					"text" : "3"
 				}
 
@@ -1212,7 +1264,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 278.5, 4826.375, 26.0, 20.0 ],
+					"patching_rect" : [ 278.5, 4950.375, 26.0, 20.0 ],
 					"text" : "lee"
 				}
 
@@ -1223,7 +1275,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 253.5, 4826.375, 18.0, 20.0 ],
+					"patching_rect" : [ 253.5, 4950.375, 18.0, 20.0 ],
 					"text" : "la"
 				}
 
@@ -1235,7 +1287,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 227.5, 4824.375, 20.0, 22.0 ],
+					"patching_rect" : [ 227.5, 4948.375, 20.0, 22.0 ],
 					"text" : "2"
 				}
 
@@ -1246,7 +1298,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 197.5, 4826.375, 26.0, 20.0 ],
+					"patching_rect" : [ 197.5, 4950.375, 26.0, 20.0 ],
 					"text" : "lee"
 				}
 
@@ -1257,7 +1309,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 172.5, 4826.375, 18.0, 20.0 ],
+					"patching_rect" : [ 172.5, 4950.375, 18.0, 20.0 ],
 					"text" : "la"
 				}
 
@@ -1269,7 +1321,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 145.5, 4824.375, 20.0, 22.0 ],
+					"patching_rect" : [ 145.5, 4948.375, 20.0, 22.0 ],
 					"text" : "1"
 				}
 
@@ -1283,7 +1335,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 65.75, 4736.75, 343.5, 95.582608695652169 ],
+					"patching_rect" : [ 65.75, 4860.75, 343.5, 95.582608695652169 ],
 					"pic" : "compound-triple-meter.jpeg"
 				}
 
@@ -1309,7 +1361,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 806.5, 775.0, 39.0, 39.0 ]
+					"patching_rect" : [ 806.5, 899.0, 39.0, 39.0 ]
 				}
 
 			}
@@ -1676,7 +1728,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 273.5, 4473.0, 100.0, 13.0 ],
+					"patching_rect" : [ 273.5, 4597.0, 100.0, 13.0 ],
 					"text" : "www.musictheoryacademy.com"
 				}
 
@@ -1689,7 +1741,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.5, 4696.75, 447.0, 38.0 ],
+					"patching_rect" : [ 12.5, 4820.75, 447.0, 38.0 ],
 					"text" : "Triple meter beats can also be subdivided into 3 equal parts called \"Triplets.\" Count as 1 la lee, 2 la lee, 3 la lee, 4 la lee ..."
 				}
 
@@ -1702,7 +1754,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.5, 4667.75, 254.0, 27.0 ],
+					"patching_rect" : [ 12.5, 4791.75, 254.0, 27.0 ],
 					"text" : "Counting Compound Tripple"
 				}
 
@@ -1718,7 +1770,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.5, 4662.0, 459.0, 206.0 ],
+					"patching_rect" : [ 6.5, 4786.0, 459.0, 206.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 414.5, 4556.0, 136.5, 276.0 ],
 					"proportion" : 0.5,
@@ -1733,7 +1785,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.5, 4624.375, 447.0, 22.0 ],
+					"patching_rect" : [ 12.5, 4748.375, 447.0, 22.0 ],
 					"text" : "Practice counting this out loud."
 				}
 
@@ -1745,7 +1797,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 303.5, 4601.375, 20.0, 22.0 ],
+					"patching_rect" : [ 303.5, 4725.375, 20.0, 22.0 ],
 					"text" : "3"
 				}
 
@@ -1756,7 +1808,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 330.5, 4602.375, 18.0, 20.0 ],
+					"patching_rect" : [ 330.5, 4726.375, 18.0, 20.0 ],
 					"text" : "&"
 				}
 
@@ -1768,7 +1820,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 246.5, 4601.375, 20.0, 22.0 ],
+					"patching_rect" : [ 246.5, 4725.375, 20.0, 22.0 ],
 					"text" : "2"
 				}
 
@@ -1779,7 +1831,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 273.5, 4602.375, 18.0, 20.0 ],
+					"patching_rect" : [ 273.5, 4726.375, 18.0, 20.0 ],
 					"text" : "&"
 				}
 
@@ -1791,7 +1843,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 190.5, 4601.375, 20.0, 22.0 ],
+					"patching_rect" : [ 190.5, 4725.375, 20.0, 22.0 ],
 					"text" : "1"
 				}
 
@@ -1802,7 +1854,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 217.5, 4602.375, 18.0, 20.0 ],
+					"patching_rect" : [ 217.5, 4726.375, 18.0, 20.0 ],
 					"text" : "&"
 				}
 
@@ -1816,7 +1868,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 96.75, 4464.75, 278.5, 128.122030237580987 ],
+					"patching_rect" : [ 96.75, 4588.75, 278.5, 128.122030237580987 ],
 					"pic" : "simplemeter.jpg"
 				}
 
@@ -1829,7 +1881,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.5, 3626.0, 447.0, 69.0 ],
+					"patching_rect" : [ 12.5, 3750.0, 447.0, 69.0 ],
 					"text" : "Extend this activity by performing a rhythm on your AirGlow using the Percussion track. Select the Quarter note duration, play a rhythm that uses the \"subdivision\" of the beat (twice as fast). Select the eighth note duration, play a rhythm that uses the \"subdivision\" of the beat"
 				}
 
@@ -1842,7 +1894,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.5, 4409.75, 450.0, 53.0 ],
+					"patching_rect" : [ 12.5, 4533.75, 450.0, 53.0 ],
 					"text" : "Triple meter beats may be subdivided into 2 equal half-beats. In this example, the quarter note is still divided by 2 eighth notes and counted as: \"One and, Two and, Three and, Four and ..."
 				}
 
@@ -1855,7 +1907,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.5, 4380.75, 223.0, 27.0 ],
+					"patching_rect" : [ 12.5, 4504.75, 223.0, 27.0 ],
 					"text" : "Counting Simple Tripple"
 				}
 
@@ -1871,7 +1923,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.5, 4375.0, 459.0, 275.25 ],
+					"patching_rect" : [ 6.5, 4499.0, 459.0, 275.25 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.5, 4206.0, 136.5, 276.0 ],
 					"proportion" : 0.5,
@@ -1887,7 +1939,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.5, 4274.75, 447.0, 85.0 ],
+					"patching_rect" : [ 12.75, 4148.75, 447.0, 85.0 ],
 					"text" : "A dot adds an extra half duration of that beat. \nA dotted whole note is: 1 whole + 1 half, or 6 beats long.\nA dotted half note is: 1 half + one quarter, or 3 beats long.\nA dotted quarter note is: 1 quarter + 1 eighth, or 1 1/2 beats long.\nA dotted eighth note is: 1 eighth + 1 sixteenth, or 3/4 beats long."
 				}
 
@@ -1901,7 +1953,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 99.5, 4038.75, 272.5, 229.444999999999993 ],
+					"patching_rect" : [ 99.75, 3912.75, 272.5, 229.444999999999993 ],
 					"pic" : "dotted_notes.jpg"
 				}
 
@@ -1914,7 +1966,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.5, 3999.75, 447.0, 38.0 ],
+					"patching_rect" : [ 12.75, 3873.75, 447.0, 38.0 ],
 					"text" : "What if we want a note that lasts 3 beats? This is a job for dotted note durations."
 				}
 
@@ -1927,7 +1979,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.5, 3970.75, 211.0, 27.0 ],
+					"patching_rect" : [ 12.5, 3843.75, 211.0, 27.0 ],
 					"text" : "Dotted Note Durations"
 				}
 
@@ -1943,7 +1995,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.5, 3965.0, 459.0, 402.25 ],
+					"patching_rect" : [ 6.5, 3838.0, 459.0, 402.25 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.5, 3796.0, 136.5, 276.0 ],
 					"proportion" : 0.5,
@@ -1958,7 +2010,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 532.0, 3876.75, 113.0, 13.0 ],
+					"patching_rect" : [ 532.0, 4404.75, 113.0, 13.0 ],
 					"text" : "http://www.piano-keyboard-guide.com/"
 				}
 
@@ -1972,7 +2024,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 6.5, 3876.75, 635.5, 72.610212335692623 ],
+					"patching_rect" : [ 6.5, 4404.75, 635.5, 72.610212335692623 ],
 					"pic" : "Simple-triple-meter.jpg"
 				}
 
@@ -1985,7 +2037,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.5, 3771.75, 447.0, 85.0 ],
+					"patching_rect" : [ 12.5, 4299.75, 447.0, 85.0 ],
 					"text" : "Dividing the rhythmic cycle equally into nubers divisible by 3 is also comon. Waltzes and swing style music typically use these metic divisions. Click the radio buttons below to listen to triple meter. Also try combining triple and duple divisions together to come up with interesting rhythms!"
 				}
 
@@ -1998,7 +2050,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.5, 3742.75, 202.0, 27.0 ],
+					"patching_rect" : [ 12.5, 4270.75, 202.0, 27.0 ],
 					"text" : "Triple Meter"
 				}
 
@@ -2014,7 +2066,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.5, 3737.0, 459.0, 127.25 ],
+					"patching_rect" : [ 6.5, 4265.0, 459.0, 127.25 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.5, 3660.0, 136.5, 276.0 ],
 					"proportion" : 0.5,
@@ -2029,7 +2081,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.5, 2872.5, 161.0, 20.0 ],
+					"patching_rect" : [ 6.5, 2996.5, 161.0, 20.0 ],
 					"text" : "Activity: Beat Counting"
 				}
 
@@ -2041,7 +2093,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.5, 3515.5, 161.0, 20.0 ],
+					"patching_rect" : [ 12.5, 3639.5, 161.0, 20.0 ],
 					"text" : "Discussion:"
 				}
 
@@ -2054,7 +2106,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.5, 3537.5, 451.0, 85.0 ],
+					"patching_rect" : [ 12.5, 3661.5, 455.0, 85.0 ],
 					"text" : "Click the radio buttons on the top left of the example to select and listen to note durations. You may double-click on each link.beats object to see how the blue pie slices divide the measure. \nFor each duration, count the beats out loud by following along with the words below each link.beats object."
 				}
 
@@ -2070,7 +2122,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.5, 3509.0, 459.0, 192.25 ],
+					"patching_rect" : [ 6.5, 3633.0, 459.0, 192.25 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 702.5, 3313.0, 136.5, 276.0 ],
 					"proportion" : 0.5,
@@ -2084,7 +2136,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.5, 2847.977537437604042, 551.5, 20.0 ],
+					"patching_rect" : [ 6.5, 2971.977537437604042, 551.5, 20.0 ],
 					"text" : "_________________________________________________________________________________"
 				}
 
@@ -2096,7 +2148,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 562.600000000000023, 3242.5, 70.0, 22.0 ],
+					"patching_rect" : [ 562.600000000000023, 3366.5, 70.0, 22.0 ],
 					"text" : "loadmess 2"
 				}
 
@@ -2373,7 +2425,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 443.0, 504.0, 50.0, 22.0 ],
-									"text" : "0 0"
+									"text" : "42 0"
 								}
 
 							}
@@ -4119,12 +4171,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-50",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 342.0, 345.0, 29.5, 22.0 ],
-									"text" : "0 2"
+									"patching_rect" : [ 342.0, 345.0, 29.5, 35.0 ],
+									"text" : "42 44"
 								}
 
 							}
@@ -4446,7 +4499,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 225.0, 574.0, 140.0, 22.0 ],
-									"text" : "0 254 254 0 2 150"
+									"text" : "0 254 254 42 2 150"
 								}
 
 							}
@@ -4715,7 +4768,7 @@
 									"patching_rect" : [ 140.0, 714.0, 160.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 164.0, 190.0, 22.0 ],
-									"text" : "SPT 0 254 254 30 2 150"
+									"text" : "SPT 0 254 254 42 2 150"
 								}
 
 							}
@@ -6597,7 +6650,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 367.100000000000023, 3285.5, 263.0, 191.0 ],
+					"patching_rect" : [ 367.100000000000023, 3409.5, 263.0, 191.0 ],
 					"varname" : "patch_1[1]",
 					"viewvisibility" : 1
 				}
@@ -6610,7 +6663,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 131.5, 3406.0, 40.0, 22.0 ],
+					"patching_rect" : [ 131.5, 3530.0, 40.0, 22.0 ],
 					"text" : "*~ 0.1"
 				}
 
@@ -6622,7 +6675,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 88.0, 3406.0, 40.0, 22.0 ],
+					"patching_rect" : [ 88.0, 3530.0, 40.0, 22.0 ],
 					"text" : "*~ 0.1"
 				}
 
@@ -6633,7 +6686,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 742.5, 2791.375, 47.0, 20.0 ],
+					"patching_rect" : [ 742.5, 2915.375, 47.0, 20.0 ],
 					"text" : "e  &  a"
 				}
 
@@ -6644,7 +6697,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 683.5, 2791.375, 47.0, 20.0 ],
+					"patching_rect" : [ 683.5, 2915.375, 47.0, 20.0 ],
 					"text" : "e  &  a"
 				}
 
@@ -6655,7 +6708,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 625.5, 2791.375, 47.0, 20.0 ],
+					"patching_rect" : [ 625.5, 2915.375, 47.0, 20.0 ],
 					"text" : "e  &  a"
 				}
 
@@ -6666,7 +6719,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 566.5, 2791.375, 47.0, 20.0 ],
+					"patching_rect" : [ 566.5, 2915.375, 47.0, 20.0 ],
 					"text" : "e  &  a"
 				}
 
@@ -6677,7 +6730,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 521.5, 2791.375, 20.0, 20.0 ],
+					"patching_rect" : [ 521.5, 2915.375, 20.0, 20.0 ],
 					"text" : "&"
 				}
 
@@ -6688,7 +6741,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 483.5, 2791.375, 20.0, 20.0 ],
+					"patching_rect" : [ 483.5, 2915.375, 20.0, 20.0 ],
 					"text" : "&"
 				}
 
@@ -6699,7 +6752,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 445.5, 2791.375, 20.0, 20.0 ],
+					"patching_rect" : [ 445.5, 2915.375, 20.0, 20.0 ],
 					"text" : "&"
 				}
 
@@ -6710,7 +6763,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 407.0, 2791.375, 20.0, 20.0 ],
+					"patching_rect" : [ 407.0, 2915.375, 20.0, 20.0 ],
 					"text" : "&"
 				}
 
@@ -6726,7 +6779,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 235.0, 2785.75, 29.0, 31.25 ],
+					"patching_rect" : [ 235.0, 2909.75, 29.0, 31.25 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 236.5, 2688.75, 136.5, 276.0 ],
 					"proportion" : 0.5,
@@ -6745,7 +6798,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.5, 2785.75, 29.0, 31.25 ],
+					"patching_rect" : [ 187.5, 2909.75, 29.0, 31.25 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 186.5, 2691.75, 136.5, 276.0 ],
 					"proportion" : 0.5,
@@ -6764,7 +6817,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 115.5, 2785.75, 47.0, 31.25 ],
+					"patching_rect" : [ 115.5, 2909.75, 47.0, 31.25 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 274.5, 2238.0, 136.5, 276.0 ],
 					"proportion" : 0.5,
@@ -6780,7 +6833,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.5, 1199.75, 446.0, 69.0 ],
+					"patching_rect" : [ 12.5, 1285.75, 446.0, 69.0 ],
 					"text" : "In the example above, the 4 on top indicates 4 pulses per measure. The 4 on the bottom says the quarter note duration is what counts as the beat. We would count the above measure \"One, Two, Three, Four.\""
 				}
 
@@ -6793,7 +6846,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.5, 2360.75, 446.0, 179.0 ],
+					"patching_rect" : [ 12.5, 2484.75, 446.0, 179.0 ],
 					"text" : "Whole Note - symbol with the longest duration\nHalf Note - half duration of a whole note, 2 half notes make 1 whole note\nQuarter Note - one quarter duration of a whole note, 2 quarter notes make 1 half note\nEighth Note - one eighth duration of a whole note, 2 eighth notes make 1 quarter note\nSixteenth Note - one sixteenth duration of a whole note, 2 sixteenth notes make 1 eighth note\nThe example below shows the beat durations and how we would count them out loud:"
 				}
 
@@ -6806,7 +6859,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.5, 2331.75, 202.0, 27.0 ],
+					"patching_rect" : [ 12.5, 2455.75, 202.0, 27.0 ],
 					"text" : "Note Durations"
 				}
 
@@ -6822,7 +6875,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.5, 2326.0, 459.0, 221.25 ],
+					"patching_rect" : [ 6.5, 2450.0, 459.0, 221.25 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.5, 2046.0, 136.5, 276.0 ],
 					"proportion" : 0.5,
@@ -6838,7 +6891,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.5, 2210.75, 446.0, 100.0 ],
+					"patching_rect" : [ 12.5, 2334.75, 446.0, 100.0 ],
 					"text" : "Although we often hear quarter subdivisions in music, we can subdivide the rhythmic cycle by any number. Common subdivisions are powers of 2 (1, 2, 4, 8, 16, etc).\nThis is often referd to as \"Duple\" meter. They have an even feel that you can walk steadily with: left-right-lrft-right. Click the button on the right to hear a piece in duple meter."
 				}
 
@@ -6851,7 +6904,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.5, 2181.75, 202.0, 27.0 ],
+					"patching_rect" : [ 12.5, 2305.75, 202.0, 27.0 ],
 					"text" : "Duple Meter"
 				}
 
@@ -6867,7 +6920,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.5, 2176.0, 464.0, 139.25 ],
+					"patching_rect" : [ 6.5, 2300.0, 464.0, 139.25 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 851.5, 2075.0, 136.5, 276.0 ],
 					"proportion" : 0.5,
@@ -6882,7 +6935,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.5, 1942.5, 161.0, 20.0 ],
+					"patching_rect" : [ 12.5, 2028.5, 161.0, 20.0 ],
 					"text" : "Discussion:"
 				}
 
@@ -6891,12 +6944,12 @@
 				"box" : 				{
 					"fontsize" : 14.0,
 					"id" : "obj-192",
-					"linecount" : 11,
+					"linecount" : 13,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.5, 1964.5, 446.0, 179.0 ],
-					"text" : "Click the toggle above to enable the example. \nDouble click the link.beats object to view the rhythmic cycle. \nNote the blue pie slices and the beat numbers 0, 1, 2, and 3.\nWhile we humans usually count from 1, computers count from 0.\nPractice counting the beat numbers saying \"One, Two, Three, Four.\"\nThe SPIT module lights up the AirGlow LEDs.\nBeat numbers 0, 1, 2, and 3 are each assigned a different Hue value to change color. They also go through some math opperators to light the LEDs at different locations on the LED bar.\nRevew Tutorial Optron Lights for detailed explaination of AirGlow LED control."
+					"patching_rect" : [ 12.5, 2050.5, 446.0, 210.0 ],
+					"text" : "Click the toggle above to enable the example. \nDouble click the link.beats object to view the rhythmic cycle. \nNote the blue pie slices and the beat numbers 0, 1, 2, and 3.\nWhile we humans usually count from 1, computers count from 0.\nPractice counting the beat numbers saying \"One, Two, Three, Four.\"\nThe SPIT module lights up the AirGlow LEDs.\nBeat numbers 0, 1, 2, and 3 are each assigned a different Hue value to change color. They also go through some math opperators to light the LEDs at different locations on the LED bar.\nRevew Tutorial Optron Lights for detailed explaination of AirGlow LED control.\nTo adjust the Tempo, go to the OptronAirGlow_Performer page, find Link Clock Source, and click-hold-drag the bpm number up and down."
 				}
 
 			}
@@ -6911,7 +6964,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.5, 1936.0, 464.0, 214.25 ],
+					"patching_rect" : [ 6.5, 2022.0, 464.0, 245.25 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.5, 1033.0, 136.5, 276.0 ],
 					"proportion" : 0.5,
@@ -6928,7 +6981,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 50.5, 1663.5, 150.0, 37.0 ],
+					"patching_rect" : [ 50.5, 1749.5, 150.0, 37.0 ],
 					"text" : "Assign beat number to Hue value"
 				}
 
@@ -6941,7 +6994,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 43.5, 1623.0, 182.0, 24.0 ],
+					"patching_rect" : [ 43.5, 1709.0, 182.0, 24.0 ],
 					"text" : "Select specific beat numbers"
 				}
 
@@ -6953,7 +7006,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 268.25, 1671.0, 29.5, 22.0 ],
+					"patching_rect" : [ 268.25, 1757.0, 29.5, 22.0 ],
 					"text" : "213"
 				}
 
@@ -6965,7 +7018,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.0, 1671.0, 29.5, 22.0 ],
+					"patching_rect" : [ 300.0, 1757.0, 29.5, 22.0 ],
 					"text" : "75"
 				}
 
@@ -6977,7 +7030,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 236.75, 1671.0, 29.5, 22.0 ],
+					"patching_rect" : [ 236.75, 1757.0, 29.5, 22.0 ],
 					"text" : "143"
 				}
 
@@ -6989,7 +7042,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 205.25, 1671.0, 29.5, 22.0 ],
+					"patching_rect" : [ 205.25, 1757.0, 29.5, 22.0 ],
 					"text" : "0"
 				}
 
@@ -7001,7 +7054,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 5,
 					"outlettype" : [ "bang", "bang", "bang", "bang", "" ],
-					"patching_rect" : [ 230.0, 1623.0, 64.0, 22.0 ],
+					"patching_rect" : [ 230.0, 1709.0, 64.0, 22.0 ],
 					"text" : "sel 0 1 2 3"
 				}
 
@@ -7013,7 +7066,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 325.0, 965.625, 94.0, 13.0 ],
+					"patching_rect" : [ 325.0, 1051.625, 94.0, 13.0 ],
 					"text" : "https://www.musicnotes.com/"
 				}
 
@@ -7026,7 +7079,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.5, 1065.75, 446.0, 132.0 ],
+					"patching_rect" : [ 12.5, 1151.75, 446.0, 132.0 ],
 					"text" : "One of the most typical rhythms in western music is subdividing the total rhythmic cycle into 4 equal beats called \"quarter notes.\"\nCan you think of other things we can slice into quarters? How about Pizza?\nA Measure contains the number of beats or pulses in a rhythmic cycle.\nA Bar line seperates the ending and begining of measures.\nThe Time Signature says how many beats are in the measure, and which beat value gets the counted pulse. "
 				}
 
@@ -7038,7 +7091,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.5, 928.75, 161.0, 20.0 ],
+					"patching_rect" : [ 12.5, 1014.75, 161.0, 20.0 ],
 					"text" : "Four to the Floor"
 				}
 
@@ -7052,7 +7105,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 12.5, 950.75, 410.5, 111.421428571428564 ],
+					"patching_rect" : [ 12.5, 1036.75, 410.5, 111.421428571428564 ],
 					"pic" : "timeSignature.png"
 				}
 
@@ -7065,7 +7118,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.5, 899.75, 202.0, 27.0 ],
+					"patching_rect" : [ 12.5, 985.75, 202.0, 27.0 ],
 					"text" : "How Many Beats?"
 				}
 
@@ -7081,7 +7134,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.5, 894.0, 464.0, 387.25 ],
+					"patching_rect" : [ 6.5, 980.0, 464.0, 387.25 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.5, 758.5, 136.5, 276.0 ],
 					"proportion" : 0.5,
@@ -7097,7 +7150,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 535.0, 562.25, 165.0, 37.0 ],
+					"patching_rect" : [ 536.0, 577.25, 165.0, 37.0 ],
 					"text" : "Click to turn Metronome on or off"
 				}
 
@@ -7161,7 +7214,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 491.0, 562.25, 42.0, 42.0 ]
+					"patching_rect" : [ 492.0, 577.25, 42.0, 42.0 ]
 				}
 
 			}
@@ -7186,7 +7239,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 561.0, 612.75, 165.0, 37.0 ],
+					"patching_rect" : [ 562.0, 627.75, 165.0, 37.0 ],
 					"text" : "Click-hold-drag up/down to adjust Tempo in BPM"
 				}
 
@@ -7199,7 +7252,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 491.0, 653.25, 42.0, 42.0 ]
+					"patching_rect" : [ 492.0, 668.25, 42.0, 42.0 ]
 				}
 
 			}
@@ -7214,7 +7267,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 491.0, 612.75, 68.0, 31.0 ],
+					"patching_rect" : [ 492.0, 627.75, 68.0, 31.0 ],
 					"tricolor" : [ 0.0, 0.874509803921569, 1.0, 1.0 ]
 				}
 
@@ -7227,7 +7280,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 585.0, 645.5, 55.0, 22.0 ],
+					"patching_rect" : [ 586.0, 660.5, 55.0, 22.0 ],
 					"text" : "!/ 60000."
 				}
 
@@ -7240,7 +7293,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 535.0, 673.25, 69.0, 22.0 ],
+					"patching_rect" : [ 536.0, 688.25, 69.0, 22.0 ],
 					"text" : "metro 1000"
 				}
 
@@ -7274,7 +7327,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 491.0, 706.0, 150.0, 30.0 ],
+					"patching_rect" : [ 492.0, 721.0, 150.0, 30.0 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -7616,7 +7669,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 597.0, 5283.0, 50.0, 22.0 ]
+					"patching_rect" : [ 597.0, 5407.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -7628,7 +7681,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 497.0, 5215.0, 50.0, 22.0 ]
+					"patching_rect" : [ 497.0, 5339.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -7643,7 +7696,7 @@
 					"offset" : 20,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 597.0, 5094.0, 18.0, 182.0 ],
+					"patching_rect" : [ 597.0, 5218.0, 18.0, 182.0 ],
 					"size" : 9,
 					"value" : 0
 				}
@@ -7656,7 +7709,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 627.5, 3047.5, 292.0, 24.0 ],
+					"patching_rect" : [ 627.5, 3171.5, 292.0, 24.0 ],
 					"text" : "Calculate pows of 2 for corresponding subdivision"
 				}
 
@@ -7669,7 +7722,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 513.5, 3250.5, 50.0, 22.0 ]
+					"patching_rect" : [ 513.5, 3374.5, 50.0, 22.0 ]
 				}
 
 			}
@@ -7680,7 +7733,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 513.5, 3217.5, 29.5, 22.0 ],
+					"patching_rect" : [ 513.5, 3341.5, 29.5, 22.0 ],
 					"text" : "* 1"
 				}
 
@@ -7692,7 +7745,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 512.5, 3047.5, 113.0, 22.0 ],
+					"patching_rect" : [ 512.5, 3171.5, 113.0, 22.0 ],
 					"text" : "expr pow(2\\, ($i1-1))"
 				}
 
@@ -7705,7 +7758,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 553.5, 3176.5, 50.0, 22.0 ]
+					"patching_rect" : [ 553.5, 3300.5, 50.0, 22.0 ]
 				}
 
 			}
@@ -7741,7 +7794,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 512.5, 3016.5, 45.0, 22.0 ],
+					"patching_rect" : [ 512.5, 3140.5, 45.0, 22.0 ],
 					"text" : "r duple"
 				}
 
@@ -7753,7 +7806,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 555.5, 3120.5, 323.0, 24.0 ],
+					"patching_rect" : [ 555.5, 3244.5, 323.0, 24.0 ],
 					"text" : "Divide the total number of AirGlow LEDs by subdivision"
 				}
 
@@ -7765,7 +7818,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 524.0, 3120.5, 29.5, 22.0 ],
+					"patching_rect" : [ 524.0, 3244.5, 29.5, 22.0 ],
 					"text" : "!/ 4"
 				}
 
@@ -7777,7 +7830,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 534.5, 3081.5, 69.0, 22.0 ],
+					"patching_rect" : [ 534.5, 3205.5, 69.0, 22.0 ],
 					"text" : "r numLEDs"
 				}
 
@@ -7788,7 +7841,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 497.75, 4807.25, 44.0, 22.0 ],
+					"patching_rect" : [ 497.75, 4931.25, 44.0, 22.0 ],
 					"text" : "s triple"
 				}
 
@@ -7799,7 +7852,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 16.5, 3172.0, 47.0, 22.0 ],
+					"patching_rect" : [ 16.5, 3296.0, 47.0, 22.0 ],
 					"text" : "s duple"
 				}
 
@@ -7814,7 +7867,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 640.75, 4807.25, 100.0, 22.0 ]
+					"patching_rect" : [ 640.75, 4931.25, 100.0, 22.0 ]
 				}
 
 			}
@@ -7826,7 +7879,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 497.25, 5288.0, 24.0, 24.0 ]
+					"patching_rect" : [ 497.25, 5412.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -7837,7 +7890,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 497.25, 5252.0, 34.0, 22.0 ],
+					"patching_rect" : [ 497.25, 5376.0, 34.0, 22.0 ],
 					"text" : "sel 0"
 				}
 
@@ -7849,7 +7902,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 497.0, 5179.0, 29.5, 22.0 ],
+					"patching_rect" : [ 497.0, 5303.0, 29.5, 22.0 ],
 					"text" : "% 4"
 				}
 
@@ -7862,7 +7915,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 497.0, 5139.0, 50.0, 22.0 ]
+					"patching_rect" : [ 497.0, 5263.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -7873,7 +7926,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "bang", "bang" ],
-					"patching_rect" : [ 497.0, 5105.0, 86.0, 22.0 ],
+					"patching_rect" : [ 497.0, 5229.0, 86.0, 22.0 ],
 					"text" : "link.beats 1 16"
 				}
 
@@ -7884,7 +7937,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.5, 5069.0, 551.5, 20.0 ],
+					"patching_rect" : [ 2.5, 5193.0, 551.5, 20.0 ],
 					"text" : "_________________________________________________________________________________"
 				}
 
@@ -7897,7 +7950,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 482.5, 3737.0, 24.0, 24.0 ]
+					"patching_rect" : [ 482.5, 4265.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -7909,7 +7962,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 511.5, 3732.0, 268.0, 37.0 ],
+					"patching_rect" : [ 511.5, 4260.0, 268.0, 37.0 ],
 					"text" : "Click here to listen to an excerpt of The Blue Danube Waltz by Johann Strauss"
 				}
 
@@ -7922,7 +7975,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 482.5, 3781.0, 212.0, 49.0 ],
+					"patching_rect" : [ 482.5, 4309.0, 212.0, 49.0 ],
 					"text" : ";\rmax launchbrowser https://youtu.be/cKkDMiGUbUw?t=57"
 				}
 
@@ -7935,7 +7988,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 482.5, 2188.25, 24.0, 24.0 ]
+					"patching_rect" : [ 482.5, 2312.25, 24.0, 24.0 ]
 				}
 
 			}
@@ -7947,7 +8000,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 511.5, 2174.75, 268.0, 51.0 ],
+					"patching_rect" : [ 511.5, 2298.75, 268.0, 51.0 ],
 					"text" : "Click here to listen to the United States Marine Band perform The Stars and Stripes Forever (1896) by John Philip Sousa"
 				}
 
@@ -7960,7 +8013,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 482.5, 2230.75, 185.0, 49.0 ],
+					"patching_rect" : [ 482.5, 2354.75, 185.0, 49.0 ],
 					"text" : ";\rmax launchbrowser https://youtu.be/DRQWP-TL4gk"
 				}
 
@@ -7974,7 +8027,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 551.75, 4631.25, 188.0, 66.0 ],
+					"patching_rect" : [ 551.75, 4755.25, 188.0, 66.0 ],
 					"text" : "Double-click each of the link.beats objects below to see divisions of the cycle."
 				}
 
@@ -7988,7 +8041,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 497.75, 4763.75, 76.0, 19.0 ],
+					"patching_rect" : [ 497.75, 4887.75, 76.0, 19.0 ],
 					"text" : "eighth-tripple"
 				}
 
@@ -8002,7 +8055,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 497.75, 4747.25, 77.0, 19.0 ],
+					"patching_rect" : [ 497.75, 4871.25, 77.0, 19.0 ],
 					"text" : "quarter-triple"
 				}
 
@@ -8016,7 +8069,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 514.75, 4731.25, 60.0, 19.0 ],
+					"patching_rect" : [ 514.75, 4855.25, 60.0, 19.0 ],
 					"text" : "Off"
 				}
 
@@ -8028,7 +8081,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 710.75, 4773.25, 302.0, 24.0 ],
+					"patching_rect" : [ 710.75, 4897.25, 302.0, 24.0 ],
 					"text" : "Play 1 triplet for every 1 quarter note (cycle/12)"
 				}
 
@@ -8040,7 +8093,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 687.25, 4699.25, 302.0, 24.0 ],
+					"patching_rect" : [ 687.25, 4823.25, 302.0, 24.0 ],
 					"text" : "Play 1 triplet for every 2 quarter notes. (cycle/6). "
 				}
 
@@ -8052,7 +8105,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 597.0, 5050.25, 35.0, 22.0 ],
+					"patching_rect" : [ 597.0, 5174.25, 35.0, 22.0 ],
 					"text" : "dac~"
 				}
 
@@ -8063,7 +8116,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 482.5, 2286.0, 293.0, 20.0 ],
+					"patching_rect" : [ 482.5, 2410.0, 293.0, 20.0 ],
 					"text" : "Can you think of any favorite songs in Duple Meter?"
 				}
 
@@ -8074,7 +8127,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.5, 3713.0, 551.5, 20.0 ],
+					"patching_rect" : [ -0.5, 4235.0, 551.5, 20.0 ],
 					"text" : "_________________________________________________________________________________"
 				}
 
@@ -8089,7 +8142,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 168.0, 3238.0, 100.0, 22.0 ]
+					"patching_rect" : [ 168.0, 3362.0, 100.0, 22.0 ]
 				}
 
 			}
@@ -8103,7 +8156,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 158.0, 3177.0, 100.0, 22.0 ]
+					"patching_rect" : [ 158.0, 3301.0, 100.0, 22.0 ]
 				}
 
 			}
@@ -8117,7 +8170,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 131.5, 3053.0, 100.0, 22.0 ]
+					"patching_rect" : [ 131.5, 3177.0, 100.0, 22.0 ]
 				}
 
 			}
@@ -8131,7 +8184,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 113.0, 2995.0, 100.0, 22.0 ]
+					"patching_rect" : [ 113.0, 3119.0, 100.0, 22.0 ]
 				}
 
 			}
@@ -8145,7 +8198,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 142.0, 3115.0, 100.0, 22.0 ]
+					"patching_rect" : [ 142.0, 3239.0, 100.0, 22.0 ]
 				}
 
 			}
@@ -8156,7 +8209,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 16.5, 2983.0, 77.25, 60.0 ],
+					"patching_rect" : [ 16.5, 3107.0, 77.25, 60.0 ],
 					"text" : "Click radiobutton to hear duration"
 				}
 
@@ -8170,7 +8223,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 45.0, 2897.0, 188.0, 66.0 ],
+					"patching_rect" : [ 45.0, 3021.0, 188.0, 66.0 ],
 					"text" : "Double-click each of the link.beats objects below to see divisions of the cycle."
 				}
 
@@ -8182,7 +8235,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 240.5, 3208.0, 188.0, 24.0 ],
+					"patching_rect" : [ 240.5, 3332.0, 188.0, 24.0 ],
 					"text" : "A sixteenth division (cycle/16)"
 				}
 
@@ -8194,7 +8247,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 225.0, 3149.0, 188.0, 24.0 ],
+					"patching_rect" : [ 225.0, 3273.0, 188.0, 24.0 ],
 					"text" : "An eighth division (cycle/8)"
 				}
 
@@ -8206,7 +8259,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 212.5, 3087.0, 188.0, 24.0 ],
+					"patching_rect" : [ 212.5, 3211.0, 188.0, 24.0 ],
 					"text" : "A quarter division (cycle/4)"
 				}
 
@@ -8218,7 +8271,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 203.5, 3024.0, 188.0, 24.0 ],
+					"patching_rect" : [ 203.5, 3148.0, 188.0, 24.0 ],
 					"text" : "A half division (cycle/2)"
 				}
 
@@ -8230,7 +8283,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 181.5, 2965.0, 188.0, 24.0 ],
+					"patching_rect" : [ 181.5, 3089.0, 188.0, 24.0 ],
 					"text" : "A whole division (cycle/1)"
 				}
 
@@ -8244,7 +8297,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 16.5, 3132.0, 59.0, 19.0 ],
+					"patching_rect" : [ 16.5, 3256.0, 59.0, 19.0 ],
 					"text" : "Sixteenth"
 				}
 
@@ -8258,7 +8311,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 16.5, 3115.0, 60.0, 19.0 ],
+					"patching_rect" : [ 16.5, 3239.0, 60.0, 19.0 ],
 					"text" : "Eighth"
 				}
 
@@ -8272,7 +8325,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 16.5, 3099.5, 61.0, 19.0 ],
+					"patching_rect" : [ 16.5, 3223.5, 61.0, 19.0 ],
 					"text" : "Quarter"
 				}
 
@@ -8286,7 +8339,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 16.5, 3081.5, 59.0, 19.0 ],
+					"patching_rect" : [ 16.5, 3205.5, 59.0, 19.0 ],
 					"text" : "Half"
 				}
 
@@ -8300,7 +8353,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 16.5, 3065.0, 60.0, 19.0 ],
+					"patching_rect" : [ 16.5, 3189.0, 60.0, 19.0 ],
 					"text" : "Whole"
 				}
 
@@ -8315,7 +8368,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 6.5, 2557.0, 829.0, 288.977537437604042 ],
+					"patching_rect" : [ 6.5, 2681.0, 829.0, 288.977537437604042 ],
 					"pic" : "rhythmCountsBasic.png"
 				}
 
@@ -8327,7 +8380,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.5, 1309.5, 161.0, 20.0 ],
+					"patching_rect" : [ 12.5, 1395.5, 161.0, 20.0 ],
 					"text" : "Activity Four to the Floor"
 				}
 
@@ -8338,7 +8391,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.5, 1285.0, 551.5, 20.0 ],
+					"patching_rect" : [ 6.5, 1371.0, 551.5, 20.0 ],
 					"text" : "_________________________________________________________________________________"
 				}
 
@@ -8349,7 +8402,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.5, 2147.25, 551.5, 20.0 ],
+					"patching_rect" : [ 6.5, 2271.25, 551.5, 20.0 ],
 					"text" : "_________________________________________________________________________________"
 				}
 
@@ -8361,7 +8414,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 388.299999999999955, 1653.0, 224.0, 24.0 ],
+					"patching_rect" : [ 388.299999999999955, 1739.0, 224.0, 24.0 ],
 					"text" : "Equal spacing across Airglow LEDs"
 				}
 
@@ -8373,7 +8426,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 371.0, 1617.0, 306.0, 24.0 ],
+					"patching_rect" : [ 371.0, 1703.0, 306.0, 24.0 ],
 					"text" : "Multiply count numbers 0, 1, 2, 3 by (numLEDs)/4"
 				}
 
@@ -8385,7 +8438,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 381.5, 1577.0, 276.0, 24.0 ],
+					"patching_rect" : [ 381.5, 1663.0, 276.0, 24.0 ],
 					"text" : "Divide the total number of AirGlow LEDs by 4"
 				}
 
@@ -10461,7 +10514,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 342.0, 209.0, 29.5, 22.0 ],
-									"text" : "213"
+									"text" : "0"
 								}
 
 							}
@@ -10735,7 +10788,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 225.0, 574.0, 140.0, 22.0 ],
-									"text" : "213 254 254 0 8 3"
+									"text" : "0 254 254 0 8 3"
 								}
 
 							}
@@ -11004,7 +11057,7 @@
 									"patching_rect" : [ 140.0, 714.0, 160.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 164.0, 190.0, 22.0 ],
-									"text" : "SPT 213 254 254 24 8 3"
+									"text" : "SPT 0 254 254 0 8 3"
 								}
 
 							}
@@ -12886,7 +12939,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 193.099999999999994, 1734.0, 263.0, 191.0 ],
+					"patching_rect" : [ 193.099999999999994, 1820.0, 263.0, 191.0 ],
 					"varname" : "patch_0",
 					"viewvisibility" : 1
 				}
@@ -12899,7 +12952,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 388.299999999999955, 1700.0, 70.0, 22.0 ],
+					"patching_rect" : [ 388.299999999999955, 1786.0, 70.0, 22.0 ],
 					"text" : "loadmess 8"
 				}
 
@@ -12912,7 +12965,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 339.5, 1653.0, 50.0, 22.0 ]
+					"patching_rect" : [ 339.5, 1739.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -12923,7 +12976,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 339.5, 1617.0, 29.5, 22.0 ],
+					"patching_rect" : [ 339.5, 1703.0, 29.5, 22.0 ],
 					"text" : "* 0"
 				}
 
@@ -12935,7 +12988,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 350.0, 1577.0, 29.5, 22.0 ],
+					"patching_rect" : [ 350.0, 1663.0, 29.5, 22.0 ],
 					"text" : "/ 4"
 				}
 
@@ -12947,7 +13000,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 350.0, 1544.0, 69.0, 22.0 ],
+					"patching_rect" : [ 350.0, 1630.0, 69.0, 22.0 ],
 					"text" : "r numLEDs"
 				}
 
@@ -12960,7 +13013,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 142.5, 1363.5, 226.0, 37.0 ],
+					"patching_rect" : [ 142.5, 1449.5, 226.0, 37.0 ],
 					"text" : "Double-click this object to see the rhythmic cycle"
 				}
 
@@ -12971,7 +13024,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 99.25, 3458.0, 35.0, 22.0 ],
+					"patching_rect" : [ 99.25, 3582.0, 35.0, 22.0 ],
 					"text" : "dac~"
 				}
 
@@ -12983,7 +13036,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 40.5, 1338.5, 153.0, 24.0 ],
+					"patching_rect" : [ 40.5, 1424.5, 153.0, 24.0 ],
 					"text" : "Click to enable/disable"
 				}
 
@@ -12996,7 +13049,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 130.5, 1493.0, 262.0, 37.0 ],
+					"patching_rect" : [ 130.5, 1579.0, 262.0, 37.0 ],
 					"text" : "How we would count this rhythm out loud. Say this quietly to yourself or in your head"
 				}
 
@@ -13008,7 +13061,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 109.5, 1416.5, 226.0, 24.0 ],
+					"patching_rect" : [ 109.5, 1502.5, 226.0, 24.0 ],
 					"text" : "Computers start counting from zero"
 				}
 
@@ -13021,7 +13074,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 57.5, 1416.5, 50.0, 22.0 ]
+					"patching_rect" : [ 57.5, 1502.5, 50.0, 22.0 ]
 				}
 
 			}
@@ -13035,7 +13088,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 23.0, 1500.5, 100.0, 22.0 ]
+					"patching_rect" : [ 23.0, 1586.5, 100.0, 22.0 ]
 				}
 
 			}
@@ -13046,7 +13099,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "int", "int" ],
-					"patching_rect" : [ 12.5, 1464.5, 40.0, 22.0 ],
+					"patching_rect" : [ 12.5, 1550.5, 40.0, 22.0 ],
 					"text" : "t 1 i i"
 				}
 
@@ -13070,7 +13123,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.5, 1338.5, 24.0, 24.0 ]
+					"patching_rect" : [ 12.5, 1424.5, 24.0, 24.0 ]
 				}
 
 			}
@@ -13081,7 +13134,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.5, 1430.5, 32.0, 22.0 ],
+					"patching_rect" : [ 12.5, 1516.5, 32.0, 22.0 ],
 					"text" : "gate"
 				}
 
@@ -13093,7 +13146,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "bang", "bang" ],
-					"patching_rect" : [ 606.25, 4699.25, 86.0, 22.0 ],
+					"patching_rect" : [ 606.25, 4823.25, 86.0, 22.0 ],
 					"text" : "link.beats 1 12"
 				}
 
@@ -13127,7 +13180,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 597.0, 4969.25, 150.0, 30.0 ],
+					"patching_rect" : [ 597.0, 5093.25, 150.0, 30.0 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -13163,7 +13216,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 88.0, 3366.0, 150.0, 30.0 ],
+					"patching_rect" : [ 88.0, 3490.0, 150.0, 30.0 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -13199,7 +13252,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.5, 1538.5, 150.0, 30.0 ],
+					"patching_rect" : [ 12.5, 1624.5, 150.0, 30.0 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -13216,7 +13269,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 578.5, 4731.25, 18.0, 50.0 ],
+					"patching_rect" : [ 578.5, 4855.25, 18.0, 50.0 ],
 					"size" : 3,
 					"value" : 0
 				}
@@ -13229,7 +13282,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 589.75, 4856.25, 52.0, 22.0 ],
+					"patching_rect" : [ 589.75, 4980.25, 52.0, 22.0 ],
 					"text" : "switch 2"
 				}
 
@@ -13241,7 +13294,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 597.0, 4930.25, 29.5, 22.0 ],
+					"patching_rect" : [ 597.0, 5054.25, 29.5, 22.0 ],
 					"text" : "1"
 				}
 
@@ -13254,7 +13307,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 597.0, 4898.25, 24.0, 24.0 ]
+					"patching_rect" : [ 597.0, 5022.25, 24.0, 24.0 ]
 				}
 
 			}
@@ -13268,7 +13321,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 79.75, 3051.0, 18.0, 98.0 ],
+					"patching_rect" : [ 79.75, 3175.0, 18.0, 98.0 ],
 					"size" : 6,
 					"value" : 0
 				}
@@ -13281,7 +13334,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 88.0, 3265.0, 71.5, 22.0 ],
+					"patching_rect" : [ 88.0, 3389.0, 71.5, 22.0 ],
 					"text" : "switch 5"
 				}
 
@@ -13293,7 +13346,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "bang", "bang" ],
-					"patching_rect" : [ 152.5, 3208.0, 86.0, 22.0 ],
+					"patching_rect" : [ 152.5, 3332.0, 86.0, 22.0 ],
 					"text" : "link.beats 1 16"
 				}
 
@@ -13305,7 +13358,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "bang", "bang" ],
-					"patching_rect" : [ 142.0, 3149.0, 79.0, 22.0 ],
+					"patching_rect" : [ 142.0, 3273.0, 79.0, 22.0 ],
 					"text" : "link.beats 1 8"
 				}
 
@@ -13317,7 +13370,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "bang", "bang" ],
-					"patching_rect" : [ 131.5, 3087.0, 79.0, 22.0 ],
+					"patching_rect" : [ 131.5, 3211.0, 79.0, 22.0 ],
 					"text" : "link.beats 1 4"
 				}
 
@@ -13329,7 +13382,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "bang", "bang" ],
-					"patching_rect" : [ 118.75, 3026.0, 79.0, 22.0 ],
+					"patching_rect" : [ 118.75, 3150.0, 79.0, 22.0 ],
 					"text" : "link.beats 1 2"
 				}
 
@@ -13341,7 +13394,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "bang", "bang" ],
-					"patching_rect" : [ 98.5, 2965.0, 81.0, 22.0 ],
+					"patching_rect" : [ 98.5, 3089.0, 81.0, 22.0 ],
 					"text" : "link.beats 1 1"
 				}
 
@@ -13353,7 +13406,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 88.0, 3327.0, 29.5, 22.0 ],
+					"patching_rect" : [ 88.0, 3451.0, 29.5, 22.0 ],
 					"text" : "1"
 				}
 
@@ -13366,7 +13419,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 88.0, 3295.0, 24.0, 24.0 ]
+					"patching_rect" : [ 88.0, 3419.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -13376,7 +13429,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 1592.5, 35.0, 22.0 ],
+					"patching_rect" : [ 7.0, 1678.5, 35.0, 22.0 ],
 					"text" : "dac~"
 				}
 
@@ -13388,19 +13441,20 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "bang", "bang" ],
-					"patching_rect" : [ 622.75, 4773.25, 86.0, 22.0 ],
+					"patching_rect" : [ 622.75, 4897.25, 86.0, 22.0 ],
 					"text" : "link.beats 1 24"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.985537528991699, 0.009297370910645, 0.999170780181885, 1.0 ],
 					"id" : "obj-8",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 0,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "bang", "bang" ],
-					"patching_rect" : [ 57.5, 1372.5, 79.0, 22.0 ],
+					"patching_rect" : [ 57.5, 1458.5, 79.0, 22.0 ],
 					"text" : "link.beats 1 4"
 				}
 
@@ -13754,7 +13808,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 16.5, 3049.0, 60.0, 19.0 ],
+					"patching_rect" : [ 16.5, 3173.0, 60.0, 19.0 ],
 					"text" : "Off"
 				}
 
@@ -13770,7 +13824,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.5, 3871.0, 643.0, 87.25 ],
+					"patching_rect" : [ 6.5, 4399.0, 643.0, 87.25 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 335.5, 3799.0, 136.5, 276.0 ],
 					"proportion" : 0.5,
@@ -13803,7 +13857,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-184", 0 ],
-					"midpoints" : [ 43.0, 1492.75, 239.5, 1492.75 ],
+					"midpoints" : [ 43.0, 1578.75, 239.5, 1578.75 ],
 					"order" : 1,
 					"source" : [ "obj-11", 2 ]
 				}
@@ -13819,7 +13873,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-49", 0 ],
-					"midpoints" : [ 43.0, 1492.75, 349.0, 1492.75 ],
+					"midpoints" : [ 43.0, 1578.75, 349.0, 1578.75 ],
 					"order" : 0,
 					"source" : [ "obj-11", 2 ]
 				}
@@ -14604,6 +14658,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-330", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-328", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-306", 0 ],
 					"source" : [ "obj-329", 0 ]
 				}
@@ -14620,6 +14682,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-219", 0 ],
 					"source" : [ "obj-33", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-288", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-330", 0 ]
 				}
 
 			}
@@ -14945,8 +15015,8 @@
 			}
 , 			{
 				"name" : "link.beats.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/MPG",
-				"patcherrelativepath" : "../../../../../Library/MPG",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/externals/MPG",
+				"patcherrelativepath" : "../../../externals/MPG",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -14959,8 +15029,8 @@
 			}
 , 			{
 				"name" : "seq_builder.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/MPG",
-				"patcherrelativepath" : "../../../../../Library/MPG",
+				"bootpath" : "~/Documents/Max 8/Packages/Optron/externals/MPG",
+				"patcherrelativepath" : "../../../externals/MPG",
 				"type" : "JSON",
 				"implicit" : 1
 			}
